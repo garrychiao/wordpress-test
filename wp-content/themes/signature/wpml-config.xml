@@ -1,0 +1,12 @@
+<wpml-config>
+    <custom-types>
+    	<custom-type translate="1">signature-portfolio</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">signature-portfolio-filter</taxonomy>
+        <taxonomy translate="1">signature-portfolio-group</taxonomy>
+    </taxonomies>    
+    <admin-texts>
+        <key name="custom_logo_alt_text" />
+    </admin-texts>      
+</wpml-config>

@@ -1,0 +1,3512 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: UMBG\n"
+"Report-Msgid-Bugs-To: TheeFarmer <support@theefarmer.com>\n"
+"POT-Creation-Date: 2015-12-03 06:17-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: TheeFarmer <support@theefarmer.com>\n"
+"Language-Team: TheeFarmer | Alendee Internet Solutions <support@theefarmer."
+"com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/umbg-about.php:31
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Bienvenido a %1$s %2$s"
+
+#: admin/umbg-about.php:34
+#, php-format
+msgid ""
+"Thank you for installing! %1$s version %2$s adds new features to display and "
+"manage full screen media backgrounds."
+msgstr ""
+"Gracias por instalar! %1$s versión %2$s agrega dos nuevas funciones para "
+"mostrar y administrar los fondos de pantalla completa."
+
+#: admin/umbg-about.php:38
+#, php-format
+msgid "Version %s"
+msgstr "Versión %s"
+
+#: admin/umbg-about.php:45
+msgid "What's New"
+msgstr "Qué Hay de Nuevo"
+
+#: admin/umbg-about.php:48
+msgid "Features"
+msgstr "Características"
+
+#: admin/umbg-about.php:51
+msgid "Credits"
+msgstr "Créditos"
+
+#: admin/umbg-about.php:54
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/umbg-about.php:60
+msgid "Full support for Custom Post Types is here!"
+msgstr "Soporte completo para Custom Post Tipos está aquí!"
+
+#: admin/umbg-about.php:69
+msgid "Custom Post Types (CPT)"
+msgstr "Custom Post Tipos (CPT)"
+
+#: admin/umbg-about.php:71
+msgid ""
+"Add media backgrounds to custom post types that are installed on your "
+"WordPress site. <a href=\"?post_type=umbg_post_type&page=umbg-settings\">Go "
+"to UMBG->Settings</a> and select the custom post types you want to allowed "
+"to be use."
+msgstr ""
+"Añadir fondos a los tipos de custom post que se instalan en su sitio de "
+"WordPress. <a href=\"?post_type=umbg_post_type&page=umbg-settings\"> Ir a "
+"UMBG-> Configuración </a> y seleccione los tipos de custom post que desea "
+"usar."
+
+#: admin/umbg-about.php:80
+msgid "Custom Post Categories (CPC)"
+msgstr "Categories de Custom Post (CPC)"
+
+#: admin/umbg-about.php:82
+msgid ""
+"These are categories, terms, and/or taxonomies of custom post types that you "
+"can also select to display media backgrounds. <a href=\"?"
+"post_type=umbg_post_type&page=umbg-settings\">Go to UMBG->Settings</a> and "
+"select the custom post categories you want to allowed to be use."
+msgstr ""
+"Estas son las categorías, términos y/o taxonomías de tipos de custom post "
+"que también se puede seleccionar para mostrar fondos. <a href=\"?"
+"post_type=umbg_post_type&page=umbg-settings\"> Ir a UMBG-> Configuración</a> "
+"y seleccione las categorías de custom post que desee usar."
+
+#: admin/umbg-about.php:96 admin/umbg-admin.php:381 admin/umbg-admin.php:1609
+#: admin/umbg-admin.php:1612
+msgid "Autoplay"
+msgstr "Auto-reproducción"
+
+#: admin/umbg-about.php:98
+#, php-format
+msgid ""
+"Auto playback has always been part of %s media backgrounds, but now you can "
+"select not to start the media with auto playback."
+msgstr ""
+"Reproducción automática siempre ha sido parte de %s medios fondos, pero "
+"ahora usted puede seleccionar no comenzar los medios de fondos con la "
+"reproducción automática."
+
+#: admin/umbg-about.php:103
+msgid "Media Link"
+msgstr "Media Link"
+
+#: admin/umbg-about.php:105
+msgid ""
+"Enter a URL to link the media background. You can select to open the link in "
+"a new window or the same window."
+msgstr ""
+"Introduzca una URL para enlazar el fondo de medios. Usted puede seleccionar "
+"para abrir el enlace en una nueva ventana o la misma ventana."
+
+#: admin/umbg-about.php:110
+msgid "Other:"
+msgstr "Otras:"
+
+#: admin/umbg-about.php:112
+msgid ""
+"Other enhancements include: WooCommerce product tags. Change plugin's folder "
+"structure, limit unnecessary code loading, and other code enhancements."
+msgstr ""
+"Otras incluyen: etiquetas de productos WooCommerce. Cambio de la estructura "
+"de carpetas del plugin, limitar código para carga innecesaria, y otras "
+"mejorias de código."
+
+#: admin/umbg-about.php:118
+msgid "Change Log"
+msgstr "Cambio de Registro"
+
+#: admin/umbg-about.php:120
+#, php-format
+msgid ""
+"For more information see the readme.txt file included in your download of %s."
+msgstr ""
+"Para obtener más información, consulte el archivo readme.txt incluido en la "
+"descarga de %s."
+
+#: admin/umbg-about.php:124 admin/umbg-about.php:382
+#, php-format
+msgid "Go to %s Settings"
+msgstr "Vaya a %s Ajustes"
+
+#: admin/umbg-about.php:139
+msgid "Display full screen media backgrounds like never before."
+msgstr "Mostrar fondos de pantalla completa en medios como nunca antes."
+
+#: admin/umbg-about.php:141
+#, php-format
+msgid ""
+"Use hosted videos from YouTube, Vimeo, Dailymotion, Wistia, or HTML5 videos. "
+"They all play and look amazing with %1$s. Want to use an image instead, no "
+"problem, %1$s lets you use one or more images to display beautiful "
+"backgrounds. What about just a color background, may be with a pattern? Yes, "
+"that too!"
+msgstr ""
+"Utilice vídeos alojados en YouTube, Vimeo, Dailymotion, Wistia o vídeos "
+"HTML5. Todos ellos juegan y se ven increíbles con %1$s. ¿Quieres usar una "
+"imagen en lugar, no hay problema, %1$s le permite utilizar una o más "
+"imágenes para mostrar hermosos fondos. ¿Qué pasa con el uso de un fondo de "
+"color en su lugar, puede ser con un patrón también? Sip, eso también!"
+
+#: admin/umbg-about.php:147
+msgid "Simple to Use."
+msgstr "Fácil de usar."
+
+#: admin/umbg-about.php:149
+#, php-format
+msgid ""
+"Unlike other plugins that make you go all over your WordPress website to "
+"find where you want to insert your short code, with %1$s you simply select "
+"the authors, categories, posts, and/or pages right from the 'Add New' or "
+"'Edit' screen. No short codes needed."
+msgstr ""
+"A diferencia de otros plugins que te hacen ir por todo el sitio web de "
+"WordPress para encontrar donde desea insertar el código corto, con %1$s "
+"simplemente seleccione los autores, categorías, postes, y / o páginas desde "
+"el 'Agregar Nuevo’ o pantalla 'Editar'. Códigos cortos no son necesarios."
+
+#: admin/umbg-about.php:163
+msgid "Full of Options."
+msgstr "Lleno de opciones."
+
+#: admin/umbg-about.php:165
+msgid ""
+"All of the necessary settings to display backgrounds to your needs, "
+"including:"
+msgstr ""
+"Todos los ajustes necesarios para mostrar los fondos a sus necesidades, "
+"incluyendo:"
+
+#: admin/umbg-about.php:167
+#, php-format
+msgid ""
+"Append To, Poster, Overlay, Quality, Start At, End At, Loop, Audio, Page-Up-"
+"Down %s, and many more."
+msgstr ""
+"Anexar a, Póster, Superposición, Calidad, Iniciar En, Acabar En, Bucle, "
+"Audio, Página-Arriba-Abajo %s, y muchos más."
+
+#: admin/umbg-about.php:175 admin/umbg-about.php:285
+#, php-format
+msgid "Say Hello to %s."
+msgstr "Diga hola a %s."
+
+#: admin/umbg-about.php:177
+#, php-format
+msgid ""
+"Page-Up-Down (%1$s) allows the page to be scroll up and down to allow full "
+"view of the media background. You can also select if %1$s will scroll the "
+"page down when the media playback starts and/or if it will scroll up when "
+"the media playback ends. You can also keep part of the page in view, such as "
+"the logo and navigation, during the %1$s down status."
+msgstr ""
+"Página-Arriba-Abajo (%1$s) permite que la página se desplácese hacia arriba "
+"y hacia abajo para permitir la visión completa del medio. También puede "
+"seleccionar si %1$s se desplazará la página hacia abajo cuando comienza la "
+"reproducción de los medios y/o si se desplazará hacia arriba cuando termina "
+"la reproducción de los medios. También puede mantener parte de la página en "
+"la vista, como el logotipo y la navegación, durante el estado de %1$s abajo."
+
+#: admin/umbg-about.php:193 admin/umbg-about.php:279
+msgid "View the video here."
+msgstr "Vea el video aquí."
+
+#: admin/umbg-about.php:205
+msgid "Internationalization & Localization Supported."
+msgstr "Internacionalización y Localización Soportados."
+
+#: admin/umbg-about.php:207
+msgid ""
+"Internationalization is the process of setting up software so that it can be "
+"localized; localization is the process of translating text displayed by the "
+"software into different languages."
+msgstr ""
+"Internacionalización es el proceso de configuración del software de manera "
+"que pueda ser localizada; La localización es el proceso de traducir el texto "
+"mostrado por el software en diferentes idiomas."
+
+#: admin/umbg-about.php:209
+#, php-format
+msgid ""
+"You can localize %s without the need to modify the source code of the plugin."
+msgstr ""
+"﻿Usted puede localizar %s sin necesidad de modificar el código fuente del "
+"plugin."
+
+#: admin/umbg-about.php:212
+#, php-format
+msgctxt "link text"
+msgid "Learn how to localize %s"
+msgstr "Aprenda cómo localizar %s"
+
+#: admin/umbg-about.php:220
+msgid ""
+"Supports WooCommerce single product pages, categories, and product page "
+"shortcodes."
+msgstr ""
+"Compatible con páginas de un producto, categorías y la página de un producto "
+"con códigos cortos de WooCommerce."
+
+#: admin/umbg-about.php:229
+msgid "WooCommerce Categories."
+msgstr "WooCommerce Categorías."
+
+#: admin/umbg-about.php:231
+msgid ""
+"Select the WooCommerce categories you want to display your media background. "
+"When a user views a product on its product page and the product is in the "
+"selected category then the media background will play."
+msgstr ""
+"Seleccione las categorías WooCommerce que desea mostrar el fondo del medio. "
+"Cuando un usuario ve un producto en su página de producto y el producto se "
+"encuentra en la categoría seleccionada, entonces el fondo jugará."
+
+#: admin/umbg-about.php:239
+msgid "WooCommerce Products."
+msgstr "Productos WooCommerce."
+
+#: admin/umbg-about.php:241
+msgid ""
+"Select the WooCommerce product you want to display your media background on."
+msgstr ""
+"Seleccione el producto WooCommerce que desea mostrar el medio de fondo."
+
+#: admin/umbg-about.php:243
+msgid "Supports WooCommerce product shortcodes:"
+msgstr "Soporta códigos cortos de productos WooCommerce:"
+
+#: admin/umbg-about.php:259
+msgid "Other requested features now available!"
+msgstr "Otras características solicitadas ya está disponible!"
+
+#: admin/umbg-about.php:262
+msgid "You ask for them, you got them."
+msgstr "Usted pregunta por ellos y usted los consiguió."
+
+#: admin/umbg-about.php:287
+#, php-format
+msgid ""
+"Fade-In-Out (%1$s) sets the page to have a transparency effect to allow full "
+"view of the media background."
+msgstr ""
+"Fade-In-Out (%1$s) establece la página para tener un efecto de transparencia "
+"para permitir la vista del fondo."
+
+#: admin/umbg-about.php:296
+msgid "Start Playback Muted"
+msgstr "Iniciar Reproducción Silenciado"
+
+#: admin/umbg-about.php:298
+msgid "Start playing your videos with its audio muted."
+msgstr "Empieza a jugar sus vídeos con su audio silenciado."
+
+#: admin/umbg-about.php:301
+msgid "Media End Fade-Out"
+msgstr "Medio Acabar Fade-Out"
+
+#: admin/umbg-about.php:303
+msgid "Allows for the media to be faded out once done playing."
+msgstr "Permite que los medios se desvanecieron una vez terminen de jugar."
+
+#: admin/umbg-about.php:306
+msgid "Image Transition Timing"
+msgstr "Imagen Transición Duración"
+
+#: admin/umbg-about.php:308
+msgid ""
+"Control the timing of the fade effect between images during a slideshow."
+msgstr ""
+"Controlar el tiempo del efecto de fundido entre las imágenes durante una "
+"presentación."
+
+#: admin/umbg-about.php:314
+msgid "UI for Append Background To section"
+msgstr "UI para ‘Anexar Fondos A’ sección"
+
+#: admin/umbg-about.php:316
+msgid ""
+"Enhancement to the UI section for selecting where you want to display your "
+"background too."
+msgstr ""
+"Mejora a la sección de interfaz de usuario para seleccionar dónde desea "
+"mostrar su fondo también."
+
+#: admin/umbg-about.php:319
+msgid "UI for Allow To Display On section"
+msgstr "IU para ‘Permitir Que Se Mostrará En’ la sección"
+
+#: admin/umbg-about.php:321
+msgid ""
+"Enhancement to the UI of the Allow To Display On section in the Global "
+"Settings page."
+msgstr ""
+"Mejora de la interfaz de usuario de la sección ‘Permitir Que Se Mostrará En’ "
+"en la página Configuración global."
+
+#: admin/umbg-about.php:324
+msgid "Other Enhancements Include:"
+msgstr "Otras mejoras incluyen:"
+
+#: admin/umbg-about.php:326
+#, php-format
+msgid ""
+"%1$s on start functionality, image transition fade effect, and resizing for "
+"mobile devices."
+msgstr ""
+"%1$s en la funcionalidad de inicio, efecto de fundido de transición de "
+"imágenes, y cambiar el tamaño de los dispositivos móviles."
+
+#: admin/umbg-about.php:331
+msgid "Control what your mobile users see."
+msgstr "Controlar lo que los usuarios móviles ven."
+
+#: admin/umbg-about.php:333
+#, php-format
+msgid ""
+"With %1$s you can choose if your backgrounds will display on mobile devices "
+"or not."
+msgstr ""
+"Con %1$s puede elegir si sus fondos se mostrarán en dispositivos móviles o "
+"no."
+
+#: admin/umbg-about.php:339
+msgid "Disable all backgrounds."
+msgstr "Desactivar todos los fondos."
+
+#: admin/umbg-about.php:341
+#, php-format
+msgid ""
+"Do not allow any of your %1$s backgrounds to be display on any mobile device."
+msgstr ""
+"No permita que ninguno de sus fondos %1$s sean visualizados en dispositivos "
+"móviles."
+
+#: admin/umbg-about.php:355
+msgid "Disable video backgrounds only."
+msgstr "Desactivar sólo los fondos de vídeo."
+
+#: admin/umbg-about.php:357 admin/umbg-admin.php:2429
+msgid ""
+"Choose not to display video backgrounds on mobile devices by enabling this "
+"feature. Image and color backgrounds will still play on mobile devices."
+msgstr ""
+"Elegir no mostrar fondos de vídeo en dispositivos móviles al permitir esta "
+"función. Imagen y color de fondos todavía jugarán en los dispositivos "
+"móviles."
+
+#: admin/umbg-about.php:366
+msgid "Disable on mobile phones only."
+msgstr "Desactivar sólo en los teléfonos móviles."
+
+#: admin/umbg-about.php:368
+#, php-format
+msgid ""
+"Enable this feature to disable %1$s backgrounds only on mobile phones. They "
+"will continue to display on tablet devices. You can enable this feature "
+"together with 'Disable video backgrounds only'."
+msgstr ""
+"Active esta función para desactivar %1$s fondos sólo en los teléfonos "
+"móviles. Continuarán a mostrar en los dispositivos de tableta. Puede activar "
+"esta característica, junto con ‘Desactivar sólo los fondos de vídeo’."
+
+#: admin/umbg-about.php:389
+#, php-format
+msgid ""
+"%1$s uses several available open source code from the list below. Some are "
+"used throughout %1$s, others are used in a couple of lines of code, and "
+"others have been modified for %1$s's use. The use of copyrighted works is "
+"also used with permission from their respected owners. Without these "
+"projects and works %1$s would not be possible."
+msgstr ""
+"%1$s utiliza varios códigos abierto y estan en la lista de abajo. Algunos se "
+"utilizan a lo largo de %1$s, otros se utilizan en un par de líneas de "
+"código, y otros han sido modificados para el uso de %1$s. El uso de obras "
+"con derechos de autor también se utiliza con el permiso de sus respectivos "
+"propietarios. Sin estos proyectos y obras %1$s no serían posibles."
+
+#: admin/umbg-about.php:392
+#, php-format
+msgid "%s will like to credit:"
+msgstr "%s quisiera dar crédito a:"
+
+#: admin/umbg-about.php:398
+msgid ""
+"The online manual for WordPress and a living repository for WordPress "
+"information and documentation."
+msgstr ""
+"El manual en línea para WordPress y un repositorio de vida de la información "
+"y documentación de WordPress."
+
+#: admin/umbg-about.php:405
+msgid "The indispensable JavaScript library for developers. A great library."
+msgstr ""
+"La biblioteca JavaScript indispensable para los desarrolladores. Una gran "
+"biblioteca."
+
+#: admin/umbg-about.php:412
+msgid "An open source UI library."
+msgstr "Una biblioteca de interfaz de usuario de código abierto."
+
+#: admin/umbg-about.php:422
+msgid ""
+"Simple, small and fast JavaScript/jQuery polyfill for the HTML5 input "
+"element."
+msgstr ""
+"Simple, pequeño y rápido JavaScript / jQuery polyfill para el elemento de "
+"entrada HTML5."
+
+#: admin/umbg-about.php:429
+msgid ""
+"Sortable is a minimalist JavaScript library for reorderable drag-and-drop "
+"lists."
+msgstr ""
+"Sortable es una biblioteca JavaScript minimalista para las listas de "
+"arrastrar y soltar reorderable."
+
+#: admin/umbg-about.php:437
+msgid ""
+"User-friendlier drop-in replacement for the standard select box with "
+"multiple attribute activated."
+msgstr ""
+"Reemplazo de drop-in más amigable para el usuario de selección estándar con "
+"atributo multiple activado."
+
+#: admin/umbg-about.php:447
+msgid "The No Hassle jQuery Colorpicker."
+msgstr "El Colorpicker sin molestias de jQuery."
+
+#: admin/umbg-about.php:455
+msgid ""
+"Flags of the World in Globe media  is copyrighted work of Almoond. All "
+"rights reserved."
+msgstr ""
+"Flags of the World in Globe es una obra con derechos de autor de Almoond. "
+"Todos los derechos reservados."
+
+#: admin/umbg-about.php:465
+msgid ""
+"A responsive jQuery slideshow with beautiful panning effects on each image."
+msgstr ""
+"Una demostración sensible diapositiva de jQuery con efectos panorámicos "
+"hermosos en cada imagen."
+
+#: admin/umbg-about.php:476
+msgid "Mobile device detection."
+msgstr "Detección de dispositivos móviles."
+
+#: admin/umbg-about.php:488
+#, php-format
+msgid "Need help using %s?"
+msgstr "¿Necesitas ayuda para utilizar %s?"
+
+#: admin/umbg-about.php:490
+#, php-format
+msgid ""
+"%1$s documentation is available right here on WordPress. Just look for the "
+"Help tab on the top right corner while you are in %1$s pages."
+msgstr ""
+"Documentación de %1$s está disponible aquí en WordPress. Sólo tienes que "
+"buscar la etiqueta de ayuda en la esquina superior derecha mientras se "
+"encuentra en %1$s páginas."
+
+#: admin/umbg-about.php:492
+msgid "You can also go to:"
+msgstr "También puede ir a:"
+
+#: admin/umbg-about.php:495 admin/umbg-admin.php:513
+#, php-format
+msgid "%s Support"
+msgstr "%s UMBG"
+
+#: admin/umbg-admin.php:28
+msgid "Title"
+msgstr "Título"
+
+#: admin/umbg-admin.php:29
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/umbg-admin.php:30
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/umbg-admin.php:31
+msgid "Modified"
+msgstr "Modificado"
+
+#: admin/umbg-admin.php:32
+msgid "Author"
+msgstr "Autor"
+
+#: admin/umbg-admin.php:58 admin/umbg-admin.php:360 admin/umbg-admin.php:730
+msgid "Image"
+msgstr "Imagen"
+
+#: admin/umbg-admin.php:167 admin/umbg-admin.php:196 admin/umbg-admin.php:199
+#, php-format
+msgid "%s background updated."
+msgid_plural "%s backgrounds updated."
+msgstr[0] "%s fondo actualizado."
+msgstr[1] "%s fondos actualizados."
+
+#: admin/umbg-admin.php:168
+#, php-format
+msgid "%s background not updated, somebody is editing it."
+msgid_plural "%s backgrounds not updated, somebody is editing them."
+msgstr[0] "%s de fondo no actualizado, alguien lo está editando."
+msgstr[1] "%s fondos no actualizados, alguien está editando los."
+
+#: admin/umbg-admin.php:169
+#, php-format
+msgid "%s background permanently deleted."
+msgid_plural "%s backgrounds permanently deleted."
+msgstr[0] "%s fondo se ha borrado definitivamente."
+msgstr[1] "%s fondos se ha borrados definitivamente."
+
+#: admin/umbg-admin.php:170
+#, php-format
+msgid "%s background moved to the Trash."
+msgid_plural "%s backgrounds moved to the Trash."
+msgstr[0] "%s fondo se movio a la Papelera."
+msgstr[1] "%s fondos movidos a la Papelera."
+
+#: admin/umbg-admin.php:171
+#, php-format
+msgid "%s background restored from the Trash."
+msgid_plural "%s backgrounds restored from the Trash."
+msgstr[0] "%s fondo restaurado desde la Papelera."
+msgstr[1] "%s fondos restaurados desde la Papelera."
+
+#: admin/umbg-admin.php:197
+#, php-format
+msgid "%s custom field updated."
+msgstr "Campo personalizado %s actualizado."
+
+#: admin/umbg-admin.php:198
+#, php-format
+msgid "%s custom field deleted."
+msgstr "Campo personalizado %s borrado."
+
+#. translators: %s: date and time of the revision
+#: admin/umbg-admin.php:201
+#, php-format
+msgid "%1$s restored to revision from %2$s"
+msgstr "%1$s fondo restaurado a revisión %2$s"
+
+#: admin/umbg-admin.php:202
+#, php-format
+msgid "%s background published."
+msgstr "%s fondo publicado."
+
+#: admin/umbg-admin.php:203
+#, php-format
+msgid "%s background saved."
+msgstr "%s fondo guardado."
+
+#: admin/umbg-admin.php:204
+#, php-format
+msgid "%s background submitted."
+msgstr "%s fondo sometido."
+
+#: admin/umbg-admin.php:206
+#, php-format
+msgid "%1$s scheduled for: <strong>%2$s</strong>."
+msgstr "%1$s programada el: <strong>%2$s</strong>."
+
+#. translators: Publish box date format, see http://php.net/date
+#: admin/umbg-admin.php:209
+msgid "M j, Y @ G:i"
+msgstr "j F Y G:i a"
+
+#: admin/umbg-admin.php:211
+#, php-format
+msgid "%s draft updated."
+msgstr "%s actualizado."
+
+#: admin/umbg-admin.php:217
+msgid "View"
+msgstr "Ver"
+
+#: admin/umbg-admin.php:223
+msgid "Preview"
+msgstr "Vista Previa"
+
+#: admin/umbg-admin.php:254 admin/umbg-admin.php:256 admin/umbg-admin.php:307
+#: admin/umbg-admin.php:309 admin/umbg-admin.php:2335
+msgid "Overview"
+msgstr "Vista Previa"
+
+#: admin/umbg-admin.php:257
+#, php-format
+msgid ""
+"This screen provides access to all of your %s backgrounds. You can customize "
+"the display of this screen to suit your workflow as you can on other "
+"WordPress screens."
+msgstr ""
+"Esta pantalla te da acceso a todos tus fondos %s. Puedes personalizar el "
+"formato de esta pantalla para adaptarse a su flujo de trabajo al igual que "
+"en otras pantallas de WordPress."
+
+#: admin/umbg-admin.php:261 admin/umbg-admin.php:263
+msgid "Screen Content"
+msgstr "Pantalla de Contenido"
+
+#: admin/umbg-admin.php:264
+msgid ""
+"You can customize the display of this screen&#8217;s contents in a number of "
+"ways:"
+msgstr ""
+"Puede personalizar la visualización de los contenidos de esta pantalla en un "
+"número de maneras:"
+
+#: admin/umbg-admin.php:266
+#, php-format
+msgid ""
+"You can hide/display columns based on your needs and decide how many %s "
+"backgrounds to list per screen using the Screen Options tab."
+msgstr ""
+"Puedes mostrar/ocultar columnas basadas en tus necesidades y decidir cuantos "
+"fondos %s listar por pantalla utilizando la pestaña de Opciones de Pantalla."
+
+#: admin/umbg-admin.php:267
+#, php-format
+msgid ""
+"You can filter the list of %1$s backgrounds by their status using the text "
+"links in the upper left to show All, Published, Draft, or Trashed %1$s "
+"backgrounds. The default view is to show all %1$s backgrounds."
+msgstr ""
+"Puedes filtrar la lista de fondos %1$s por estados usando los enlaces que "
+"aparecen en la parte superior izquierda para mostrar Todos, Publicado, "
+"Borrador o fondos %1$s en Papelera. La vista predeterminada es mostrar todos "
+"los fondos %1$s."
+
+#: admin/umbg-admin.php:268
+#, php-format
+msgid ""
+"You can refine the list to show only %1$s backgrounds from a specific month "
+"by using the DropDown menus above the background list. Click the Filter "
+"button after making your selection. You also can refine the list by clicking "
+"on the %1$s background type or author in the background list."
+msgstr ""
+"Puede refinar la lista para mostrar sólo los fondos %1$s de un mes "
+"específico mediante los menús desplegables encima de la lista de fondo. Haga "
+"clic en el botón Filtro después de hacer su selección. También puede refinar "
+"la  lista, haga clic en el tipo de fondo %1$s o el autor en la lista de "
+"fondos."
+
+#: admin/umbg-admin.php:275 admin/umbg-admin.php:277
+msgid "Available Actions"
+msgstr "Acciones Disponibles"
+
+#: admin/umbg-admin.php:279
+#, php-format
+msgid ""
+"Hovering over a row in the %s background list will display action links that "
+"allow you to manage your background. You can perform the following actions:"
+msgstr ""
+"Pasando el cursor sobre una fila de fondo %s, mostrará los enlaces de las "
+"acciones, permitiéndote gestionar la entrada. Puedes realizar las siguientes "
+"acciones:"
+
+#: admin/umbg-admin.php:282
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that background. "
+"You can also reach that screen by clicking on the background title."
+msgstr ""
+"<strong>Editar</ strong> le lleva a la pantalla de edición para ese fondo. "
+"También puede llegar a esta pantalla haciendo clic en el título de fondo."
+
+#: admin/umbg-admin.php:283
+msgid ""
+"<strong>Quick Edit</strong> provides inline access to the metadata of your "
+"background, allowing you to update background details without leaving this "
+"screen."
+msgstr ""
+"<strong>Edición Rápida</ strong> ofrece acceso en línea a los metadatos de "
+"sus antecedentes, que le permite actualizar los detalles del fondo sin salir "
+"de esta pantalla."
+
+#: admin/umbg-admin.php:284
+msgid ""
+"<strong>Trash</strong> removes your background from this list and places it "
+"in the trash, from which you can permanently delete it."
+msgstr ""
+"<strong>Papelera</ strong> elimina el fondo de esta lista y lo coloca en la "
+"papelera, donde puedes borrarlo permanentemente."
+
+#: admin/umbg-admin.php:290 admin/umbg-admin.php:292
+msgid "Bulk Actions"
+msgstr "Acciones en Lote"
+
+#: admin/umbg-admin.php:293
+#, php-format
+msgid ""
+"You can also edit or move multiple %s backgrounds to the trash at once. "
+"Select the backgrounds you want to act on using the checkboxes, then select "
+"the action you want to take from the Bulk Actions menu and click Apply."
+msgstr ""
+"También puede editar o mover varios fondos %s a la papelera a la vez. "
+"Seleccione los fondos que desea actuar sobre el uso de las casillas de "
+"verificación y, a continuación, seleccione la acción que desea tomar en el "
+"menú Acciones en Lote y haga clic en Aplicar."
+
+#: admin/umbg-admin.php:294
+msgid ""
+"When using Bulk Edit, you can change the metadata (author or status) for all "
+"selected backgrounds at once. To remove a background from the grouping, just "
+"click the (x) next to its name in the Bulk Edit area that appears."
+msgstr ""
+"Al usar Edición Masiva, puede cambiar los metadatos (autor o de estado) para "
+"todos los fondos seleccionados a la vez. Para eliminar un fondo de la "
+"agrupación, haga clic en el (x) junto a su nombre en el área de Edición "
+"Masiva que aparece."
+
+#: admin/umbg-admin.php:310
+#, php-format
+msgid "Things to remember when adding or editing a %s background:"
+msgstr "Cosas para recordar al añadir o editar un fondo %s:"
+
+#: admin/umbg-admin.php:312
+#, php-format
+msgid ""
+"%1s can be used to accomplish different background effects including for "
+"design, marketing, or other imaginative purposes, but remember that it is "
+"just one tool to help you with the purpose."
+msgstr ""
+"%1s se puede utilizar para llevar a cabo diferentes efectos de fondo que "
+"incluye para el diseño, la comercialización, o para otros propósitos "
+"imaginativos, pero recuerda que es sólo una herramienta que le ayude con el "
+"propósito."
+
+#: admin/umbg-admin.php:313
+msgid ""
+"Remember the shorter the video the better and faster it will load and play "
+"for the user. When a video takes too long to load or is too long in "
+"duration, it takes longer to buffer and users will loose interest if they "
+"have to wait. The same is true for large image files."
+msgstr ""
+"Recuerde que cuanto más corto el video, el mejor y más rápido que se carga y "
+"juega para el usuario. Cuando un video toma demasiado tiempo para cargar o "
+"es demasiado largo en duración, se necesita más tiempo para buffer y el "
+"usuario perderá interés si tienen que esperar. Lo mismo es cierto para los "
+"grandes archivos de imágenes."
+
+#: admin/umbg-admin.php:314
+#, php-format
+msgid ""
+"Select the Authors, Categories, Pages, and/or Posts that the %1s background "
+"will be appended to. In the Pages multi-select box you will find the "
+"selection of Home Page - WP Default, this refers to the default home page of "
+"WordPress when you first install it, which displays the most recent posts. "
+"See <a href=\"http://codex.wordpress.org/Creating_a_Static_Front_Page\" "
+"target=\"_blank\">Creating a Static Front Page</a> for more information on "
+"WordPress static front page."
+msgstr ""
+"Seleccione el Autores, Categorías, Páginas y / o Mensajes que el fondo %1s "
+"se añadirán a. En las páginas de la caja de selección múltiple se encuentra "
+"la selección de Página Inicial - WP Defecto, esto se refiere a la página de "
+"inicio por defecto de WordPress cuando se instala por primera vez, aquí se "
+"muestra las entradas más recientes. Ver <a href=\"http://codex.wordpress.org/"
+"Creating_a_Static_Front_Page\" target=\"_blank\">Creación de una Portada "
+"Estática.</a> para más información sobre la portada estática de Wordpress."
+
+#: admin/umbg-admin.php:315
+msgid ""
+"Select the correct media type such as YouTube, Vimeo, Dailymotion, Wistia, "
+"HTML5, Image, or Color."
+msgstr ""
+"Seleccione el tipo correcto de los medios de comunicación tales como "
+"YouTube, Vimeo, Dailymotion, Wistia, HTML5, Imagen o Color."
+
+#: admin/umbg-admin.php:316
+msgid ""
+"Specify the correct id or location of the media to be played, such as the "
+"video id for YouTube, Vimeo, Dailymotion, and Wistia. The video location for "
+"HTML5 videos and the image location for Image."
+msgstr ""
+"Especifique el ID correcto o la ubicación de el medio que se jugará, como la "
+"identificación del vídeo de YouTube, Vimeo, Dailymotion y Wistia. La "
+"ubicación para los vídeos HTML5 y para Imagen."
+
+#: admin/umbg-admin.php:318
+#, php-format
+msgid ""
+"If you want to schedule the %s background to be published/displayed in the "
+"future:"
+msgstr ""
+"Si desea programar el fondo %s que se publicará / mostrado en el futuro:"
+
+#: admin/umbg-admin.php:321
+msgid ""
+"Under the Publish module/meta box, click on the Edit link next to Publish."
+msgstr ""
+"Bajo el módulo / caja meta Publicar, haga clic en el enlace Editar junto a "
+"Publicar."
+
+#: admin/umbg-admin.php:322
+#, php-format
+msgid ""
+"Change the date to the date you actually want to publish this %s background, "
+"then click on Ok."
+msgstr ""
+"Cambie la fecha a la fecha en que usted desea publicar este fondo %s, luego "
+"haga clic en Ok."
+
+#: admin/umbg-admin.php:324
+msgid "For general WordPress information:"
+msgstr "Para obtener información general de WordPress:"
+
+#: admin/umbg-admin.php:325
+msgid ""
+"<a href=\"http://codex.wordpress.org/Posts\" target=\"_blank\">Writing Posts "
+"Documentation</a>"
+msgstr ""
+"<a href=\"http://codex.wordpress.org/Posts\" target=\"_blank\">Documentación "
+"para la escritura de mensajes.</a>"
+
+#: admin/umbg-admin.php:326
+msgid ""
+"<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
+"a>"
+msgstr ""
+"<a href=\"http://wordpress.org/support/\" target=\"_blank\">Foros de "
+"Soporte</a>"
+
+#: admin/umbg-admin.php:329 admin/umbg-admin.php:981
+msgid "Append Background To"
+msgstr "Anexar Fondos A"
+
+#: admin/umbg-admin.php:331
+#, php-format
+msgid ""
+"Select the Authors, Categories, Pages, Posts and/or Custom Post Types the %s "
+"background will be append/display on."
+msgstr ""
+"Seleccione los Autores, Categorías, Páginas, Entradas y / o Entradas Custom "
+"que el fondo %s será anexar / mostrar en."
+
+#: admin/umbg-admin.php:334
+msgid ""
+"The multi-select list on the left are the available items and the multi-"
+"select list on the right are the selected items."
+msgstr ""
+"La lista de selección múltiple de la izquierda son los elementos disponibles "
+"y la lista de selección múltiple de la derecha son los elementos "
+"seleccionados."
+
+#: admin/umbg-admin.php:336
+msgid "<strong>Keyboard Shortcodes:</strong>"
+msgstr "<strong>Teclado códigos cortos:</strong>"
+
+#: admin/umbg-admin.php:337
+msgid ""
+"[ &nbsp&darr;&nbsp; ]  Down arrow - Select next item in the focused list"
+msgstr ""
+"[ &nbsp&darr;&nbsp; ] Flecha abajo - Seleccionar el siguiente elemento de la "
+"lista enfocada"
+
+#: admin/umbg-admin.php:338
+msgid ""
+"[ &nbsp&uarr;&nbsp; ]  Up arrow - Select previous item in the focused list"
+msgstr ""
+"[ &nbsp&uarr;&nbsp; ]  Flecha arriba - Seleccionar el elemento anterior de "
+"la lista enfocada"
+
+#: admin/umbg-admin.php:340
+msgid ""
+"[ &horbar; ]  Space bar - Add/remove item depending on which list is "
+"currently focused"
+msgstr ""
+"[ &horbar; ]  La barra de espacio - Añadir / Quitar elemento dependiendo de "
+"qué lista se centra actualmente"
+
+#: admin/umbg-admin.php:342
+msgid "[ &larr; ]  Left arrow - Focus the previous list"
+msgstr "[ &larr; ] Flecha izquierda - Enfoque la lista anterior"
+
+#: admin/umbg-admin.php:343
+msgid "[ &rarr; ]  Right arrow - Focus the next list"
+msgstr "[ &rarr; ] Flecha derecha - Enfoque de la siguiente lista"
+
+#: admin/umbg-admin.php:346
+#, php-format
+msgid ""
+"With the ability to append/display %1$s backgrounds to multiple items how "
+"does %1$s determines which background to display? For example, you created "
+"two %1$s backgrounds, one to display video from YouTube for author John Doe "
+"and the second to display an HTML5 video for the category Uncategorized. You "
+"go to a post where it has author John Doe and category Uncategorized. Which "
+"video will play? %1$s uses Priority Levels to determine such a scenario. "
+"Priority Level determines which background video willplay. Check your <a "
+"href=\"%2$s\">%1$s Settings</a> for your priority levels."
+msgstr ""
+"Con la posibilidad de anexar / mostrar %1$s fondos a varios elementos, ¿cómo "
+"%1$s determina el fondo para mostrar? Por ejemplo, ha creado dos fondos "
+"%1$s, uno para mostrar vídeos de YouTube para el autor John Doe y el segundo "
+"para mostrar un vídeo HTML5 para la categoría Uncategorized. Usted va a una "
+"entrada donde tiene el autor John Doe y la categoría Uncategorized. ¿Qué "
+"vídeo va mostrar? %1$s usa niveles de prioridad para determinar tal "
+"escenario. Nivel de Prioridad determina qué vídeo de fondo mostrarse. Revise "
+"su <a href=“%2$s”> Ajustes %1$s </a> para sus Niveles de Prioridad."
+
+#: admin/umbg-admin.php:349 admin/umbg-admin.php:1418
+msgid "Media Type"
+msgstr "Tipo de Medio"
+
+#: admin/umbg-admin.php:350
+msgid ""
+"Select whether the media is a YouTube, Vimeo, Dailymotion, Wistia, HTML5 "
+"video, Image, or Color."
+msgstr ""
+"Seleccione el reproductor de medios correcto como YouTube, Vimeo, "
+"Dailymotion, Wistia, HTML5, Imagen o Color."
+
+#: admin/umbg-admin.php:352
+msgid "Video Id / Video Location"
+msgstr "Vídeo Id / Video Ubicación"
+
+#: admin/umbg-admin.php:353
+msgid ""
+"Enter the video ID only if its YouTube, Vimeo, Dailymotion, or Wistia. For "
+"most video hosting sites the video id is placed at the end of their url. For "
+"HTML5 videos you can select a video uploaded to your WordPress site by "
+"clicking the Select Video button or you can enter the video's location: i.e. "
+"http://mywebsite.com/wp-content/uploads/2015/01/myvideofile.mp4. For cross-"
+"browser compatibility for HTML5 videos make sure you have the file versions "
+"MP4, WEBM, & OGV in the same location. For more information see <a target="
+"\"_blank\" href=\"http://diveintohtml5.info/video.html#what-works\">HTML5 "
+"Video</a>."
+msgstr ""
+"Introduzca el ID de vídeo sólo si es YouTube, Vimeo, Dailymotion o Wistia. "
+"Para la mayoría de los sitios de alojamiento de vídeo la identificación del "
+"vídeo se coloca al final de su url. Para los vídeos HTML5 puede seleccionar "
+"un video subido a su sitio de WordPress haciendo clic en el botón "
+"Seleccionar Vídeo o puede introducir la ubicación del vídeo: es decir http://"
+"mywebsite.com/wp-content/uploads/2015/01/myvideofile.mp4 (para "
+"compatibilidad con distintos navegadores asegúrese de tener las versiones "
+"del vídeo MP4, WebM, y OGV en la misma ubicación). Para obtener más "
+"información, consulte <a target=\"_blank\" href=\"http://diveintohtml5.info/"
+"video.html#what-works\">HTML5 Video</a>."
+
+#: admin/umbg-admin.php:356 admin/umbg-admin.php:1530
+msgid "Media Link URL"
+msgstr "Medio URL Enlace"
+
+#: admin/umbg-admin.php:357
+msgid ""
+"Enter the URL to link the media background. You can select to open the link "
+"in a new window or the same window."
+msgstr ""
+"Introduzca la URL para enlazar el fondo de medios. Usted puede seleccionar "
+"para abrir el enlace en una nueva ventana o la misma ventana."
+
+#: admin/umbg-admin.php:362
+#, php-format
+msgid ""
+"For images you can select an image uploaded to your WordPress site by "
+"clicking the Select Image button (you can select multiple images) or you can "
+"enter the image's location: i.e. http://mywebsite.com/wp-content/"
+"uploads/2015/01/myimagefile.jpg. If entering several images location "
+"manually you need to separate each with a comma. When multiple images are "
+"selected %1$s displays them as a slide show."
+msgstr ""
+"Para las imágenes se puede seleccionar una imagen cargada a su sitio de "
+"WordPress haciendo clic en el botón Seleccionar Imagen (puede seleccionar "
+"varias imágenes) o puede introducir la ubicación de la imagen: es decir "
+"http://misitioweb.com/wp-content/uploads/2015/01/miarchivoimagen.jpg. Si "
+"entra varias ubicaciónes manualmente necesita separar cada uno con una coma. "
+"Cuando se seleccionan varias imágenes %1$s los muestra como una presentación "
+"de diapositivas."
+
+#: admin/umbg-admin.php:365 admin/umbg-admin.php:1464
+msgid "Poster"
+msgstr "Póster"
+
+#: admin/umbg-admin.php:366
+#, php-format
+msgid ""
+"Enter the video's poster location with the file extension: i.e. http://"
+"mywebsite.com/wp-content/uploads/2015/01/myvideoposter.jpg. %1$s uses the "
+"poster to display it to mobile devices instead of the video since they don't "
+"support auto playback. %1$s also uses the poster to display it to web "
+"browsers that do not support HTML5 video nor the video file type. If you "
+"leave it blank it will display the page's background color. You can use the "
+"Remove Poster link to remove the poster image."
+msgstr ""
+"Ingresa una ubicación para el cartel del vídeo con la extensión de archivo: "
+"es decir http://mywebsite.com/wp-content/uploads/2015/01/myvideoposter.jpg. "
+"%1$s utiliza el póster para que se muestre a los dispositivos móviles en "
+"lugar del video, ya que no son compatibles con la reproducción automática. "
+"%1$s también utiliza el cartel para mostrar a los navegadores que no "
+"soportan videos de HTML5 ni el tipo de archivo de vídeo. Si lo deja en "
+"blanco, se mostrará el color de fondo de la página. Usted puede utilizar el "
+"enlace Retire Póster para eliminar la imagen del cartel."
+
+#: admin/umbg-admin.php:368 admin/umbg-admin.php:1484 admin/umbg-admin.php:1487
+msgid "Overlay"
+msgstr "Superposición"
+
+#: admin/umbg-admin.php:369
+msgid ""
+"Enable or disable displaying an overlay over the media. You can select the "
+"pattern for the overlay from the DropDown list. You can also select the "
+"color and opacity of the color. Remember that if you prefer no pattern but "
+"still want to display a color as an overlay then select Transparent from the "
+"pattern DropDown list."
+msgstr ""
+"Active o desactive una superposición sobre los medios. Usted puede "
+"seleccionar el patrón para la superposición de la lista desplegable. También "
+"puede seleccionar el color y la opacidad del color. Recuerde que si usted no "
+"prefiere ningún patrón, pero todavía quiere mostrar un color como una "
+"superposición seleccione Transparente de la lista desplegable de patrones."
+
+#: admin/umbg-admin.php:371
+msgid ""
+"A preview of the overlay pattern can be seen on the preview video/poster. "
+"The pattern is not scaled to match the preview video/poster dimensions, it "
+"is at a size that you can preview the pattern."
+msgstr ""
+"Una vista previa del patrón de superposición se puede ver en la vista previa "
+"de vídeo / póster. El patrón no se escala para que coincida con las "
+"dimensiones de vista previa de vídeo / posters, es en un tamaño que se puede "
+"previsualizar el patrón."
+
+#: admin/umbg-admin.php:373 admin/umbg-admin.php:1548
+msgid "Quality"
+msgstr "Calidad"
+
+#: admin/umbg-admin.php:374 admin/umbg-admin.php:1588
+msgid ""
+"Force a particular playback quality. Auto is recommended because it tries to "
+"select the most appropriate playback quality for the user's environment. "
+"Most video hosting services adjusts the quality of your video stream by the "
+"speed of your Internet connection (bandwidth), video player size, and the "
+"original video quality."
+msgstr ""
+"Forzar una calidad de reproducción en particular. Auto se recomienda porque "
+"trata de seleccionar la calidad de reproducción más adecuado para el medio "
+"ambiente del usuario. La mayoría de los servicios de alojamiento de vídeo "
+"ajusta la calidad de su stream de vídeo por la velocidad de la conexión de "
+"Internet (ancho de banda), el tamaño del reproductor de vídeo, y la calidad "
+"del vídeo original."
+
+#: admin/umbg-admin.php:375
+msgid ""
+"Forcing HD with Vimeo videos is not guarantee to work. Vimeo controls this "
+"feature from the user's settings on their site. See why on their <a href="
+"\"https://vimeo.com/help/faq/sharing-videos/embedding-videos#can-i-make-my-"
+"embedded-videos-default-to-hd\" target=\"_blank\">site</a>."
+msgstr ""
+"Forzar HD con videos Vimeo puede que no funcione. Vimeo controla esta "
+"función de la configuración del usuario en su sitio web. Vea por qué en su "
+"<a href=\"https://vimeo.com/help/faq/sharing-videos/embedding-videos#can-i-"
+"make-my-embedded-videos-default-to-hd\" target=\"_blank\">sitio web</a>."
+
+#: admin/umbg-admin.php:377
+msgid "Tracking Views"
+msgstr "Seguimiento de Visitas"
+
+#: admin/umbg-admin.php:378
+msgid ""
+"For Wistia videos only. You can enable to track views to this video. All "
+"tracking is done by Wistia and can be access from your Wistia account if "
+"available."
+msgstr ""
+"Sólo pare videos de Wistia. Usted puede activar para realizar un seguimiento "
+"de visitas de este vídeo. Todo el seguimiento es hecho por Wistia y se puede "
+"acceder desde tu cuenta de Wistia si está disponible."
+
+#: admin/umbg-admin.php:382 admin/umbg-admin.php:1617
+msgid "Automatically play the media."
+msgstr "Reproducir automáticamente los medios."
+
+#: admin/umbg-admin.php:384
+msgid "Start At / End At"
+msgstr "Iniciar En / Acabar En"
+
+#: admin/umbg-admin.php:385
+msgid ""
+"Enter the start time and end time, in seconds, that you would like the video "
+"to start and/or end. If left at zero the video will play in its entirety "
+"from start to finish."
+msgstr ""
+"Introduzca la hora de inicio y finalización, en segundos, que desea que el "
+"vídeo para empezar y terminar. Si se deja en cero el vídeo se reproducirá en "
+"su totalidad, de principio a fin."
+
+#: admin/umbg-admin.php:387 admin/umbg-admin.php:1648
+msgid "Image Display Duration"
+msgstr "Duración de la Visualización de Imagen"
+
+#: admin/umbg-admin.php:388
+msgid ""
+"Enter the display duration for each image in milliseconds. (1000 ms. = 1 "
+"sec.)"
+msgstr ""
+"Introduzca la duración de visualización de cada imagen en milisegundos. "
+"(1.000 ms. = 1 seg.)"
+
+#: admin/umbg-admin.php:390 admin/umbg-admin.php:1661
+msgid "Image Transition Duration"
+msgstr "Duración de la Transición de Imagen"
+
+#: admin/umbg-admin.php:391
+msgid ""
+"Enter the transition duration for the fading effect between images. Should "
+"not be more than the Image Display Duration value, you can create some nice "
+"effects by going over a little but the play/pause functionally will not "
+"function as expected. (1000 ms. = 1 sec.)"
+msgstr ""
+"Introduzca la duración de la transición para el efecto de atenuación entre "
+"imágenes. No debe ser mayor que el valor Duración Imagen Pantalla, puede "
+"crear algunos efectos agradables por pasarse un poco, pero la reproducción / "
+"pausa funcionalmente no funcionará como se espera. (1000 ms. = 1 seg.)"
+
+#: admin/umbg-admin.php:393 admin/umbg-admin.php:1675
+msgid "Image Effect"
+msgstr "Efecto de la Imagen"
+
+#: admin/umbg-admin.php:394
+msgid "Select the animation effect to display the image."
+msgstr "Seleccione el efecto de animación para mostrar la imagen."
+
+#: admin/umbg-admin.php:396 admin/umbg-admin.php:1695
+msgid "Image Effect Easing"
+msgstr "Efecto Visual de Flexibilización"
+
+#: admin/umbg-admin.php:397
+msgid "Select the image effect easing type for the animation."
+msgstr ""
+"Seleccione el tipo de flexibilización efecto de la imagen para la animación."
+
+#: admin/umbg-admin.php:399 admin/umbg-admin.php:1715
+#, php-format
+msgid "Delay Displaying %s By"
+msgstr "Retraso Mostrando %s Por"
+
+#: admin/umbg-admin.php:401
+msgid ""
+"Enter the time in milliseconds to delay displaying the background. (1000 ms. "
+"= 1 sec.)"
+msgstr ""
+"Introduzca el tiempo en milisegundos para retrasar mostrando el fondo. "
+"(1.000 ms. = 1 seg.)"
+
+#: admin/umbg-admin.php:403 admin/umbg-admin.php:1726 admin/umbg-admin.php:1729
+msgid "Loop"
+msgstr "Bucle"
+
+#: admin/umbg-admin.php:404
+msgid "Enable or disable loop play."
+msgstr "Activar o desactivar la reproducción de bucle."
+
+#: admin/umbg-admin.php:406 admin/umbg-admin.php:1745
+msgid ""
+"You can choose to loop the media or rewind it to the beginning when it stops "
+"by using <strong>Rewind To StartAt time</strong>. You can also choose "
+"<strong>Media End Fade-Out</strong> to allow for the media to be faded out "
+"once playback has ended."
+msgstr ""
+"Usted puede optar por bucle de los medios o retroceder al principio cuando "
+"se detiene mediante el uso de <strong>Retroceder al 'Iniciar En'</ strong>. "
+"También puede elegir <strong>Medio Fin Fade-Out.</ strong> para permitir que "
+"los medios se desvanecieron una vez la reproducción ha terminado."
+
+#: admin/umbg-admin.php:408 admin/umbg-admin.php:1751 admin/umbg-admin.php:1754
+msgid "Audio"
+msgstr "Audio"
+
+#: admin/umbg-admin.php:409
+msgid ""
+"Enable or disable playing the video with audio and/or start playing with the "
+"audio muted."
+msgstr ""
+"Activar o desactivar la reproducción del vídeo con audio y / o empezar a "
+"jugar con el audio silenciado."
+
+#: admin/umbg-admin.php:411 admin/umbg-admin.php:1772
+msgid "Volume Level"
+msgstr "Nivel de Volumen"
+
+#: admin/umbg-admin.php:412
+msgid "Adjust the volume level of the video."
+msgstr "Ajuste el nivel de volumen del vídeo."
+
+#: admin/umbg-admin.php:414 admin/umbg-admin.php:1785 admin/umbg-admin.php:1788
+msgid "Display Controls"
+msgstr "Mostrar los Controles"
+
+#: admin/umbg-admin.php:415
+#, php-format
+msgid "Display %2$s, %1$s, play, & audio buttons."
+msgstr "Mostrar %2$s, %1$s, juego y botones de audio."
+
+#: admin/umbg-admin.php:417 admin/umbg-admin.php:1801 admin/umbg-admin.php:1805
+#: admin/umbg-admin.php:2403 admin/umbg-admin.php:2404
+#: admin/umbg-admin.php:2848 admin/umbg-admin.php:2853
+#, php-format
+msgid "Page-Up-Down %s"
+msgstr "Página-Arriba-Abajo %s"
+
+#: admin/umbg-admin.php:419
+#, php-format
+msgid ""
+"%1$s allows the page to be scroll up and down to have a better view of the "
+"video; i.e. you can use this feature with a marketing video. Start with %1$s "
+"down: the page will scroll down when the media playback starts. End with "
+"%1$s up: the page will automatically scroll up when the media playback ends "
+"or the first loop ends. Use \"How much to show...\" to keep part of the page "
+"in view such as to show the logo and navigation during the %1$s down status."
+msgstr ""
+"%1$s permite que la página sea desplazarse hacia arriba y hacia abajo para "
+"tener una mejor visión del vídeo; es decir, puede utilizar esta "
+"característica con un video de marketing. Empezar con %1$s: la página se "
+"desplazará hacia abajo cuando se inicia la reproducción de los medios de "
+"comunicación. Final con %1$s para arriba: la página se desplazará "
+"automáticamente cuando termina la reproducción de los medios de comunicación "
+"o el primer bucle finaliza. Utilice “cuánto Mostrar…” para mantener a la "
+"vista parte de la página como para mostrar el logotipo y la navegación "
+"durante %1$s estado."
+
+#: admin/umbg-admin.php:421 admin/umbg-admin.php:1837 admin/umbg-admin.php:1841
+#: admin/umbg-admin.php:2412 admin/umbg-admin.php:2413
+#: admin/umbg-admin.php:2872 admin/umbg-admin.php:2877
+#, php-format
+msgid "Fade-In-Out %s"
+msgstr "Fade-In-Out %s"
+
+#: admin/umbg-admin.php:423 admin/umbg-admin.php:1866
+#, php-format
+msgid ""
+"%1$s lets you set an opacity (transparency) effect for a better view of the "
+"media background. <strong>Fade-Out on start:</strong> the page HTML element "
+"will fade out when the media playback starts. <strong>Fade-In on end:</"
+"strong> the page HTML element will fade in when the media playback ends or "
+"the first loop ends. Use Opacity to set the amount of opacity for the page "
+"HTML element. Use <b>Opacity</b> to set the amount of opacity for the page "
+"HTML element. You must set the FIO HTML Element in <a href=\"%2$s\">%3$s "
+"Settings</a> for FIO to work."
+msgstr ""
+"%1$s le permite establecer un efecto de opacidad (transparencia) para una "
+"mejor visión del fondo. <strong>Fade-Out en inicio:</ strong> la página de "
+"elemento HTML se desvanecerá de salida cuando se inicia la reproducción de "
+"medios. <strong>Fade-In en acabar:</ strong> la página de elemento HTML se "
+"desvanecerá en cuando la reproducción de medios termina o el primer bucle "
+"termina. Utilice <strong>Opacidad</strong> para ajustar la cantidad de "
+"opacidad para el elemento de página HTML. Debe establecer el elemento de "
+"pagina HTML de FIO en <a href=“%2$s”>%3$s Ajustes </a> para que FIO trabaje."
+
+#: admin/umbg-admin.php:425 admin/umbg-admin.php:1875
+msgid "Enlarge Media By"
+msgstr "Agrandar Medio Por"
+
+#: admin/umbg-admin.php:426 admin/umbg-admin.php:1883
+msgid ""
+"Use with caution, enlarge only what is necessary. Useful for hosted videos "
+"such as YouTube and Vimeo to hide unwanted objects. Remember that the more "
+"you enlarge the media the more chances it may lead to choppy playback."
+msgstr ""
+"Utilizar con precaución, agrandar solo lo necesario. Útiles para vídeos "
+"alojados como YouTube y Vimeo para ocultar objetos no deseados. Recuerde que "
+"cuanto más se agranda los medios más posibilidades que puede conducir a la "
+"reproducción entrecortada."
+
+#: admin/umbg-admin.php:428 admin/umbg-admin.php:1889
+msgid "Aspect Ratio"
+msgstr "Relación de Aspecto"
+
+#: admin/umbg-admin.php:429
+msgid ""
+"Select proper aspect ratio, this affects the way the media will be displayed "
+"and re-sized."
+msgstr ""
+"Seleccione la relación de aspecto adecuados, esto afecta la forma en en que "
+"se mostrará y redimensionada el medio."
+
+#: admin/umbg-admin.php:433 admin/umbg-admin.php:434
+msgctxt "title"
+msgid "Video Background"
+msgstr "Fondo de Vídeo"
+
+#: admin/umbg-admin.php:460 admin/umbg-admin.php:461
+msgctxt "title"
+msgid "Image Background"
+msgstr "Fondo de Imagen"
+
+#: admin/umbg-admin.php:463
+msgid ""
+"Image backgrounds can use more than one image. When more than one is "
+"selected the images will display as a slideshow."
+msgstr ""
+"Fondos de imagen pueden usar más de una imagen. Cuando más de uno se "
+"selecciona las imágenes aparecerán como una presentación de diapositivas."
+
+#: admin/umbg-admin.php:486 admin/umbg-admin.php:487
+msgctxt "title"
+msgid "Color Background"
+msgstr "Fondo de Color"
+
+#: admin/umbg-admin.php:489
+#, php-format
+msgid ""
+"If a video or image background is not desire then try a color background "
+"that is beautiful and offers more options than the default WordPress "
+"background feature. You can match colors with patterns to create unique "
+"backgrounds. Color backgrounds do not use the %s feature."
+msgstr ""
+"Si un fondo de vídeo o imagen deseado entonces intente un fondo de color que "
+"es precioso y ofrece más opciones que la característica de fondo WordPress "
+"por defecto. Puede hacer coincidir los colores con patrones para crear "
+"fondos únicos. Fondos de color no utilizan la característica %s."
+
+#: admin/umbg-admin.php:512
+msgid "For more information:"
+msgstr "Para más información:"
+
+#: admin/umbg-admin.php:598
+#, php-format
+msgid "%s Documentation"
+msgstr "Documentación %s"
+
+#: admin/umbg-admin.php:599
+#, php-format
+msgid "Use this help tab to access the %s documentation."
+msgstr "Utilice esta etiqueta de ayuda para acceder a la documentación %s."
+
+#: admin/umbg-admin.php:622
+#, php-format
+msgid "<a href=\"%1$s\" title=\"Configure %2$s\" >Settings</a>"
+msgstr "<a href=\"%1$s\" title=\"Configure %2$s\" >Ajustes</a>"
+
+#: admin/umbg-admin.php:626
+#, php-format
+msgid "<a href=\"%1$s\" title=\"About %2$s\" >About</a>"
+msgstr "<a href=\"%1$s\" title=\"Acerca %2$s\" >Acerca</a>"
+
+#: admin/umbg-admin.php:729
+msgctxt "input field required"
+msgid "(required)"
+msgstr "(requerido)"
+
+#: admin/umbg-admin.php:731
+msgid "Color Preview"
+msgstr "Vista Previa del Color"
+
+#: admin/umbg-admin.php:733
+msgid "Media Id"
+msgstr "Identificación del Medio"
+
+#: admin/umbg-admin.php:734
+msgid "Video Location"
+msgstr " Ubicación del Vídeo"
+
+#: admin/umbg-admin.php:736
+#, php-format
+msgid ""
+"Enter the video ID only. Some videos on Dailymotion can only be watch on "
+"their website and will not play. The use of Dailymotion ad-free videos is "
+"strongly recommended with %s, as their ad supported videos may give unwanted "
+"results."
+msgstr ""
+"Introduzca solamente el ID de vídeo. Algunos videos en Dailymotion sólo se "
+"pueden ver en su página web y no se reproducirán. Es recomendable no usar "
+"videos con publicidad de Dailymotion con %s, por que pueden dar resultados "
+"no deseados."
+
+#: admin/umbg-admin.php:737
+msgid ""
+"For HTML5 videos you can select a video uploaded to your WordPress site by "
+"clicking the Select Video button or you can enter the video's location: i.e. "
+"http://mywebsite.com/wp-content/uploads/2015/01/myvideofile.mp4. For cross-"
+"browser compatibility for HTML5 videos make sure you have the file versions "
+"MP4, WEBM, & OGV in the same location. For more information see <a target="
+"\"_blank\" href=\"http://diveintohtml5.info/video.html#what-works\">HTML5 "
+"Video</a>."
+msgstr ""
+"Para los vídeos HTML5 puede seleccionar un video subido a su sitio de "
+"WordPress haciendo clic en el botón Seleccionar vídeo o puede introducir la "
+"ubicación del vídeo: es decir http://mywebsite.com/wp-content/"
+"uploads/2015/01/myvideofile.mp4. Para la compatibilidad entre navegadores "
+"para los vídeos HTML5 asegúrese de tener el MP4 versiones de archivos, WEBM, "
+"y OGV en el mismo lugar. Para obtener más información, consulte <a target="
+"\"_blank\" href=\"http://diveintohtml5.info/video.html#what-works\">HTML5 "
+"Video</a>."
+
+#: admin/umbg-admin.php:738
+#, php-format
+msgid "When multiple images are selected %s displays them as a slide show."
+msgstr ""
+"Cuando se seleccionan varias imágenes, %s los muestra como una presentación "
+"de diapositivas."
+
+#: admin/umbg-admin.php:755 admin/umbg-admin.php:2267
+#, php-format
+msgid "%s Settings"
+msgstr "Ajustes %s"
+
+#: admin/umbg-admin.php:961
+msgid "Square Grid"
+msgstr "Cuadrícula"
+
+#: admin/umbg-admin.php:962
+msgid "Transparent"
+msgstr "Transparente"
+
+#: admin/umbg-admin.php:991 admin/umbg-admin.php:2587
+msgid "Authors"
+msgstr "Autores"
+
+#: admin/umbg-admin.php:1017 admin/umbg-admin.php:2594
+msgid "Categories"
+msgstr "Categorías"
+
+#: admin/umbg-admin.php:1072 admin/umbg-admin.php:2651
+msgid "WooCommerce Product Tags"
+msgstr "Etiquetas de Producto WooCommerce"
+
+#: admin/umbg-admin.php:1074 admin/umbg-admin.php:2653
+msgid "EDD Categories"
+msgstr "EDD Categorías"
+
+#: admin/umbg-admin.php:1076 admin/umbg-admin.php:2655
+msgid "EDD Tags"
+msgstr "EDD Etiquetas"
+
+#: admin/umbg-admin.php:1078 admin/umbg-admin.php:1080
+#: admin/umbg-admin.php:2657 admin/umbg-admin.php:2659
+msgid "bbPress Tags"
+msgstr "bbPress Etiquetas"
+
+#: admin/umbg-admin.php:1154 admin/umbg-admin.php:2624
+msgid "EDD Downloads"
+msgstr "EDD Descargas"
+
+#: admin/umbg-admin.php:1156 admin/umbg-admin.php:2626
+msgid "bbPress Forums"
+msgstr "bbPress Foros"
+
+#: admin/umbg-admin.php:1158 admin/umbg-admin.php:2628
+msgid "bbPress Topics"
+msgstr "bbPress Temas"
+
+#: admin/umbg-admin.php:1223 admin/umbg-admin.php:2606
+msgid "Pages"
+msgstr "Páginas"
+
+#: admin/umbg-admin.php:1231
+msgid "Home Page - WP Default"
+msgstr "Página Inicial - WP Defecto"
+
+#: admin/umbg-admin.php:1270 admin/umbg-admin.php:2600
+msgid "Posts"
+msgstr "Entradas"
+
+#: admin/umbg-admin.php:1324 admin/umbg-admin.php:2572
+msgid "WooCommerce Categories"
+msgstr "WooCommerce Categorías"
+
+#: admin/umbg-admin.php:1366 admin/umbg-admin.php:2578
+msgid "WooCommerce Products"
+msgstr "WooCommerce Productos"
+
+#: admin/umbg-admin.php:1411
+#, php-format
+msgid ""
+"Note: Priority Level (PL) determines which background media will play when "
+"Authors, Categories, Posts, Pages, or other Custom Post Types are selected. "
+"Check your <a href=\"%1$s\">%2$s Settings</a> for your priority levels."
+msgstr ""
+"Nota: Nivel de prioridad (PL) determina los medios de fondo que se "
+"reproducirá cuando se seleccionan los Autores, Categorías, Entradas, "
+"Páginas, o de otras Entradas Custom. Revise su <a href=\"%1$s\">%2$s Ajustes "
+"</a> para sus niveles de prioridad."
+
+#: admin/umbg-admin.php:1438
+msgid "Video Id or Location"
+msgstr "ID de Vídeo o Ubicación"
+
+#: admin/umbg-admin.php:1439
+msgid "(required)"
+msgstr "(requerido)"
+
+#: admin/umbg-admin.php:1446
+msgid "Select Video"
+msgstr "Seleccione Video"
+
+#: admin/umbg-admin.php:1448
+msgid "Select Images"
+msgstr "Seleccione Imágenes"
+
+#: admin/umbg-admin.php:1454
+msgid ""
+"Enter the video ID only. For most video hosting sites the video id is at the "
+"end of the url where the video is hosted."
+msgstr ""
+"Ingrese sólo el ID de vídeo. Para la mayoría de los sitios de alojamiento de "
+"vídeos la identificación del vídeo se encuentra al final de la URL donde se "
+"encuentra alojado el video."
+
+#: admin/umbg-admin.php:1470
+msgid "Select Poster"
+msgstr "Seleccione Póster"
+
+#: admin/umbg-admin.php:1472
+msgid "Remove Poster"
+msgstr "Retire Póster"
+
+#: admin/umbg-admin.php:1476
+#, php-format
+msgid ""
+"Enter the video's poster location <b>with</b> the file extension: i.e. "
+"http://mywebsite.com/myvideoposter.jpg. %s uses the poster to display it to "
+"mobile devices instead of the video since they don't support auto playback. "
+"If you \tleave it blank it will display the page's background color."
+msgstr ""
+"Introduzca la ubicación del póster del vídeo <b>con</ b> la extensión de "
+"archivo: es decir http://micitioweb.com/micarteldevideo.jpg. %s utiliza el "
+"póster para que se muestre a los dispositivos móviles en lugar del video, ya "
+"que no son compatibles con la reproducción automática. Si lo deja en blanco, "
+"se mostrará el color de fondo de la página."
+
+#: admin/umbg-admin.php:1492
+msgid "Display overlay."
+msgstr "Mostrar Superposición"
+
+#: admin/umbg-admin.php:1496
+msgid "Pattern:"
+msgstr "Patrón:"
+
+#: admin/umbg-admin.php:1517
+msgid "Color & Opacity:"
+msgstr "Color y Opacidad:"
+
+#: admin/umbg-admin.php:1521 admin/umbg-admin.php:2821
+#: admin/umbg-admin.php:2827
+msgid "Default"
+msgstr "Defecto"
+
+#: admin/umbg-admin.php:1523
+msgid ""
+"A preview of the overlay pattern can be seen on the preview video/poster. "
+"The pattern is <b>not</b> scaled to match the preview video/poster "
+"dimensions, it is at a size that you can preview the pattern."
+msgstr ""
+"Una vista previa del patrón de superposición se puede ver en la vista previa "
+"de vídeo / póster. El patrón no se escala para que coincida con las "
+"dimensiones de vista previa de vídeo / posters, es en un tamaño que se puede "
+"previsualizar el patrón."
+
+#: admin/umbg-admin.php:1541
+msgid ""
+"Enter the URL to link the media background too and select to open the link "
+"in a new window or the same window."
+msgstr ""
+"Introduzca la URL para enlazar el fondo de medios también y seleccione para "
+"abrir el enlace en una nueva ventana o la misma ventana."
+
+#: admin/umbg-admin.php:1593 admin/umbg-admin.php:1596
+msgid "Track Views"
+msgstr "Seguimiento de Visitas"
+
+#: admin/umbg-admin.php:1601
+msgid "Allow Wistia to track views of this video."
+msgstr "Permita Wistia el seguimiento de visitas de este video."
+
+#: admin/umbg-admin.php:1603
+msgid "Views are tracked by Wistia and are accessible on your Wistia account."
+msgstr ""
+"Vistas son seguidos por Wistia y son accesibles en su cuenta de Wistia."
+
+#: admin/umbg-admin.php:1619
+msgid "Recommended to autoplay the media."
+msgstr "Recomendado para reproducir automáticamente los medios."
+
+#: admin/umbg-admin.php:1626
+msgid "Start At"
+msgstr "Iniciar En"
+
+#: admin/umbg-admin.php:1631 admin/umbg-admin.php:1642
+msgid "sec."
+msgstr "seg."
+
+#: admin/umbg-admin.php:1637
+msgid "End At"
+msgstr "Acabar En"
+
+#: admin/umbg-admin.php:1653 admin/umbg-admin.php:1667
+msgid "ms."
+msgstr "ms."
+
+#: admin/umbg-admin.php:1655
+msgid "Enter the display duration for each image. (1000 ms. = 1 sec.)"
+msgstr "Introduzca la duración de mostrar cada imagen. (1000 ms. = 1 seg.)"
+
+#: admin/umbg-admin.php:1669
+msgid ""
+"Enter the transition duration for the fading effect between images. Should "
+"not be more than the <strong>Image Display Duration</strong> value, you can "
+"create some nice effects by going over a little but the play/pause "
+"functionally will not function as expected. (1000 ms. = 1 sec.)"
+msgstr ""
+"Introduzca la duración de la transición para el efecto de atenuación entre "
+"imágenes. No debe ser mayor que el valor Duración de la Visualización de "
+"Imagen. Puede crear algunos efectos agradables por pasarse un poco, pero la "
+"reproducción / pausa funcionalmente no funcionará como se espera. (1000 ms. "
+"= 1 seg.)"
+
+#: admin/umbg-admin.php:1689
+msgid "Animation effect used while displaying the image."
+msgstr "Efecto de animación utilizado mientras se muestra la imagen."
+
+#: admin/umbg-admin.php:1708
+msgid "Effect easing type for animations."
+msgstr "Efecto de suavizado tipo de animaciones."
+
+#: admin/umbg-admin.php:1721
+msgid "(1000 ms. = 1 sec.)"
+msgstr "(1000 ms. = 1 seg.)"
+
+#: admin/umbg-admin.php:1733
+msgid "Loop play."
+msgstr "La reproducción de bucle."
+
+#: admin/umbg-admin.php:1738
+msgid "Rewind to Start At time."
+msgstr "Retroceder al 'Iniciar En'"
+
+#: admin/umbg-admin.php:1743
+msgid "Media End Fade-Out."
+msgstr "Medio Fin Fade-Out."
+
+#: admin/umbg-admin.php:1758
+msgid "Play with audio."
+msgstr "Juega con audio."
+
+#: admin/umbg-admin.php:1764
+msgid "Start playing with audio muted."
+msgstr "Empieza a jugar con audio silenciado."
+
+#: admin/umbg-admin.php:1780
+msgid "Adjust volume level."
+msgstr "Ajuste el nivel de volumen."
+
+#: admin/umbg-admin.php:1793
+#, php-format
+msgid "Display %2$s, %1$s, play, &amp; audio buttons."
+msgstr "Mostrar %2$s, %1$s, juego y botones de audio."
+
+#: admin/umbg-admin.php:1810 admin/umbg-admin.php:1846
+#, php-format
+msgid "Play media with %s."
+msgstr "Jugar medio con %s."
+
+#: admin/umbg-admin.php:1815
+#, php-format
+msgid "Start with %s down."
+msgstr "Comience con %s abajo."
+
+#: admin/umbg-admin.php:1820
+#, php-format
+msgid "End with %s up."
+msgstr "Terminar con %s arriba."
+
+#: admin/umbg-admin.php:1822
+msgid "How much to show of page when down"
+msgstr "¿Cuánto mostrar de la página cuando abajo"
+
+#: admin/umbg-admin.php:1828
+#, php-format
+msgid ""
+"%1$s allows the page to be scroll up and down to have a better view of the "
+"video; i.e. you can use this feature with a marketing video. <b>Start with "
+"%1$s down:</b> the page will scroll down when the media playback starts. "
+"<b>End with %1$s up:</b> the page will automaticaly scroll up when the media "
+"playback ends or the first loop ends. Use <b>\"How much to show...\"</b> to "
+"keep part of the page in view such as the logo and navigation during the "
+"%1$s down status."
+msgstr ""
+"%1$s permite que la página pueda desplazarse hacia arriba y hacia abajo para "
+"tener una mejor visión del video; es decir, se puede utilizar esta función "
+"con un vídeo de marketing. Comience con %1$s abajo: la página se desplazará "
+"automáticamente hacia abajo cuando se inicia la reproducción de medios. "
+"Terminar con %1$s arriba: la página se desplazará automáticamente hacia "
+"arriba cuando la reproducción de medios termina o el primer bucle termina. "
+"Use la opción \"¿Cuánto mostrar ...\" para mantener parte de la página en la "
+"vista como para mostrar el logotipo y la navegación durante el estado %1$s "
+"abajo. Para utilizar la función de %1$s, Mostrar los Controles ha de ser "
+"activado."
+
+#: admin/umbg-admin.php:1851
+msgid "Fade-Out on start."
+msgstr "Fase-Out en inicio."
+
+#: admin/umbg-admin.php:1856
+msgid "Fade-In on end."
+msgstr "Fade-In en acabar."
+
+#: admin/umbg-admin.php:1858
+msgid "Opacity "
+msgstr "Opacidad"
+
+#: admin/umbg-admin.php:1910
+msgid ""
+"Select proper media aspect ratio, this affects the way the media will be "
+"displayed and re-sized."
+msgstr ""
+"Seleccione la relación de aspecto de medios adecuados, esto afecta la forma "
+"en en que se mostrará y redimensionada el medio."
+
+#: admin/umbg-admin.php:2267
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/umbg-admin.php:2274 admin/umbg-admin.php:2483
+#, php-format
+msgid "About %s"
+msgstr "Sobre %s"
+
+#: admin/umbg-admin.php:2336
+#, php-format
+msgid "%s Global Settings Overview"
+msgstr "%s Configuración Global."
+
+#: admin/umbg-admin.php:2338
+#, php-format
+msgid "In this screen you can change %s global settings."
+msgstr "En esta pantalla puede cambiar %s configuración global."
+
+#: admin/umbg-admin.php:2339
+#, php-format
+msgid ""
+"These settings affect all of the %s backgrounds you create, including any "
+"that have already been created."
+msgstr ""
+"Estos ajustes afectan a todos los fondos %s que usted crea, incluyendo "
+"cualquier que ya se han creado."
+
+#: admin/umbg-admin.php:2344 admin/umbg-admin.php:2345
+#: admin/umbg-admin.php:2720 admin/umbg-admin.php:2726
+msgid "Allow To Display On"
+msgstr "Permitir Que Se Mostrará En"
+
+#: admin/umbg-admin.php:2347
+#, php-format
+msgid ""
+"Drag each item into the Allowed On area to allow %s backgrounds to be "
+"display on such items or drag each item into the Disallowed On section to "
+"disallow them (mobile friendly drag gable functionality). PL is the Priority "
+"Level of the item."
+msgstr ""
+"Arrastra cada elemento al área Permitidos En para permitir fondos %s que "
+"sean mostrados en dichos elementos, o arrastre todos los elementos al área "
+"No Permitido para no permitir que se muestren (funcionalidad de arrastrar es "
+"amigable móvil). PL es Nivel de Prioridad."
+
+#: admin/umbg-admin.php:2351
+msgid "Priority Level (PL)"
+msgstr "Nivel de Prioridad (PL)"
+
+#: admin/umbg-admin.php:2352
+#, php-format
+msgid ""
+"To set the Priority Level (PL) sort each item into the order you prefer by "
+"dragging them (top is the highest priority). Priority Level sets the "
+"importance of the %1$s background among the other %1$s backgrounds created "
+"for the same Allowed On item (i.e. Lets say you have Priority Level of "
+"Author=1 & Category=2 and you have created different %1$s backgrounds for "
+"author John and for category Uncategorized. You browse to the post by John "
+"in category Uncategorized then the %1$s background that will be displayed is "
+"the one for John since item Authors have a higher Priority Level than item "
+"Categories)."
+msgstr ""
+"Para establecer el Nivel de Prioridad (PL) clasificar cada elemento en el "
+"orden que prefiera arrastrándolos (superior es la prioridad más alta). Nivel "
+"de prioridad establece la importancia entre los fondos %1$s creados para el "
+"mismo elemento. (es decir, digamos que usted tiene Prioridad de Autor = 1 y "
+"Categoría = 2 y que ha creado diversos fondos %1$s para el autor John y para "
+"la categoría Uncategorized. Usted navega para el puesto por Juan en la "
+"categoría Uncategorized entonces el fondo %1$s que se mostrará es el de John "
+"por que Autores tienen un nivel de prioridad más alta que las Categorías)."
+
+#: admin/umbg-admin.php:2355
+msgid "Also supports pages and posts with these product shortcodes:"
+msgstr ""
+"También es compatible con las páginas y mensajes con estos códigos cortos de "
+"productos:"
+
+#: admin/umbg-admin.php:2363 admin/umbg-admin.php:2364
+#: admin/umbg-admin.php:2776
+#, php-format
+msgid "Play %s By"
+msgstr "Reproducir %s Por"
+
+#: admin/umbg-admin.php:2365
+#, php-format
+msgid ""
+"When %s detects multiple videos for an item it selects one of them to play."
+msgstr ""
+"Cuando %s detecta varios vídeos para un artículo, se selecciona uno de ellos "
+"para jugar."
+
+#: admin/umbg-admin.php:2367 admin/umbg-admin.php:2783
+msgid "Latest Published"
+msgstr "Último Publicado"
+
+#: admin/umbg-admin.php:2368
+#, php-format
+msgid "Plays most recently published %s for the item."
+msgstr "Juega los %s más recientemente publicados."
+
+#: admin/umbg-admin.php:2369 admin/umbg-admin.php:2785
+msgid "Latest Modified"
+msgstr "Último Modificado"
+
+#: admin/umbg-admin.php:2370
+#, php-format
+msgid "Plays most recently modified (updated) %s for the item."
+msgstr "Juega el más reciente modificado (actualizado) %s para el elemento."
+
+#: admin/umbg-admin.php:2371 admin/umbg-admin.php:2787
+msgid "Random"
+msgstr "Al Azar"
+
+#: admin/umbg-admin.php:2372
+#, php-format
+msgid "Randomly selects one of the %s for the item to play."
+msgstr "Selecciona al azar uno de los %s para el elemento de jugar."
+
+#: admin/umbg-admin.php:2378 admin/umbg-admin.php:2379
+#: admin/umbg-admin.php:2795 admin/umbg-admin.php:2798
+#: admin/umbg-admin.php:2815
+msgid "Place Controls"
+msgstr "Coloque los Controles"
+
+#: admin/umbg-admin.php:2380
+#, php-format
+msgid ""
+"You have several options for the controls used on %1$s backgrounds. The "
+"controls consist of the %2$s button, play button, and audio button."
+msgstr ""
+"Usted tiene varias opciones para los controles utilizados en %1$s fondos. "
+"Los controles se componen de el botón %2$s, botón de reproducción, y el "
+"botón audio."
+
+#: admin/umbg-admin.php:2383
+#, php-format
+msgid ""
+"You can select to place %s controls on the bottom right, bottom left, top "
+"right, or top left of the page."
+msgstr ""
+"Usted puede seleccionar para colocar controles %s abajo a la derecha, abajo "
+"a la izquierda, arriba a la derecha, o arriba a la izquierda de la página."
+
+#: admin/umbg-admin.php:2386
+msgid "Icon Color"
+msgstr "Color del Icono"
+
+#: admin/umbg-admin.php:2387
+msgid ""
+"You can change the color of the control buttons, which are represented by "
+"icons. Just click on the color box and select the new color along with any "
+"opacity. You can always go back to the default color by clicking on the "
+"Default button."
+msgstr ""
+"Usted puede cambiar el color de los botones de control, que están "
+"representados por iconos. Simplemente haga clic en el cuadro de color y "
+"seleccione el nuevo color junto con cualquier opacidad. Siempre se puede "
+"volver al color predeterminado haciendo clic en el botón Defecto."
+
+#: admin/umbg-admin.php:2389
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: admin/umbg-admin.php:2390
+msgid ""
+"You can change the color of the control buttons background. Just click on "
+"the color box and select the new color along with any opacity. You can "
+"always go back to the default background color by clicking on the Default "
+"button."
+msgstr ""
+"Usted puede cambiar el color del fondo a los botones de control. Simplemente "
+"haga clic en el cuadro de color y seleccione el nuevo color junto con "
+"cualquier opacidad. Siempre se puede volver al color de fondo predeterminado "
+"haciendo clic en el botón Defecto."
+
+#: admin/umbg-admin.php:2396 admin/umbg-admin.php:2397
+#: admin/umbg-admin.php:2834 admin/umbg-admin.php:2838
+msgid "Page Visibility Pause"
+msgstr "Página Visibilidad Pausa"
+
+#: admin/umbg-admin.php:2398 admin/umbg-admin.php:2842
+msgid ""
+"Pause the player when the user minimizes the browser or moves to another "
+"window tab."
+msgstr ""
+"Pausa el jugador cuando el usuario minimiza el navegador o se mueve a otra "
+"pestaña de la ventana."
+
+#: admin/umbg-admin.php:2405
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed on to be scroll up "
+"and down to have a better view of the video or image. You can use this "
+"feature with a marketing video, Ad images, etc. Use the %1$s HTML Element "
+"input box to enter the HTML element id name or class name to use with %1$s. "
+"This element will be what gets scrolled up and down when %1$s is enabled."
+msgstr ""
+"﻿%1$s permite que la página en la que aparece un %2$s antecedentes sobre ser "
+"desplazarse hacia arriba y hacia abajo para tener una mejor visión del vídeo "
+"o imagen. Usted puede utilizar esta función con un vídeo de marketing, "
+"imágenes de los anuncios, etc. Utilice los %1$s cuadro de entrada de "
+"elementos HTML para introducir el nombre Identificación del elemento HTML o "
+"nombre de la clase de usar con%1$s. Este elemento será lo que se desplaza "
+"arriba y abajo cuando%1$s está habilitada."
+
+#: admin/umbg-admin.php:2406 admin/umbg-admin.php:2415
+msgid ""
+"The default is #page, which is the HTML element id for WordPress default "
+"themes."
+msgstr ""
+"El valor predeterminado es #page, que es el identificador de elemento HTML "
+"para temas por defecto de WordPress."
+
+#: admin/umbg-admin.php:2407
+msgid ""
+"For Twenty-Fifteen theme you can also use #primary with good results. Other "
+"effects can be achieved by editing your theme CSS files, such as adding a "
+"low opacity value to make necessary sections transparent. Remember to use "
+"proper WordPress techniques such as child themes so that theme updates don't "
+"delete your CSS changes."
+msgstr ""
+"Para Twenty-Fifteen tema también puede utilizar #primary con buenos "
+"resultados. Otros efectos pueden lograrse mediante la edición de los "
+"archivos CSS del tema, como la adición de un valor bajo de opacidad para "
+"hacer secciones necesarias transparente. Recuerde utilizar las técnicas "
+"adecuadas, tales como WordPress temas hijo para que los cambios temáticos no "
+"eliminan los cambios de estilo CSS."
+
+#: admin/umbg-admin.php:2414
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed to have an opacity "
+"(transperancy) effect to give a better view of the video. Use <strong>%1$s "
+"Html Element</strong>o to enter the HTML element id name or class name to "
+"use with %1$s. This element will be what gets the opacity applied too when "
+"%1$s is enabled. The default is #page, which is the HTML element id for "
+"WordPress default themes. For Twenty-Fifteen theme you can also use #primary "
+"with good results."
+msgstr ""
+"%1$s permite la página donde se muestra un fondo de %2$s para tener un "
+"efecto de opacidad (transparencia) para dar una mejor visión del vídeo. Uso "
+"de <strong>%1$s elemento Html</strong>o para ingresar el nombre de id del "
+"elemento HTML o nombre de clase para usar con %1$s. Este elemento es lo que "
+"obtiene la opacidad aplicada demasiado cuando el %1$s está habilitado. El "
+"valor predeterminado es #page, cual es el id del elemento HTML para temas de "
+"Wordpress por defecto. Para el tema de veinte y quince también puede "
+"utilizar #primary con buenos resultados."
+
+#: admin/umbg-admin.php:2416
+msgid "For Twenty-Fifteen theme you can also use #primary with good results."
+msgstr ""
+"Para Twenty-Fifteen tema también puede utilizar #primary con buenos "
+"resultados."
+
+#: admin/umbg-admin.php:2421 admin/umbg-admin.php:2422
+#: admin/umbg-admin.php:2896 admin/umbg-admin.php:2900
+msgid "Mobile Devices"
+msgstr "Dispositivo Móvil"
+
+#: admin/umbg-admin.php:2423
+#, php-format
+msgid ""
+"Mobile devices do not autoplay videos and %1$s replaces them with a poster "
+"image that you select in the 'Add New' or 'Edit' page. You may choose not to "
+"display video backgrounds on mobile devices by enabling 'Disable video "
+"backgrounds only'. Image and color backgrounds will display on mobile "
+"devices unless you enable 'Disable all backgrounds'. You may also choose to "
+"disable only on mobile phones by enabling 'Disable on mobile phones only'."
+msgstr ""
+"La reproducción automática de videos en dispositivos móviles no funciona y "
+"%1$s los reemplaza con una imagen del cartel que usted seleccione en la "
+"página de 'Agregar Nuevo' o 'Editar'. Puede elegir no mostrar fondos de "
+"video en dispositivos móviles permitiendo ’Desactivar sólo fondos de vídeo’. "
+"Fondos de imagen y de color se muestran en dispositivos móviles a menos que "
+"activas ‘Desactivar todos los fondos.’. También puede optar por desactivar "
+"solamente en los teléfonos móviles permitiendo a ‘Desactivar sólo en los "
+"teléfonos móviles’."
+
+#: admin/umbg-admin.php:2426 admin/umbg-admin.php:2905
+msgid "Disable all backgrounds"
+msgstr "Desactivar todos los fondos"
+
+#: admin/umbg-admin.php:2427
+#, php-format
+msgid ""
+"Do not allow any of your %s backgrounds to be display on any mobile device."
+msgstr ""
+"No permita que ninguno de sus fondos %s sean visualizados en dispositivos "
+"móviles."
+
+#: admin/umbg-admin.php:2428 admin/umbg-admin.php:2911
+msgid "Disable video backgrounds only"
+msgstr "Desactivar sólo fondos de vídeo"
+
+#: admin/umbg-admin.php:2430 admin/umbg-admin.php:2917
+msgid "Disable on mobile phones only"
+msgstr "Desactivar sólo en los teléfonos móviles"
+
+#: admin/umbg-admin.php:2431
+#, php-format
+msgid ""
+"Enable this feature to disable %s backgrounds only on mobile phones. They "
+"will continue to display on tablet devices. You can enable this feature "
+"together with 'Disable video backgrounds only'."
+msgstr ""
+"Active esta función para desactivar %s fondos sólo en los teléfonos móviles. "
+"Continuarán a mostrar en los dispositivos de tableta. Puede activar esta "
+"característica, junto con 'Desactivar sólo fondos de vídeo'."
+
+#: admin/umbg-admin.php:2437 admin/umbg-admin.php:2438
+#: admin/umbg-admin.php:2932 admin/umbg-admin.php:2936
+msgid "Preview Thumbnails"
+msgstr "Vista Previa de Miniaturas"
+
+#: admin/umbg-admin.php:2439
+msgid ""
+"Show the video and poster preview thumbnails on the 'Add New' and 'Edit' "
+"pages by enabling this feature. The media preview and poster preview will be "
+"display as a thumbnail size."
+msgstr ""
+"Mostrar las miniaturas de vídeo y póster de vista previa de las páginas en "
+"\"Añadir Nuevo\" y \"Editar\" al permitir esta función. La vista previa de "
+"los medios y el póster de previsualización estarán visto de un tamaño de "
+"miniatura."
+
+#: admin/umbg-admin.php:2444 admin/umbg-admin.php:2445
+#: admin/umbg-admin.php:2948
+#, php-format
+msgid "%s Version"
+msgstr "Versión %s"
+
+#: admin/umbg-admin.php:2446
+#, php-format
+msgid ""
+"This is the current version of %s you have installed in your WordPress site."
+msgstr ""
+"Esta es la versión actual de %s que ha instalado en su sitio de WordPress."
+
+#: admin/umbg-admin.php:2447
+#, php-format
+msgid "Currently you have version %s."
+msgstr "Actualmente tiene la versión %s."
+
+#: admin/umbg-admin.php:2684
+#, php-format
+msgid " %s Global Settings"
+msgstr "Ajustes Global %s."
+
+#: admin/umbg-admin.php:2731
+msgid "Disallowed On"
+msgstr "No Permitido En"
+
+#: admin/umbg-admin.php:2747
+msgid "Allowed On"
+msgstr "Permitidos En"
+
+#: admin/umbg-admin.php:2762
+#, php-format
+msgid ""
+"<strong>Allow To Display:</strong> Drag each item into the Allowed On "
+"section to allow %1$s to be display on such items or drag each item into the "
+"Disallowed On section to disallow. (Mobile friendly draggable) *"
+msgstr ""
+"<strong>Permitir Que Se Vea:</strong> Arrastra cada elemento al área "
+"Permitidos En para permitir fondos %s que sean mostrados en dichos "
+"elementos, o arrastre todos los elementos al área No Permitido para no "
+"permitir que se muestren (funcionalidad de arrastrar es amigable móvil)."
+
+#: admin/umbg-admin.php:2764
+msgid ""
+"<strong>CPT:</strong> Custom Post Types. Custom post types installed on your "
+"WordPress site. **<br /><strong>CPC:</strong> Custom Post Categories. These "
+"are categories, terms, and/or taxonomies of custom post types. **"
+msgstr ""
+"<strong>CPT:</strong> Custom Post Tipos. Los nuevos custom post tipos "
+"instalados en su sitio de Wordpress.<br /><strong>CPC:</strong> Custom Post "
+"Categorías. Estas son las categorías, términos y/o taxonomías de custom post "
+"tipos."
+
+#: admin/umbg-admin.php:2766
+#, php-format
+msgid ""
+"<strong>Priority Level (PL): </strong> Drag/Sort each item into the order "
+"you prefer to set the Priority Level (Top is the highest). Priority Level "
+"sets the importance when a %1$s background has been created for at least two "
+"of the Allowed On items (i.e. Lets say you have Priority Level of Author=1 & "
+"Category=2 and you have created different %1$s backgrounds for author John "
+"and category Uncategorized. You browse to the post by John in category "
+"Uncategorized then the %1$s background that will play will be the one for "
+"John since Authors have a higher Priority Level)."
+msgstr ""
+"<strong>Nivel de Prioridad:</strong> Clasificar cada elemento en el orden "
+"que prefiera arrastrándolos (superior es la prioridad más alta). Nivel de "
+"prioridad establece la importancia entre los fondos %1$s creados para el "
+"mismo elemento. (es decir, digamos que usted tiene Prioridad de Autor = 1 y "
+"Categoría = 2 y que ha creado diversos fondos %1$s para el autor John y para "
+"la categoría Uncategorized. Usted navega para el puesto por Juan en la "
+"categoría Uncategorized entonces el fondo %1$s que se mostrará es el de John "
+"por que Autores tienen un nivel de prioridad más alta que las Categorías)."
+
+#: admin/umbg-admin.php:2768
+msgid ""
+"<strong>* Make sure you drag to the 'Disallowed' list any items that belong "
+"to any plugins you will be diactivating in order to avoid conflicts once you "
+"reorder the 'Allowed' list and reactivate those plugins.</strong>"
+msgstr ""
+"<strong>* Asegúrese de que arrastre a la lista ‘No permitido’ todos los "
+"elementos que pertenecen a cualquier plugin que seran desactivación para "
+"evitar conflictos una vez que reordenar la lista de 'Permitidos' y reactivar "
+"los plugins.</strong>"
+
+#: admin/umbg-admin.php:2770
+#, php-format
+msgid ""
+"<strong>**</strong> Please note that %1$s will render some custom post types "
+"titles by their name, i.e. bbPress forum post type will render as 'bbPress "
+"Forums' instead of 'CPT: forum' and 'Easy Digital Downloads download_tag' as "
+"'EDD Tags'."
+msgstr ""
+"<strong>**</strong> Tenga en cuenta que %1$s presentarán algunos custom post "
+"títulos por su nombre, es decir, tipo Foro bbPress se rinde como ‘bbPress "
+"Foros’ en vez de ‘ CPT: Foro ‘ y ‘Easy Digital Download download_tag’ como "
+"‘EDD Etiquetas’."
+
+#: admin/umbg-admin.php:2791
+#, php-format
+msgid ""
+"When %1$s detects multiple videos for an item it selects one of them to "
+"play. Latest Published: Plays most recently published %1$s for the item. "
+"Latest Modified: Plays most recently modified (updated) %1$s for the item. "
+"Random: Randomly selects one of the %1$s for the item to play."
+msgstr ""
+"Cuando %1$s detecta varios vídeos para un elemento se selecciona uno de "
+"ellos para jugar. Último Publicado: Reproduce el fondo %1$s publicado más "
+"recientemente. Último Modificado: Reproduce el fondo %1$s más recientemente "
+"modificado (actualizado). Al Azar: selecciona al azar uno de los %1$s para "
+"el elemento de jugar."
+
+#: admin/umbg-admin.php:2802
+msgid "Bottom Right"
+msgstr "Abajo a la derecha"
+
+#: admin/umbg-admin.php:2805
+msgid "Bottom Left"
+msgstr "Abajo a la izquierda"
+
+#: admin/umbg-admin.php:2807
+msgid "Top Right"
+msgstr "Arriba a la derecha"
+
+#: admin/umbg-admin.php:2810
+msgid "Top Left"
+msgstr "Arriba a la izquierda"
+
+#: admin/umbg-admin.php:2817
+msgid "Icon Color:"
+msgstr "Color del Icono:"
+
+#: admin/umbg-admin.php:2823
+msgid "Background Color:"
+msgstr "Color de Fondo:"
+
+#: admin/umbg-admin.php:2857
+#, php-format
+msgid "Allow Page-Up-Down %s"
+msgstr "Permitir Página-Arriba-Abajo %s"
+
+#: admin/umbg-admin.php:2860 admin/umbg-admin.php:2884
+#, php-format
+msgid "%s Html Element:"
+msgstr "% s Html Elemento:"
+
+#: admin/umbg-admin.php:2865
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed to be scroll up "
+"and down to have a better view of the video. You can use this feature with a "
+"marketing video, etc. Use %1$s Html Element to enter the HTML element id "
+"name or class name to use with %1$s. This element will be what gets scrolled "
+"up and down when %1$s is enabled. The default is #page, which is the HTML "
+"element id for WordPress default themes. For Twenty-Fifteen theme you can "
+"also use #primary with good results. Other effects can be achieve by editing "
+"your theme CSS files. Remember to use proper WordPress techniques such as <a "
+"href=\"http://codex.wordpress.org/Child_Themes\" target=\"_blank\">child "
+"themes</a> so that theme updates don't delete your CSS changes."
+msgstr ""
+"%1$s permite que la página donde un fondo %2$s esta mostrado se pueda "
+"desplazarse hacia arriba y hacia abajo para tener una mejor visión del "
+"video; es decir, se puede utilizar esta función con un vídeo de marketing. "
+"Use %1$s Html Elemento para introducir el nombre Identificación del elemento "
+"html o nombre de la clase de usar con %1$s. Este elemento será lo que se "
+"desplaza arriba y abajo cuando %1$s está activado. El valor predeterminado "
+"es #page, que es el identificador de elemento HTML para temas por defecto de "
+"Wordpress. Para Twenty-Fifteen tema también puede utilizar #primary con "
+"buenos resultados. Otros efectos pueden lograrse mediante la edición de los "
+"archivos CSS del tema, como la adición de un valor bajo de opacidad para "
+"hacer secciones necesarias transparente. Recuerde utilizar las técnicas "
+"adecuadas, tales como Wordpress temas hijo para que los cambios temáticos no "
+"eliminan los cambios de estilo CSS."
+
+#: admin/umbg-admin.php:2881
+#, php-format
+msgid "Allow Fade-In-Out %s"
+msgstr "Permitir Fade-In-Out %s"
+
+#: admin/umbg-admin.php:2889
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed to have an opacity "
+"(transperancy) effect to give a better view of the video. Use %1$s Html "
+"Element to enter the HTML element id name or class name to use with %1$s. "
+"This element will be what gets the opacity applied too when %1$s is enabled. "
+"The default is #page, which is the HTML element id for WordPress default "
+"themes. For Twenty-Fifteen theme you can also use #primary with good "
+"results. Other effects can be achieve by editing your theme CSS files and/or "
+"selectiong other elements. Remember to use proper WordPress techniques such "
+"as <a href=\"http://codex.wordpress.org/Child_Themes\" target=\"_blank"
+"\">child themes</a> when using custom CSS styles so theme updates don't "
+"delete your CSS changes."
+msgstr ""
+"%1$s permite que la página donde se muestra un fondo %2$s para tener un "
+"efecto de opacidad (transparencia) para dar una mejor vista del medio. Use "
+"%1$s Html Elemento para introducir el nombre Identificación del elemento "
+"html o nombre de la clase de usar con %1$s. Este elemento será lo que se "
+"pone la opacidad aplicado cuando %1$s está habilitado. El valor "
+"predeterminado es #page, que es el html Identificación del elemento de temas "
+"por defecto de Wordpress. Para Twenty-Fifteen tema también puede utilizar "
+"#primary con buenos resultados. Otros efectos pueden ser logrados editando "
+"tus archivos CSS del tema y / o selección de otros elementos. Recuerde "
+"utilizar las técnicas adecuadas de Wordpress como <a href=“http://codex."
+"wordpress.org/Child_Themes” target=“_blank”>Child Themes</a> al utilizar "
+"estilos CSS personalizado para actualizaciones temáticos no eliminan su "
+"cambios de estilo CSS."
+
+#: admin/umbg-admin.php:2926
+#, php-format
+msgid ""
+"Mobile devices do not autoplay videos and %1$s replaces them with a poster "
+"image that you select in the 'Add New' or 'Edit' page. You may choose not to "
+"display video backgrounds on mobile devices by enabling 'Disable video "
+"backgrounds only'. Image and color backgrounds will display on mobile "
+"devices unless you enable 'Disable all backgrounds'. You may also choose not "
+"to display on mobile phones only by enabling 'Disable on mobile phones only'."
+msgstr ""
+"La reproducción automática de videos en dispositivos móviles no funciona y "
+"%1$s los reemplaza con una imagen del cartel que usted seleccione en la "
+"página de ‘Agregar Nuevo’ o ‘Editar’. Puede elegir no mostrar fondos de "
+"video en dispositivos móviles permitiendo ’Desactivar sólo fondos de vídeo’. "
+"Fondos de imagen y de color se muestran en dispositivos móviles a menos que "
+"activas ‘Desactivar todos los fondos.’. También puede optar por desactivar "
+"solamente en los teléfonos móviles permitiendo a ‘Desactivar sólo en los "
+"teléfonos móviles’."
+
+#: admin/umbg-admin.php:2940
+msgid "Show video and poster preview thumbnails"
+msgstr "Mostrar vídeo y posters miniaturas de vista previa"
+
+#: admin/umbg-admin.php:2942
+msgid ""
+"Show the video and poster preview thumbnails on the 'Add New' and 'Edit' "
+"pages by enabling this feature."
+msgstr ""
+"Mostrar las miniaturas de vídeo y el cartel de vista previa de las páginas "
+"en \"Añadir Nueva 'y' Editar 'al permitir esta función."
+
+#: umbg.php:92
+msgctxt "add new background"
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: umbg.php:93
+#, php-format
+msgid "Add New %s Background"
+msgstr "Añadir Nuevo Fondo %s"
+
+#: umbg.php:94
+#, php-format
+msgid "Edit %s Background"
+msgstr "Editar %s Fondo"
+
+#: umbg.php:95
+#, php-format
+msgid "New %s Background"
+msgstr "Nuevo %s Fondo"
+
+#: umbg.php:96
+#, php-format
+msgid "View %s Background"
+msgstr "Ver %s Fondo"
+
+#: umbg.php:97
+#, php-format
+msgid "Search %s Backgrounds"
+msgstr "Buscar %s Fondos"
+
+#: umbg.php:98
+#, php-format
+msgid "No %s backgrounds found"
+msgstr "No hay fondos %s encontrados."
+
+#: umbg.php:99
+#, php-format
+msgid "No %s backgrounds found in Trash"
+msgstr "No hay fondos %s en la papelera."
+
+#: umbg.php:100
+msgid "Parent Background:"
+msgstr "Padre del Fondo"
+
+#: umbg.php:106
+msgid "Add a media background to any page."
+msgstr "Añadir un fondo de medios a cualquier página."
+
+#~ msgid "Media URL Link"
+#~ msgstr "Enlace de Media Link"
+
+#~ msgid ""
+#~ "<strong>Allow To Display:</strong> Drag each item into the Allowed On "
+#~ "section to allow %1$s to be display on such items or drag each item into "
+#~ "the Disallowed On section to disallow. (Mobile friendly draggable)"
+#~ msgstr ""
+#~ "<strong>Permitir Que Se Vea:</strong> Arrastra cada elemento al área "
+#~ "Permitidos En para permitir fondos %s que sean mostrados en dichos "
+#~ "elementos, o arrastre todos los elementos al área No Permitido para no "
+#~ "permitir que se muestren (funcionalidad de arrastrar es amigable móvil)."
+
+#~ msgid ""
+#~ "<strong>CPT:</strong> Custom Post Types. Custom post types installed on "
+#~ "your WordPress site.<br /><strong>CPC:</strong> Custom Post Categories. "
+#~ "These are categories, terms, and/or taxonomies of custom post types.<br /"
+#~ "><strong>*</strong> Please note that %1$s will render some custom post "
+#~ "types titles by their name, i.e. bbPress forum post type will render as "
+#~ "'bbPress Forums' instead of 'CPT: forum' and 'Easy Digital Downloads "
+#~ "download_tag' as 'EDD Tags'."
+#~ msgstr ""
+#~ "<strong>CPT:</strong> Custom Post Tipos. Tipos de custom post instalado "
+#~ "en su sitio de WordPress <br /><strong>CPC:</strong> Custom Post "
+#~ "Categorías. Estas son las categorías, términos y/o taxonomías de tipos de "
+#~ "custom post.<br /><strong>*</strong> Por favor, tenga en cuenta que %1$s "
+#~ "títula algunos custom post por su nombre, por ejemplo, es decir foros "
+#~ "bbPress  rendirá como ‘bbPress Foros' en vez de 'CPT: foro' y Easy "
+#~ "Digital Download ‘download_tag' como 'EDD Etiquetas \"."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$s adds a couple new features to "
+#~ "display and manage full screen backgrounds."
+#~ msgstr ""
+#~ "Gracias por instalar! %1$s versión %2$s agrega dos nuevas funciones para "
+#~ "mostrar y administrar los fondos de pantalla completa."
+
+#~ msgid "Custom Post Types."
+#~ msgstr "Custom Post Tipos."
+
+#~ msgid ""
+#~ "Add media backgrounds to custom post types that are installed on your "
+#~ "WordPress site."
+#~ msgstr ""
+#~ "Añadir fondos de custom post tipos que se instalan en su sitio de "
+#~ "WordPress."
+
+#~ msgid "Custom Post Categories."
+#~ msgstr "Categories de Custom Post"
+
+#~ msgid ""
+#~ "These are categories, terms, and/or taxonomies of custom post types that "
+#~ "you can also select to display media backgrounds."
+#~ msgstr ""
+#~ "Estas son las categorías, términos y / o taxonomías de tipos de custom "
+#~ "post que también se puede seleccionar para mostrar fondos de medios."
+
+#~ msgid ""
+#~ "Auto playback has always been part of UMBG media backgrounds, but now you "
+#~ "can select not to start the media with auto playback."
+#~ msgstr ""
+#~ "Reproducción automática siempre ha sido parte de los fondos de UMBG, pero "
+#~ "ahora usted puede seleccionar no comenzar los fondos con la reproducción "
+#~ "automática."
+
+#~ msgid ""
+#~ "Change plugin's folder structure to limit unnecessary code loading and "
+#~ "other minor code enhancements."
+#~ msgstr ""
+#~ "Cambios en la estructura de carpetas para limitar la carga de código "
+#~ "innecesario y otras mejoras del código de menores."
+
+#~ msgid "Custom Post Category: "
+#~ msgstr "Categories de Custom Post:"
+
+#~ msgid "Custom Post Type: "
+#~ msgstr "Custom Post Tipos:"
+
+#~ msgid "CPT: %1$s"
+#~ msgstr "CPT: %1$s"
+
+#~ msgid "CPC: %1$s"
+#~ msgstr "CPC: %1$s"
+
+#~ msgid ""
+#~ "<strong>CPT:</strong> Custom Post Types. New post types installed on your "
+#~ "WordPress site.<br /><strong>CPC:</strong> Custom Post Categories. These "
+#~ "are categories, terms, and/or taxonomies of custom post types."
+#~ msgstr ""
+#~ "<strong> CPT: </ strong> Custom Post Tipos. Los nuevos custom post tipos "
+#~ "instalados en su sitio de WordPress <br /> <strong> CPC:. </ Strong> "
+#~ "Custom Post Categorías. Estas son las categorías, términos y/o taxonomías "
+#~ "de custom post tipos."
+
+#~ msgid ""
+#~ "<strong>Priority Level (PL):</strong> Drag/Sort each item into the order "
+#~ "you prefer to set the Priority Level (Top is the highest). Priority Level "
+#~ "sets the importance when a %1$s background has been created for at least "
+#~ "two of the Allowed On items (i.e. Lets say you have Priority Level of "
+#~ "Author=1 & Category=2 and you have created different %1$s backgrounds for "
+#~ "author John and category Uncategorized. You browse to the post by John in "
+#~ "category Uncategorized then the %1$s background that will play will be "
+#~ "the one for John since Authors have a higher Priority Level)."
+#~ msgstr ""
+#~ "<strong>Nivel de Prioridad (PL):</strong> Clasificar cada elemento en el "
+#~ "orden que prefiera arrastrándolos (superior es la prioridad más alta). "
+#~ "Nivel de prioridad establece la importancia entre los fondos %1$s creados "
+#~ "para el mismo elemento. (es decir, digamos que usted tiene Prioridad de "
+#~ "Autor = 1 y Categoría = 2 y que ha creado diversos fondos %1$s para el "
+#~ "autor John y para la categoría Uncategorized. Usted navega para el puesto "
+#~ "por Juan en la categoría Uncategorized entonces el fondo %1$s que se "
+#~ "mostrará es el de John por que Autores tienen un nivel de prioridad más "
+#~ "alta que las Categorías)."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$s adds many new features to "
+#~ "display and manage full screen backgrounds. Now with full support for "
+#~ "custom post types."
+#~ msgstr ""
+#~ "Gracias por instalar! %1$s versión %2$s añade muchas nuevas "
+#~ "características para mostrar y administrar los fondos de pantalla "
+#~ "completa. Ahora con soporte completo para custom post tipos."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$s adds many new features to "
+#~ "display and manage full screen backgrounds. New features include "
+#~ "WooCommerce product pages support."
+#~ msgstr ""
+#~ "Gracias por la instalación! %1$s versión %2$s agrega muchas "
+#~ "características nuevas para visualizar y gestionar fondos de pantalla "
+#~ "completa. Las nuevas características incluyen páginas de productos "
+#~ "WooCommerce."
+
+#~ msgid "Compatability with PHP 5.2 and 5.3."
+#~ msgstr "Ahora con PHP 5.2 y 5.3 compatibilidad."
+
+#~ msgid ""
+#~ "%1$s no longer requires just PHP 5.4 and greater, now it is also "
+#~ "compatible with version 5.2 and 5.3."
+#~ msgstr ""
+#~ "%1$s requiere no sólo PHP 5.4 y más, ahora también es compatible con la "
+#~ "versión 5.2 y 5.3."
+
+#~ msgid "Display the play, audio, & %1$s buttons."
+#~ msgstr "Mostrar los botones de play, audio, y %1$s."
+
+#~ msgid ""
+#~ "%1$s lets you set an opacity (transparency) effect for a better view of "
+#~ "the media background. <strong>Fade-Out on start:</strong> the page HTML "
+#~ "element will fade out when the media playback starts. <strong>Fade-In on "
+#~ "end:</strong> the page HTML element will fade in when the media playback "
+#~ "ends or the first loop ends. Use Opacity to set the amount of opacity for "
+#~ "the page html element. Use <b>Opacity</b> to set the amount of opacity "
+#~ "for the page html element. You must set the FIO HTML Element in <a href="
+#~ "\"%2$s\">%3$s Settings</a> for FIO to work."
+#~ msgstr ""
+#~ "%1$s le permite establecer un efecto de opacidad (transparencia) para una "
+#~ "mejor visión del fondo. <strong>Fade-Out en inicio:</ strong> la página "
+#~ "de elemento HTML se desvanecerá de salida cuando se inicia la "
+#~ "reproducción de medios. <strong>Fade-In en acabar:</ strong> la página de "
+#~ "elemento HTML se desvanecerá en cuando la reproducción de medios termina "
+#~ "o el primer bucle termina. Utilice <strong>Opacidad</strong> para ajustar "
+#~ "la cantidad de opacidad para el elemento de página HTML. Debe establecer "
+#~ "el elemento de pagina HTML de FIO en <a href=\"%2$s\">%3$s Ajustes </a> "
+#~ "para que FIO trabaje."
+
+#~ msgid "Display the play, audio, &amp; %1$s buttons."
+#~ msgstr "Mostrar los botones de play, audio, y %1$s."
+
+#~ msgid ""
+#~ "%1$s allows the page where a UMBG background is displayed to have an "
+#~ "opacity (transperancy) effect to give a better view of the video. Use "
+#~ "<strong>%1$s Html Element</strong>o to enter the html element id name or "
+#~ "class name to use with %1$s. This element will be what gets the opacity "
+#~ "applied too when %1$s is enabled. The default is #page, which is the html "
+#~ "element id for WordPress default themes. For Twenty-Fifteen theme you can "
+#~ "also use #primary with good results."
+#~ msgstr ""
+#~ "%1$s permite que la página en la que aparece un fondo UMBG a tener un "
+#~ "efecto de opacidad (transparencia) para dar una mejor vista del medio. "
+#~ "Utilice <strong>%1$s elemento HTML </strong> o introducir el nombre "
+#~ "Identificación del elemento html o nombre de la clase de usar con %1$s. "
+#~ "Este elemento será lo que se pone la opacidad aplicado también cuando "
+#~ "%1$s está habilitado. El valor predeterminado es #page, que es el html "
+#~ "Identificación del elemento de temas por defecto de WordPress. Para "
+#~ "Twenty-Fifteen tema también puede utilizar #primary con buenos resultados."
+
+#~ msgid ""
+#~ "%1$s allows the page where a %2$s background is displayed to be scroll up "
+#~ "and down to have a better view of the video. You can use this feature "
+#~ "with a marketing video, etc. Use %1$s Html Element to enter the html "
+#~ "element id name or class name to use with %1$s. This element will be what "
+#~ "gets scrolled up and down when %1$s is enabled. The default is #page, "
+#~ "which is the html element id for WordPress default themes. For Twenty-"
+#~ "Fifteen theme you can also use #primary with good results. Other effects "
+#~ "can be achieve by editing your theme CSS files. Remember to use proper "
+#~ "WordPress techniques such as <a href=\"http://codex.wordpress.org/"
+#~ "Child_Themes\" target=\"_blank\">child themes</a> so that theme updates "
+#~ "don't delete your CSS changes."
+#~ msgstr ""
+#~ "%1$s permite que la página donde un fondo %2$s esta mostrado se pueda "
+#~ "desplazarse hacia arriba y hacia abajo para tener una mejor visión del "
+#~ "video; es decir, se puede utilizar esta función con un vídeo de "
+#~ "marketing. Use %1$s Html Elemento para introducir el nombre "
+#~ "Identificación del elemento html o nombre de la clase de usar con %1$s. "
+#~ "Este elemento será lo que se desplaza arriba y abajo cuando %1$s está "
+#~ "activado. El valor predeterminado es #page, que es el identificador de "
+#~ "elemento HTML para temas por defecto de WordPress. Para Twenty-Fifteen "
+#~ "tema también puede utilizar #primary con buenos resultados. Otros efectos "
+#~ "pueden lograrse mediante la edición de los archivos CSS del tema, como la "
+#~ "adición de un valor bajo de opacidad para hacer secciones necesarias "
+#~ "transparente. Recuerde utilizar las técnicas adecuadas, tales como "
+#~ "WordPress temas hijo para que los cambios temáticos no eliminan los "
+#~ "cambios de estilo CSS."
+
+#~ msgid ""
+#~ "%1$s allows the page where a %2$s background is displayed to have an "
+#~ "opacity (transperancy) effect to give a better view of the video. Use "
+#~ "%1$s Html Element to enter the html element id name or class name to use "
+#~ "with %1$s. This element will be what gets the opacity applied too when "
+#~ "%1$s is enabled. The default is #page, which is the html element id for "
+#~ "WordPress default themes. For Twenty-Fifteen theme you can also use "
+#~ "#primary with good results. Other effects can be achieve by editing your "
+#~ "theme CSS files and/or selectiong other elements. Remember to use proper "
+#~ "WordPress techniques such as <a href=\"http://codex.wordpress.org/"
+#~ "Child_Themes\" target=\"_blank\">child themes</a> when using custom CSS "
+#~ "styles so theme updates don't delete your CSS changes."
+#~ msgstr ""
+#~ "%1$s permite que la página donde se muestra un fondo %2$s para tener un "
+#~ "efecto de opacidad (transparencia) para dar una mejor vista del medio. "
+#~ "Use %1$s Html Elemento para introducir el nombre Identificación del "
+#~ "elemento html o nombre de la clase de usar con %1$s. Este elemento será "
+#~ "lo que se pone la opacidad aplicado cuando %1$s está habilitado. El valor "
+#~ "predeterminado es #page, que es el html Identificación del elemento de "
+#~ "temas por defecto de WordPress. Para Twenty-Fifteen tema también puede "
+#~ "utilizar #primary con buenos resultados. Otros efectos pueden ser "
+#~ "logrados editando tus archivos CSS del tema y / o selección de otros "
+#~ "elementos. Recuerde utilizar las técnicas adecuadas de WordPress como <a "
+#~ "href=\"http://codex.wordpress.org/Child_Themes\" target=\"_blank\">Child "
+#~ "Themes</a> al utilizar estilos CSS personalizado para actualizaciones "
+#~ "temáticos no eliminan su cambios de estilo CSS."
+
+#~ msgid ""
+#~ "%s on start functionality, image transition fade effect, and resizing for "
+#~ "mobile devices."
+#~ msgstr ""
+#~ "%s en la funcionalidad de inicio, efecto de fundido de transición de "
+#~ "imágenes, y cambiar el tamaño de los dispositivos móviles."
+
+#~ msgid "Go to UMBG Settings"
+#~ msgstr "Vaya a Configuración %s"
+
+#~ msgid "Welcome to %1$s %2$d"
+#~ msgstr "Bienvenido a %1$s %2$d"
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$d adds many new features to "
+#~ "display and manage full screen backgrounds. New features include "
+#~ "WooCommerce product pages support."
+#~ msgstr ""
+#~ "Gracias por la instalación! %1$s versión %2$d agrega muchas "
+#~ "características nuevas para visualizar y gestionar fondos de pantalla "
+#~ "completa. Las nuevas características incluyen páginas de productos "
+#~ "WooCommerce."
+
+#~ msgid ""
+#~ "%1$s lets you set an opacity (transparency) effect for a better view of "
+#~ "the media background. <strong>Fade-Out on start:</strong> the page HTML "
+#~ "element will fade out when the media playback starts. <strong>Fade-In on "
+#~ "end:</strong> the page HTML element will fade in when the media playback "
+#~ "ends or the first loop ends. Use Opacity to set the amount of opacity for "
+#~ "the page html element."
+#~ msgstr ""
+#~ "%1$s le permite establecer un efecto de opacidad (transparencia) para una "
+#~ "mejor visión del fondo. <strong>Fade-Out en inicio:</ strong> la página "
+#~ "de elemento HTML se desvanecerá de salida cuando se inicia la "
+#~ "reproducción de medios. <strong>Fade-In en acabar:</ strong> la página de "
+#~ "elemento HTML se desvanecerá en cuando la reproducción de medios termina "
+#~ "o el primer bucle termina. Utilice Opacidad para ajustar la cantidad de "
+#~ "opacidad para el elemento de página HTML."
+
+#~ msgid ""
+#~ "%1$s lets you set an opacity (transparency) effect for a better view of "
+#~ "the media background. <b>Fade-Out on start:</b> opacity effect will be "
+#~ "applied to the page HTML element when the media playback starts. <b>Fade-"
+#~ "In on end:</b> the opacity effect will be remove from the page HTML "
+#~ "element automaticaly when the media playback ends or the first loop ends. "
+#~ "Use <b>Opacity</b> to set the amount of opacity for the page html "
+#~ "element. You must set the FIO HTML Element in <a href=\"%2$s\">%3$s "
+#~ "Settings</a> for FIO to work."
+#~ msgstr ""
+#~ "%1$s le permite establecer un efecto de opacidad (transparencia) para una "
+#~ "mejor visión del fondo. <strong>Fade-Out en inicio:</ strong> la página "
+#~ "de elemento HTML se desvanecerá de salida cuando se inicia la "
+#~ "reproducción de medios. <strong>Fade-In en acabar:</ strong> la página de "
+#~ "elemento HTML se desvanecerá en cuando la reproducción de medios termina "
+#~ "o el primer bucle termina. Utilice Opacidad para ajustar la cantidad de "
+#~ "opacidad para el elemento de página HTML."
+
+#~ msgid ""
+#~ "%1$s lets you set an opacity (transparency) effect for a better view of "
+#~ "the media background. <strong>Fade-In on start:</strong> opacity effect "
+#~ "will be applied to the page HTML element when the media playback starts. "
+#~ "<strong>Fade-In on end:</strong> the opacity effect will be remove from "
+#~ "the page HTML element automaticaly when the media playback ends or the "
+#~ "first loop ends. Use Opacity to set the amount of opacity for the page "
+#~ "html element."
+#~ msgstr ""
+#~ "%1$s le permite establecer un efecto de opacidad (transparencia) para una "
+#~ "mejor visión de los medios. <strong>Fade-In en inicio:</ strong> efecto "
+#~ "de opacidad se aplicará a la página de elemento HTML cuando se inicia la "
+#~ "reproducción de medios. <strong>Fade-In en la final:</ strong> el efecto "
+#~ "de opacidad será retirar del elemento de página HTML de forma automática "
+#~ "cuando la reproducción de medios termina o el primer bucle termina. "
+#~ "Utilice Opacidad para ajustar la cantidad de opacidad para el elemento de "
+#~ "página HTML."
+
+#~ msgid ""
+#~ "Note: Priority Level (PL) determines which background media will play "
+#~ "when Authors, Categories, Posts, Pages, or other Custom Post Tyes are "
+#~ "selected. Check your <a href=\"%1$s\">%2$s Settings</a> for your priority "
+#~ "levels."
+#~ msgstr ""
+#~ "Nota: Nivel de prioridad (PL) determina los medios de fondo que se "
+#~ "reproducirá cuando Autores, Categorías, Entradas, u otros Tyes Pon "
+#~ "personalizados. Revise su <a href=\"%1$s\">% 2 $ s Ajustes </a> para sus "
+#~ "niveles de prioridad."
+
+#~ msgid ""
+#~ "Select the Authors, Categories, Pages, and/or Posts the %s background "
+#~ "will be append/display on."
+#~ msgstr ""
+#~ "Seleccione los Autores, Categorías, Páginas y / o Entradas que el fondo "
+#~ "%s será anexado / mostrado en."
+
+#~ msgid ""
+#~ "<b>Windows:</b> Hold down the control (ctrl) key to select multiple "
+#~ "options."
+#~ msgstr ""
+#~ "<b>Windows:</ b> Mantenga pulsada la tecla Control (Ctrl) para "
+#~ "seleccionar múltiples opciones."
+
+#~ msgid ""
+#~ "<b>Mac:</b> Hold down the command (cmd ⌘) key to select multiple options."
+#~ msgstr ""
+#~ "<b> Mac: </ b> Mantenga pulsado el Comando (cmd ⌘) para seleccionar "
+#~ "múltiples opciones."
+
+#~ msgid ""
+#~ "<b>Mobile:</b> Tap on the select box and tap on each option to select "
+#~ "multiples."
+#~ msgstr ""
+#~ "<b> Móvil: </ b> Pulse sobre la casilla de selección y pulse sobre cada "
+#~ "opción para seleccionar múltiples."
+
+#~ msgid ""
+#~ "With the ability to append/display %1$s backgrounds to multiple items how "
+#~ "does %1$s determines which background to display. For example, you "
+#~ "created two %1$s backgrounds, one to display video from YouTube for "
+#~ "author John Doe and the second to display an HTML5 video for the category "
+#~ "Uncategorized. You go to a post where it has author John Doe and category "
+#~ "Uncategorized. Which video will play? %1$s uses Priority Levels to "
+#~ "determine such a scenario. Priority Level determines which background "
+#~ "video will play. Check your <a href=\"%2$s\">%1$s Settings</a> for your "
+#~ "priority levels."
+#~ msgstr ""
+#~ "Con la posibilidad de anexar / mostrar %1$s fondos a varios elementos, "
+#~ "¿cómo %1$s determina el fondo para mostrar? Por ejemplo, ha creado dos "
+#~ "fondos %1$s, uno para mostrar vídeos de YouTube para el autor John Doe y "
+#~ "el segundo para mostrar un vídeo HTML5 para la categoría Uncategorized. "
+#~ "Usted va a una entrada donde tiene el autor John Doe y la categoría "
+#~ "Uncategorized. ¿Qué vídeo va mostrar? %1$s usa niveles de prioridad para "
+#~ "determinar tal escenario. Nivel de Prioridad determina qué vídeo de fondo "
+#~ "mostrarse. Revise su <a href=\"%2$s\"> Ajustes %1$s </a> para sus Niveles "
+#~ "de Prioridad."
+
+#~ msgid ""
+#~ "If not looping the media it will then stop at the end or you can choose "
+#~ "to rewind the media to the beginning without playing it again."
+#~ msgstr ""
+#~ "Si no bucle el medio entonces a continuación se parará al final o se "
+#~ "puede elegir para retroceder el medio al principio sin jugar de nuevo."
+
+#~ msgid "Enable or disable playing the video with audio."
+#~ msgstr "Activar o desactivar la reproducción del vídeo con audio."
+
+#~ msgid ""
+#~ "Use with caution, enlarge only what is necessary. Useful for hosted "
+#~ "videos such as YouTube and Vimeo to hide unwanted objects. Remember that "
+#~ "the more you enlarge the video the more chances it may lead to choppy "
+#~ "video play."
+#~ msgstr ""
+#~ "Utilizar con precaución, agrandar solo lo necesario. Útiles para vídeos "
+#~ "alojados como YouTube y Vimeo para ocultar objetos no deseados. Recuerde "
+#~ "que cuanto más se agranda el video más posibilidades que puede provocar "
+#~ "la reproducción del vídeo entrecortado."
+
+#~ msgid ""
+#~ "<b>Windows:</b> Hold down the Control (Ctrl) key to select multiple "
+#~ "options."
+#~ msgstr ""
+#~ "<b>Windows:</ b> Mantenga pulsada la tecla Control (Ctrl) para "
+#~ "seleccionar múltiples opciones."
+
+#~ msgid ""
+#~ "<b>Mac:</b> Hold down the Command (Cmd ⌘) key to select multiple options."
+#~ msgstr ""
+#~ "<b> Mac: </ b> Mantenga pulsada la tecla Comando (Cmd ⌘) para seleccionar "
+#~ "múltiples opciones."
+
+#~ msgid ""
+#~ "Priority Level (PL) determines which background video will play when "
+#~ "Authors, Categories, Posts, or Pages are selected. Check your <a href="
+#~ "\"%1$s\">%2$s Settings</a> for your priority levels."
+#~ msgstr ""
+#~ "Nivel de Prioridad (PL) determina qué fondo de vídeo se reproducirá "
+#~ "cuando se seleccionan los autores, Categorías, Entradas, o Páginas. "
+#~ "Revise su <a href=\"%1$s\">Ajustes %2$s</a> para sus niveles de prioridad."
+
+#~ msgid ""
+#~ "Show the video and poster preview thumbnails on the 'Add New' and 'Edit' "
+#~ "pages by enabling this feature . The media preview and poster preview "
+#~ "will be display as a thumbnail size."
+#~ msgstr ""
+#~ "Al habilitar esta función, puede mostrar el video y póster vista previa "
+#~ "en miniatura en las páginas Editar y Añadir Nuevo. La vista preliminar "
+#~ "del medio y del póster estará en un tamaño de miniatura."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$s continues to bring a great "
+#~ "way to display and manage full screen backgrounds."
+#~ msgstr ""
+#~ "Gracias por instalar! %1$s versión %2$s continúa brindando una gran "
+#~ "manera de mostrar y manejar fondos de pantalla completa."
+
+#~ msgid "Display full screen media backgrounds with ease."
+#~ msgstr "Mostrar fondos multimedia de pantalla completa con facilidad."
+
+#~ msgid ""
+#~ "Page-Up-Down (%1$s) allows the page to be scroll up and down to allow "
+#~ "full view of the video. You can also select if %1$s will scroll the page "
+#~ "down when the media playback starts and/or if it will scroll up when the "
+#~ "media playback ends. You can also keep part of the page in view, such as "
+#~ "the logo and navigation, during the %1$s down status."
+#~ msgstr ""
+#~ "Página-Up-Down (%1$s) permite que la página se desplácese hacia arriba y "
+#~ "hacia abajo para permitir la visión completa del vídeo. También puede "
+#~ "seleccionar si %1$s se desplazará la página hacia abajo cuando comienza "
+#~ "la reproducción de los medios y/o si se desplazará hacia arriba cuando "
+#~ "termina la reproducción de los medios. También puede mantener parte de la "
+#~ "página en la vista, como el logotipo y la navegación, durante el estado "
+#~ "de %1$s abajo."
+
+#~ msgid "Now With PHP 5.3 Compatibility."
+#~ msgstr "Ahora con PHP 5.3 compatibilidad."
+
+#~ msgid ""
+#~ "%1$s no longer requires just PHP 5.4 and greater, now it is also "
+#~ "compatible with version 5.3."
+#~ msgstr ""
+#~ "%1$s requiere no sólo PHP 5.4 y más, ahora también es compatible con la "
+#~ "versión 5.3."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$s brings you a great way to "
+#~ "display and manage full screen multimedia backgrounds."
+#~ msgstr ""
+#~ "Gracias por la instalación de usted! %1$s versión %2$s le trae una gran "
+#~ "manera de mostrar y manejar fondos de pantalla multimedia completo."
+
+#~ msgid ""
+#~ "Display the play, audio, & %1$s buttons. To use %1$s feature, Display "
+#~ "Controls must be enable."
+#~ msgstr ""
+#~ "Mostrar los botones de play, audio, y %1$s. Para utilizar la función de "
+#~ "%1$s, Mostrar los Controles ha de ser activado."
+
+#~ msgid ""
+#~ "%1$s allows the page to be scroll up and down to have a better view of "
+#~ "the video; i.e. you can use this feature with a marketing video. Start "
+#~ "with %1$s down: the page will scroll down when the media playback starts. "
+#~ "End with %1$s up: the page will automatically scroll up when the media "
+#~ "playback ends or the first loop ends. Use \"How much to show...\" to keep "
+#~ "part of the page in view such as to show the logo and navigation during "
+#~ "the %1$s down status. To use %1$s feature, Display Controls must be "
+#~ "enable."
+#~ msgstr ""
+#~ "%1$s permite que la página pueda desplazarse hacia arriba y hacia abajo "
+#~ "para tener una mejor visión del video; es decir, se puede utilizar esta "
+#~ "función con un vídeo de marketing. Comience con %1$s abajo: la página se "
+#~ "desplazará automáticamente hacia abajo cuando se inicia la reproducción "
+#~ "de medios. Terminar con %1$s arriba: la página se desplazará "
+#~ "automáticamente hacia arriba cuando la reproducción de medios termina o "
+#~ "el primer bucle termina. Use la opción \"¿Cuánto mostrar ...\" para "
+#~ "mantener parte de la página en la vista como para mostrar el logotipo y "
+#~ "la navegación durante el estado %1$s abajo. Para utilizar la función de "
+#~ "%1$s, Mostrar los Controles ha de ser activado."
+
+#~ msgid ""
+#~ "Display the play, audio, &amp; %1$s buttons. To use %1$s, <b>Display "
+#~ "Controls</b> option must be enable."
+#~ msgstr ""
+#~ "Mostrar los botones de play, audio, y %1$s. Para utilizar la función de "
+#~ "%1$s, Mostrar los Controles ha de ser activado."
+
+#~ msgid ""
+#~ "Unlike other plugins that make you go all over your WordPress website to "
+#~ "find where you want to insert your short code, with %1$s you simply "
+#~ "select the authors, categories, posts, and/or pages right from the create "
+#~ "or edit screen. No short codes needed."
+#~ msgstr ""
+#~ "A diferencia de otros plugins que te hacen ir por todas partes de su "
+#~ "sitio de WordPress para encontrar dónde debe insertar el código corto, "
+#~ "con %1$s simplemente seleccione los Autores, Categorías, Entradas, y/o "
+#~ "Páginas desde la pantalla de crear o editar. No hay uso de códigos cortos."
+
+#~ msgid "Flat iDevices Mockup is copyrighted work of Lassi Vehviläinen."
+#~ msgstr ""
+#~ "Flat iDevices Mockup es propiedad intelectual obra de Lassi Vehviläinen."
+
+#~ msgid ""
+#~ "For images you can select an image uploaded to your WordPress site by "
+#~ "clicking the Select Image button (you can select multiple images) or you "
+#~ "can enter the image's location: i.e. http://mywebsite.com/wp-content/"
+#~ "uploads/2015/01/myimagefile.jpg. If entering several images location "
+#~ "manually you need to separate each with a comma. When multiple images are "
+#~ "selected %s displays them as a slide show."
+#~ msgstr ""
+#~ "Para las imágenes se puede seleccionar una imagen cargada a su sitio de "
+#~ "WordPress haciendo clic en el botón Seleccionar Imagen (puede seleccionar "
+#~ "varias imágenes) o puede introducir la ubicación de la imagen: es decir "
+#~ "http://misitioweb.com/wp-content/uploads/2015/01/miarchivoimagen.jpg. Si "
+#~ "entra varias ubicaciónes manualmente necesita separar cada uno con una "
+#~ "coma. Cuando se seleccionan varias imágenes %s los muestra como una "
+#~ "presentación de diapositivas."
+
+#~ msgid ""
+#~ "Enter the video's poster location with the file extension: i.e. http://"
+#~ "mywebsite.com/wp-content/uploads/2015/01/myvideoposter.jpg. %s uses the "
+#~ "poster to display it to mobile devices instead of the video since they "
+#~ "don't support auto playback. If you leave it blank it will display the "
+#~ "page's background color. You can use the Remove Poster link to remove the "
+#~ "poster image."
+#~ msgstr ""
+#~ "Ingresa la ubicación del póster del vídeo con la extensión de archivo: es "
+#~ "decir http://misitioweb.com/wp-content/uploads/2015/01/micarteldelvideo."
+#~ "jpg. % s utiliza el póster para que se muestre a los dispositivos móviles "
+#~ "en lugar del video, ya que no son compatibles con la reproducción "
+#~ "automática. Si lo deja en blanco, se mostrará el color de fondo de la "
+#~ "página. Usted puede utilizar el enlace Eliminar Cartel para eliminar la "
+#~ "imagen del póster."
+
+#~ msgid ""
+#~ "Mobile devices do not autoplay videos and %1$s replaces them with a "
+#~ "poster image that you select in the 'Add New' or 'Edit' page. You may "
+#~ "choose not to display video backgrounds on mobile devices by enabling "
+#~ "'Disable video backgrounds only'. Image and color backgrounds will "
+#~ "display on mobile devices unless you enable 'Disable all backgrounds'."
+#~ msgstr ""
+#~ "Los dispositivos móviles no pueden reproducir automáticamente vídeos y "
+#~ "%1$s los reemplaza con un imagen del cartel que seleccione en la página "
+#~ "de ‘Añadir Nuevo' o 'Editar '. Usted puede optar por no mostrar fondos de "
+#~ "vídeo en dispositivos móviles, permitiendo 'Desactivar sólo los fondos de "
+#~ "vídeo'. Fondos de imagen y color se mostrarán en dispositivos móviles a "
+#~ "menos que se permite 'Desactivar todos los fondos \"."
+
+#~ msgid "Show Preview Thumbs"
+#~ msgstr "Mostrar Vista Previa de Pulgares"
+
+#~ msgid ""
+#~ "Show the video and poster preview thumbnails by enabling this feature on "
+#~ "the Edit and Add New pages. The media preview and poster preview will be "
+#~ "display in a thumbnail size."
+#~ msgstr ""
+#~ "Al habilitar esta función, puede mostrar el video y póster vista previa "
+#~ "en miniatura en las páginas Editar y Añadir Nuevo. La vista preliminar "
+#~ "del medio y del póster estará en un tamaño de miniatura."
+
+#~ msgid ""
+#~ "Use hosted videos from YouTube, Vimeo, Dailymotion, Wistia, or HTML5 "
+#~ "videos. They all play and look amazing with %1$s. Want to use an image "
+#~ "instead, no problem, %1$s lets you use one or more images to display "
+#~ "beautiful backgrounds. What about just a color background, may be with a "
+#~ "pattern? Yeap, that too!"
+#~ msgstr ""
+#~ "Utilice vídeos alojados en YouTube, Vimeo, Dailymotion, Wistia o vídeos "
+#~ "HTML5. Todos ellos juegan y se ven increíbles con %1$s. ¿Quieres usar una "
+#~ "imagen en lugar, no hay problema, %1$s le permite utilizar una o más "
+#~ "imágenes para mostrar hermosos fondos. ¿Qué pasa con el uso de un fondo "
+#~ "de color en su lugar, puede ser con un patrón también? Sip, eso también!"
+
+#~ msgid ""
+#~ "Allow to show the video and poster preview thumbnails on the Edit and Add "
+#~ "New pages. The video preview will load the video player in a thumbnail "
+#~ "size. The poster preview will load the image in a thumbnail size."
+#~ msgstr ""
+#~ "Permitir mostrar el vídeo y el cartel de vista previa en la página Editar "
+#~ "y Añadir Nuevo. La vista preliminar del vídeo cargará el reproductor de "
+#~ "video en un tamaño de miniatura. La vista preliminar del póster cargará "
+#~ "la imagen en un tamaño de miniatura."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s version %2$s brings you a great way to "
+#~ "display and manage multimedia backgrounds."
+#~ msgstr ""
+#~ "Gracias por instalar! %1$s versión %2$s le ofrece una gran manera de "
+#~ "mostrar y administrar fondos de multimedia."
+
+#~ msgid "Display media backgrounds with ease."
+#~ msgstr "Muestra fondos multimedia con facilidad."
+
+#~ msgid "%s Q&A"
+#~ msgstr "Preguntas y Respuestas %s"
+
+#~ msgid "%s Forums"
+#~ msgstr "Foros %s"
+
+#~ msgid ""
+#~ "Force a particular playback quality. Auto is recommended because it tries "
+#~ "to select the most appropriate playback quality depending on the video, "
+#~ "user's system, and other playback conditions."
+#~ msgstr ""
+#~ "Forzar una calidad de la reproducción en particular. Auto se recomienda "
+#~ "porque trata de seleccionar la calidad de reproducción más adecuada en "
+#~ "función del vídeo, el sistema del usuario, y otras condiciones de "
+#~ "reproducción."
+
+#~ msgid "%s Q&amp;A"
+#~ msgstr "Preguntas y Respuestas %s"
+
+#~ msgid "Video Id"
+#~ msgstr "ID de Vídeo"
+
+#~ msgid ""
+#~ "Enter the video ID only. Be careful using Dailymotion, some videos can "
+#~ "only be watch on their website and will not play. The use of Dailymotion "
+#~ "ad-free videos is strongly recommended with %s, as their ad management "
+#~ "may give unwanted results."
+#~ msgstr ""
+#~ "Ingrese sólo el ID de vídeo. Tenga cuidado al utilizar Dailymotion, "
+#~ "algunos vídeos sólo se pueden ver en su página web y no se reproducirán. "
+#~ "El uso de videos sin publicidad Dailymotion es muy recomendable con %s, "
+#~ "ya que su gestión de publicidad puede dar resultados no deseados."
+
+#~ msgid ""
+#~ "Force a particular playback quality. Auto/Default is recommended because "
+#~ "it tries to select the most appropriate playback quality depending on the "
+#~ "video, user's system, and other playback conditions."
+#~ msgstr ""
+#~ "Forzar una calidad de reproducción en particular. Se recomienda Auto/"
+#~ "Defecto porque trata de seleccionar la calidad de reproducción más "
+#~ "adecuada en función del vídeo, el sistema del usuario, y otras "
+#~ "condiciones de reproducción."
+
+#~ msgid ""
+#~ "For HTML5 videos you can select a video uploaded to your WordPress site "
+#~ "by clicking the Select Video button or you can enter the video's "
+#~ "location: i.e. http://mywebsite.com/wp-content/uploads/2015/01/"
+#~ "myvideofile.mp4. For HTML5 video cross-browser compatibility make sure "
+#~ "you have the file versions MP4, WEBM, & OGV in the same location. For "
+#~ "more information see <a target=\"_blank\" href=\"http://diveintohtml5."
+#~ "info/video.html#what-works\">HTML5 Video</a>."
+#~ msgstr ""
+#~ "Para los vídeos HTML5 puede seleccionar un video subido a su sitio de "
+#~ "WordPress haciendo clic en el botón Seleccionar Vídeo o puede introducir "
+#~ "la ubicación del vídeo: es decir, http: //misitioweb.com/wp-content/"
+#~ "uploads/2015/01/miarchivovideo.mp4. Para la compatibilidad entre "
+#~ "navegadores asegurarse de que tenga las versiones del video HTML5 en MP4, "
+#~ "WebM, y OGV en el mismo lugar. Para obtener más información sobre vídeos "
+#~ "de HTML5, consulte <a target=\"_blank\" href=\"http://diveintohtml5.info/"
+#~ "video.html\">HTML5 Video</a>."
+
+#~ msgid ""
+#~ "Enter the video ID only if its YouTube, Vimeo, Dailymotion, or Wistia. "
+#~ "For most video hosting sites the video id is placed at the end of their "
+#~ "url. For HTML5 videos you can select a video uploaded to your WordPress "
+#~ "site by clicking the Select Video button or you can enter the video's "
+#~ "location: i.e. http://mywebsite.com/wp-content/uploads/2015/01/"
+#~ "myvideofile.mp4. For cross-browser compatibility make sure you have the "
+#~ "file versions MP4, WEBM, & OGV in the same location. For more information "
+#~ "see <a target=\"_blank\" href=\"http://diveintohtml5.info/video.html#what-"
+#~ "works\">HTML5 Video</a>."
+#~ msgstr ""
+#~ "Introduzca el ID de vídeo sólo si es YouTube, Vimeo, Dailymotion o "
+#~ "Wistia. Para la mayoría de los sitios de alojamiento de vídeo la "
+#~ "identificación del vídeo se coloca al final de su url. Para los vídeos "
+#~ "HTML5 puede seleccionar un video subido a su sitio de WordPress haciendo "
+#~ "clic en el botón Seleccionar Vídeo o puede introducir la ubicación del "
+#~ "vídeo: es decir http://mywebsite.com/wp-content/uploads/2015/01/"
+#~ "myvideofile.mp4 (para compatibilidad con distintos navegadores asegúrese "
+#~ "de tener las versiones del vídeo MP4, WebM, y OGV en la misma ubicación). "
+#~ "Para obtener más información, consulte <a target=\"_blank\" href=\"http://"
+#~ "diveintohtml5.info/video.html#what-works\"> HTML5 Vídeo </a>."
+
+#~ msgid ""
+#~ "For HTML5 videos you can select a video uploaded to your WordPress site "
+#~ "by clicking the Select Video button or you can enter the video's "
+#~ "location: i.e. http://mywebsite.com/wp-content/uploads/2015/01/"
+#~ "myvideofile.mp4. For cross-browser compatibility make sure you have the "
+#~ "file versions MP4, WEBM, & OGV in the same location. For more information "
+#~ "see <a target=\"_blank\" href=\"http://diveintohtml5.info/video.html#what-"
+#~ "works\">HTML5 Video</a>."
+#~ msgstr ""
+#~ "Para los vídeos HTML5 puede seleccionar un video subido a su sitio de "
+#~ "WordPress haciendo clic en el botón Seleccionar Vídeo o puede introducir "
+#~ "la ubicación del vídeo: es decir, http: //misitioweb.com/wp-content/"
+#~ "uploads/2015/01/miarchivovideo.mp4. Para la compatibilidad entre "
+#~ "navegadores asegurarse de que tenga las versiones del video HTML5 en MP4, "
+#~ "WebM, y OGV en el mismo lugar. Para obtener más información sobre vídeos "
+#~ "de HTML5, consulte <a target=\"_blank\" href=\"http://diveintohtml5.info/"
+#~ "video.html\">HTML5 Video</a>."
+
+#~ msgid ""
+#~ "Remember the shorter the video the better it will load and plays faster "
+#~ "for the user. When a video is long, it takes longer to buffer and users "
+#~ "will loose interest if they have to wait."
+#~ msgstr ""
+#~ "Recuerde que por más corto el video, mejor será la carga y juega más "
+#~ "rápido para el usuario. Cuando un video es largo se tarda más en buffer y "
+#~ "usuarios perderán interés si tienen que esperar."
+
+#~ msgid ""
+#~ "Select the Authors, Categories, Pages, and/or Posts that the %s "
+#~ "background will be appended to."
+#~ msgstr ""
+#~ "Seleccione el Autores, Categorías, páginas y / o mensajes que el fondo %s "
+#~ "se añadirán a."
+
+#~ msgid ""
+#~ "Specify the correct id or location of the media to be played, such as the "
+#~ "video id for YouTube, Vimeo, Dailymotion, and Wistia. The video location "
+#~ "for HTML5 videos and the image location for Image. Remember that the "
+#~ "Author module refers to you, the author of this background."
+#~ msgstr ""
+#~ "Especifique el ID correcto o la ubicación de los medios de comunicación "
+#~ "que se jugará, como la identificación del vídeo de YouTube, Vimeo, "
+#~ "Dailymotion y Wistia. La ubicación de vídeo para vídeos HTML5 y la "
+#~ "ubicación de la imagen de la selección Imagen. Recuerde que el módulo de "
+#~ "Autor se refiere a usted, el autor de este fondo."
+
+#~ msgid ""
+#~ "Enter the video ID only if its YouTube, Vimeo, Dailymotion, or Wistia. "
+#~ "For most video hosting sites the video id is placed at the end of their "
+#~ "url. For HTML5 videos you can select a video uploaded to your WordPress "
+#~ "site by clicking the Select Video button or you can enter the video's "
+#~ "location: i.e. http://mywebsite.com/wp-content/uploads/2015/01/"
+#~ "myvideofile.mp4. For cross-browser compatibility make sure you have the "
+#~ "file versions MP4, WEBM, & OGV in the same location. For more information "
+#~ "see <a target=\"_blank\" href=\"http://diveintohtml5.info/video.html"
+#~ "\">HTML5 Video</a>."
+#~ msgstr ""
+#~ "Introduzca el ID de vídeo sólo si es YouTube, Vimeo, Dailymotion o "
+#~ "Wistia. Para la mayoría de los sitios de alojamiento de vídeo la "
+#~ "identificación del vídeo se coloca al final de su URL. Para los vídeos "
+#~ "HTML5 puede seleccionar un video subido a su sitio de WordPress haciendo "
+#~ "clic en el botón Seleccionar Vídeo o puede introducir la ubicación del "
+#~ "vídeo: es decir, http: //misitioweb.com/wp-content/uploads/2015/01/"
+#~ "miarchivovideo.mp4. Para la compatibilidad entre navegadores asegurarse "
+#~ "de que tenga las versiones del archivo de MP4, WebM, y OGV en el mismo "
+#~ "lugar. Para obtener más información sobre vídeos de HTML5, consulte <a "
+#~ "target=\"_blank\" href=\"http://diveintohtml5.info/video.html\">HTML5 "
+#~ "Video</a>."
+
+#~ msgid "Image Order"
+#~ msgstr "Orden de Imágenes"
+
+#~ msgid "Select the display order of the image(s)."
+#~ msgstr "Seleccionar el orden de visualización de la imagen."
+
+#~ msgid ""
+#~ "For HTML5 videos you can select a video uploaded to your WordPress site "
+#~ "by clicking the Select Video button or you can enter the video's "
+#~ "location: i.e. http://mywebsite.com/wp-content/uploads/2015/01/"
+#~ "myvideofile.mp4. For cross-browser compatibility make sure you have the "
+#~ "file versions MP4, WEBM, & OGV in the same location. For more information "
+#~ "see <a target=\"_blank\" href=\"http://diveintohtml5.info/video.html"
+#~ "\">HTML5 Video</a>."
+#~ msgstr ""
+#~ "Para los vídeos HTML5 puede seleccionar un video subido a su sitio de "
+#~ "WordPress haciendo clic en el botón Seleccionar Vídeo o puede introducir "
+#~ "la ubicación del vídeo: es decir, http: //misitioweb.com/wp-content/"
+#~ "uploads/2015/01/miarchivovideo.mp4. Para la compatibilidad entre "
+#~ "navegadores asegurarse de que tenga las versiones del archivo de MP4, "
+#~ "WebM, y OGV en el mismo lugar. Para obtener más información sobre vídeos "
+#~ "de HTML5, consulte <a target=\"_blank\" href=\"http://diveintohtml5.info/"
+#~ "video.html\">HTML5 Video</a>."
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Reverse"
+#~ msgstr "Reversa"
+
+#~ msgid "How to order the images."
+#~ msgstr "Cómo ordenar las imágenes."
+
+#~ msgid ""
+#~ "If not looping the media it will then stop at the end or you can choose "
+#~ "to rewind the media to the beginning without playing again."
+#~ msgstr ""
+#~ "Si no bucle el medio entonces a continuación se parará al final o se "
+#~ "puede elegir para retroceder el medio al principio sin jugar de nuevo."
+
+#~ msgid ""
+#~ "Show the video and poster preview thumbnails by enabling this feature. "
+#~ "The media preview and poster preview will be display in a thumbnail size."
+#~ msgstr ""
+#~ "Mostrar las miniaturas de vídeo y el póster de vista previa al activar "
+#~ "esta función."
+
+#~ msgid ""
+#~ "Thank you for installing! %1$s %2$s brings you a great way to create and "
+#~ "manage multimedia backgrounds."
+#~ msgstr ""
+#~ "Gracias por instalar! %1$s %2$s le trae una gran manera de crear y "
+#~ "administrar fondos multimedia."
+
+#~ msgid "Create video or image backgrounds with ease"
+#~ msgstr "Crear fondos de vídeo o imagen con facilidad"
+
+#~ msgid ""
+#~ "Use hosted videos from YouTube, Vimeo, Dailymotion, Wistia, or HTML5 "
+#~ "videos. They all play and look amazing with %1$s. Want to use an image "
+#~ "instead, no problem, %1$s lets you use one or more images to create "
+#~ "beautiful backgrounds. What about just a color background, may be with a "
+#~ "pattern? Yeap! That too!"
+#~ msgstr ""
+#~ "Uso acogió videos de YouTube, Vimeo, Dailymotion, Wistia o vídeos HTML5. "
+#~ "Todos ellos juegan y ven increíbles con %1$s. ¿Quieres usar una imagen en "
+#~ "lugar, no hay problema, %1$ s le permite utilizar una o varias imágenes "
+#~ "para crear hermosos fondos. ¿Qué pasa con sólo un color de fondo, puede "
+#~ "ser con un patrón? Sip! Eso también!"
+
+#~ msgid "Multi-Select"
+#~ msgstr "Seleccione Multi"
+
+#~ msgid ""
+#~ "You can select where you want the %s background to display. You can multi-"
+#~ "select authors, categories, pages, or posts."
+#~ msgstr ""
+#~ "Puede seleccionar donde desea que el fondo %s se vea. Puede seleccionar "
+#~ "múltiples autores, categorías, páginas o mensajes."
+
+#~ msgid "Customize Backgrounds"
+#~ msgstr "Personaliza Fondos"
+
+#~ msgid ""
+#~ "All of the necessary settings to customize backgrounds to your needs, "
+#~ "including:"
+#~ msgstr ""
+#~ "Todos los ajustes necesarios para personalizar los fondos a sus "
+#~ "necesidades, incluyendo:"
+
+#~ msgid ""
+#~ "Append To, Poster, Overlay, Quality, Start At, End At, Loop, Audio, and "
+#~ "Page-Up-Down %s."
+#~ msgstr ""
+#~ "Anexar A, Póster/Cartel, Superposición, Calidad, Iniciar En, Fin En, "
+#~ "Bucle, Audio y Página-Arriba-Abajo %s."
+
+#~ msgid ""
+#~ "%1$s allows the page to be scroll up and down to have a better view of "
+#~ "the video; i.e. you can use this feature with a marketing video. You can "
+#~ "also select if %1$s will scroll the page down when the media playback "
+#~ "starts and/or if it will scroll up when the media playback ends. You can "
+#~ "also keep part of the page in view, such as the logo and navigation, "
+#~ "during the %1$s down status."
+#~ msgstr ""
+#~ "%1$s permite que la página pueda desplazarse hacia arriba y hacia abajo "
+#~ "para tener una mejor visión del video; es decir, se puede utilizar esta "
+#~ "función con un vídeo de marketing. Comience con %1$s abajo: la página se "
+#~ "desplazará automáticamente hacia abajo cuando se inicia la reproducción "
+#~ "de medios. Terminar con %1$s arriba: la página se desplazará "
+#~ "automáticamente hacia arriba cuando la reproducción de medios termina o "
+#~ "el primer bucle termina. Use la opción \"¿Cuánto mostrar ...\" para "
+#~ "mantener parte de la página en la vista como para mostrar el logotipo y "
+#~ "la navegación durante el estado %1$s abajo. Para utilizar la función de "
+#~ "%1$s, Mostrar los Controles ha de ser activado."
+
+#~ msgid "Internationalization Support"
+#~ msgstr "Soporte de Internacionalización"
+
+#~ msgid ""
+#~ "%1$s uses several other available open source code from the list below. "
+#~ "Some are used throughout %1$s, others are used in a couple of lines of "
+#~ "code, and others have been modified for %1$s's use. Without these "
+#~ "projects %1$s would not be possible."
+#~ msgstr ""
+#~ "%1$s utiliza varios otros de código abierto disponible en la lista de "
+#~ "abajo. Algunos se utilizan en todo %1$s, otros se utilizan en un par de "
+#~ "líneas de código, y otros han sido modificados para usarlos con %1$s. Sin "
+#~ "estos proyectos %1$s no serían posibles."
+
+#~ msgid ""
+#~ "Allow to show the video and poster preview thumbnails. The video preview "
+#~ "will load the video player in a thumbnail size. The poster preview will "
+#~ "load the image in a thumbnail size."
+#~ msgstr ""
+#~ "Permitir a mostrar el video y póster miniaturas de vista previa. La vista "
+#~ "previa de vídeo cargará el reproductor de video en un tamaño de "
+#~ "miniatura. La vista previa del póster cargará la imagen en un tamaño de "
+#~ "miniatura."
+
+#~ msgid ""
+#~ "Use with caution, enlarge only what is necessary. Useful for YouTube, "
+#~ "Vimeo, and other hosted videos. On average you should not need more than "
+#~ "20%."
+#~ msgstr ""
+#~ "Utilizar con precaución, agrandar solo lo necesario. Útil para YouTube, "
+#~ "Vimeo y otros vídeos alojados. En promedio, usted no debe necesitar más "
+#~ "de un 20%."
+
+#~ msgid ""
+#~ "Use with caution, enlarge only what is necessary. Useful for hosted "
+#~ "videos such as YouTube and Vimeo. On average you should not need more "
+#~ "than 20%."
+#~ msgstr ""
+#~ "Utilizar con precaución, agrandar solo lo necesario. Útil para YouTube, "
+#~ "Vimeo y otros vídeos alojados. En promedio, usted no debe necesitar más "
+#~ "de un 20%."
+
+#~ msgid ""
+#~ "If a video or image background is not desire then try a color background "
+#~ "that is beautiful and offers more options than the default WordPress "
+#~ "background feature. You can match colors with patterns to create unique "
+#~ "backgrounds. Color backgrounds do not use the PUD feature."
+#~ msgstr ""
+#~ "Si un fondo de vídeo o imagen deseado entonces intente un fondo de color "
+#~ "que es precioso y ofrece más opciones que la característica de fondo "
+#~ "WordPress por defecto. Puede hacer coincidir los colores con patrones "
+#~ "para crear fondos únicos. Fondos de color no utilizan la característica "
+#~ "PUD."
+
+#~ msgid ""
+#~ "Select the correct media player such as YouTube, Vimeo, Dailymotion, "
+#~ "Wistia, HTML5 or Image."
+#~ msgstr ""
+#~ "Seleccione el reproductor de medios correcto como YouTube, Vimeo, "
+#~ "Dailymotion, Wistia, HTML5 o Imagen."
+
+#~ msgid "Media Player"
+#~ msgstr "Reproductor de Medios"
+
+#~ msgid ""
+#~ "Select whether the media is a YouTube, Vimeo, Dailymotion, Wistia, or "
+#~ "HTML5 video or an Image."
+#~ msgstr ""
+#~ "Seleccione el reproductor de medios correcto como YouTube, Vimeo, "
+#~ "Dailymotion, Wistia, HTML5 o Imagen."
+
+#~ msgid ""
+#~ "Enter the video ID only. Be careful using Dailymotion, some videos are "
+#~ "only watchable on their site and will not play. Their ad management is "
+#~ "not very friendly and may give unwanted results. The use of Dailymotion "
+#~ "ad-free videos is strongly recommended with %s."
+#~ msgstr ""
+#~ "Ingrese sólo el ID de vídeo. Tenga cuidado usando Dailymotion, algunos "
+#~ "videos sólo se pueden ver en Dailymotion.com y no se reproducirán. Su "
+#~ "gestión de publicidad no es muy amable y puede dar resultados no "
+#~ "deseados. El uso de videos de Dailymotion sin publicidad es muy "
+#~ "recomendable con %s."
+
+#~ msgid "Archive Pages"
+#~ msgstr "Páginas Archivo"
+
+#~ msgid ""
+#~ "Display %s backgrounds on WordPress archive pages by enabling this "
+#~ "feature. Use with caution as archive pages can display multiple authors "
+#~ "and multiple categories. You may not get the results you are expecting."
+#~ msgstr ""
+#~ "Al activar esta función se puede mostrar fondos %s en las páginas de "
+#~ "archivo de WordPress. Usar con precaución, ya que las páginas de archivo "
+#~ "se pueden mostrar varios autores y múltiples categorías. Pueda que no "
+#~ "obtenga los resultados que usted espera."
+
+#~ msgid ""
+#~ "Use hosted videos from YouTube, Vimeo, Dailymotion, Wistia, or HTML5 "
+#~ "videos. They all play and look amazing with %1$s. Want to use an image "
+#~ "instead, no problem, %1$s lets you use one or more images to create "
+#~ "beautiful backgrounds."
+#~ msgstr ""
+#~ "Utilice videos de YouTube, Vimeo, Dailymotion, Wistia o HTML5. Todos "
+#~ "ellos juegan y se ven increíbles con %1$s. ¿Quieres usar una imagen en "
+#~ "lugar, no hay problema, %1$s le permite utilizar una o varias imágenes "
+#~ "para crear hermosos fondos."
+
+#~ msgid "Play %s on Archive pages"
+#~ msgstr "Juega %s en las Páginas de Archivo"
+
+#~ msgid ""
+#~ "Use with caution as archive pages can display multiple authors and "
+#~ "multiple categories. You may not get the results you are expecting."
+#~ msgstr ""
+#~ "Usar con precaución, ya que las páginas de archivo se pueden mostrar "
+#~ "varios autores y múltiples categorías. Pueda que no obtenga los "
+#~ "resultados que usted espera."
+
+#~ msgid ""
+#~ "Remember the shorter the video the better as it loads and plays faster "
+#~ "for the user. When a video is long it takes longer to buffer and users "
+#~ "will loose interest if they have to wait."
+#~ msgstr ""
+#~ "Recuerde que por más corto el video, mejor será la carga y juega más "
+#~ "rápido para el usuario. Cuando un video es largo se tarda más en buffer y "
+#~ "usuarios perderán interés si tienen que esperar."
+
+#~ msgid "Image Location"
+#~ msgstr "Ubicación de la Imagen"
+
+#~ msgid "Poster Location"
+#~ msgstr "Ubicación del Cartel"
+
+#~ msgid "Video Quality"
+#~ msgstr "Calidad de Vídeo"
+
+#~ msgid "Media Aspect Ratio"
+#~ msgstr "Relación de Aspecto de Medios"
+
+#~ msgid "Video Poster Location"
+#~ msgstr "Ubicación del Vídeo Cartel"
+
+#~ msgid "Media Overlay"
+#~ msgstr "Superposición del Medio"
+
+#~ msgid ""
+#~ "Append To, Media Poster, Overlay, Quality, Start At, End At, Loop, Audio, "
+#~ "and Page-Up-Down %s."
+#~ msgstr ""
+#~ "Anexar A, Cartel  del Medio, Superposición, Calidad, Empezar En, Fin En, "
+#~ "Bucle, Audio y Página-Arriba-Abajo %s."
+
+#~ msgid "Start Video At"
+#~ msgstr "Iniciar En"
+
+#~ msgid "End Video At"
+#~ msgstr "Fin En"
+
+#~ msgid ""
+#~ "Use with caution, enlarge only what is necessary. Useful for YouTube and "
+#~ "Vimeo videos. On average you should not need more than 20%."
+#~ msgstr ""
+#~ "Utilizar con precaución, agrandar solo lo necesario. Útil para YouTube, "
+#~ "Vimeo y otros vídeos alojados. En promedio, usted no debe necesitar más "
+#~ "de un 20%."
+
+#~ msgid ""
+#~ "Select whether the media is a YouTube video, Vimeo video, Dailymotion "
+#~ "video, Wistia video, HTML5 video, or an Image."
+#~ msgstr ""
+#~ "Seleccione si el medio es un vídeo de YouTube, vídeo Vimeo, vídeo "
+#~ "Dailymotion, vídeo Wistia, video HTML5, o una imagen."
+
+#~ msgid ""
+#~ "Priority level determines which background video will play when Authors, "
+#~ "Categories, Posts, or Pages are selected. Check your <a href=\"%1$s\">"
+#~ "%2$s Settings</a> for your priority levels."
+#~ msgstr ""
+#~ "Nivel de Prioridad determina qué fondo de vídeo se reproducirá cuando se "
+#~ "seleccionan los autores, Categorías, Entradas, o Páginas. Revise su <a "
+#~ "href=\"%1$s\">Ajustes %2$s</a> para sus niveles de prioridad."
+
+#~ msgid ""
+#~ "Use videos from YouTube, Vimeo, Dailymotion, Wistia, or HTML5 hosted. "
+#~ "They all play and look amazing with %1$s. Want to use an image instead, "
+#~ "no problem, %1$s lets you use one or more images to create beautiful "
+#~ "backgrounds."
+#~ msgstr ""
+#~ "Utilice videos de YouTube, Vimeo, Dailymotion, Wistia o HTML5 alojada. "
+#~ "Todos ellos juegan y se ven increíbles con %1$s. ¿Quieres usar imagenes "
+#~ "en lugar, no hay problema, %1$s le permite utilizar una o varias imágenes "
+#~ "para crear hermosos fondos."
+
+#~ msgid ""
+#~ "The indispensible JavaScript library for developers. A great library."
+#~ msgstr ""
+#~ "La biblioteca JavaScript indispensable para los desarrolladores. Una gran "
+#~ "biblioteca."
+
+#~ msgid ""
+#~ "<strong>Priority Level:</strong> Drag/Sort each item into the order you "
+#~ "prefer to set the Priority Level (Top is the highest). Priority Level "
+#~ "sets the importance when a %1$s background has been created for at least "
+#~ "two of the Allowed On items (i.e. Lets say you have Priority Level of "
+#~ "Author=1 & Category=2 and you have created different %1$s backgrounds for "
+#~ "author John and category Uncategorized. You browse to the post by John in "
+#~ "category Uncategorized then the %1$s background that will play will be "
+#~ "the one for John since Authors have a higher Priority Level)."
+#~ msgstr ""
+#~ "<strong>Nivel de Prioridad:</strong> Clasificar cada elemento en el orden "
+#~ "que prefiera arrastrándolos (superior es la prioridad más alta). Nivel de "
+#~ "prioridad establece la importancia entre los fondos %1$s creados para el "
+#~ "mismo elemento. (es decir, digamos que usted tiene Prioridad de Autor = 1 "
+#~ "y Categoría = 2 y que ha creado diversos fondos %1$s para el autor John y "
+#~ "para la categoría Uncategorized. Usted navega para el puesto por Juan en "
+#~ "la categoría Uncategorized entonces el fondo %1$s que se mostrará es el "
+#~ "de John por que Autores tienen un nivel de prioridad más alta que las "
+#~ "Categorías)."
+
+#~ msgid ""
+#~ "You can localize %s without the need to modify the plugin source code "
+#~ "itself."
+#~ msgstr ""
+#~ "Puede localizar% s sin necesidad de modificar el código fuente del plugin."
+
+#~ msgid "About %s Plugin"
+#~ msgstr "Acerca %s Plugin"
+
+#~ msgid ""
+#~ "Use videos from YouTube, Vimeo, Dailymotion, or HTML5 hosted. They all "
+#~ "play and look amazing with %1$s. Want to use an image instead, no "
+#~ "problem, %1$s lets you use one or more images to create beautiful "
+#~ "backgrounds."
+#~ msgstr ""
+#~ "Utilice videos de YouTube, Vimeo, Dailymotion, Wistia o HTML5 alojada. "
+#~ "Todos ellos juegan y se ven increíbles con %1$s. ¿Quieres usar una imagen "
+#~ "en lugar, no hay problema, %1$s le permite utilizar una o varias imágenes "
+#~ "para crear hermosos fondos."

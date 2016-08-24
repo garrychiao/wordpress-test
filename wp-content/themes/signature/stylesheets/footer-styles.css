@@ -1,0 +1,11 @@
+/* AMOR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer.mastfoot.signature-amor {
+    padding: 20px !important;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+}
+footer.mastfoot.signature-amor .credits p{
+	margin-bottom: 0px;
+}

@@ -1,0 +1,91 @@
+<?php
+    
+    global $signature_default_options;
+    $signature_default_options['highlight_color'] = '#fb472e';
+    $signature_default_options['contrast_color'] = '#FFFFFF';
+    $signature_default_options['load-animation']['url'] = '';
+    $signature_default_options['load-animation']['width'] = '';
+    $signature_default_options['load-animation']['height'] = '';
+    $signature_default_options['load-animation2x']['url'] = '';
+    $signature_default_options['mob-nav-logo']['url'] = '';
+    $signature_default_options['mob-nav-logo']['width'] = '';
+    $signature_default_options['mob-nav-logo']['height'] = '';
+    $signature_default_options['mob-nav-logo2x']['url'] = '';
+    $signature_default_options['navigation_opt'] = '0';
+    $signature_default_options['disable-sidebar'] = '0';
+
+    $signature_default_options['default-font-size'] = '14';
+    $signature_default_options['default-line-height'] = '21';
+    $signature_default_options['default-letter-spacing'] = '0';
+    $signature_default_options['body-font']['font-family'] = 'Open Sans';
+    $signature_default_options['heading-font']['font-family'] = 'Montserrat';
+    $signature_default_options['alter-heading-font']['font-family'] = 'Designova Sinkin Sans Regular Premium';
+    $signature_default_options['alter-body-font']['font-family'] = 'Designova Sinkin Sans Regular Premium';
+    $signature_default_options['thin-font']['font-family'] = 'Designova Sinkin Sans Light Premium';
+    $signature_default_options['light-font']['font-family'] = 'Designova Sinkin Sans Light Premium';
+    $signature_default_options['xlight-font']['font-family'] = 'Designova Sinkin Sans Extra Light Premium';
+    $signature_default_options['bold-font']['font-family'] = 'Designova Sinkin Sans Bold Premium';
+    $signature_default_options['black-font']['font-family'] = 'Designova Sinkin Sans Black Premium';
+    $signature_default_options['xblack-font']['font-family'] = 'Designova Sinkin Sans Extra Black Premium';
+    $signature_default_options['name_placeholder'] = esc_html__('Your Name', 'signature');
+    $signature_default_options['name_err_msg'] = esc_html__('Name must not be empty', 'signature');
+    $signature_default_options['email_placeholder'] = esc_html__('Your Email ID', 'signature');
+    $signature_default_options['email_err_msg'] = esc_html__('Please provide a valid email', 'signature');
+    $signature_default_options['message_placeholder'] = esc_html__('Your Message', 'signature');
+    $signature_default_options['message_err_msg'] = esc_html__('Message should not be empty', 'signature');
+    $signature_default_options['submit_btn_txt'] = esc_html__('Send Message', 'signature');
+    $signature_default_options['thanks_msg_header'] = esc_html__('Thanks For Your Comment', 'signature');
+    $signature_default_options['thanks_msg'] = esc_html__('Lorem ipsum dolor siter amet mundium corpes illon tolves lorem ipsum dolor. Quisque nec est id ante consectetur tristique. Suspendisse potenti.', 'signature');
+    $signature_default_options['contact_email'] = 'mail@domain.tld';
+    $signature_default_options['contact_email_sub'] = esc_html__('Contact form submission from Signature', 'signature');
+    $signature_default_options['foot_bg_color'] = '#FFFFFF';
+    $signature_default_options['credit_txt'] = esc_html__('Created with love by Designova.<br/>Purchase this theme', 'signature');
+    $signature_default_options['footer-content'] = esc_html__('A simple creative portfolio template for designers, artists, photographers and every creatives.', 'signature');
+    $signature_default_options['copy_txt'] = 'Copyright &copy; 2015 <a href="'.esc_url('http://designova.net').'">Designova</a>';
+    $signature_default_options['footer-logo']['url'] = '';
+    $signature_default_options['footer-logo2x']['url'] = '';
+    $signature_default_options['signature-footer-logo']['url'] = '';
+    $signature_default_options['signature-footer-logo2x']['url'] = '';
+    $signature_default_options['footer-reel']['url'] = '';
+    $signature_default_options['social_media_1'] = 'mail@domain.tld';
+    $signature_default_options['social_media_2'] = '#';
+    $signature_default_options['social_media_3'] = '#';
+    $signature_default_options['social_media_4'] = '';
+    $signature_default_options['social_media_5'] = '';
+    $signature_default_options['social_media_6'] = '';
+    $signature_default_options['social_media_7'] = '';
+    $signature_default_options['social_media_8'] = '';
+    $signature_default_options['social_media_9'] = '';
+    $signature_default_options['social_media_10'] = '';
+    $signature_default_options['social_media_11'] = '';
+    $signature_default_options['social_media_12'] = '';
+    $signature_default_options['social_media_13'] = '';
+    $signature_default_options['social_media_14'] = '';
+    $signature_default_options['social_media_15'] = '';
+    $signature_default_options['additional_css'] = '';
+    $signature_default_options['footer-style'] = get_template_directory_uri().'/admin/preview/footer/Adler.png';
+    $signature_default_options['adler-footer-logo']['url'] = '';
+    $signature_default_options['adler-footer-logo2x']['url'] = '';
+    $signature_default_options['adler-footer-content'] = '';
+    $signature_default_options['adler-social-media-icons'] = array();
+
+    $signature_default_options['berend-footer-logo']['url'] = '';
+    $signature_default_options['berend-footer-logo2x']['url'] = '';
+    $signature_default_options['berend-footer-content'] = '';
+    $signature_default_options['berend-footer-copy'] = '';
+    $signature_default_options['berend-social-media-icons'] = array();
+
+    $signature_default_options['navigation-style'] = get_template_directory_uri().'/admin/preview/navigation/Adler.png';
+    $signature_default_options['adler-nav-bg-color'] = '#f0f4f4';
+    $signature_default_options['adler-nav-logo']['url'] = '';
+    $signature_default_options['adler-nav-logo2x']['url'] = '';
+
+    $signature_default_options['berend-nav-bg-color'] = '#FFFFFF';
+    $signature_default_options['berend-nav-bg-image']['url'] = '';
+    $signature_default_options['berend-nav-bar-logo']['url'] = '';
+    $signature_default_options['berend-nav-bar-logo2x']['url'] = '';
+    $signature_default_options['berend-nav-logo']['url'] = '';
+    $signature_default_options['berend-nav-logo2x']['url'] = '';
+    $signature_default_options['berend-nav-content'] = 'Basic - A premium template from Designova. <br/>Copyright &copy; 2015 <a href="http://designova.net">Designova</a>';
+
+?>

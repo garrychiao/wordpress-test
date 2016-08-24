@@ -1,0 +1,52 @@
+img.vc_element-icon{
+	background-image: none !important;
+}
+
+/*h4.wpb_element_title i.vc_element-icon.icon-wpb-ui-empty_space{
+	background-image:url('empty-space.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 0 0 !important; 
+}
+*/
+#setting-error-tgmpa{
+	display: block !important;
+}
+fieldset .description.field-desc{
+	display: none;
+}
+img.nhp-opts-screenshot {
+
+	padding: 5px;
+	border: 1px solid #e3e3e3;
+	background: #f7f7f7;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+img.image_preview {
+
+	border: solid #FFF 5px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 3px #999;
+
+}
+select[name="icon"], select[name="icon"] *{
+	-webkit-appearance: none !important;
+}
+
+.post-type-missano-portfolio .edit-form-section, .post-type-missano-portfolio .wp-editor-expand{
+	display: none;
+}
+.labelclass{
+	font-weight: 700;
+	font-size: 16px;
+	padding-bottom: 10px;
+	color: #555;
+}
+.postbox-container .hndle{
+	font-weight: 700;
+	font-size: 20px !important;
+}

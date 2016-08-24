@@ -1,0 +1,1830 @@
+/**
+ * Ultimate Media Background WP - Admin Pages CSS Document
+ * For: UMBG Plugin v1.4
+ *      http://codecanyon.net/user/theefarmer?ref=theefarmer
+ *      http://theefarmer.com
+ *
+ * Author: TheeFarmer | Alendee Internet Solutions
+ * Copyright: (c) 2015 Alendee Internet Solutions
+ *
+ * Last Change: 2015-12-04 - Change .umbg-block-list & .umbg-priority-level.
+ *						   - Remove .umbg-block-list-words uppercase style.
+ *              2015-11-17 - Change .ms-container background image url.
+ *              2015-09-22 - Add multi-select.js styles.
+ *                         - Add new Sortable Styles.
+ *              2015-05-23 - Initial release.
+ **/
+
+/*------------------------------------------------------------------------------
+    Table of Contents
+
+    1. General
+
+    2. UMBG Admin Settings/Options Page
+        2.1 Sortable Styles (sortable.js)
+        2.2 Contextual Help Tabs
+
+    3. UMBG Custom Post Type Admin Pages
+        3.1 Form Styles
+        3.2 Accordion Styles (Semantic UI)
+        3.3 Range Slider Styles (rangeslider.js)
+        3.4 Overlay Video & Image Previews
+        3.5 Overlay Preview Icons
+        3.6 WP Pointer
+        3.7 Multi-Select (jquery.multi-select.js)
+
+    4. Spectrum Colorpicker Default Styles (spectrum.js)
+        4.1 Spectrum Colorpicker Themeable Display Styles
+        4.2 UMBG Spectrum Colorpicker Theme Styles (.umbg-cp)
+
+    5. UMBG About Page Styles
+
+    6. UMBG Admin Pages Media Queries
+
+------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+    1. General Styles
+------------------------------------------------------------------------------*/
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/*------------------------------------------------------------------------------
+    2. UMBG Admin Settings/Options Page
+------------------------------------------------------------------------------*/
+
+/*  2.1 Sortable Styles (sortable.js)
+------------------------------------------------------------------------------*/
+.umbg-container {
+	padding-bottom: 20px
+}
+
+.umbg-sortable-ghost {
+	opacity: .2
+}
+
+.umbg-title {
+	background-color: #ff7373;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 10px;
+	position: relative;
+	z-index: 1000;
+}
+
+.umbg-title-xl {
+	font-size: 40px;
+	padding: 3px 15px;
+}
+
+.umbg-priority-level {
+	/*background: #e0e4e7;*/
+	/*background: #D3D3D3;*/
+	background: #ADD8E6;
+	border-radius: 3px;
+	color: #555;
+	float: right;
+	font-size: 11px;
+	line-height: 1rem;
+	margin-left: 5px;
+	padding: 3px 6px;
+}
+
+.umbg-green {
+	/*background-color: rgba(146, 217, 150, 1);*/
+	background-color: rgba(121, 179, 124, 1);
+}
+
+.umbg-green-2 {
+	background-color: #5c9ded;
+}
+
+.umbg-wc-purple {
+	background-color: rgba(164, 100, 151, 1);
+}
+
+.umbg-orange {
+	background-color: rgba(248, 125, 81, 1);
+}
+
+.umbg-block {
+	/*position: absolute;*/
+	opacity: 1;
+	display: inline-table;
+}
+
+.umbg-block-list {
+	background-color: #fff;
+	margin-left: 5px;
+	margin-top: -8px;
+
+	max-width: 287px;
+	min-width: 232px;
+	min-height: 300px;
+	/*padding: 20px 0;*/
+
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.umbg-block-list li {
+	cursor: move
+}
+
+.umbg-block-list-allowed {
+	/*padding: 20px 30px 20px 0;*/
+}
+
+.umbg-block-list-words li {
+	background-color: #fafafa;
+	border: 1px solid #dfdfdf;
+	border-radius: 4px;
+	/*margin-left: 25px;*/
+	padding: 10px 20px;
+}
+
+.umbg-block-list-words li:first-letter {
+	/*text-transform: uppercase*/
+}
+
+/*.umbg-block-list-words li:hover {*/
+/*border-color: #08c;*/
+/*background: #08c;*/
+/*color: #fff;*/
+/*}*/
+
+.umbg-block-list-words .umbg-sortable-ghost {
+	background-color: #f4e2c9;
+	border: 1px dashed #cccccc;
+	opacity: 0.4;
+}
+
+.allowed-list {
+
+}
+
+.allowed-list li {
+	border-color: #08c;
+	background: #08c;
+	color: #fff;
+}
+
+.allowed-list li:hover {
+	border-color: #08c;
+	background: #007DCC;
+}
+
+/*.allowed-list li:hover .umbg-priority-level {*/
+/*background: #C1BFBF;*/
+/*}*/
+
+.disallowed-list {
+	margin-right: 35px;
+}
+
+.disallowed-list li:hover {
+	border-color: #08c;
+	background: #08c;
+	color: #fff;
+}
+
+.disallowed-list li .umbg-priority-level {
+	background: #e0e4e7;
+}
+
+/*.umbg-block-list-tags {*/
+/*min-height: 30px;*/
+/*padding-left: 30px;*/
+/*}*/
+
+/*.umbg-block-list-tags:after {*/
+/*clear: both;*/
+/*content: '';*/
+/*display: block;*/
+/*}*/
+
+/*.umbg-block-list-tags li {*/
+/*background-color: #5f9edf;*/
+/*color: #fff;*/
+/*float: left;*/
+/*margin: 8px 20px 10px 0;*/
+/*min-width: 10px;*/
+/*padding: 5px 10px;*/
+/*text-align: center;*/
+/*}*/
+
+/*.umbg-block-list-tags li:first-child:first-letter {*/
+/*text-transform: uppercase*/
+/*}*/
+
+/*  2.2 Contextual Help Tabs
+------------------------------------------------------------------------------*/
+.help-tab-content dl dt {
+	font-weight: 600;
+}
+
+/*------------------------------------------------------------------------------
+    3. UMBG Custom Post Type Admin Pages
+------------------------------------------------------------------------------*/
+
+/*  3.1 Form Styles
+------------------------------------------------------------------------------*/
+input.regular-text {
+	vertical-align: middle;
+}
+
+.umbg-form-control {
+	/*border-radius: 4px;*/
+	/*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;*/
+	/*display: block;*/
+	/*width: 22%;*/
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	color: #555;
+	font-size: 14px;
+	height: 34px;
+	line-height: 1.42857;
+	padding: 6px 8px !important;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.umbg-form-control select[multiple] {
+	height: auto
+}
+
+/* 'Allowed On' Input Styles */
+.umbg-container-for-select {
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	/*width: 45%;*/
+	width: 94%;
+}
+
+/*.umbg-for-select-posts, .umbg-for-select-pages {*/
+/*.umbg-for-select {*/
+/*width: 94%*/
+/*}*/
+
+.umbg-title-for-select {
+	left: -6px;
+	/*right: 2px;*/
+	/*top: 8px;*/
+	width: 100%;
+	margin: 20px 0 5px;
+}
+
+.umbg-for-select {
+	padding-top: 16px !important;
+	width: 100%;
+}
+
+.umbg-select {
+	display: block;
+	padding-top: 12px !important;
+	width: 100%;
+}
+
+.umbg-append-button {
+	width: 100%;
+	text-align: center;
+	margin: 5px 0 !important;
+}
+
+.umbg-search-input {
+	margin: 0 0 5px;
+	border-radius: 3px;
+	width: 100%;
+
+	/*margin: 0 2px 5px 0;*/
+	/*width: 88%;*/
+}
+
+/*  3.2 Accordion Styles - Semantic UI
+------------------------------------------------------------------------------*/
+/* From Semantic UI - 1.6.4 */
+.ui.accordion,
+.ui.accordion .accordion {
+	max-width: 100%;
+	font-size: 1em;
+}
+
+.ui.accordion .accordion {
+	margin: 1em 0em 0em;
+	padding: 0em;
+}
+
+/* Title */
+.ui.accordion .title,
+.ui.accordion .accordion .title {
+	cursor: pointer;
+}
+
+/* Default Styling */
+.ui.accordion .title:not(.ui) {
+	padding: 0.5em 0em;
+	/*font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
+	font-size: 1em;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+/* Content */
+.ui.accordion .title ~ .content,
+.ui.accordion .accordion .title ~ .content {
+	display: none;
+}
+
+/* Default Styling */
+.ui.accordion:not(.styled) .title ~ .content:not(.ui),
+.ui.accordion:not(.styled) .accordion .title ~ .content:not(.ui) {
+	margin: 0em;
+	padding: 0.5em 0em 1em;
+}
+
+.ui.accordion:not(.styled) .title ~ .content:not(.ui):last-child {
+	padding-bottom: 0em;
+}
+
+/* Arrow */
+.ui.accordion .title .dropdown.icon,
+.ui.accordion .accordion .title .dropdown.icon {
+	display: inline-block;
+	float: none;
+	opacity: 0.75;
+	width: 1.25em;
+	height: 1em;
+	margin: 0em 0.25rem 0em 0rem;
+	padding: 0em;
+	font-size: 1em;
+	-webkit-transition: -webkit-transform 0.2s ease, opacity 0.2s ease;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+	vertical-align: baseline;
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+/*--------------
+    Coupling
+---------------*/
+
+/* Menu */
+.ui.accordion.menu .item .title {
+	display: block;
+	padding: 0em;
+}
+
+.ui.accordion.menu .item .title > .dropdown.icon {
+	float: right;
+	margin: 0.165em 0em 0em 1em;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* Header */
+.ui.accordion .ui.header .dropdown.icon {
+	font-size: 1em;
+	margin: 0em 0.25rem 0em 0rem;
+}
+
+/*******************************
+            States
+*******************************/
+
+.ui.accordion .active.title .dropdown.icon,
+.ui.accordion .accordion .active.title .dropdown.icon {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.ui.accordion.menu .item .active.title > .dropdown.icon {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+/*******************************
+            Types
+*******************************/
+
+/*--------------
+     Styled
+---------------*/
+
+.ui.styled.accordion {
+	width: 600px;
+}
+
+.ui.styled.accordion,
+.ui.styled.accordion .accordion {
+	border-radius: 0.2857rem;
+	background: #ffffff;
+	box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15);
+}
+
+.ui.styled.accordion .title,
+.ui.styled.accordion .accordion .title {
+	margin: 0em;
+	padding: 0.75em 1em;
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	border-top: 1px solid rgba(39, 41, 43, 0.15);
+	-webkit-transition: background 0.2s ease, color 0.2s ease;
+	transition: background 0.2s ease, color 0.2s ease;
+}
+
+.ui.styled.accordion > .title:first-child,
+.ui.styled.accordion > .accordion .title:first-child {
+	border-top: none;
+}
+
+/* Content */
+.ui.styled.accordion .content,
+.ui.styled.accordion .accordion .content {
+	margin: 0em;
+	padding: 0.5em 1em 1.5em;
+}
+
+.ui.styled.accordion .accordion .content {
+	padding: 0em;
+	padding: 0.5em 1em 1.5em;
+}
+
+/* Hover */
+.ui.styled.accordion .title:hover,
+.ui.styled.accordion .active.title,
+.ui.styled.accordion .accordion .title:hover,
+.ui.styled.accordion .accordion .active.title {
+	background: transparent;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.ui.styled.accordion .accordion .title:hover,
+.ui.styled.accordion .accordion .active.title {
+	background: transparent;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+/* Active */
+.ui.styled.accordion .active.title {
+	background: transparent;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.ui.styled.accordion .accordion .active.title {
+	background: transparent;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+/*******************************
+            States
+*******************************/
+
+/*--------------
+     Active
+---------------*/
+
+.ui.accordion .active.content,
+.ui.accordion .accordion .active.content {
+	display: block;
+}
+
+/*******************************
+           Variations
+*******************************/
+
+/*--------------
+     Fluid
+---------------*/
+
+.ui.fluid.accordion,
+.ui.fluid.accordion .accordion {
+	width: 100%;
+}
+
+/*--------------
+     Inverted
+---------------*/
+
+.ui.inverted.accordion .title:not(.ui) {
+	color: #ffffff;
+}
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+@font-face {
+	font-family: 'Accordion';
+	src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMggjB5AAAAC8AAAAYGNtYXAPfOIKAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5Zryj6HgAAAFwAAAAyGhlYWT/0IhHAAACOAAAADZoaGVhApkB5wAAAnAAAAAkaG10eAJuABIAAAKUAAAAGGxvY2EAjABWAAACrAAAAA5tYXhwAAgAFgAAArwAAAAgbmFtZfC1n04AAALcAAABPHBvc3QAAwAAAAAEGAAAACAAAwIAAZAABQAAAUwBZgAAAEcBTAFmAAAA9QAZAIQAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADw2gHg/+D/4AHgACAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIPDa//3//wAAAAAAIPDZ//3//wAB/+MPKwADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQASAEkAtwFuABMAADc0PwE2FzYXFh0BFAcGJwYvASY1EgaABQgHBQYGBQcIBYAG2wcGfwcBAQcECf8IBAcBAQd/BgYAAAAAAQAAAEkApQFuABMAADcRNDc2MzIfARYVFA8BBiMiJyY1AAUGBwgFgAYGgAUIBwYFWwEACAUGBoAFCAcFgAYGBQcAAAABAAAAAQAAqWYls18PPPUACwIAAAAAAM/9o+4AAAAAz/2j7gAAAAAAtwFuAAAACAACAAAAAAAAAAEAAAHg/+AAAAIAAAAAAAC3AAEAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAQAAAAC3ABIAtwAAAAAAAAAKABQAHgBCAGQAAAABAAAABgAUAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADAAAAAEAAAAAAAIADgBAAAEAAAAAAAMADAAiAAEAAAAAAAQADABOAAEAAAAAAAUAFgAMAAEAAAAAAAYABgAuAAEAAAAAAAoANABaAAMAAQQJAAEADAAAAAMAAQQJAAIADgBAAAMAAQQJAAMADAAiAAMAAQQJAAQADABOAAMAAQQJAAUAFgAMAAMAAQQJAAYADAA0AAMAAQQJAAoANABaAHIAYQB0AGkAbgBnAFYAZQByAHMAaQBvAG4AIAAxAC4AMAByAGEAdABpAG4AZ3JhdGluZwByAGEAdABpAG4AZwBSAGUAZwB1AGwAYQByAHIAYQB0AGkAbgBnAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('truetype'), url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAASwAAoAAAAABGgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAAS0AAAEtFpovuE9TLzIAAAIkAAAAYAAAAGAIIweQY21hcAAAAoQAAABMAAAATA984gpnYXNwAAAC0AAAAAgAAAAIAAAAEGhlYWQAAALYAAAANgAAADb/0IhHaGhlYQAAAxAAAAAkAAAAJAKZAedobXR4AAADNAAAABgAAAAYAm4AEm1heHAAAANMAAAABgAAAAYABlAAbmFtZQAAA1QAAAE8AAABPPC1n05wb3N0AAAEkAAAACAAAAAgAAMAAAEABAQAAQEBB3JhdGluZwABAgABADr4HAL4GwP4GAQeCgAZU/+Lix4KABlT/4uLDAeLa/iU+HQFHQAAAHkPHQAAAH4RHQAAAAkdAAABJBIABwEBBw0PERQZHnJhdGluZ3JhdGluZ3UwdTF1MjB1RjBEOXVGMERBAAACAYkABAAGAQEEBwoNVp38lA78lA78lA77lA773Z33bxWLkI2Qj44I9xT3FAWOj5CNkIuQi4+JjoePiI2Gi4YIi/uUBYuGiYeHiIiHh4mGi4aLho2Ijwj7FPcUBYeOiY+LkAgO+92L5hWL95QFi5CNkI6Oj4+PjZCLkIuQiY6HCPcU+xQFj4iNhouGi4aJh4eICPsU+xQFiIeGiYaLhouHjYePiI6Jj4uQCA74lBT4lBWLDAoAAAAAAwIAAZAABQAAAUwBZgAAAEcBTAFmAAAA9QAZAIQAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADw2gHg/+D/4AHgACAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIPDa//3//wAAAAAAIPDZ//3//wAB/+MPKwADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAEAADfYOJZfDzz1AAsCAAAAAADP/aPuAAAAAM/9o+4AAAAAALcBbgAAAAgAAgAAAAAAAAABAAAB4P/gAAACAAAAAAAAtwABAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAEAAAAAtwASALcAAAAAUAAABgAAAAAADgCuAAEAAAAAAAEADAAAAAEAAAAAAAIADgBAAAEAAAAAAAMADAAiAAEAAAAAAAQADABOAAEAAAAAAAUAFgAMAAEAAAAAAAYABgAuAAEAAAAAAAoANABaAAMAAQQJAAEADAAAAAMAAQQJAAIADgBAAAMAAQQJAAMADAAiAAMAAQQJAAQADABOAAMAAQQJAAUAFgAMAAMAAQQJAAYADAA0AAMAAQQJAAoANABaAHIAYQB0AGkAbgBnAFYAZQByAHMAaQBvAG4AIAAxAC4AMAByAGEAdABpAG4AZ3JhdGluZwByAGEAdABpAG4AZwBSAGUAZwB1AGwAYQByAHIAYQB0AGkAbgBnAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Dropdown Icon */
+.ui.accordion .title .dropdown.icon,
+.ui.accordion .accordion .title .dropdown.icon {
+	font-family: Accordion;
+	line-height: 1;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+}
+
+.ui.accordion .title .dropdown.icon:before,
+.ui.accordion .accordion .title .dropdown.icon:before {
+	content: '\f0da' /*rtl:'\f0d9'*/;
+}
+
+/*******************************
+    UMBG Overrides
+*******************************/
+.ui.accordion .title:not(.ui) {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.ui.accordion:not(.styled) .title ~ .content:not(.ui), .ui.accordion:not(.styled) .accordion .title ~ .content:not(.ui) {
+	margin: 0;
+	padding: 0.5em 0 1em 2em;
+}
+
+/*  3.3 Range Slider Styles (rangeslider.js)
+------------------------------------------------------------------------------*/
+/* Audio & Enlarge Range Slider */
+.umbg-rangeslider,
+.umbg-rangeslider__fill {
+	-moz-border-radius: 10px;
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
+	/*border-radius: 10px;*/
+	background: #e6e6e6;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	height: 7px;
+	width: 25%;
+}
+
+.umbg-rangeslider {
+	position: relative;
+	top: -3px;
+}
+
+.umbg-rangeslider--disabled {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+	opacity: 0.4;
+}
+
+.umbg-rangeslider__fill {
+	/* #0074A2 */
+	background: #3897fc;
+	nowhitespace: afterproperty;
+	position: absolute;
+	top: 0;
+}
+
+.umbg-rangeslider__handle {
+	-moz-border-radius: 50%;
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	/*background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');*/
+	/*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.1)));*/
+	/*background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));*/
+	/*background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));*/
+	/*background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));*/
+	/*background-size: 100%;*/
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	position: absolute;
+	top: -8px;
+	width: 20px;
+}
+
+.umbg-rangeslider__handle:active {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.12)));
+	background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+	background-size: 100%;
+}
+
+.umbg-rangeslider__handle:after {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjEzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(255, 255, 255, 0)));
+	background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
+	background-size: 100%;
+	border-radius: 50%;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 10px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+}
+
+input[type="range"]:focus + .umbg-rangeslider .umbg-rangeslider__handle {
+	-moz-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+	-webkit-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+	box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+}
+
+.umbg-rangeslider-output {
+	display: inline-block;
+	font-size: 1.2em;
+	line-height: 1;
+	padding-left: 10px;
+}
+
+/*  3.4 Overlay Video & Image Previews
+------------------------------------------------------------------------------*/
+.umbg-overlay-preview {
+	height: 80%;
+	position: absolute;
+	width: 50%;
+}
+
+#umbg-overlay-css {
+	margin-right: 30px
+}
+
+/* Video */
+#umbg-media-id-row td {
+	padding-bottom: 40px
+}
+
+#umbg-media-id-thumb,
+#umbg-media-poster-thumb {
+	/*border-radius: 3px;*/
+	/*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);*/
+	/*height: 180px;*/
+	/*width: 318px;*/
+	border-radius: 3px;
+	height: 100%;
+	width: 100%;
+}
+
+.umbg-media-id-preview,
+.umbg-media-poster-preview {
+	border-radius: 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	/*height: 180px;*/
+	height: 158px;
+	margin: 8px 3px 3px 3px;
+	position: relative;
+	/*width: 320px;*/
+	width: 280px;
+}
+
+.umbg-media-id-preview {
+	float: left
+}
+
+.umbg-thumb-icon {
+	color: #fff;
+	margin: 3px 0 0 -18px;
+}
+
+/*  3.5 Overlay Preview Icons
+------------------------------------------------------------------------------*/
+/* From Semantic UI - 1.6.4 */
+/* Corner Label */
+.ui.corner.label {
+	-webkit-transition: border-color 0.2s ease;
+	height: 3.25em;
+	margin: 0em;
+	padding: 0em;
+	position: absolute;
+	right: 0em;
+	text-align: center;
+	top: 0em;
+	transition: border-color 0.2s ease;
+	width: 3.25em;
+	z-index: 10;
+}
+
+/* Icon Label */
+.ui.corner.label {
+	background-color: transparent !important;
+	color: #3897fc;
+}
+
+.ui.corner.label:after {
+	-webkit-transition: border-color 0.2s ease;
+	background-color: transparent !important;
+	border-bottom: 3.25em solid transparent;
+	border-left: 0em solid transparent;
+	border-right: 3.25em solid transparent;
+	border-right-color: inherit;
+	border-top: 0em solid transparent;
+	content: "";
+	height: 0em;
+	position: absolute;
+	right: 0em;
+	top: 0em;
+	transition: border-color 0.2s ease;
+	width: 0em;
+	z-index: -1;
+}
+
+/* Left Corner */
+.ui.left.corner.label:after {
+	border-bottom: 0em solid transparent;
+	border-left: 0em solid transparent;
+	border-right: 3.55em solid transparent;
+	border-top: 3.55em solid transparent;
+	border-top-color: inherit;
+}
+
+.ui.left.corner.label,
+.ui.left.corner.label:after {
+	left: 0em;
+	right: auto;
+}
+
+/*  3.6 WP Pointer
+------------------------------------------------------------------------------*/
+.wp-pointer-top .wp-pointer-arrow {
+	left: 83%;
+}
+
+/*  3.7 Multi-Select (jquery.multi-select.js)
+------------------------------------------------------------------------------*/
+.ms-container {
+	background: transparent url('../images/switch.png') no-repeat 50% 50%;
+	/*width: 370px;*/
+}
+
+.ms-container:after {
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	clear: both;
+	min-height: 0;
+	visibility: hidden;
+}
+
+.ms-container .ms-selectable, .ms-container .ms-selection {
+	background: #fff;
+	color: #555555;
+	float: left;
+	width: 45%;
+}
+
+.ms-container .ms-selection {
+	float: right;
+}
+
+.ms-container .ms-list {
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 5px;
+	position: relative;
+	height: 200px;
+	padding: 0;
+	overflow-y: auto;
+}
+
+.ms-container .ms-list.ms-focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	outline: 0;
+	outline: thin dotted \9;
+}
+
+.ms-container ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.ms-container ul li {
+	margin: 0;
+}
+
+.ms-container .ms-optgroup-container {
+	width: 100%;
+}
+
+.ms-container .ms-optgroup-label {
+	margin: 0;
+	padding: 5px 0px 0px 5px;
+	cursor: pointer;
+	color: #999;
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable,
+.ms-container .ms-selection li.ms-elem-selection {
+	/*border-bottom: 1px #eee solid;*/
+	/*padding: 2px 10px;*/
+	/*color: #555;*/
+	/*font-size: 14px;*/
+
+	border-bottom: 1px solid #eee;
+	color: #555;
+	font-size: 14px;
+	padding: 2px 10px;
+	line-height: 30px;
+
+}
+
+.ms-container .ms-selection li.ms-elem-selection {
+	/*background-color: #08c;*/
+	/*color: #fff9f1;*/
+
+	/*background-color: #e8e8e8;
+	color: rgba(0, 0, 0, 0.6);
+	*/
+	color: #fff;
+	background-color: #08c;
+	background-image: none;
+	border: 0 solid transparent;
+	border-radius: 0.285714rem;
+
+	/*display: inline-block;*/
+	font-weight: 400;
+	line-height: 1;
+	margin: 2px 0.142857em;
+	padding: 0.5833em 0.833em;
+	text-transform: none;
+	transition: background 0.1s ease 0s;
+	/*vertical-align: baseline;*/
+	/*white-space: nowrap;*/
+
+	/*line-height: 30px;*/
+}
+
+.ms-container .ms-selectable li.ms-hover,
+.ms-container .ms-selection li.ms-hover {
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	background-color: #08c;
+
+	/*padding: 2px 10px;*/
+	/*line-height: 30px;*/
+}
+
+.ms-container .ms-selectable li.disabled,
+.ms-container .ms-selection li.disabled {
+	background-color: #eee;
+	color: #aaa;
+	cursor: text;
+}
+
+/*------------------------------------------------------------------------------
+    4. Spectrum Colorpicker Default Styles (spectrum.js)
+------------------------------------------------------------------------------*/
+
+/**
+* Spectrum Colorpicker v1.5.2
+*
+* https://github.com/bgrins/spectrum
+* Author: Brian Grinstead
+* License: MIT
+*
+* Used on admin settings page & UMBG new & edit pages.
+*/
+
+.sp-container {
+	*display: inline;
+	*zoom: 1;
+	display: inline-block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	/* https://github.com/bgrins/spectrum/issues/40 */
+	z-index: 9999994;
+	overflow: hidden;
+}
+
+.sp-container.sp-flat {
+	position: relative;
+}
+
+/* Fix for * { box-sizing: border-box; } */
+.sp-container,
+.sp-container * {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
+.sp-top {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.sp-top-inner {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.sp-color {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 20%;
+	top: 0;
+}
+
+.sp-hue {
+	bottom: 0;
+	height: 100%;
+	left: 84%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.sp-clear-enabled .sp-hue {
+	height: 77.5%;
+	top: 33px;
+}
+
+.sp-fill {
+	padding-top: 80%
+}
+
+.sp-sat,
+.sp-val {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.sp-alpha-enabled .sp-top {
+	margin-bottom: 18px
+}
+
+.sp-alpha-enabled .sp-alpha {
+	display: block
+}
+
+.sp-alpha-handle {
+	background: white;
+	border: 1px solid black;
+	bottom: -4px;
+	cursor: pointer;
+	left: 50%;
+	opacity: .8;
+	position: absolute;
+	top: -4px;
+	width: 6px;
+}
+
+.sp-alpha {
+	bottom: -14px;
+	display: none;
+	height: 8px;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.sp-alpha-inner {
+	border: solid 1px #333
+}
+
+.sp-clear {
+	display: none
+}
+
+.sp-clear.sp-clear-display {
+	background-position: center
+}
+
+.sp-clear-enabled .sp-clear {
+	bottom: 0;
+	display: block;
+	height: 28px;
+	left: 84%;
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+
+/* Don't allow text selection */
+.sp-container.sp-input-disabled .sp-input-container {
+	display: none
+}
+
+.sp-container,
+.sp-replacer,
+.sp-preview,
+.sp-dragger,
+.sp-slider,
+.sp-alpha,
+.sp-clear,
+.sp-alpha-handle,
+.sp-container.sp-dragging .sp-input,
+.sp-container button {
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.sp-container.sp-buttons-disabled .sp-button-container {
+	display: none
+}
+
+.sp-container.sp-palette-buttons-disabled .sp-palette-button-container {
+	display: none
+}
+
+.sp-palette-only .sp-picker-container {
+	display: none
+}
+
+.sp-palette-disabled .sp-palette-container {
+	display: none
+}
+
+.sp-initial-disabled .sp-initial {
+	display: none
+}
+
+/* Gradients for hue, saturation and value instead of images.  Not pretty... but it works */
+.sp-sat {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr=#FFFFFFFF, endColorstr=#00CC9A81)";
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(rgba(204, 154, 129, 0)));
+	background-image: -webkit-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+	background-image: -moz-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+	background-image: -o-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+	background-image: -ms-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+	background-image: linear-gradient(to right, #fff, rgba(204, 154, 129, 0));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFFFF', endColorstr='#00CC9A81');
+}
+
+.sp-val {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00CC9A81, endColorstr=#FF000000)";
+	background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000000), to(rgba(204, 154, 129, 0)));
+	background-image: -webkit-linear-gradient(bottom, #000000, rgba(204, 154, 129, 0));
+	background-image: -moz-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+	background-image: -o-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+	background-image: -ms-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+	background-image: linear-gradient(to top, #000, rgba(204, 154, 129, 0));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00CC9A81', endColorstr='#FF000000');
+}
+
+.sp-hue {
+	background: -moz-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+	background: -ms-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+	background: -o-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), color-stop(0.17, #ffff00), color-stop(0.33, #00ff00), color-stop(0.5, #00ffff), color-stop(0.67, #0000ff), color-stop(0.83, #ff00ff), to(#ff0000));
+	background: -webkit-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+	background: linear-gradient(to bottom, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+}
+
+/* IE filters do not support multiple color stops.
+   Generate 6 divs, line them up, and do two color gradients for each.
+   Yes, really.
+ */
+.sp-1 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ffff00');
+	height: 17%;
+}
+
+.sp-2 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff00', endColorstr='#00ff00');
+	height: 16%;
+}
+
+.sp-3 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='#00ffff');
+	height: 17%;
+}
+
+.sp-4 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffff', endColorstr='#0000ff');
+	height: 17%;
+}
+
+.sp-5 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000ff', endColorstr='#ff00ff');
+	height: 16%;
+}
+
+.sp-6 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00ff', endColorstr='#ff0000');
+	height: 17%;
+}
+
+.sp-hidden {
+	display: none !important
+}
+
+/* Clearfix hack */
+.sp-cf {
+	*zoom: 1
+}
+
+.sp-cf:after {
+	clear: both
+}
+
+.sp-cf:before,
+.sp-cf:after {
+	content: "";
+	display: table;
+}
+
+/* Mobile devices, make hue slider bigger so it is easier to slide */
+@media (max-device-width: 480px) {
+	.sp-color {
+		right: 40%
+	}
+
+	.sp-hue {
+		left: 63%
+	}
+
+	.sp-fill {
+		padding-top: 60%
+	}
+}
+
+.sp-dragger {
+	background: #000;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 5px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 5px;
+}
+
+.sp-slider {
+	background: white;
+	border: 1px solid #000;
+	cursor: pointer;
+	height: 3px;
+	left: -1px;
+	opacity: .8;
+	position: absolute;
+	right: -1px;
+	top: 0;
+}
+
+/*  4.1 Spectrum Colorpicker Themeable Display Styles
+------------------------------------------------------------------------------*/
+/*
+Theme authors:
+Here are the basic themeable display options (colors, fonts, global widths).
+See http://bgrins.github.io/spectrum/themes/ for instructions.
+*/
+.sp-container {
+	background-color: #ececec;
+	border: solid 1px #f0c49b;
+	border-radius: 0;
+	padding: 0;
+}
+
+.sp-container,
+.sp-container button,
+.sp-container input,
+.sp-color,
+.sp-hue,
+.sp-clear {
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font: normal 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.sp-top {
+	margin-bottom: 3px
+}
+
+.sp-color,
+.sp-hue,
+.sp-clear {
+	border: solid 1px #666
+}
+
+/* Input */
+.sp-input-container {
+	float: right;
+	margin-bottom: 4px;
+	width: 100px;
+}
+
+.sp-initial-disabled .sp-input-container {
+	width: 100%
+}
+
+.sp-input {
+	background: transparent;
+	border: 1px inset;
+	border-radius: 3px;
+	color: #222;
+	font-size: 12px !important;
+	margin: 0;
+	padding: 4px 5px;
+	width: 100%;
+}
+
+.sp-input:focus {
+	border: 1px solid orange
+}
+
+.sp-input.sp-validation-error {
+	background: #fdd;
+	border: 1px solid red;
+}
+
+.sp-picker-container,
+.sp-palette-container {
+	float: left;
+	margin-bottom: -290px;
+	padding: 10px;
+	padding-bottom: 300px;
+	position: relative;
+}
+
+.sp-picker-container {
+	border-left: solid 1px #fff;
+	width: 172px;
+}
+
+/* Palettes */
+.sp-palette-container {
+	border-right: solid 1px #ccc
+}
+
+.sp-palette-only .sp-palette-container {
+	border: 0
+}
+
+.sp-palette .sp-thumb-el {
+	border: solid 2px transparent;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 15px;
+	margin: 3px;
+	position: relative;
+	width: 24px;
+}
+
+.sp-palette .sp-thumb-el:hover,
+.sp-palette .sp-thumb-el.sp-thumb-active {
+	border-color: orange
+}
+
+.sp-thumb-el {
+	position: relative
+}
+
+/* Initial */
+.sp-initial {
+	border: solid 1px #333;
+	float: left;
+}
+
+.sp-initial .sp-clear-display {
+	background-position: center
+}
+
+.sp-initial span {
+	border: none;
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0;
+	width: 30px;
+}
+
+/* Buttons */
+.sp-palette-button-container,
+.sp-button-container {
+	float: right
+}
+
+/* Replacer (the little preview div that shows up instead of the <input>) */
+.sp-replacer {
+	*display: inline;
+	*zoom: 1;
+	background: #eee;
+	border: solid 1px #91765d;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	overflow: hidden;
+	padding: 4px;
+	vertical-align: middle;
+}
+
+.sp-replacer:hover,
+.sp-replacer.sp-active {
+	border-color: #f0c49b;
+	color: #111;
+}
+
+.sp-replacer.sp-disabled {
+	border-color: silver;
+	color: silver;
+	cursor: default;
+}
+
+.sp-dd {
+	float: left;
+	font-size: 10px;
+	height: 16px;
+	line-height: 16px;
+	padding: 2px 0;
+}
+
+.sp-preview {
+	border: solid 1px #222;
+	float: left;
+	height: 20px;
+	margin-right: 5px;
+	position: relative;
+	width: 25px;
+	z-index: 0;
+}
+
+.sp-palette {
+	*width: 220px;
+	max-width: 220px;
+}
+
+.sp-palette .sp-thumb-el {
+	border: solid 1px #d0d0d0;
+	height: 16px;
+	margin: 2px 1px;
+	width: 16px;
+}
+
+.sp-container {
+	padding-bottom: 0
+}
+
+/* Buttons: http://hellohappy.org/css3-buttons/ */
+.sp-container button {
+	background-color: #eeeeee;
+	background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: linear-gradient(to bottom, #eeeeee, #cccccc);
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #bbb;
+	border-radius: 3px;
+	color: #333;
+	font-size: 14px;
+	line-height: 1;
+	padding: 5px 4px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+	vertical-align: middle;
+}
+
+.sp-container button:active {
+	-moz-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+	-ms-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+	-o-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+	-webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+	border: 1px solid #aaa;
+	border-bottom: 1px solid #888;
+	box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}
+
+.sp-container button:hover {
+	background-color: #dddddd;
+	background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+	background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+	background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+	background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+	background-image: linear-gradient(to bottom, #dddddd, #bbbbbb);
+	border: 1px solid #bbb;
+	border-bottom: 1px solid #999;
+	cursor: pointer;
+	text-shadow: 0 1px 0 #ddd;
+}
+
+.sp-cancel {
+	color: #d93f3f !important;
+	font-size: 11px;
+	margin: 0;
+	margin-right: 5px;
+	padding: 2px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.sp-cancel:hover {
+	color: #d93f3f !important;
+	text-decoration: underline;
+}
+
+.sp-palette span:hover,
+.sp-palette span.sp-thumb-active {
+	border-color: #000
+}
+
+.sp-preview,
+.sp-alpha,
+.sp-thumb-el {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==');
+	position: relative;
+}
+
+.sp-preview-inner,
+.sp-alpha-inner,
+.sp-thumb-inner {
+	bottom: 0;
+	display: block;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.sp-palette .sp-thumb-inner {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIVJREFUeNpiYBhsgJFMffxAXABlN5JruT4Q3wfi/0DsT64h8UD8HmpIPCWG/KemIfOJCUB+Aoacx6EGBZyHBqI+WsDCwuQ9mhxeg2A210Ntfo8klk9sOMijaURm7yc1UP2RNCMbKE9ODK1HM6iegYLkfx8pligC9lCD7KmRof0ZhjQACDAAceovrtpVBRkAAAAASUVORK5CYII=')
+}
+
+.sp-palette .sp-thumb-dark.sp-thumb-active .sp-thumb-inner {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAMdJREFUOE+tkgsNwzAMRMugEAahEAahEAZhEAqlEAZhEAohEAYh81X2dIm8fKpEspLGvudPOsUYpxE2BIJCroJmEW9qJ+MKaBFhEMNabSy9oIcIPwrB+afvAUFoK4H0tMaQ3XtlrggDhOVVMuT4E5MMG0FBbCEYzjYT7OxLEvIHQLY2zWwQ3D+9luyOQTfKDiFD3iUIfPk8VqrKjgAiSfGFPecrg6HN6m/iBcwiDAo7WiBeawa+Kwh7tZoSCGLMqwlSAzVDhoK+6vH4G0P5wdkAAAAASUVORK5CYII=')
+}
+
+.sp-clear-display {
+	background-image: url('data:image/gif;base64,R0lGODlhFAAUAPcAAAAAAJmZmZ2dnZ6enqKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq/Hx8fLy8vT09PX19ff39/j4+Pn5+fr6+vv7+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAAUABQAAAihAP9FoPCvoMGDBy08+EdhQAIJCCMybCDAAYUEARBAlFiQQoMABQhKUJBxY0SPICEYHBnggEmDKAuoPMjS5cGYMxHW3IiT478JJA8M/CjTZ0GgLRekNGpwAsYABHIypcAgQMsITDtWJYBR6NSqMico9cqR6tKfY7GeBCuVwlipDNmefAtTrkSzB1RaIAoXodsABiZAEFB06gIBWC1mLVgBa0AAOw==');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*  4.2 UMBG Spectrum Colorpicker Theme Styles (.umbg-cp)
+------------------------------------------------------------------------------*/
+/* Container */
+.umbg-cp.sp-container {
+	background-color: #ececec;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.20);
+}
+
+/* Replacer (the little preview div that shows up instead of the input tag) */
+.umbg-cp.sp-replacer {
+	/*border-radius: 4px;*/
+	background-color: #ececec;
+	border: 1px solid #ccc;
+	padding: 3px 0 3px 3px;
+	vertical-align: middle;
+	width: 105px;
+}
+
+.umbg-cp.sp-replacer:hover,
+.umbg-cp.sp-replacer.sp-active {
+	border-color: #ccc;
+	color: #fff;
+}
+
+.umbg-cp.sp-replacer.sp-disabled {
+	border-color: silver;
+	color: silver;
+}
+
+.sp-alpha-inner {
+	border: solid 1px #aaa
+}
+
+.umbg-cp,
+.umbg-cp button,
+.umbg-cp input,
+.sp-color,
+.sp-hue {
+	border-color: #aaa
+}
+
+.umbg-cp .sp-cancel {
+	color: #f99f9f !important
+}
+
+.umbg-cp .sp-preview {
+	border: solid 1px #999;
+	width: 80%;
+}
+
+/* Input */
+.umbg-cp .sp-input-container {
+	width: 100%
+}
+
+.umbg-cp .sp-initial-disabled .sp-input-container {
+
+}
+
+.umbg-cp .sp-input {
+
+}
+
+.umbg-cp .sp-input:focus {
+
+}
+
+.umbg-cp .sp-input.sp-validation-error {
+
+}
+
+.umbg-cp .sp-picker-container,
+.umbg-cp .sp-palette-container {
+
+}
+
+.umbg-cp .sp-picker-container {
+	padding-top: 20px;
+	width: 195px;
+}
+
+.umbg-cp .sp-color {
+	top: -10px
+}
+
+/* Palettes */
+.umbg-cp .sp-palette-container {
+
+}
+
+.umbg-cp .sp-palette .sp-thumb-el {
+
+}
+
+.umbg-cp .sp-palette .sp-thumb-el:hover,
+.umbg-cp .sp-palette .sp-thumb-el.sp-thumb-active {
+
+}
+
+.umbg-cp .sp-thumb-el {
+
+}
+
+.sp-slider {
+	border-color: #333;
+	border-radius: 4px;
+	height: 10px;
+}
+
+.sp-alpha-enabled .sp-top {
+	margin-bottom: 34px
+}
+
+.sp-alpha-handle {
+	/*background: white;*/
+	/*border: 1px solid black;*/
+	/*cursor: pointer;*/
+	/*left: 50%;*/
+	/*opacity: .8;*/
+	/*position: absolute;*/
+	/*width: 6px;*/
+	border-color: #333;
+	border-radius: 4px;
+	bottom: -6px;
+	height: 20px;
+	top: -6px;
+	width: 10px;
+}
+
+.sp-alpha {
+	/*display: none;*/
+	/*left: 0;*/
+	/*position: absolute;*/
+	/*right: 0;*/
+	bottom: -21px;
+	height: 12px;
+}
+
+/* Initial */
+.umbg-cp .sp-initial {
+	border: 1px solid #aaa;
+	width: 100%;
+}
+
+.umbg-cp .sp-initial span {
+	width: 100%
+}
+
+/* Buttons */
+.umbg-cp .sp-button-container {
+
+}
+
+/* Replacer (the little preview div that shows up instead of the input tag */
+.umbg-cp.sp-replacer {
+
+}
+
+.umbg-cp.sp-replacer:hover,
+.umbg-cp.sp-replacer.sp-active {
+	border-color: #ccc;
+	color: #111;
+}
+
+.umbg-cp.sp-replacer.sp-disabled {
+
+}
+
+.umbg-cp .sp-dd {
+
+}
+
+.umbg-cp .sp-preview {
+
+}
+
+.umbg-cp .sp-palette {
+
+}
+
+.umbg-cp .sp-palette .sp-thumb-el {
+
+}
+
+.umbg-cp .sp-palette span:hover,
+.umbg-cp .sp-palette span.sp-thumb-active {
+
+}
+
+.umbg-cp button {
+
+}
+
+.umbg-cp button:active {
+
+}
+
+.umbg-cp button:hover {
+
+}
+
+.umbg-cp .sp-cancel {
+
+}
+
+.umbg-cp .sp-cancel:hover {
+
+}
+
+/*------------------------------------------------------------------------------
+    6. UMBG About Page Styles
+------------------------------------------------------------------------------*/
+.about-wrap .umbg-h2 {
+	font-size: 2.4em;
+	font-weight: 300;
+	line-height: 1.3;
+	margin: 1.1em 0 0.2em;
+	text-align: center;
+}
+
+.about-wrap .umbg-feature {
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+/*------------------------------------------------------------------------------
+    6. UMBG Admin Pages Media Queries
+------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 782px) {
+	.umbg-rangeslider,
+	.umbg-rangeslider__fill {
+		width: 70%
+	}
+
+	.form-table .umbg-overlay-style-tr td {
+		width: 100% !important
+	}
+
+	.form-table .umbg-overlay-style-option-preview td {
+		display: table-cell;
+		width: 15px;
+	}
+
+	.form-table table.umbg-overlay-style-option-preview {
+		margin-right: 10px
+	}
+
+	.umbg-container-for-select {
+		display: inline-block;
+		margin-right: 10px;
+		position: relative;
+		width: 100%;
+	}
+
+	.umbg-select {
+		padding-top: 8px !important
+	}
+
+	.column-media_player, .column-post_modified {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.umbg-overlay-style-option {
+		width: 49%
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#umbg-media-id-thumb,
+	#umbg-media-poster-thumb {
+		height: 180px;
+		width: 100%;
+	}
+
+	.umbg-media-id-preview,
+	.umbg-media-poster-preview {
+		height: 180px;
+		width: 100%;
+	}
+
+	#umbg-overlay-css {
+		margin-bottom: 30px
+	}
+
+	.umbg-block-list {
+		background-color: #fff;
+		margin-left: 5px;
+		margin-top: -8px;
+
+		min-width: 232px;
+		min-height: 300px;
+		/*padding: 20px 0;*/
+
+		padding: 20px 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+
+	.umbg-block-list-words li {
+		margin: 10px 0;
+		padding: 10px;
+	}
+
+}

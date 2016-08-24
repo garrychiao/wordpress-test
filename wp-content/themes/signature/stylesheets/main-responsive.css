@@ -1,0 +1,1952 @@
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+@media only screen and (min-width: 993px){
+.mastwrap.signature-adler .container{
+  width: calc(100vw - 300px) !important;
+  max-width: 1170px !important;
+}
+}
+
+/* Ultra Large Desktops / HD Screens */
+@media only screen and (min-width: 3001px) and (max-width: 5000px){
+
+    .works-masonry-container .works-item-one-third {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 20% !important;
+    }
+    .works-masonry-container .works-item-two-third {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 20% !important;
+    }
+    .works-masonry-container .works-item-one-half {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 20% !important;
+    }
+    .works-masonry-container .works-item-one-fourth {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 20% !important;
+    }
+    .works-masonry-container .works-item-full-width {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 20% !important;
+    }
+    .works-masonry-container .works-item-one-third-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 18% !important;
+    }
+    .works-masonry-container .works-item-one-half-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 18% !important;
+    }
+    .works-masonry-container .works-item-two-third-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 18% !important;
+    }
+    .works-masonry-container .works-item-one-fourth-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 18% !important;
+    }
+
+}
+
+
+/* Super Large Desktops / HD Screens */
+@media only screen and (min-width: 1450px) and (max-width: 3000px){
+
+    .works-masonry-container .works-item-one-third {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 25% !important;
+    }
+    .works-masonry-container .works-item-two-third {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 25% !important;
+    }
+    .works-masonry-container .works-item-one-half {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 25% !important;
+    }
+    .works-masonry-container .works-item-one-fourth {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 25% !important;
+    }
+    .works-masonry-container .works-item-full-width {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 25% !important;
+    }
+    .works-masonry-container .works-item-one-third-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 23% !important;
+    }
+    .works-masonry-container .works-item-one-half-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 23% !important;
+    }
+    .works-masonry-container .works-item-two-third-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 23% !important;
+    }
+    .works-masonry-container .works-item-one-fourth-spaced{
+      margin: 1% !important;
+      padding: 0 !important;
+      width: 23% !important;
+    }
+
+}
+
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    header.masthead.signature-adler{
+        padding: 40px;
+        width: 200px;
+    }
+    section.mastwrap.signature-adler{
+        margin-left: 200px;
+    }
+    div#preloader.signature-adler{
+        left: 200px;
+    }
+
+    .orwin-nav .main-link{
+        font-size: 32px !important;
+        line-height: 44px !important;
+    }
+
+    .service-block.signature-stefan{
+        padding: 40px;
+    }
+    nav.mastnav.signature-stefan ul li a{
+        font-size: 11px !important;
+        line-height: 15px !important;
+    }
+
+    body.signature-velten-body {
+        border-left-width: 80px;
+        border-right-width: 80px;
+    }
+
+    .mastnav.signature-xaver .main-link {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+
+    body.signature-york-body{
+        margin: 0 60px;
+    }
+    .service-block.signature-york {
+        padding: 40px;
+    }
+
+    body.signature-zircon-body{
+        padding: 0 120px;
+    }
+    nav.main-nav-dropdown.signature-zircon .dropit > li{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+}
+
+/* Larger than desktop */
+@media (max-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .text-left, .text-right {
+        text-align: center;
+    }
+
+    .img-responsive {
+        display: inline-block;
+    }
+
+
+    .mastwrap.signature-adler .page-content .signature-section .container{
+        width: 90%;
+    }
+    .page-content-wrap-signature-adler  .add-margin-160-to-80{
+        margin-top: 80px !important;
+        margin-bottom: 80px !important;
+    }
+    .page-content-wrap-signature-adler  .add-margin-top-160-to-80{
+        margin-top: 80px !important;
+    }
+    .page-content-wrap-signature-adler  .add-margin-bottom-160-to-80{
+        margin-bottom: 80px !important;
+    }
+    header.masthead.signature-adler{
+        display: none;
+    }
+    section.mastwrap.signature-adler{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    ul.slimmenu.collapsed li .sub-collapser, ul.slimmenu > li > a:first-child {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 3px 0;
+    }
+    .menu-collapser {
+        background-image: url("../images/logo.png");
+    }
+    .mobile-nav.signature-adler{
+        display: block !important;
+    }
+    div#preloader.signature-adler{
+        left: 0;
+    }
+    ul.slimmenu li a{
+        font-size: 12px;
+        padding: 2px 0;
+    }
+    .filter-notification.signature-adler{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    footer.mastfoot.signature-adler .credits p{
+        font-size: 10px;
+        line-height: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .elements-counter.signature-adler{
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+    }
+    .page-content-wrap-signature-adler .adler-call-to-action-wrap{
+        padding: 20px !important;
+        padding-bottom: 25px !important;
+        margin-top: 80px !important
+    }
+    .adler-about-text-block1, .adler-slider-project-heading, .main-heading h1{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .adler-call-to-action-wrap-heading{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .adler-liner-text h6{
+        font-size: 12px;
+        line-height: 19px;
+        margin-bottom: 0px;
+    }
+    .journal.signature-adler .news-block.signature-adler h3, .project-title.signature-adler h1{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .first-fold.signature-adler .main-heading{
+        margin-left: 40px;
+    }
+    .first-fold.signature-adler .main-heading h6{
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    header.masthead.signature-amor{
+        display: none;
+    }
+    .mastwrap.signature-amor{
+        margin-right: 0px;
+    }
+
+    header.masthead.signature-boston{
+        display: none;
+    }
+
+    header.masthead.signature-berend{
+        display: none;
+    }
+    section.mastwrap.signature-berend{
+        padding-top: 0px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .berend-home-page .signature-text-ticker{
+        font-size: 36px !important;
+        line-height: 43px !important;
+    }
+    .signature-berend-about-home .signature-text-ticker, .signature-berend-about-home .signature-text-block{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .feature-block.signature-berend h3{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .signature-berend-about-text-only-block-head{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-section .signature-berend-about-text-only-block-content-wrap{
+        margin-top: 40px !important;
+    }
+    .page-content-wrap-signature-berend  .signature-berend-skills-block-container{
+        padding-top: 160px !important;
+        padding-bottom: 160px !important;
+    }
+    .journal.signature-berend .news-block .main-heading{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .signature-berend-contact-email{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-berend-contact-address{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .empty-space-adjustment{
+        height: 15px !important;
+    }
+    .project-title.signature-berend{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .project-title.signature-berend h1{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .signature-berend-project-text-block-head h6{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .berend-blog-list-pagination .btn-signature{
+        margin-top: 0;
+    }
+
+
+    header.masthead.signature-claus{
+        display: none;
+    }
+    section.mastwrap.signature-claus{
+        margin-left: 0;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    div#preloader.signature-claus{
+        left: 0;
+    }
+    .filter-notification.signature-claus{
+        text-align: center;
+        padding-left: 0;
+    }
+    footer.mastfoot.signature-claus .foot-social{
+        margin-top: 15px;
+    }
+    footer.mastfoot.signature-claus .credits p{
+        font-size: 10px;
+        line-height: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .first-fold.signature-claus .main-heading{
+        margin-left: 30px;
+    }
+    .first-fold.signature-claus .main-heading h1{
+        margin-top: 0px;
+    }
+    .first-fold.signature-claus .main-heading h6{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .project-title.signature-adler h1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .signatue-claus-project-text-block-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-sidebar form input[name="s"]{
+        margin-left: 5px;
+        border: 1px solid;
+    }
+
+    header.masthead.signature-dierk{
+        display: none;
+    }
+    section.mastwrap.signature-dierk{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .works-item.signature-dierk .works-item-inner{
+        padding: 0 30px;
+    }
+    .works-item.signature-dierk .works-item-inner p > span{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    footer.mastfoot.signature-dierk .credits p{
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 0px;
+    }
+    .dierk-split-content-section{
+        padding: 80px 60px;
+    }
+    .elements-counter.signature-adler{
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+    }
+    .service-block.signature-dierk p{
+        padding: 0 5px;
+    }
+    .page-content-wrap-signature-dierk .signature-dierk-about-call-to-action-wrap{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    .signature-dierk-about-call-to-action-head{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .journal.signature-dierk .news-head{
+        padding: 30px;
+    }
+    .journal.signature-dierk .news-block.signature-dierk h2{
+        font-size: 20px !important;
+        line-height: 27px !important;
+        margin: 0;
+    }
+    .journal.signature-dierk .news-block.signature-dierk h3 {
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 0;
+    }
+    .signature-dierk-contact-email{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-dierk-contact-address{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+
+
+    .hero-text.signature-adler h3, .main-heading h1{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .call-to-action.signature-adler h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .journal.signature-adler .news-block.signature-adler h3, .project-title.signature-adler h1{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-heading h6{
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+
+    body.signature-ebert-body {
+     border-left: none !important;
+     border-right: none !important;
+    }
+    header.masthead.signature-ebert{
+        display: none;
+    }
+    .signature-ebert .split-home-panel, .signature-ebert .ms-tableCell{
+        height: calc(100vh - 107px) !important;
+    }
+    .mastwrap.signature-ebert{
+        margin-top: 48px;
+    }
+    .signature-ebert .ms-static-title h1 span{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .signature-ebert-text-rotator{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-ebert-about-text-only-block-head{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-ebert .about-hero-text{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+    .signature-ebert-about-recognition-block-head{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .news-block.signature-ebert h1{
+        font-size: 12px;
+        line-height: 30px;
+        letter-spacing: 10px;
+        margin: 10px 0;
+    }
+    .news-block.signature-ebert h3{
+        font-size: 21px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .signature-ebert-contact-hero-block .mail-address span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .signature-ebert-contact-hero-block .address-block span{
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .project-title.signature-ebert .main-heading{
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+
+    header.masthead.signature-franz{
+        display: none;
+    }
+    .mastwrap.signature-franz{
+        margin-top: 50px !important;
+    }
+    .signature-franz-text-ticker-block .rotator-wrap{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .signature-franz-about-text-block-title span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .signature-franz .signature-franz-about-text-block-super-heading-wrap{
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+    .signature-franz-about-text-block-super-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-franz .signature-franz-about-text-block-para-block-wrap{
+        text-align: center;
+        margin-top: 40px !important;
+    }
+    .signature-franz-about-text-block-para-block-wrap .signature-text-block{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project-title.signature-franz h1.super-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-ebert-contact-mail-address{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .signature-ebert-contact-address-block .signature-text-block{
+        font-size: 30px !important;
+        line-height: 37px !important;
+    }
+
+
+    header.masthead.signature-gozzo{
+        display: none;
+    }
+    .mastwrap.signature-gozzo{
+        margin-top: 50px;
+    }
+    .signature-gozzo-about-main-heading{
+        font-size: 42px !important;
+        line-height: 49px !important;
+    }
+    .signature-gozzo-about-sub-heading{
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    .signature-gozzo-about-awards-block-wrap{
+        text-align: center;
+    }
+    .signature-gozzo-about-awards-block-wrap .vc_column_container.vc_col-sm-6:first-child{
+        margin-bottom: 50px;
+    }
+    .blog-list-wrap.journal.signature-gozzo{
+        text-align: center;
+    }
+    .news-list-item.signature-gozzo .news-date{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .news-list-item.signature-gozzo .news-heading{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .signature-sidebar form input[name="s"]{
+        margin-left: 0;
+        width: 100%;
+    }
+    .signature-sidebar form #searchsubmit{
+        transform: translateX(0px);
+    }
+    .signature-sidebar{
+        text-align: center;
+    }
+    .signature-gozzo-contact-page-head{
+        font-size: 24px !important;
+        line-height: 31px !important;
+        text-align: center;
+        display: block;
+    }
+    .signature-gozzo-contact-mail-address-block{
+        font-size: 24px !important;
+        line-height: 31px !important;
+        text-align: center;
+        display: block;
+    }
+    .signature-gozzo-contact-address-block-wrap{
+        text-align: center;
+    }
+
+    header.masthead.signature-hans{
+        display: none;
+    }
+    .mastwrap.signature-hans{
+        margin-top: 50px;
+    }
+    .intro-carousel.signature-hans .intro-caps h3{
+        font-size: 24px !important;
+        line-height: 31px !important;
+        letter-spacing: 2px;
+    }
+    .intro-carousel.signature-hans .intro-caps h5 span{
+        font-size: 10px;
+        line-height: 17px;
+        letter-spacing: 0;
+    }
+    .signature-hans-page-header h1{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-hans-page-header h6{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .signature-hans-about-text-block-cap-text{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-hand-about-story-title{
+        text-align: center;
+    }
+    .signature-hand-about-story-text-block{
+        text-align: center;
+    }
+    .page-content-wrap-signature-hans .signature-hand-about-couter-block-wrap{
+        padding-top: 160px !important;
+        padding-bottom: 160px !important;
+    }
+    .signature-hand-about-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .page-content-wrap-signature-hans .add-top-quarter{
+        margin-top: 20px;
+    }
+    .page-content-wrap-signature-hans .signature-hans-news-block-wrap{
+        padding-top: 80px !important;
+        padding-bottom: 0px !important;
+    }
+    .signature-hans-project-title-wrap{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .signature-hans-project-title-container{
+        padding-top: 40px !important;
+    }
+    .signature-hans-contact-content-container{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+
+    header.masthead.signature-igor{
+        display: none;
+    }
+    .page-fold.signature-igor .page-heading{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-igor-about-cap-text{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .page-content-wrap-signature-igor .signature-igor-about-para-text-wrap{
+        text-align: center;
+    }
+    .features-slider.signature-igor .process-text{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .news-list.signature-igor{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page-content-wrap-signature-igor .signature-igor-contact-address-block{
+        padding-top: 160px !important;
+        padding-bottom: 160px !important;
+    }
+
+    body.signature-johan-body{
+        margin: 0 !important;
+    }
+    header.masthead.signature-johan{
+        display: none;
+    }
+    .mastwrap.signature-johan{
+        margin-top: 50px;
+    }
+    .signature-johan.page-header h1{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .elements-counter.signature-johan .number{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .elements-counter-wrap.signature-johan .subject{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .signature-johan-about-call-to-action .vc_column-inner{
+        padding-top: 0;
+    }
+    .signature-johan-about-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .news-block.signature-johan h3{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .signature-johan-project-head-wrap{
+        margin-top: 100px;
+    }
+    .page-content-wrap-signature-johan .signature-johan-contact-form-wrap{
+        padding-top: 80px !important;
+        padding-bottom: 110px !important;
+    }
+
+
+    header.masthead.signature-karl{
+        display: none;
+    }
+    .mastwrap.signature-karl{
+        margin-top: 50px;
+    }
+    .page-content-wrap-signature-karl .signature-karl-hero-block{
+        margin-top: 0!important;
+    }
+    .signature-karl-hero-main-heading{
+        font-size: 32px !important;
+        line-height: 39px !important;
+    }
+    .signature-karl-hero-heading-block{
+        text-align: center;
+    }
+    .works-thumbnails-view.signature-karl .works-item-inner p > span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .works-item.signature-karl .works-item-inner h3 > span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .page-content-wrap-signature-karl .signature-karl-split-scetion-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .page-content-wrap-signature-karl .signature-karl-call-to-action-wrap{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    .signature-karl-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-karl-contact-mail-address{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-karl-contact-address{
+        font-size: 32px !important;
+        line-height: 39px !important;
+    }
+
+
+    header.masthead.signature-leon{
+        display: none;
+    }
+    .signature-leon-home-hero-heading-block .signature-text-block{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-leon-home-hero-heading-block .cd-headline.clip span{
+        padding: 0;
+        padding-left: 5px;
+    }
+    .signature-leon-home-hero-heading-block .vc_empty_space{
+        display: none;
+    }
+    .signature-leon-hero-heading-block .signature-text-block:first-child{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-leon-about-text-block-big-text{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .mastwrap.signature-leon .signature-leon-call-to-action-container{
+        padding-top: 120px !important;
+        padding-bottom: 120px !important;
+    }
+    .signature-leon-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .news-block.signature-leon .news-head{
+        padding: 80px 40px;
+    }
+    .news-block.signature-leon .news-button{
+        margin-top: 80px;
+    }
+    .news-block.signature-leon .news-button .btn-signature{
+        margin-right: 0px;
+    }
+    .news-block.signature-leon h2{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .news-block.signature-leon h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .signature-leon-project-title .signature-text-block{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-leon-hero-heading-block .signature-leon-address{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+
+
+    header.masthead.signature-moritz{
+        display: none;
+    }
+    section.mastwrap.signature-moritz{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .elements-counter.signature-moritz .number{
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .signature-moritz-about-banner-text{
+        font-size: 38px !important;
+        line-height: 54px !important;
+    }
+    .signature-moritz-call-t-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-moritz-contact-address-block{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-moritz-project-title-wrap .signature-text-block{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    header.masthead.signature-nemo{
+        display: none;
+    }
+    section.mastwrap.signature-nemo{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .page-content-wrap-signature-nemo .signature-nemo-hero-title-block .vc_column-inner{
+        padding-left: 30px !important
+    }
+    .signature-nemo-hero-title-block-main-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-nemo-hero-title-block-sub-title{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+    .signature-nemo-about-content-top-block-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-nemo-call-to-action-block-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .news-block.signature-nemo .news-head{
+        padding: 30px;
+    }
+    .news-block.signature-nemo h3 {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+
+    .page-fold.signature-orwin .page-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .page-fold.signature-orwin .sub-heading-minor span{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+    .signature-orwin-about-minimal-caps{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-orwin-about-para-text-block{
+        text-align: center;
+    }
+    .process-carousel.signature-orwin .process-text{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .news-list.signature-orwin{
+        padding: 50px 0;
+    }
+    .news-list.signature-orwin h3{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .news-list.signature-orwin p {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .page-content-wrap-signature-orwin  .signature-orwin-contact-address-block{
+        padding: 120px 0 !important;
+    }
+    .signature-orwin-contact-address-block-title{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-orwin-contact-address-block-text{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+
+    header.masthead.signature-phil{
+        display: none;
+    }
+    .mastwrap.signature-phil{
+        margin-top: 50px;
+    }
+    .page-content-wrap-signature-phil .signature-phil-flicker-gallery{
+        padding: 0 20px !important;
+    }
+    .signature-phil-about-hero-main-heading{
+        letter-spacing: 2px !important;
+    }
+    .signature-phil-contact-details-block{
+        text-align: center;
+    }
+    .signature-phil-contact-main-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-phil-contact-mail-address{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-phil-recognition-block{
+        text-align: center;
+    }
+
+
+    header.masthead.signature-quartz{
+        display: none;
+    }
+    .mastwrap.signature-quartz{
+        margin-top: 50px;
+    }
+    .quartz-page-header .hero-text-wrap .signature-text-block{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-quatrz-promo-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-quatrz-sub-heading{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-quartz-about-text-block, .signature-quartz-about-text-block-heading-block{
+        text-align: center;
+    }
+    .quartz-main-heading{
+        text-align: center;
+    }
+    .quartz-sub-heading{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .news-list.signature-quartz .news-list-item{
+        padding: 40px;
+    }
+    .news-list.signature-quartz .news-list-item h6 > span{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .works-filter.signature-quartz li{
+        display: block;
+    }
+    .works-filter.signature-quartz li a > span{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-quartz-contact-mail-address-block .vc_column-inner{
+        padding: 80px 40px !important;
+        text-align: center;
+    }
+    .signature-quartz-contact-mail-address{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-quartz-contact-form .vc_column-inner{
+        padding: 40px !important;
+    }
+
+
+
+    header.masthead.signature-rein{
+        display: none;
+    }
+    .mastwrap.signature-rein{
+        margin-top: 50px;
+    }
+    .signature-rein-home-hero-heading-block{
+        text-align: center;
+    }
+    .signature-rein-home-hero-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-rein-about-main-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+
+
+    header.masthead.signature-stefan{
+        display: none;
+    }
+    .mastwrap.signature-stefan{
+        margin-top: 50px;
+        margin-right: 0;
+    }
+    .mastwrap.signature-stefan .signature-section > .container{
+        padding: 0;
+    }
+    .signature-stefan-hero-text-block{
+        text-align: center;
+    }
+    .signature-stefan-hero-main-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+        letter-spacing: 2px !important;
+    }
+    .team-block.signature-stefan .team-overlay{
+        padding: 10px;
+    }
+    .service-block.signature-stefan h3{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-stepan-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .journal.signature-stefan .news-head h2{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .journal.signature-stefan .news-head h3 {
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    .signature-stefan-project-title{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+
+    .signature-theo-body{
+        padding: 0;
+    }
+    .signature-theo.sticky-panel{
+        display: none;
+    }
+    header.masthead.signature-theo{
+        display: none;
+    }
+    .mastwrap.signature-theo{
+        margin-top: 50px;
+    }
+    .news-list.signature-theo{
+        padding: 80px 0;
+    }
+    .works-item.signature-theo .works-item-inner h3{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-theo-about-hero-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-theo-about-cap-text{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .features-slider.signature-theo .process-text{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .service-block.signature-theo .service-icon.signature-theo h4{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .news-list.signature-theo .news-date h1{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .news-list.signature-theo h3{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-theo-contact-address-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+
+
+    header.masthead.signature-uno{
+        display: none;
+    }
+    .mastwrap.signature-uno{
+        margin-top: 50px;
+    }
+    .intro-carousel.signature-uno .album-info h3{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .page-content-wrap-signature-uno{
+        margin-top: 120px;
+    }
+    .signature-uno-about-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-uno-about-sub-heading{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-uno-about-awards-block{
+        text-align: center;
+    }
+    .signature-uno-contact-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-uno-contact-sub-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+
+    header.masthead.signature-velten{
+        display: none;
+    }
+    .mastwrap.signature-velten{
+        margin-top: 50px;
+    }
+    .signature-velten-text-ticker{
+        font-size: 14px !important;
+        line-height: 21px !important;
+        letter-spacing: 4px;
+    }
+    .signature-velten-hero-sub-heading{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .home-featured.signature-velten h1{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-velten-call-to-action-heading{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-velten-section-heading{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-velten-recognition-block{
+        text-align: center;
+    }
+    .signature-velten-contact-mail-address{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-velten-contact-address{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+
+
+    body.signature-wilmar-body{
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-top-width: 0;
+        border-bottom-width: 0;
+    }
+    header.masthead.signature-wilmar{
+        display: none;
+    }
+    .mastwrap.signature-wilmar{
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    .filter-notification.signature-wilmar{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .signature-wilmar-about-text-block-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-wilmar-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .journal.signature-wilmar .news-block.signature-wilmar h2{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .journal.signature-wilmar .news-head{
+        padding: 40px;
+    }
+    .signature-wilmar .signature-wilmar-contact-form-block{
+        padding: 50px 0 !important;
+    }
+
+
+    header.masthead.signature-xaver{
+        display: none;
+    }
+    .mastwrap.signature-xaver{
+        margin-top: 50px;
+    }
+    .signature-xaver-portfolio-title-block{
+        text-align: center;
+    }
+    .signature-xaver-portfolio-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-xaver-hero-heading-block .vc_empty_space{
+        height: 5px !important;
+    }
+    .signature-xaver-hero-main-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-xaver-hero-sub-heading{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-xaver-about-text-block{
+        text-align: center;
+    }
+    .signature-xaver-about-text-block-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-xaver-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-xaver-project-title{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-xaver-contact-address{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+
+    body.signature-york-body{
+        margin: 0;
+    }
+    .page-content-wrap-signature-york {
+        margin: 0 60px;
+    }
+    header.masthead.signature-york, .corner-nav.mastnav.signature-york{
+        display: none;
+    }
+    .mastwrap.signature-york{
+        margin-top: 50px;
+    }
+    .signature-york-hero-main-heading{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-york-hero-sub-heading{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+    .service-block.signature-york span{
+        font-size: 65px;
+    }
+    .signature-york-call-to-action-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-york-project-text-block-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+
+    section.mastwrap.signature-zircon{
+        margin-top: 50px;
+    }
+    .shop-sub-header{
+        top: 50px;
+    }
+    header.masthead.signature-zircon{
+        display: none;
+    }
+    body.signature-zircon-body{
+        padding: 0;
+    }
+    .signature-zircon-text-ticker{
+        font-size: 36px !important;
+        line-height: 66px !important;
+        letter-spacing: 16px !important;
+    }
+    .signature-zircon-home-sub-head{
+        font-size: 14px !important;
+        letter-spacing: 8px !important;
+        line-height: 28px !important;
+    }
+    .signature-zircon-call-to-action-block{
+        padding: 70px 0 !important;
+    }
+    .signature-zircon-call-to-action-block .signature-text-block{
+        font-size: 16px !important;
+        line-height: 23px !important;
+        letter-spacing: 2px !important;
+    }
+    .news-block.signature-ebert h1{
+        letter-spacing: 3px;
+    }
+
+    .works-masonry-container .works-item-one-third,
+    .works-masonry-container .works-item-two-third,
+    .works-masonry-container .works-item-one-half,
+    .works-masonry-container .works-item-one-fourth,
+    .works-masonry-container .works-item-full-width{
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 33.3% !important;
+    }
+    .works-masonry-container .works-item-one-third-spaced,
+    .works-masonry-container .works-item-one-half-spaced,
+    .works-masonry-container .works-item-two-third-spaced,
+    .works-masonry-container .works-item-one-fourth-spaced{
+          margin: 1% !important;
+          padding: 0 !important;
+          width: 31.3% !important;
+    }
+}
+
+@media (max-width: 780px) {
+    body.admin-bar .mobile-nav.signature-adler{
+        top: 50px;
+    }
+}
+
+/* Larger than tablet */
+@media (max-width: 768px) {
+    .container {
+        width: 668px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .text-left, .text-right, .mastfoot, .credits, .services-item, .hero-text.signature-adler {
+        text-align: center;
+    }
+
+    .img-responsive {
+        display: inline-block;
+    }
+
+    .mobile-nav.signature-adler {
+        display: block;
+    }
+    .works-masonry-container .works-item-one-third,
+    .works-masonry-container .works-item-two-third,
+    .works-masonry-container .works-item-one-half,
+    .works-masonry-container .works-item-one-fourth,
+    .works-masonry-container .works-item-full-width{
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 50% !important;
+    }
+    .works-masonry-container .works-item-one-third-spaced,
+    .works-masonry-container .works-item-one-half-spaced,
+    .works-masonry-container .works-item-two-third-spaced,
+    .works-masonry-container .works-item-one-fourth-spaced{
+          margin: 1% !important;
+          padding: 0 !important;
+          width: 48% !important;
+    }
+
+    .first-fold.signature-adler .main-heading{
+        margin-left: 30px;
+    }
+    .project-spec.signature-adler{
+        margin-top: 20px;
+    }
+    .adler-project-text-container{
+        text-align: center;
+    }
+    .adler-contact-details{
+        text-align: center;
+    }
+    .page-content-wrap-signature-adler .adler-project-title{
+        padding-left: 30px !important;
+        padding-right: 0px !important;
+    }
+    .project-title.signature-adler h1{
+        margin: 0px;
+    }
+    .elements-counter.signature-adler .number{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .elements-counter-wrap.signature-adler .subject{
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+    }
+
+
+    .feature-block.signature-berend h3{
+        margin-top: 15px;
+    }
+    .signature-berend-feature-block-wrap{
+        width: 100% !important;
+        margin-bottom: 45px;
+    }
+    .signature-berend-services-block-wrap{
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+    .signature-berend-skills-block-wrap{
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+    .signature-berend .client-logo{
+        border-bottom: 2px solid !important;
+        border-right: 0px !important;
+    }
+    .signature-berend .client-logo:last-child{
+        border: 0 !important;
+    }
+
+
+    .signature-claus-contact-content-section .vc_col-sm-6{
+        text-align: center;
+    }
+    .signature-claus-page-heading h1{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .signature-claus-contact-details{
+        margin-bottom: 40px;
+    }
+
+
+    .dierk-split-content-section{
+        text-align: center;
+    }
+    .team-block.signature-dierk{
+        text-align: center;
+        margin: 25px 15%;
+    }
+    .service-block.signature-dierk{
+        margin: 25px 0;
+    }
+    .journal.signature-dierk .news-head{
+        width: 100%;
+    }
+    .signature-dierk-project-text-container{
+        text-align: center;
+    }
+    .signature-dierk-contact-form{
+        padding: 0 50px;
+    }
+
+
+    .signature-ebert .ms-section-left{
+        background-position: right center !important;
+    }
+    .signature-ebert .ms-section-right{
+        background-position: left center !important;
+    }
+    .signature-ebert-about-recognition-block{
+        text-align: center;
+    }
+    .signature-ebert-about-recognition-block .title-sub{
+        margin-bottom: 25px;
+    }
+    .signature-ebert-project-text-block{
+        text-align: center;
+    }
+
+    .signature-franz-about-text-block-para-block-wrap .signature-text-block{
+        margin-bottom: 25px;
+    }
+    .signature-franz-about-text-block-bottom-text{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .signature-franz-project-page-text-block-title{
+        font-size: 40px !important;
+        line-height: 47px !important;
+    }
+    .signature-franz-project-page-para-text-wrap{
+        margin-top: 25px !important;
+    }
+    .page-content-wrap-signature-franz .signature-contact-form{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .signature-gozzo-project-text-block-wrap{
+        text-align: center;
+    }
+    .signature-gozzo-about-main-heading {
+        font-size: 30px !important;
+        line-height: 37px !important;
+    }
+    .signature-gozzo-about-sub-heading {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .signature-gozzo-contact-page-head{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .signature-gozzo-contact-mail-address-block{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .signature-gozzo-contact-address-block-wrap .signature-text-block{
+        font-size: 12px !important;
+        line-height: 19px !important;
+    }
+
+
+    .news-block.signature-hans .news-head{
+        text-align: center;
+    }
+    .signature-hans-project-text-block-container {
+        text-align: center;
+    }
+    .signature-hans-project-title-wrap{
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .mastwrap.signature-hans .signature-contact-form{
+        margin-top: 50px;
+    }
+
+
+    .parallax-random-grid.signature-igor .works-item.signature-igor {
+        width: 46%;
+        margin: 1%;
+    }
+    .page-content-wrap-signature-igor .signature-igor-about-para-text-wrap .vc_col-sm-6{
+        margin: 35px 0;
+    }
+    .team-block.signature-igor .team-block-inner{
+        margin: 30px 0;
+    }
+    .news-list.signature-igor .news-date h1{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+
+
+    .signature-johan-about-para-block, .signature-johar-about-team-block-wrap{
+        text-align: center;
+    }
+    .team-block.signature-johan{
+        margin-bottom: 40px;
+    }
+    .mastwrap.signature-johan .elements-counter-container{
+        margin-top: 80px !important;
+    }
+    .elements-counter.signature-johan .subject{
+        margin-bottom: 50px;
+    }
+    .mastwrap.signature-johan .signature-johan-about-call-to-action-container{
+        margin-top: 0 !important;
+    }
+    .signature-johan-slider-project-title-wrap{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .signature-johan-project-text-block-wrap{
+        text-align: center;
+    }
+    .signature-johan-contact-address-block{
+        margin-bottom: 40px;
+    }
+
+
+    .signature-karl-portfolio-hero-heading-block{
+        text-align: center;
+    }
+    .signature-karl-team-block-container{
+        text-align: center;
+    }
+    .signature-karl-hero-heading-block .signature-text-block{
+        font-size: 32px !important;
+        line-height: 39px !important;
+    }
+    .signature-karl-project-text-block-container{
+        text-align: center;
+    }
+
+
+    footer.mastfoot.signature-leon .foot-social li:after{
+        display: none;
+    }
+    footer.mastfoot.signature-leon .foot-social li{
+        display: block;
+        margin-bottom: 0;
+    }
+    .mastwrap.signature-leon .elements-counter.signature-johan{
+        display: block;
+        width: 100%;
+    }
+    .service-block.signature-leon span{
+        float: none !important;
+    }
+    .service-block.signature-leon .service-info-area.service-info-area-left{
+        margin-right: 0;
+    }
+    .service-block.signature-leon .service-info-area.service-info-area-right{
+        margin-left: 0;
+    }
+    .signature-leon-project-text-block{
+        text-align: center;
+    }
+    .respond textarea{
+        width: 100%;
+    }
+    .respond input[type="text"]{
+        width: 100%;
+    }
+
+    .elements-counter.signature-moritz{
+        margin-bottom: 50px;
+    }
+    .elements-counter.signature-moritz .number {
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-moritz-about-banner-text {
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-moritz-about-para-text{
+        text-align: center;
+    }
+    .team-block.signature-moritz{
+        margin-bottom: 50px;
+    }
+    .signature-moritz-project-para-text{
+        text-align: center;
+    }
+
+
+    .signature-nemo-about-content-top-block, .signature-nemo-about-para-block{
+        text-align: center;
+    }
+    .signature-namo-project-text-content-block{
+        text-align: center;
+    }
+
+
+    .signature-price-table.price{
+        margin-bottom: 60px;
+    }
+
+    .works-filter.signature-rein li a{
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    .signature-project-text-block{
+        text-align: center;
+    }
+    .signature-project-text-block-heading{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .signature-rein-project-next-prev-continer{
+        text-align: center;
+    }
+    .signature-rein-contact-email-address{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-rein-contact-address{
+        font-size: 22px !important;
+        line-height: 29px !important;
+    }
+    footer.mastfoot.signature-rein .foot-logo{
+        float: none;
+    }
+
+
+    .signature-stefan-about-text-block{
+        text-align: center;
+    }
+    .signature-stefan-project-text-block{
+        text-align: center;
+    }
+    .elements-counter.signature-johan{
+        display: inline-block;
+    }
+
+
+    .parallax-random-grid.signature-theo .works-item.signature-theo{
+        width: 40%;
+    }
+
+
+    .signature-uno-project-album-details-block{
+        text-align: center;
+    }
+    .signature-uno-project-album-title{
+        font-size: 24px !important;
+        line-height: 31px !important;
+        margin-top: 30px;
+    }
+
+    footer.mastfoot.signature-velten{
+        margin-bottom: 60px;
+    }
+    footer.mastfoot.signature-velten p{
+        margin-bottom: 0px;
+    }
+    .signature-velten-project-text-block{
+        text-align: center;
+    }
+
+
+    .signature-wilmar-about-text-block{
+        text-align: center;
+    }
+    .signature-wilmar .main-heading{
+        text-align: center;
+    }
+    .signature-wilmar .signature-wilmar-call-to-action-block{
+        text-align: center;
+        padding: 40px !important;
+    }
+    .journal.signature-wilmar .news-block.signature-wilmar h2{
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    .signature-wilmar-project-text-block-title{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .signature-wilmar-project-text-block{
+        text-align: center;
+    }
+    .signature-wilmar-contact-details-block{
+        margin-bottom: 50px;
+    }
+
+    .signature-xaver-hero-heading-block{
+        text-align: center;
+    }
+    .team-block.signature-xaver .team-overlay{
+        padding: 15px;
+    }
+    .news-block.signature-xaver h2{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .news-block.signature-xaver h3{
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    .signature-xaver-project-text-block{
+        text-align: center;
+    }
+
+
+    .signature-york-about-text-block, .signature-york-team-block, .signature-york-project-text-block{
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 769px) {
+    .signature-berend.clients-wrap .client-logo{
+        border-right: 0px !important;
+        border-bottom: 2px solid !important;
+        
+    }
+}
+
+.works-filter-panel.signature-adler span.close-panel{
+    display: none;
+}
+@media (max-width: 768px) {
+    .works-filter-panel.signature-adler{
+        width: 100vw !important;
+    }
+    .works-filter-panel.signature-adler span.close-panel{
+        display: inline-block;
+        position: absolute;
+        top: 60px;
+        right: 60px;
+        color: #FFF;
+        cursor: pointer;
+    }
+}
+
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px) {
+    .container {
+        width: 636px;
+    }
+}
+
+
+/*iPhone 6 Landscape Mode*/
+@media screen and (max-width: 667px) {
+    .container {
+        width: 567px;
+    }
+}
+
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+    }
+}
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+    .container {
+        width: 400px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+
+    .works-masonry-container .works-item-one-third,
+    .works-masonry-container .works-item-two-third,
+    .works-masonry-container .works-item-one-half,
+    .works-masonry-container .works-item-one-fourth,
+    .works-masonry-container .works-item-full-width{
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 100% !important;
+    }
+    .works-masonry-container .works-item-one-third-spaced,
+    .works-masonry-container .works-item-one-half-spaced,
+    .works-masonry-container .works-item-two-third-spaced,
+    .works-masonry-container .works-item-one-fourth-spaced{
+          margin: 1% !important;
+          padding: 0 !important;
+          width: 98% !important;
+    }
+}
+
+/*iPhone 6Plus Portrait Mode*/
+@media screen and (max-width: 414px) {
+    .container {
+        width: 374px;
+    }
+}
+
+/*iPhone 6 Portrait Mode*/
+@media screen and (max-width: 375px) {
+    .container {
+        width: 335px;
+    }
+}
+
+/*iPhone 5S, 5, 4S & 4 Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+    .container {
+        width: 300px;
+    }
+}

@@ -1,0 +1,3834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Signature WordPress\n"
+"POT-Creation-Date: 2016-03-11 18:48+0530\n"
+"PO-Revision-Date: 2016-03-11 18:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: Designova <wordpress@designova.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Page Not Found!"
+msgstr "Page Not Found!"
+
+#: admin/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: admin/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: admin/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: admin/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#: admin/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: admin/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Return to the dashboard"
+
+#: admin/class-tgm-plugin-activation.php:399
+#: admin/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: admin/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr "The following plugin was activated successfully:"
+
+#: admin/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No action taken. Plugin %1$s was already active."
+
+#: admin/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+
+#: admin/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#: admin/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: admin/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Please contact the administrator of this site for help."
+
+#: admin/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Update Required"
+
+#: admin/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Set the parent_slug config variable instead."
+
+#: admin/class-tgm-plugin-activation.php:828
+#: admin/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: admin/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+
+#: admin/class-tgm-plugin-activation.php:935
+#: admin/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+
+#: admin/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+
+#: admin/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "Required"
+
+#: admin/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Recommended"
+
+#: admin/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: admin/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "External Source"
+
+#: admin/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: admin/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: admin/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: admin/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "Active"
+
+#: admin/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "Required Update not Available"
+
+#: admin/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "Requires Update"
+
+#: admin/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "Update recommended"
+
+#: admin/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Installed version:"
+
+#: admin/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Minimum required version:"
+
+#: admin/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Available version:"
+
+#: admin/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+
+#: admin/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "Plugin"
+
+#: admin/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "Source"
+
+#: admin/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "Type"
+
+#: admin/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "Version"
+
+#: admin/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "Status"
+
+#: admin/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade message from the plugin author:"
+
+#: admin/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "Install"
+
+#: admin/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "Update"
+
+#: admin/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "Activate"
+
+#: admin/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No plugins were selected to be installed. No action taken."
+
+#: admin/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No plugins were selected to be updated. No action taken."
+
+#: admin/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: admin/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "No plugins are available to be updated at this time."
+
+#: admin/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No plugins were selected to be activated. No action taken."
+
+#: admin/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "No plugins are available to be activated at this time."
+
+#: admin/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: admin/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Updating Plugin %1$s (%2$d/%3$d)"
+
+#: admin/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#: admin/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#: admin/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+#: admin/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: admin/class-tgm-plugin-activation.php:3370
+#: admin/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Show Details"
+
+#: admin/class-tgm-plugin-activation.php:3370
+#: admin/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: admin/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: admin/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: admin/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+
+#: admin/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: admin/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: admin/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: admin/default-options.php:29
+msgid "Your Name"
+msgstr "Your Name"
+
+#: admin/default-options.php:30
+msgid "Name must not be empty"
+msgstr "Name must not be empty"
+
+#: admin/default-options.php:31
+msgid "Your Email ID"
+msgstr "Your Email ID"
+
+#: admin/default-options.php:32
+msgid "Please provide a valid email"
+msgstr "Please provide a valid email"
+
+#: admin/default-options.php:33
+msgid "Your Message"
+msgstr "Your Message"
+
+#: admin/default-options.php:34
+msgid "Message should not be empty"
+msgstr "Message should not be empty"
+
+#: admin/default-options.php:35
+msgid "Send Message"
+msgstr "Send Message"
+
+#: admin/default-options.php:36
+msgid "Thanks For Your Comment"
+msgstr "Thanks For Your Comment"
+
+#: admin/default-options.php:37
+msgid ""
+"Lorem ipsum dolor siter amet mundium corpes illon tolves lorem ipsum dolor. "
+"Quisque nec est id ante consectetur tristique. Suspendisse potenti."
+msgstr ""
+"Lorem ipsum dolor siter amet mundium corpes illon tolves lorem ipsum dolor. "
+"Quisque nec est id ante consectetur tristique. Suspendisse potenti."
+
+#: admin/default-options.php:39
+msgid "Contact form submission from Signature"
+msgstr "Contact form submission from Signature"
+
+#: admin/default-options.php:41
+msgid "Created with love by Designova.<br/>Purchase this theme"
+msgstr "Created with love by Designova.<br/>Purchase this theme"
+
+#: admin/default-options.php:42
+msgid ""
+"A simple creative portfolio template for designers, artists, photographers "
+"and every creatives."
+msgstr ""
+"A simple creative portfolio template for designers, artists, photographers "
+"and every creatives."
+
+#: admin/icon-set.php:20
+msgid "Alert"
+msgstr "Alert"
+
+#: admin/icon-set.php:21
+msgid "Alert Circled"
+msgstr "Alert Circled"
+
+#: admin/icon-set.php:22
+msgid "Android Add"
+msgstr "Android Add"
+
+#: admin/icon-set.php:23
+msgid "Android Add Contact"
+msgstr "Android Add Contact"
+
+#: admin/icon-set.php:24
+msgid "Android Alarm"
+msgstr "Android Alarm"
+
+#: admin/icon-set.php:25
+msgid "Android Archive"
+msgstr "Android Archive"
+
+#: admin/icon-set.php:26
+msgid "Android Arrow Back"
+msgstr "Android Arrow Back"
+
+#: admin/icon-set.php:27
+msgid "Android Arrow Down Left"
+msgstr "Android Arrow Down Left"
+
+#: admin/icon-set.php:28
+msgid "Android Arrow Down Right"
+msgstr "Android Arrow Down Right"
+
+#: admin/icon-set.php:29
+msgid "Android Arrow Forward"
+msgstr "Android Arrow Forward"
+
+#: admin/icon-set.php:30
+msgid "Android Arrow Up Left"
+msgstr "Android Arrow Up Left"
+
+#: admin/icon-set.php:31
+msgid "Android Arrow Up Right"
+msgstr "Android Arrow Up Right"
+
+#: admin/icon-set.php:32
+msgid "Android Battery"
+msgstr "Android Battery"
+
+#: admin/icon-set.php:33
+msgid "Android Book"
+msgstr "Android Book"
+
+#: admin/icon-set.php:34
+msgid "Android Calendar"
+msgstr "Android Calendar"
+
+#: admin/icon-set.php:35
+msgid "Android Call"
+msgstr "Android Call"
+
+#: admin/icon-set.php:36
+msgid "Android Camera"
+msgstr "Android Camera"
+
+#: admin/icon-set.php:37
+msgid "Android Chat"
+msgstr "Android Chat"
+
+#: admin/icon-set.php:38
+msgid "Android Checkmark"
+msgstr "Android Checkmark"
+
+#: admin/icon-set.php:39
+msgid "Android Clock"
+msgstr "Android Clock"
+
+#: admin/icon-set.php:40
+msgid "Android Close"
+msgstr "Android Close"
+
+#: admin/icon-set.php:41
+msgid "Android Contact"
+msgstr "Android Contact"
+
+#: admin/icon-set.php:42
+msgid "Android Contacts"
+msgstr "Android Contacts"
+
+#: admin/icon-set.php:43
+msgid "Android Data"
+msgstr "Android Data"
+
+#: admin/icon-set.php:44
+msgid "Android Developer"
+msgstr "Android Developer"
+
+#: admin/icon-set.php:45
+msgid "Android Display"
+msgstr "Android Display"
+
+#: admin/icon-set.php:46
+msgid "Android Download"
+msgstr "Android Download"
+
+#: admin/icon-set.php:47
+msgid "Android Drawer"
+msgstr "Android Drawer"
+
+#: admin/icon-set.php:48
+msgid "Android Dropdown"
+msgstr "Android Dropdown"
+
+#: admin/icon-set.php:49
+msgid "Android Earth"
+msgstr "Android Earth"
+
+#: admin/icon-set.php:50
+msgid "Android Folder"
+msgstr "Android Folder"
+
+#: admin/icon-set.php:51
+msgid "Android Forums"
+msgstr "Android Forums"
+
+#: admin/icon-set.php:52
+msgid "Android Friends"
+msgstr "Android Friends"
+
+#: admin/icon-set.php:53
+msgid "Android Hand"
+msgstr "Android Hand"
+
+#: admin/icon-set.php:54
+msgid "Android Image"
+msgstr "Android Image"
+
+#: admin/icon-set.php:55
+msgid "Android Inbox"
+msgstr "Android Inbox"
+
+#: admin/icon-set.php:56
+msgid "Android Information"
+msgstr "Android Information"
+
+#: admin/icon-set.php:57
+msgid "Android Keypad"
+msgstr "Android Keypad"
+
+#: admin/icon-set.php:58
+msgid "Android Lightbulb"
+msgstr "Android Lightbulb"
+
+#: admin/icon-set.php:59
+msgid "Android Locate"
+msgstr "Android Locate"
+
+#: admin/icon-set.php:60
+msgid "Android Location"
+msgstr "Android Location"
+
+#: admin/icon-set.php:61
+msgid "Android Mail"
+msgstr "Android Mail"
+
+#: admin/icon-set.php:62
+msgid "Android Microphone"
+msgstr "Android Microphone"
+
+#: admin/icon-set.php:63
+msgid "Android Mixer"
+msgstr "Android Mixer"
+
+#: admin/icon-set.php:64
+msgid "Android More"
+msgstr "Android More"
+
+#: admin/icon-set.php:65
+msgid "Android Note"
+msgstr "Android Note"
+
+#: admin/icon-set.php:66
+msgid "Android Playstore"
+msgstr "Android Playstore"
+
+#: admin/icon-set.php:67
+msgid "Android Printer"
+msgstr "Android Printer"
+
+#: admin/icon-set.php:68
+msgid "Android Promotion"
+msgstr "Android Promotion"
+
+#: admin/icon-set.php:69
+msgid "Android Reminder"
+msgstr "Android Reminder"
+
+#: admin/icon-set.php:70
+msgid "Android Remove"
+msgstr "Android Remove"
+
+#: admin/icon-set.php:71
+msgid "Android Search"
+msgstr "Android Search"
+
+#: admin/icon-set.php:72
+msgid "Android Send"
+msgstr "Android Send"
+
+#: admin/icon-set.php:73
+msgid "Android Settings"
+msgstr "Android Settings"
+
+#: admin/icon-set.php:74
+msgid "Android Share"
+msgstr "Android Share"
+
+#: admin/icon-set.php:75
+msgid "Android Social"
+msgstr "Android Social"
+
+#: admin/icon-set.php:76
+msgid "Android Social User"
+msgstr "Android Social User"
+
+#: admin/icon-set.php:77
+msgid "Android Sort"
+msgstr "Android Sort"
+
+#: admin/icon-set.php:78
+msgid "Android Stair Drawer"
+msgstr "Android Stair Drawer"
+
+#: admin/icon-set.php:79
+msgid "Android Star"
+msgstr "Android Star"
+
+#: admin/icon-set.php:80
+msgid "Android Stopwatch"
+msgstr "Android Stopwatch"
+
+#: admin/icon-set.php:81
+msgid "Android Storage"
+msgstr "Android Storage"
+
+#: admin/icon-set.php:82
+msgid "Android System Back"
+msgstr "Android System Back"
+
+#: admin/icon-set.php:83
+msgid "Android System Home"
+msgstr "Android System Home"
+
+#: admin/icon-set.php:84
+msgid "Android System Windows"
+msgstr "Android System Windows"
+
+#: admin/icon-set.php:85
+msgid "Android Timer"
+msgstr "Android Timer"
+
+#: admin/icon-set.php:86
+msgid "Android Trash"
+msgstr "Android Trash"
+
+#: admin/icon-set.php:87
+msgid "Android User Menu"
+msgstr "Android User Menu"
+
+#: admin/icon-set.php:88
+msgid "Android Volume"
+msgstr "Android Volume"
+
+#: admin/icon-set.php:89
+msgid "Android Wifi"
+msgstr "Android Wifi"
+
+#: admin/icon-set.php:90
+msgid "Aperture"
+msgstr "Aperture"
+
+#: admin/icon-set.php:91
+msgid "Archive"
+msgstr "Archive"
+
+#: admin/icon-set.php:92
+msgid "Arrow Down A"
+msgstr "Arrow Down A"
+
+#: admin/icon-set.php:93
+msgid "Arrow Down B"
+msgstr "Arrow Down B"
+
+#: admin/icon-set.php:94
+msgid "Arrow Down C"
+msgstr "Arrow Down C"
+
+#: admin/icon-set.php:95
+msgid "Arrow Expand"
+msgstr "Arrow Expand"
+
+#: admin/icon-set.php:96
+msgid "Arrow Graph Down Left"
+msgstr "Arrow Graph Down Left"
+
+#: admin/icon-set.php:97
+msgid "Arrow Graph Down Right"
+msgstr "Arrow Graph Down Right"
+
+#: admin/icon-set.php:98
+msgid "Arrow Graph Up Left"
+msgstr "Arrow Graph Up Left"
+
+#: admin/icon-set.php:99
+msgid "Arrow Graph Up Right"
+msgstr "Arrow Graph Up Right"
+
+#: admin/icon-set.php:100
+msgid "Arrow Left A"
+msgstr "Arrow Left A"
+
+#: admin/icon-set.php:101
+msgid "Arrow Left B"
+msgstr "Arrow Left B"
+
+#: admin/icon-set.php:102
+msgid "Arrow Left C"
+msgstr "Arrow Left C"
+
+#: admin/icon-set.php:103
+msgid "Arrow Move"
+msgstr "Arrow Move"
+
+#: admin/icon-set.php:104
+msgid "Arrow Resize"
+msgstr "Arrow Resize"
+
+#: admin/icon-set.php:105
+msgid "Arrow Return Left"
+msgstr "Arrow Return Left"
+
+#: admin/icon-set.php:106
+msgid "Arrow Return Right"
+msgstr "Arrow Return Right"
+
+#: admin/icon-set.php:107
+msgid "Arrow Right A"
+msgstr "Arrow Right A"
+
+#: admin/icon-set.php:108
+msgid "Arrow Right B"
+msgstr "Arrow Right B"
+
+#: admin/icon-set.php:109
+msgid "Arrow Right C"
+msgstr "Arrow Right C"
+
+#: admin/icon-set.php:110
+msgid "Arrow Shrink"
+msgstr "Arrow Shrink"
+
+#: admin/icon-set.php:111
+msgid "Arrow Swap"
+msgstr "Arrow Swap"
+
+#: admin/icon-set.php:112
+msgid "Arrow Up A"
+msgstr "Arrow Up A"
+
+#: admin/icon-set.php:113
+msgid "Arrow Up B"
+msgstr "Arrow Up B"
+
+#: admin/icon-set.php:114
+msgid "Arrow Up C"
+msgstr "Arrow Up C"
+
+#: admin/icon-set.php:115
+msgid "Asterisk"
+msgstr "Asterisk"
+
+#: admin/icon-set.php:116
+msgid "At"
+msgstr "At"
+
+#: admin/icon-set.php:117
+msgid "Bag"
+msgstr "Bag"
+
+#: admin/icon-set.php:118
+msgid "Battery Charging"
+msgstr "Battery Charging"
+
+#: admin/icon-set.php:119
+msgid "Battery Empty"
+msgstr "Battery Empty"
+
+#: admin/icon-set.php:120
+msgid "Battery Full"
+msgstr "Battery Full"
+
+#: admin/icon-set.php:121
+msgid "Battery Half"
+msgstr "Battery Half"
+
+#: admin/icon-set.php:122
+msgid "Battery Low"
+msgstr "Battery Low"
+
+#: admin/icon-set.php:123
+msgid "Beaker"
+msgstr "Beaker"
+
+#: admin/icon-set.php:124
+msgid "Beer"
+msgstr "Beer"
+
+#: admin/icon-set.php:125
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: admin/icon-set.php:126
+msgid "Bonfire"
+msgstr "Bonfire"
+
+#: admin/icon-set.php:127
+msgid "Bookmark"
+msgstr "Bookmark"
+
+#: admin/icon-set.php:128
+msgid "Briefcase"
+msgstr "Briefcase"
+
+#: admin/icon-set.php:129
+msgid "Bug"
+msgstr "Bug"
+
+#: admin/icon-set.php:130
+msgid "Calculator"
+msgstr "Calculator"
+
+#: admin/icon-set.php:131
+msgid "Calendar"
+msgstr "Calendar"
+
+#: admin/icon-set.php:132
+msgid "Camera"
+msgstr "Camera"
+
+#: admin/icon-set.php:133
+msgid "Card"
+msgstr "Card"
+
+#: admin/icon-set.php:134
+msgid "Cash"
+msgstr "Cash"
+
+#: admin/icon-set.php:135
+msgid "Chatbox"
+msgstr "Chatbox"
+
+#: admin/icon-set.php:136
+msgid "Chatbox Working"
+msgstr "Chatbox Working"
+
+#: admin/icon-set.php:137
+msgid "Chatboxes"
+msgstr "Chatboxes"
+
+#: admin/icon-set.php:138
+msgid "Chatbubble"
+msgstr "Chatbubble"
+
+#: admin/icon-set.php:139
+msgid "Chatbubble Working"
+msgstr "Chatbubble Working"
+
+#: admin/icon-set.php:140
+msgid "Chatbubbles"
+msgstr "Chatbubbles"
+
+#: admin/icon-set.php:141
+msgid "Checkmark"
+msgstr "Checkmark"
+
+#: admin/icon-set.php:142
+msgid "Checkmark Circled"
+msgstr "Checkmark Circled"
+
+#: admin/icon-set.php:143
+msgid "Checkmark Round"
+msgstr "Checkmark Round"
+
+#: admin/icon-set.php:144
+msgid "Chevron Down"
+msgstr "Chevron Down"
+
+#: admin/icon-set.php:145
+msgid "Chevron Left"
+msgstr "Chevron Left"
+
+#: admin/icon-set.php:146
+msgid "Chevron Right"
+msgstr "Chevron Right"
+
+#: admin/icon-set.php:147
+msgid "Chevron Up"
+msgstr "Chevron Up"
+
+#: admin/icon-set.php:148
+msgid "Clipboard"
+msgstr "Clipboard"
+
+#: admin/icon-set.php:149
+msgid "Clock"
+msgstr "Clock"
+
+#: admin/icon-set.php:150
+msgid "Close"
+msgstr "Close"
+
+#: admin/icon-set.php:151
+msgid "Close Circled"
+msgstr "Close Circled"
+
+#: admin/icon-set.php:152
+msgid "Close Round"
+msgstr "Close Round"
+
+#: admin/icon-set.php:153
+msgid "Closed Captioning"
+msgstr "Closed Captioning"
+
+#: admin/icon-set.php:154
+msgid "Cloud"
+msgstr "Cloud"
+
+#: admin/icon-set.php:155
+msgid "Code"
+msgstr "Code"
+
+#: admin/icon-set.php:156
+msgid "Code Download"
+msgstr "Code Download"
+
+#: admin/icon-set.php:157
+msgid "Code Working"
+msgstr "Code Working"
+
+#: admin/icon-set.php:158
+msgid "Coffee"
+msgstr "Coffee"
+
+#: admin/icon-set.php:159
+msgid "Compass"
+msgstr "Compass"
+
+#: admin/icon-set.php:160
+msgid "Compose"
+msgstr "Compose"
+
+#: admin/icon-set.php:161
+msgid "Connection Bars"
+msgstr "Connection Bars"
+
+#: admin/icon-set.php:162
+msgid "Contrast"
+msgstr "Contrast"
+
+#: admin/icon-set.php:163
+msgid "Cube"
+msgstr "Cube"
+
+#: admin/icon-set.php:164
+msgid "Disc"
+msgstr "Disc"
+
+#: admin/icon-set.php:165
+msgid "Document"
+msgstr "Document"
+
+#: admin/icon-set.php:166
+msgid "Document Text"
+msgstr "Document Text"
+
+#: admin/icon-set.php:167
+msgid "Drag"
+msgstr "Drag"
+
+#: admin/icon-set.php:168
+msgid "Earth"
+msgstr "Earth"
+
+#: admin/icon-set.php:169 functions.php:722
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/icon-set.php:170
+msgid "Egg"
+msgstr "Egg"
+
+#: admin/icon-set.php:171
+msgid "Eject"
+msgstr "Eject"
+
+#: admin/icon-set.php:172 comments.php:76
+msgid "Email"
+msgstr "Email"
+
+#: admin/icon-set.php:173
+msgid "Eye"
+msgstr "Eye"
+
+#: admin/icon-set.php:174
+msgid "Eye Disabled"
+msgstr "Eye Disabled"
+
+#: admin/icon-set.php:175
+msgid "Female"
+msgstr "Female"
+
+#: admin/icon-set.php:176
+msgid "Filing"
+msgstr "Filing"
+
+#: admin/icon-set.php:177
+msgid "Film Marker"
+msgstr "Film Marker"
+
+#: admin/icon-set.php:178
+msgid "Fireball"
+msgstr "Fireball"
+
+#: admin/icon-set.php:179
+msgid "Flag"
+msgstr "Flag"
+
+#: admin/icon-set.php:180
+msgid "Flame"
+msgstr "Flame"
+
+#: admin/icon-set.php:181
+msgid "Flash"
+msgstr "Flash"
+
+#: admin/icon-set.php:182
+msgid "Flash Off"
+msgstr "Flash Off"
+
+#: admin/icon-set.php:183
+msgid "Flask"
+msgstr "Flask"
+
+#: admin/icon-set.php:184
+msgid "Folder"
+msgstr "Folder"
+
+#: admin/icon-set.php:185
+msgid "Fork"
+msgstr "Fork"
+
+#: admin/icon-set.php:186
+msgid "Fork Repo"
+msgstr "Fork Repo"
+
+#: admin/icon-set.php:187
+msgid "Forward"
+msgstr "Forward"
+
+#: admin/icon-set.php:188
+msgid "Funnel"
+msgstr "Funnel"
+
+#: admin/icon-set.php:189
+msgid "Game Controller A"
+msgstr "Game Controller A"
+
+#: admin/icon-set.php:190
+msgid "Game Controller B"
+msgstr "Game Controller B"
+
+#: admin/icon-set.php:191
+msgid "Gear A"
+msgstr "Gear A"
+
+#: admin/icon-set.php:192
+msgid "Gear B"
+msgstr "Gear B"
+
+#: admin/icon-set.php:193
+msgid "Grid"
+msgstr "Grid"
+
+#: admin/icon-set.php:194
+msgid "Hammer"
+msgstr "Hammer"
+
+#: admin/icon-set.php:195
+msgid "Happy"
+msgstr "Happy"
+
+#: admin/icon-set.php:196
+msgid "Headphone"
+msgstr "Headphone"
+
+#: admin/icon-set.php:197
+msgid "Heart"
+msgstr "Heart"
+
+#: admin/icon-set.php:198
+msgid "Heart Broken"
+msgstr "Heart Broken"
+
+#: admin/icon-set.php:199
+msgid "Help"
+msgstr "Help"
+
+#: admin/icon-set.php:200
+msgid "Help Buoy"
+msgstr "Help Buoy"
+
+#: admin/icon-set.php:201
+msgid "Help Circled"
+msgstr "Help Circled"
+
+#: admin/icon-set.php:202
+msgid "Home"
+msgstr "Home"
+
+#: admin/icon-set.php:203
+msgid "Icecream"
+msgstr "Icecream"
+
+#: admin/icon-set.php:204
+msgid "Icon Social Google Plus"
+msgstr "Icon Social Google Plus"
+
+#: admin/icon-set.php:205
+msgid "Icon Social Google Plus Outline"
+msgstr "Icon Social Google Plus Outline"
+
+#: admin/icon-set.php:206
+msgid "Image"
+msgstr "Image"
+
+#: admin/icon-set.php:207
+msgid "Images"
+msgstr "Images"
+
+#: admin/icon-set.php:208
+msgid "Information"
+msgstr "Information"
+
+#: admin/icon-set.php:209
+msgid "Information Circled"
+msgstr "Information Circled"
+
+#: admin/icon-set.php:210
+msgid "Ionic"
+msgstr "Ionic"
+
+#: admin/icon-set.php:211
+msgid "Ios7 Alarm"
+msgstr "Ios7 Alarm"
+
+#: admin/icon-set.php:212
+msgid "Ios7 Alarm Outline"
+msgstr "Ios7 Alarm Outline"
+
+#: admin/icon-set.php:213
+msgid "Ios7 Albums"
+msgstr "Ios7 Albums"
+
+#: admin/icon-set.php:214
+msgid "Ios7 Albums Outline"
+msgstr "Ios7 Albums Outline"
+
+#: admin/icon-set.php:215
+msgid "Ios7 Americanfootball"
+msgstr "Ios7 Americanfootball"
+
+#: admin/icon-set.php:216
+msgid "Ios7 Americanfootball Outline"
+msgstr "Ios7 Americanfootball Outline"
+
+#: admin/icon-set.php:217
+msgid "Ios7 Analytics"
+msgstr "Ios7 Analytics"
+
+#: admin/icon-set.php:218
+msgid "Ios7 Analytics Outline"
+msgstr "Ios7 Analytics Outline"
+
+#: admin/icon-set.php:219
+msgid "Ios7 Arrow Back"
+msgstr "Ios7 Arrow Back"
+
+#: admin/icon-set.php:220
+msgid "Ios7 Arrow Down"
+msgstr "Ios7 Arrow Down"
+
+#: admin/icon-set.php:221
+msgid "Ios7 Arrow Forward"
+msgstr "Ios7 Arrow Forward"
+
+#: admin/icon-set.php:222
+msgid "Ios7 Arrow Left"
+msgstr "Ios7 Arrow Left"
+
+#: admin/icon-set.php:223
+msgid "Ios7 Arrow Right"
+msgstr "Ios7 Arrow Right"
+
+#: admin/icon-set.php:224
+msgid "Ios7 Arrow Thin Down"
+msgstr "Ios7 Arrow Thin Down"
+
+#: admin/icon-set.php:225
+msgid "Ios7 Arrow Thin Left"
+msgstr "Ios7 Arrow Thin Left"
+
+#: admin/icon-set.php:226
+msgid "Ios7 Arrow Thin Right"
+msgstr "Ios7 Arrow Thin Right"
+
+#: admin/icon-set.php:227
+msgid "Ios7 Arrow Thin Up"
+msgstr "Ios7 Arrow Thin Up"
+
+#: admin/icon-set.php:228
+msgid "Ios7 Arrow Up"
+msgstr "Ios7 Arrow Up"
+
+#: admin/icon-set.php:229
+msgid "Ios7 At"
+msgstr "Ios7 At"
+
+#: admin/icon-set.php:230
+msgid "Ios7 At Outline"
+msgstr "Ios7 At Outline"
+
+#: admin/icon-set.php:231
+msgid "Ios7 Barcode"
+msgstr "Ios7 Barcode"
+
+#: admin/icon-set.php:232
+msgid "Ios7 Barcode Outline"
+msgstr "Ios7 Barcode Outline"
+
+#: admin/icon-set.php:233
+msgid "Ios7 Baseball"
+msgstr "Ios7 Baseball"
+
+#: admin/icon-set.php:234
+msgid "Ios7 Baseball Outline"
+msgstr "Ios7 Baseball Outline"
+
+#: admin/icon-set.php:235
+msgid "Ios7 Basketball"
+msgstr "Ios7 Basketball"
+
+#: admin/icon-set.php:236
+msgid "Ios7 Basketball Outline"
+msgstr "Ios7 Basketball Outline"
+
+#: admin/icon-set.php:237
+msgid "Ios7 Bell"
+msgstr "Ios7 Bell"
+
+#: admin/icon-set.php:238
+msgid "Ios7 Bell Outline"
+msgstr "Ios7 Bell Outline"
+
+#: admin/icon-set.php:239
+msgid "Ios7 Bolt"
+msgstr "Ios7 Bolt"
+
+#: admin/icon-set.php:240
+msgid "Ios7 Bolt Outline"
+msgstr "Ios7 Bolt Outline"
+
+#: admin/icon-set.php:241
+msgid "Ios7 Bookmarks"
+msgstr "Ios7 Bookmarks"
+
+#: admin/icon-set.php:242
+msgid "Ios7 Bookmarks Outline"
+msgstr "Ios7 Bookmarks Outline"
+
+#: admin/icon-set.php:243
+msgid "Ios7 Box"
+msgstr "Ios7 Box"
+
+#: admin/icon-set.php:244
+msgid "Ios7 Box Outline"
+msgstr "Ios7 Box Outline"
+
+#: admin/icon-set.php:245
+msgid "Ios7 Briefcase"
+msgstr "Ios7 Briefcase"
+
+#: admin/icon-set.php:246
+msgid "Ios7 Briefcase Outline"
+msgstr "Ios7 Briefcase Outline"
+
+#: admin/icon-set.php:247
+msgid "Ios7 Browsers"
+msgstr "Ios7 Browsers"
+
+#: admin/icon-set.php:248
+msgid "Ios7 Browsers Outline"
+msgstr "Ios7 Browsers Outline"
+
+#: admin/icon-set.php:249
+msgid "Ios7 Calculator"
+msgstr "Ios7 Calculator"
+
+#: admin/icon-set.php:250
+msgid "Ios7 Calculator Outline"
+msgstr "Ios7 Calculator Outline"
+
+#: admin/icon-set.php:251
+msgid "Ios7 Calendar"
+msgstr "Ios7 Calendar"
+
+#: admin/icon-set.php:252
+msgid "Ios7 Calendar Outline"
+msgstr "Ios7 Calendar Outline"
+
+#: admin/icon-set.php:253
+msgid "Ios7 Camera"
+msgstr "Ios7 Camera"
+
+#: admin/icon-set.php:254
+msgid "Ios7 Camera Outline"
+msgstr "Ios7 Camera Outline"
+
+#: admin/icon-set.php:255
+msgid "Ios7 Cart"
+msgstr "Ios7 Cart"
+
+#: admin/icon-set.php:256
+msgid "Ios7 Cart Outline"
+msgstr "Ios7 Cart Outline"
+
+#: admin/icon-set.php:257
+msgid "Ios7 Chatboxes"
+msgstr "Ios7 Chatboxes"
+
+#: admin/icon-set.php:258
+msgid "Ios7 Chatboxes Outline"
+msgstr "Ios7 Chatboxes Outline"
+
+#: admin/icon-set.php:259
+msgid "Ios7 Chatbubble"
+msgstr "Ios7 Chatbubble"
+
+#: admin/icon-set.php:260
+msgid "Ios7 Chatbubble Outline"
+msgstr "Ios7 Chatbubble Outline"
+
+#: admin/icon-set.php:261
+msgid "Ios7 Checkmark"
+msgstr "Ios7 Checkmark"
+
+#: admin/icon-set.php:262
+msgid "Ios7 Checkmark Empty"
+msgstr "Ios7 Checkmark Empty"
+
+#: admin/icon-set.php:263
+msgid "Ios7 Checkmark Outline"
+msgstr "Ios7 Checkmark Outline"
+
+#: admin/icon-set.php:264
+msgid "Ios7 Circle Filled"
+msgstr "Ios7 Circle Filled"
+
+#: admin/icon-set.php:265
+msgid "Ios7 Circle Outline"
+msgstr "Ios7 Circle Outline"
+
+#: admin/icon-set.php:266
+msgid "Ios7 Clock"
+msgstr "Ios7 Clock"
+
+#: admin/icon-set.php:267
+msgid "Ios7 Clock Outline"
+msgstr "Ios7 Clock Outline"
+
+#: admin/icon-set.php:268
+msgid "Ios7 Close"
+msgstr "Ios7 Close"
+
+#: admin/icon-set.php:269
+msgid "Ios7 Close Empty"
+msgstr "Ios7 Close Empty"
+
+#: admin/icon-set.php:270
+msgid "Ios7 Close Outline"
+msgstr "Ios7 Close Outline"
+
+#: admin/icon-set.php:271
+msgid "Ios7 Cloud"
+msgstr "Ios7 Cloud"
+
+#: admin/icon-set.php:272
+msgid "Ios7 Cloud Download"
+msgstr "Ios7 Cloud Download"
+
+#: admin/icon-set.php:273
+msgid "Ios7 Cloud Download Outline"
+msgstr "Ios7 Cloud Download Outline"
+
+#: admin/icon-set.php:274
+msgid "Ios7 Cloud Outline"
+msgstr "Ios7 Cloud Outline"
+
+#: admin/icon-set.php:275
+msgid "Ios7 Cloud Upload"
+msgstr "Ios7 Cloud Upload"
+
+#: admin/icon-set.php:276
+msgid "Ios7 Cloud Upload Outline"
+msgstr "Ios7 Cloud Upload Outline"
+
+#: admin/icon-set.php:277
+msgid "Ios7 Cloudy"
+msgstr "Ios7 Cloudy"
+
+#: admin/icon-set.php:278
+msgid "Ios7 Cloudy Night"
+msgstr "Ios7 Cloudy Night"
+
+#: admin/icon-set.php:279
+msgid "Ios7 Cloudy Night Outline"
+msgstr "Ios7 Cloudy Night Outline"
+
+#: admin/icon-set.php:280
+msgid "Ios7 Cloudy Outline"
+msgstr "Ios7 Cloudy Outline"
+
+#: admin/icon-set.php:281
+msgid "Ios7 Cog"
+msgstr "Ios7 Cog"
+
+#: admin/icon-set.php:282
+msgid "Ios7 Cog Outline"
+msgstr "Ios7 Cog Outline"
+
+#: admin/icon-set.php:283
+msgid "Ios7 Compose"
+msgstr "Ios7 Compose"
+
+#: admin/icon-set.php:284
+msgid "Ios7 Compose Outline"
+msgstr "Ios7 Compose Outline"
+
+#: admin/icon-set.php:285
+msgid "Ios7 Contact"
+msgstr "Ios7 Contact"
+
+#: admin/icon-set.php:286
+msgid "Ios7 Contact Outline"
+msgstr "Ios7 Contact Outline"
+
+#: admin/icon-set.php:287
+msgid "Ios7 Copy"
+msgstr "Ios7 Copy"
+
+#: admin/icon-set.php:288
+msgid "Ios7 Copy Outline"
+msgstr "Ios7 Copy Outline"
+
+#: admin/icon-set.php:289
+msgid "Ios7 Download"
+msgstr "Ios7 Download"
+
+#: admin/icon-set.php:290
+msgid "Ios7 Download Outline"
+msgstr "Ios7 Download Outline"
+
+#: admin/icon-set.php:291
+msgid "Ios7 Drag"
+msgstr "Ios7 Drag"
+
+#: admin/icon-set.php:292
+msgid "Ios7 Email"
+msgstr "Ios7 Email"
+
+#: admin/icon-set.php:293
+msgid "Ios7 Email Outline"
+msgstr "Ios7 Email Outline"
+
+#: admin/icon-set.php:294
+msgid "Ios7 Expand"
+msgstr "Ios7 Expand"
+
+#: admin/icon-set.php:295
+msgid "Ios7 Eye"
+msgstr "Ios7 Eye"
+
+#: admin/icon-set.php:296
+msgid "Ios7 Eye Outline"
+msgstr "Ios7 Eye Outline"
+
+#: admin/icon-set.php:297
+msgid "Ios7 Fastforward"
+msgstr "Ios7 Fastforward"
+
+#: admin/icon-set.php:298
+msgid "Ios7 Fastforward Outline"
+msgstr "Ios7 Fastforward Outline"
+
+#: admin/icon-set.php:299
+msgid "Ios7 Filing"
+msgstr "Ios7 Filing"
+
+#: admin/icon-set.php:300
+msgid "Ios7 Filing Outline"
+msgstr "Ios7 Filing Outline"
+
+#: admin/icon-set.php:301
+msgid "Ios7 Film"
+msgstr "Ios7 Film"
+
+#: admin/icon-set.php:302
+msgid "Ios7 Film Outline"
+msgstr "Ios7 Film Outline"
+
+#: admin/icon-set.php:303
+msgid "Ios7 Flag"
+msgstr "Ios7 Flag"
+
+#: admin/icon-set.php:304
+msgid "Ios7 Flag Outline"
+msgstr "Ios7 Flag Outline"
+
+#: admin/icon-set.php:305
+msgid "Ios7 Folder"
+msgstr "Ios7 Folder"
+
+#: admin/icon-set.php:306
+msgid "Ios7 Folder Outline"
+msgstr "Ios7 Folder Outline"
+
+#: admin/icon-set.php:307
+msgid "Ios7 Football"
+msgstr "Ios7 Football"
+
+#: admin/icon-set.php:308
+msgid "Ios7 Football Outline"
+msgstr "Ios7 Football Outline"
+
+#: admin/icon-set.php:309
+msgid "Ios7 Gear"
+msgstr "Ios7 Gear"
+
+#: admin/icon-set.php:310
+msgid "Ios7 Gear Outline"
+msgstr "Ios7 Gear Outline"
+
+#: admin/icon-set.php:311
+msgid "Ios7 Glasses"
+msgstr "Ios7 Glasses"
+
+#: admin/icon-set.php:312
+msgid "Ios7 Glasses Outline"
+msgstr "Ios7 Glasses Outline"
+
+#: admin/icon-set.php:313
+msgid "Ios7 Heart"
+msgstr "Ios7 Heart"
+
+#: admin/icon-set.php:314
+msgid "Ios7 Heart Outline"
+msgstr "Ios7 Heart Outline"
+
+#: admin/icon-set.php:315
+msgid "Ios7 Help"
+msgstr "Ios7 Help"
+
+#: admin/icon-set.php:316
+msgid "Ios7 Help Empty"
+msgstr "Ios7 Help Empty"
+
+#: admin/icon-set.php:317
+msgid "Ios7 Help Outline"
+msgstr "Ios7 Help Outline"
+
+#: admin/icon-set.php:318
+msgid "Ios7 Home"
+msgstr "Ios7 Home"
+
+#: admin/icon-set.php:319
+msgid "Ios7 Home Outline"
+msgstr "Ios7 Home Outline"
+
+#: admin/icon-set.php:320
+msgid "Ios7 Infinite"
+msgstr "Ios7 Infinite"
+
+#: admin/icon-set.php:321
+msgid "Ios7 Infinite Outline"
+msgstr "Ios7 Infinite Outline"
+
+#: admin/icon-set.php:322
+msgid "Ios7 Information"
+msgstr "Ios7 Information"
+
+#: admin/icon-set.php:323
+msgid "Ios7 Information Empty"
+msgstr "Ios7 Information Empty"
+
+#: admin/icon-set.php:324
+msgid "Ios7 Information Outline"
+msgstr "Ios7 Information Outline"
+
+#: admin/icon-set.php:325
+msgid "Ios7 Ionic Outline"
+msgstr "Ios7 Ionic Outline"
+
+#: admin/icon-set.php:326
+msgid "Ios7 Keypad"
+msgstr "Ios7 Keypad"
+
+#: admin/icon-set.php:327
+msgid "Ios7 Keypad Outline"
+msgstr "Ios7 Keypad Outline"
+
+#: admin/icon-set.php:328
+msgid "Ios7 Lightbulb"
+msgstr "Ios7 Lightbulb"
+
+#: admin/icon-set.php:329
+msgid "Ios7 Lightbulb Outline"
+msgstr "Ios7 Lightbulb Outline"
+
+#: admin/icon-set.php:330
+msgid "Ios7 Location"
+msgstr "Ios7 Location"
+
+#: admin/icon-set.php:331
+msgid "Ios7 Location Outline"
+msgstr "Ios7 Location Outline"
+
+#: admin/icon-set.php:332
+msgid "Ios7 Locked"
+msgstr "Ios7 Locked"
+
+#: admin/icon-set.php:333
+msgid "Ios7 Locked Outline"
+msgstr "Ios7 Locked Outline"
+
+#: admin/icon-set.php:334
+msgid "Ios7 Loop"
+msgstr "Ios7 Loop"
+
+#: admin/icon-set.php:335
+msgid "Ios7 Loop Strong"
+msgstr "Ios7 Loop Strong"
+
+#: admin/icon-set.php:336
+msgid "Ios7 Medkit"
+msgstr "Ios7 Medkit"
+
+#: admin/icon-set.php:337
+msgid "Ios7 Medkit Outline"
+msgstr "Ios7 Medkit Outline"
+
+#: admin/icon-set.php:338
+msgid "Ios7 Mic"
+msgstr "Ios7 Mic"
+
+#: admin/icon-set.php:339
+msgid "Ios7 Mic Off"
+msgstr "Ios7 Mic Off"
+
+#: admin/icon-set.php:340
+msgid "Ios7 Mic Outline"
+msgstr "Ios7 Mic Outline"
+
+#: admin/icon-set.php:341
+msgid "Ios7 Minus"
+msgstr "Ios7 Minus"
+
+#: admin/icon-set.php:342
+msgid "Ios7 Minus Empty"
+msgstr "Ios7 Minus Empty"
+
+#: admin/icon-set.php:343
+msgid "Ios7 Minus Outline"
+msgstr "Ios7 Minus Outline"
+
+#: admin/icon-set.php:344
+msgid "Ios7 Monitor"
+msgstr "Ios7 Monitor"
+
+#: admin/icon-set.php:345
+msgid "Ios7 Monitor Outline"
+msgstr "Ios7 Monitor Outline"
+
+#: admin/icon-set.php:346
+msgid "Ios7 Moon"
+msgstr "Ios7 Moon"
+
+#: admin/icon-set.php:347
+msgid "Ios7 Moon Outline"
+msgstr "Ios7 Moon Outline"
+
+#: admin/icon-set.php:348
+msgid "Ios7 More"
+msgstr "Ios7 More"
+
+#: admin/icon-set.php:349
+msgid "Ios7 More Outline"
+msgstr "Ios7 More Outline"
+
+#: admin/icon-set.php:350
+msgid "Ios7 Musical Note"
+msgstr "Ios7 Musical Note"
+
+#: admin/icon-set.php:351
+msgid "Ios7 Musical Notes"
+msgstr "Ios7 Musical Notes"
+
+#: admin/icon-set.php:352
+msgid "Ios7 Navigate"
+msgstr "Ios7 Navigate"
+
+#: admin/icon-set.php:353
+msgid "Ios7 Navigate Outline"
+msgstr "Ios7 Navigate Outline"
+
+#: admin/icon-set.php:354
+msgid "Ios7 Paper"
+msgstr "Ios7 Paper"
+
+#: admin/icon-set.php:355
+msgid "Ios7 Paper Outline"
+msgstr "Ios7 Paper Outline"
+
+#: admin/icon-set.php:356
+msgid "Ios7 Paperplane"
+msgstr "Ios7 Paperplane"
+
+#: admin/icon-set.php:357
+msgid "Ios7 Paperplane Outline"
+msgstr "Ios7 Paperplane Outline"
+
+#: admin/icon-set.php:358
+msgid "Ios7 Partlysunny"
+msgstr "Ios7 Partlysunny"
+
+#: admin/icon-set.php:359
+msgid "Ios7 Partlysunny Outline"
+msgstr "Ios7 Partlysunny Outline"
+
+#: admin/icon-set.php:360
+msgid "Ios7 Pause"
+msgstr "Ios7 Pause"
+
+#: admin/icon-set.php:361
+msgid "Ios7 Pause Outline"
+msgstr "Ios7 Pause Outline"
+
+#: admin/icon-set.php:362
+msgid "Ios7 Paw"
+msgstr "Ios7 Paw"
+
+#: admin/icon-set.php:363
+msgid "Ios7 Paw Outline"
+msgstr "Ios7 Paw Outline"
+
+#: admin/icon-set.php:364
+msgid "Ios7 People"
+msgstr "Ios7 People"
+
+#: admin/icon-set.php:365
+msgid "Ios7 People Outline"
+msgstr "Ios7 People Outline"
+
+#: admin/icon-set.php:366
+msgid "Ios7 Person"
+msgstr "Ios7 Person"
+
+#: admin/icon-set.php:367
+msgid "Ios7 Person Outline"
+msgstr "Ios7 Person Outline"
+
+#: admin/icon-set.php:368
+msgid "Ios7 Personadd"
+msgstr "Ios7 Personadd"
+
+#: admin/icon-set.php:369
+msgid "Ios7 Personadd Outline"
+msgstr "Ios7 Personadd Outline"
+
+#: admin/icon-set.php:370
+msgid "Ios7 Photos"
+msgstr "Ios7 Photos"
+
+#: admin/icon-set.php:371
+msgid "Ios7 Photos Outline"
+msgstr "Ios7 Photos Outline"
+
+#: admin/icon-set.php:372
+msgid "Ios7 Pie"
+msgstr "Ios7 Pie"
+
+#: admin/icon-set.php:373
+msgid "Ios7 Pie Outline"
+msgstr "Ios7 Pie Outline"
+
+#: admin/icon-set.php:374
+msgid "Ios7 Play"
+msgstr "Ios7 Play"
+
+#: admin/icon-set.php:375
+msgid "Ios7 Play Outline"
+msgstr "Ios7 Play Outline"
+
+#: admin/icon-set.php:376
+msgid "Ios7 Plus"
+msgstr "Ios7 Plus"
+
+#: admin/icon-set.php:377
+msgid "Ios7 Plus Empty"
+msgstr "Ios7 Plus Empty"
+
+#: admin/icon-set.php:378
+msgid "Ios7 Plus Outline"
+msgstr "Ios7 Plus Outline"
+
+#: admin/icon-set.php:379
+msgid "Ios7 Pricetag"
+msgstr "Ios7 Pricetag"
+
+#: admin/icon-set.php:380
+msgid "Ios7 Pricetag Outline"
+msgstr "Ios7 Pricetag Outline"
+
+#: admin/icon-set.php:381
+msgid "Ios7 Pricetags"
+msgstr "Ios7 Pricetags"
+
+#: admin/icon-set.php:382
+msgid "Ios7 Pricetags Outline"
+msgstr "Ios7 Pricetags Outline"
+
+#: admin/icon-set.php:383
+msgid "Ios7 Printer"
+msgstr "Ios7 Printer"
+
+#: admin/icon-set.php:384
+msgid "Ios7 Printer Outline"
+msgstr "Ios7 Printer Outline"
+
+#: admin/icon-set.php:385
+msgid "Ios7 Pulse"
+msgstr "Ios7 Pulse"
+
+#: admin/icon-set.php:386
+msgid "Ios7 Pulse Strong"
+msgstr "Ios7 Pulse Strong"
+
+#: admin/icon-set.php:387
+msgid "Ios7 Rainy"
+msgstr "Ios7 Rainy"
+
+#: admin/icon-set.php:388
+msgid "Ios7 Rainy Outline"
+msgstr "Ios7 Rainy Outline"
+
+#: admin/icon-set.php:389
+msgid "Ios7 Recording"
+msgstr "Ios7 Recording"
+
+#: admin/icon-set.php:390
+msgid "Ios7 Recording Outline"
+msgstr "Ios7 Recording Outline"
+
+#: admin/icon-set.php:391
+msgid "Ios7 Redo"
+msgstr "Ios7 Redo"
+
+#: admin/icon-set.php:392
+msgid "Ios7 Redo Outline"
+msgstr "Ios7 Redo Outline"
+
+#: admin/icon-set.php:393
+msgid "Ios7 Refresh"
+msgstr "Ios7 Refresh"
+
+#: admin/icon-set.php:394
+msgid "Ios7 Refresh Empty"
+msgstr "Ios7 Refresh Empty"
+
+#: admin/icon-set.php:395
+msgid "Ios7 Refresh Outline"
+msgstr "Ios7 Refresh Outline"
+
+#: admin/icon-set.php:396
+msgid "Ios7 Reload"
+msgstr "Ios7 Reload"
+
+#: admin/icon-set.php:397
+msgid "Ios7 Reloading"
+msgstr "Ios7 Reloading"
+
+#: admin/icon-set.php:398
+msgid "Ios7 Reverse Camera"
+msgstr "Ios7 Reverse Camera"
+
+#: admin/icon-set.php:399
+msgid "Ios7 Reverse Camera Outline"
+msgstr "Ios7 Reverse Camera Outline"
+
+#: admin/icon-set.php:400
+msgid "Ios7 Rewind"
+msgstr "Ios7 Rewind"
+
+#: admin/icon-set.php:401
+msgid "Ios7 Rewind Outline"
+msgstr "Ios7 Rewind Outline"
+
+#: admin/icon-set.php:402
+msgid "Ios7 Search"
+msgstr "Ios7 Search"
+
+#: admin/icon-set.php:403
+msgid "Ios7 Search Strong"
+msgstr "Ios7 Search Strong"
+
+#: admin/icon-set.php:404
+msgid "Ios7 Settings"
+msgstr "Ios7 Settings"
+
+#: admin/icon-set.php:405
+msgid "Ios7 Settings Strong"
+msgstr "Ios7 Settings Strong"
+
+#: admin/icon-set.php:406
+msgid "Ios7 Shrink"
+msgstr "Ios7 Shrink"
+
+#: admin/icon-set.php:407
+msgid "Ios7 Skipbackward"
+msgstr "Ios7 Skipbackward"
+
+#: admin/icon-set.php:408
+msgid "Ios7 Skipbackward Outline"
+msgstr "Ios7 Skipbackward Outline"
+
+#: admin/icon-set.php:409
+msgid "Ios7 Skipforward"
+msgstr "Ios7 Skipforward"
+
+#: admin/icon-set.php:410
+msgid "Ios7 Skipforward Outline"
+msgstr "Ios7 Skipforward Outline"
+
+#: admin/icon-set.php:411
+msgid "Ios7 Snowy"
+msgstr "Ios7 Snowy"
+
+#: admin/icon-set.php:412
+msgid "Ios7 Speedometer"
+msgstr "Ios7 Speedometer"
+
+#: admin/icon-set.php:413
+msgid "Ios7 Speedometer Outline"
+msgstr "Ios7 Speedometer Outline"
+
+#: admin/icon-set.php:414
+msgid "Ios7 Star"
+msgstr "Ios7 Star"
+
+#: admin/icon-set.php:415
+msgid "Ios7 Star Half"
+msgstr "Ios7 Star Half"
+
+#: admin/icon-set.php:416
+msgid "Ios7 Star Outline"
+msgstr "Ios7 Star Outline"
+
+#: admin/icon-set.php:417
+msgid "Ios7 Stopwatch"
+msgstr "Ios7 Stopwatch"
+
+#: admin/icon-set.php:418
+msgid "Ios7 Stopwatch Outline"
+msgstr "Ios7 Stopwatch Outline"
+
+#: admin/icon-set.php:419
+msgid "Ios7 Sunny"
+msgstr "Ios7 Sunny"
+
+#: admin/icon-set.php:420
+msgid "Ios7 Sunny Outline"
+msgstr "Ios7 Sunny Outline"
+
+#: admin/icon-set.php:421
+msgid "Ios7 Telephone"
+msgstr "Ios7 Telephone"
+
+#: admin/icon-set.php:422
+msgid "Ios7 Telephone Outline"
+msgstr "Ios7 Telephone Outline"
+
+#: admin/icon-set.php:423
+msgid "Ios7 Tennisball"
+msgstr "Ios7 Tennisball"
+
+#: admin/icon-set.php:424
+msgid "Ios7 Tennisball Outline"
+msgstr "Ios7 Tennisball Outline"
+
+#: admin/icon-set.php:425
+msgid "Ios7 Thunderstorm"
+msgstr "Ios7 Thunderstorm"
+
+#: admin/icon-set.php:426
+msgid "Ios7 Thunderstorm Outline"
+msgstr "Ios7 Thunderstorm Outline"
+
+#: admin/icon-set.php:427
+msgid "Ios7 Time"
+msgstr "Ios7 Time"
+
+#: admin/icon-set.php:428
+msgid "Ios7 Time Outline"
+msgstr "Ios7 Time Outline"
+
+#: admin/icon-set.php:429
+msgid "Ios7 Timer"
+msgstr "Ios7 Timer"
+
+#: admin/icon-set.php:430
+msgid "Ios7 Timer Outline"
+msgstr "Ios7 Timer Outline"
+
+#: admin/icon-set.php:431
+msgid "Ios7 Toggle"
+msgstr "Ios7 Toggle"
+
+#: admin/icon-set.php:432
+msgid "Ios7 Toggle Outline"
+msgstr "Ios7 Toggle Outline"
+
+#: admin/icon-set.php:433
+msgid "Ios7 Trash"
+msgstr "Ios7 Trash"
+
+#: admin/icon-set.php:434
+msgid "Ios7 Trash Outline"
+msgstr "Ios7 Trash Outline"
+
+#: admin/icon-set.php:435
+msgid "Ios7 Undo"
+msgstr "Ios7 Undo"
+
+#: admin/icon-set.php:436
+msgid "Ios7 Undo Outline"
+msgstr "Ios7 Undo Outline"
+
+#: admin/icon-set.php:437
+msgid "Ios7 Unlocked"
+msgstr "Ios7 Unlocked"
+
+#: admin/icon-set.php:438
+msgid "Ios7 Unlocked Outline"
+msgstr "Ios7 Unlocked Outline"
+
+#: admin/icon-set.php:439
+msgid "Ios7 Upload"
+msgstr "Ios7 Upload"
+
+#: admin/icon-set.php:440
+msgid "Ios7 Upload Outline"
+msgstr "Ios7 Upload Outline"
+
+#: admin/icon-set.php:441
+msgid "Ios7 Videocam"
+msgstr "Ios7 Videocam"
+
+#: admin/icon-set.php:442
+msgid "Ios7 Videocam Outline"
+msgstr "Ios7 Videocam Outline"
+
+#: admin/icon-set.php:443
+msgid "Ios7 Volume High"
+msgstr "Ios7 Volume High"
+
+#: admin/icon-set.php:444
+msgid "Ios7 Volume Low"
+msgstr "Ios7 Volume Low"
+
+#: admin/icon-set.php:445
+msgid "Ios7 Wineglass"
+msgstr "Ios7 Wineglass"
+
+#: admin/icon-set.php:446
+msgid "Ios7 Wineglass Outline"
+msgstr "Ios7 Wineglass Outline"
+
+#: admin/icon-set.php:447
+msgid "Ios7 World"
+msgstr "Ios7 World"
+
+#: admin/icon-set.php:448
+msgid "Ios7 World Outline"
+msgstr "Ios7 World Outline"
+
+#: admin/icon-set.php:449
+msgid "Ipad"
+msgstr "Ipad"
+
+#: admin/icon-set.php:450
+msgid "Iphone"
+msgstr "Iphone"
+
+#: admin/icon-set.php:451
+msgid "Ipod"
+msgstr "Ipod"
+
+#: admin/icon-set.php:452
+msgid "Jet"
+msgstr "Jet"
+
+#: admin/icon-set.php:453
+msgid "Key"
+msgstr "Key"
+
+#: admin/icon-set.php:454
+msgid "Knife"
+msgstr "Knife"
+
+#: admin/icon-set.php:455
+msgid "Laptop"
+msgstr "Laptop"
+
+#: admin/icon-set.php:456
+msgid "Leaf"
+msgstr "Leaf"
+
+#: admin/icon-set.php:457
+msgid "Levels"
+msgstr "Levels"
+
+#: admin/icon-set.php:458
+msgid "Lightbulb"
+msgstr "Lightbulb"
+
+#: admin/icon-set.php:459
+msgid "Link"
+msgstr "Link"
+
+#: admin/icon-set.php:460
+msgid "Load A"
+msgstr "Load A"
+
+#: admin/icon-set.php:461
+msgid "Loading A"
+msgstr "Loading A"
+
+#: admin/icon-set.php:462
+msgid "Load B"
+msgstr "Load B"
+
+#: admin/icon-set.php:463
+msgid "Loading B"
+msgstr "Loading B"
+
+#: admin/icon-set.php:464
+msgid "Load C"
+msgstr "Load C"
+
+#: admin/icon-set.php:465
+msgid "Loading C"
+msgstr "Loading C"
+
+#: admin/icon-set.php:466
+msgid "Load D"
+msgstr "Load D"
+
+#: admin/icon-set.php:467
+msgid "Loading D"
+msgstr "Loading D"
+
+#: admin/icon-set.php:468
+msgid "Location"
+msgstr "Location"
+
+#: admin/icon-set.php:469
+msgid "Locked"
+msgstr "Locked"
+
+#: admin/icon-set.php:470
+msgid "Log In"
+msgstr "Log In"
+
+#: admin/icon-set.php:471
+msgid "Log Out"
+msgstr "Log Out"
+
+#: admin/icon-set.php:472
+msgid "Loop"
+msgstr "Loop"
+
+#: admin/icon-set.php:473
+msgid "Looping"
+msgstr "Looping"
+
+#: admin/icon-set.php:474
+msgid "Magnet"
+msgstr "Magnet"
+
+#: admin/icon-set.php:475
+msgid "Male"
+msgstr "Male"
+
+#: admin/icon-set.php:476
+msgid "Man"
+msgstr "Man"
+
+#: admin/icon-set.php:477
+msgid "Map"
+msgstr "Map"
+
+#: admin/icon-set.php:478
+msgid "Medkit"
+msgstr "Medkit"
+
+#: admin/icon-set.php:479
+msgid "Merge"
+msgstr "Merge"
+
+#: admin/icon-set.php:480
+msgid "Mic A"
+msgstr "Mic A"
+
+#: admin/icon-set.php:481
+msgid "Mic B"
+msgstr "Mic B"
+
+#: admin/icon-set.php:482
+msgid "Mic C"
+msgstr "Mic C"
+
+#: admin/icon-set.php:483
+msgid "Minus"
+msgstr "Minus"
+
+#: admin/icon-set.php:484
+msgid "Minus Circled"
+msgstr "Minus Circled"
+
+#: admin/icon-set.php:485
+msgid "Minus Round"
+msgstr "Minus Round"
+
+#: admin/icon-set.php:486
+msgid "Model S"
+msgstr "Model S"
+
+#: admin/icon-set.php:487
+msgid "Monitor"
+msgstr "Monitor"
+
+#: admin/icon-set.php:488
+msgid "More"
+msgstr "More"
+
+#: admin/icon-set.php:489
+msgid "Mouse"
+msgstr "Mouse"
+
+#: admin/icon-set.php:490
+msgid "Music Note"
+msgstr "Music Note"
+
+#: admin/icon-set.php:491
+msgid "Navicon"
+msgstr "Navicon"
+
+#: admin/icon-set.php:492
+msgid "Navicon Round"
+msgstr "Navicon Round"
+
+#: admin/icon-set.php:493
+msgid "Navigate"
+msgstr "Navigate"
+
+#: admin/icon-set.php:494
+msgid "Network"
+msgstr "Network"
+
+#: admin/icon-set.php:495
+msgid "No Smoking"
+msgstr "No Smoking"
+
+#: admin/icon-set.php:496
+msgid "Nuclear"
+msgstr "Nuclear"
+
+#: admin/icon-set.php:497
+msgid "Outlet"
+msgstr "Outlet"
+
+#: admin/icon-set.php:498
+msgid "Paper Airplane"
+msgstr "Paper Airplane"
+
+#: admin/icon-set.php:499
+msgid "Paperclip"
+msgstr "Paperclip"
+
+#: admin/icon-set.php:500
+msgid "Pause"
+msgstr "Pause"
+
+#: admin/icon-set.php:501
+msgid "Person"
+msgstr "Person"
+
+#: admin/icon-set.php:502
+msgid "Person Add"
+msgstr "Person Add"
+
+#: admin/icon-set.php:503
+msgid "Person Stalker"
+msgstr "Person Stalker"
+
+#: admin/icon-set.php:504
+msgid "Pie Graph"
+msgstr "Pie Graph"
+
+#: admin/icon-set.php:505
+msgid "Pin"
+msgstr "Pin"
+
+#: admin/icon-set.php:506
+msgid "Pinpoint"
+msgstr "Pinpoint"
+
+#: admin/icon-set.php:507
+msgid "Pizza"
+msgstr "Pizza"
+
+#: admin/icon-set.php:508
+msgid "Plane"
+msgstr "Plane"
+
+#: admin/icon-set.php:509
+msgid "Planet"
+msgstr "Planet"
+
+#: admin/icon-set.php:510
+msgid "Play"
+msgstr "Play"
+
+#: admin/icon-set.php:511
+msgid "Playstation"
+msgstr "Playstation"
+
+#: admin/icon-set.php:512
+msgid "Plus"
+msgstr "Plus"
+
+#: admin/icon-set.php:513
+msgid "Plus Circled"
+msgstr "Plus Circled"
+
+#: admin/icon-set.php:514
+msgid "Plus Round"
+msgstr "Plus Round"
+
+#: admin/icon-set.php:515
+msgid "Podium"
+msgstr "Podium"
+
+#: admin/icon-set.php:516
+msgid "Pound"
+msgstr "Pound"
+
+#: admin/icon-set.php:517
+msgid "Power"
+msgstr "Power"
+
+#: admin/icon-set.php:518
+msgid "Pricetag"
+msgstr "Pricetag"
+
+#: admin/icon-set.php:519
+msgid "Pricetags"
+msgstr "Pricetags"
+
+#: admin/icon-set.php:520
+msgid "Printer"
+msgstr "Printer"
+
+#: admin/icon-set.php:521
+msgid "Pull Request"
+msgstr "Pull Request"
+
+#: admin/icon-set.php:522
+msgid "Qr Scanner"
+msgstr "Qr Scanner"
+
+#: admin/icon-set.php:523
+msgid "Quote"
+msgstr "Quote"
+
+#: admin/icon-set.php:524
+msgid "Radio Waves"
+msgstr "Radio Waves"
+
+#: admin/icon-set.php:525
+msgid "Record"
+msgstr "Record"
+
+#: admin/icon-set.php:526
+msgid "Refresh"
+msgstr "Refresh"
+
+#: admin/icon-set.php:527
+msgid "Refreshing"
+msgstr "Refreshing"
+
+#: admin/icon-set.php:528 comments.php:30
+msgid "Reply"
+msgstr "Reply"
+
+#: admin/icon-set.php:529
+msgid "Reply All"
+msgstr "Reply All"
+
+#: admin/icon-set.php:530
+msgid "Ribbon A"
+msgstr "Ribbon A"
+
+#: admin/icon-set.php:531
+msgid "Ribbon B"
+msgstr "Ribbon B"
+
+#: admin/icon-set.php:532
+msgid "Sad"
+msgstr "Sad"
+
+#: admin/icon-set.php:533
+msgid "Scissors"
+msgstr "Scissors"
+
+#: admin/icon-set.php:534
+msgid "Search"
+msgstr "Search"
+
+#: admin/icon-set.php:535
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/icon-set.php:536
+msgid "Share"
+msgstr "Share"
+
+#: admin/icon-set.php:537
+msgid "Shuffle"
+msgstr "Shuffle"
+
+#: admin/icon-set.php:538
+msgid "Skip Backward"
+msgstr "Skip Backward"
+
+#: admin/icon-set.php:539
+msgid "Skip Forward"
+msgstr "Skip Forward"
+
+#: admin/icon-set.php:540
+msgid "Social Android"
+msgstr "Social Android"
+
+#: admin/icon-set.php:541
+msgid "Social Android Outline"
+msgstr "Social Android Outline"
+
+#: admin/icon-set.php:542
+msgid "Social Apple"
+msgstr "Social Apple"
+
+#: admin/icon-set.php:543
+msgid "Social Apple Outline"
+msgstr "Social Apple Outline"
+
+#: admin/icon-set.php:544
+msgid "Social Bitcoin"
+msgstr "Social Bitcoin"
+
+#: admin/icon-set.php:545
+msgid "Social Bitcoin Outline"
+msgstr "Social Bitcoin Outline"
+
+#: admin/icon-set.php:546
+msgid "Social Buffer"
+msgstr "Social Buffer"
+
+#: admin/icon-set.php:547
+msgid "Social Buffer Outline"
+msgstr "Social Buffer Outline"
+
+#: admin/icon-set.php:548
+msgid "Social Designernews"
+msgstr "Social Designernews"
+
+#: admin/icon-set.php:549
+msgid "Social Designernews Outline"
+msgstr "Social Designernews Outline"
+
+#: admin/icon-set.php:550
+msgid "Social Dribbble"
+msgstr "Social Dribbble"
+
+#: admin/icon-set.php:551
+msgid "Social Dribbble Outline"
+msgstr "Social Dribbble Outline"
+
+#: admin/icon-set.php:552
+msgid "Social Dropbox"
+msgstr "Social Dropbox"
+
+#: admin/icon-set.php:553
+msgid "Social Dropbox Outline"
+msgstr "Social Dropbox Outline"
+
+#: admin/icon-set.php:554
+msgid "Social Facebook"
+msgstr "Social Facebook"
+
+#: admin/icon-set.php:555
+msgid "Social Facebook Outline"
+msgstr "Social Facebook Outline"
+
+#: admin/icon-set.php:556
+msgid "Social Foursquare"
+msgstr "Social Foursquare"
+
+#: admin/icon-set.php:557
+msgid "Social Foursquare Outline"
+msgstr "Social Foursquare Outline"
+
+#: admin/icon-set.php:558
+msgid "Social Freebsd Devil"
+msgstr "Social Freebsd Devil"
+
+#: admin/icon-set.php:559
+msgid "Social Github"
+msgstr "Social Github"
+
+#: admin/icon-set.php:560
+msgid "Social Github Outline"
+msgstr "Social Github Outline"
+
+#: admin/icon-set.php:561
+msgid "Social Google"
+msgstr "Social Google"
+
+#: admin/icon-set.php:562
+msgid "Social Google Outline"
+msgstr "Social Google Outline"
+
+#: admin/icon-set.php:563
+msgid "Social Googleplus"
+msgstr "Social Googleplus"
+
+#: admin/icon-set.php:564
+msgid "Social Googleplus Outline"
+msgstr "Social Googleplus Outline"
+
+#: admin/icon-set.php:565
+msgid "Social Hackernews"
+msgstr "Social Hackernews"
+
+#: admin/icon-set.php:566
+msgid "Social Hackernews Outline"
+msgstr "Social Hackernews Outline"
+
+#: admin/icon-set.php:567
+msgid "Social Instagram"
+msgstr "Social Instagram"
+
+#: admin/icon-set.php:568
+msgid "Social Instagram Outline"
+msgstr "Social Instagram Outline"
+
+#: admin/icon-set.php:569
+msgid "Social Linkedin"
+msgstr "Social Linkedin"
+
+#: admin/icon-set.php:570
+msgid "Social Linkedin Outline"
+msgstr "Social Linkedin Outline"
+
+#: admin/icon-set.php:571
+msgid "Social Pinterest"
+msgstr "Social Pinterest"
+
+#: admin/icon-set.php:572
+msgid "Social Pinterest Outline"
+msgstr "Social Pinterest Outline"
+
+#: admin/icon-set.php:573
+msgid "Social Reddit"
+msgstr "Social Reddit"
+
+#: admin/icon-set.php:574
+msgid "Social Reddit Outline"
+msgstr "Social Reddit Outline"
+
+#: admin/icon-set.php:575
+msgid "Social Rss"
+msgstr "Social Rss"
+
+#: admin/icon-set.php:576
+msgid "Social Rss Outline"
+msgstr "Social Rss Outline"
+
+#: admin/icon-set.php:577
+msgid "Social Skype"
+msgstr "Social Skype"
+
+#: admin/icon-set.php:578
+msgid "Social Skype Outline"
+msgstr "Social Skype Outline"
+
+#: admin/icon-set.php:579
+msgid "Social Tumblr"
+msgstr "Social Tumblr"
+
+#: admin/icon-set.php:580
+msgid "Social Tumblr Outline"
+msgstr "Social Tumblr Outline"
+
+#: admin/icon-set.php:581
+msgid "Social Tux"
+msgstr "Social Tux"
+
+#: admin/icon-set.php:582
+msgid "Social Twitter"
+msgstr "Social Twitter"
+
+#: admin/icon-set.php:583
+msgid "Social Twitter Outline"
+msgstr "Social Twitter Outline"
+
+#: admin/icon-set.php:584
+msgid "Social Usd"
+msgstr "Social Usd"
+
+#: admin/icon-set.php:585
+msgid "Social Usd Outline"
+msgstr "Social Usd Outline"
+
+#: admin/icon-set.php:586
+msgid "Social Vimeo"
+msgstr "Social Vimeo"
+
+#: admin/icon-set.php:587
+msgid "Social Vimeo Outline"
+msgstr "Social Vimeo Outline"
+
+#: admin/icon-set.php:588
+msgid "Social Windows"
+msgstr "Social Windows"
+
+#: admin/icon-set.php:589
+msgid "Social Windows Outline"
+msgstr "Social Windows Outline"
+
+#: admin/icon-set.php:590
+msgid "Social Wordpress"
+msgstr "Social Wordpress"
+
+#: admin/icon-set.php:591
+msgid "Social Wordpress Outline"
+msgstr "Social Wordpress Outline"
+
+#: admin/icon-set.php:592
+msgid "Social Yahoo"
+msgstr "Social Yahoo"
+
+#: admin/icon-set.php:593
+msgid "Social Yahoo Outline"
+msgstr "Social Yahoo Outline"
+
+#: admin/icon-set.php:594
+msgid "Social Youtube"
+msgstr "Social Youtube"
+
+#: admin/icon-set.php:595
+msgid "Social Youtube Outline"
+msgstr "Social Youtube Outline"
+
+#: admin/icon-set.php:596
+msgid "Speakerphone"
+msgstr "Speakerphone"
+
+#: admin/icon-set.php:597
+msgid "Speedometer"
+msgstr "Speedometer"
+
+#: admin/icon-set.php:598
+msgid "Spoon"
+msgstr "Spoon"
+
+#: admin/icon-set.php:599
+msgid "Star"
+msgstr "Star"
+
+#: admin/icon-set.php:600
+msgid "Stats Bars"
+msgstr "Stats Bars"
+
+#: admin/icon-set.php:601
+msgid "Steam"
+msgstr "Steam"
+
+#: admin/icon-set.php:602
+msgid "Stop"
+msgstr "Stop"
+
+#: admin/icon-set.php:603
+msgid "Thermometer"
+msgstr "Thermometer"
+
+#: admin/icon-set.php:604
+msgid "Thumbsdown"
+msgstr "Thumbsdown"
+
+#: admin/icon-set.php:605
+msgid "Thumbsup"
+msgstr "Thumbsup"
+
+#: admin/icon-set.php:606
+msgid "Toggle"
+msgstr "Toggle"
+
+#: admin/icon-set.php:607
+msgid "Toggle Filled"
+msgstr "Toggle Filled"
+
+#: admin/icon-set.php:608
+msgid "Trash A"
+msgstr "Trash A"
+
+#: admin/icon-set.php:609
+msgid "Trash B"
+msgstr "Trash B"
+
+#: admin/icon-set.php:610
+msgid "Trophy"
+msgstr "Trophy"
+
+#: admin/icon-set.php:611
+msgid "Umbrella"
+msgstr "Umbrella"
+
+#: admin/icon-set.php:612
+msgid "University"
+msgstr "University"
+
+#: admin/icon-set.php:613
+msgid "Unlocked"
+msgstr "Unlocked"
+
+#: admin/icon-set.php:614
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/icon-set.php:615
+msgid "Usb"
+msgstr "Usb"
+
+#: admin/icon-set.php:616
+msgid "Videocamera"
+msgstr "Videocamera"
+
+#: admin/icon-set.php:617
+msgid "Volume High"
+msgstr "Volume High"
+
+#: admin/icon-set.php:618
+msgid "Volume Low"
+msgstr "Volume Low"
+
+#: admin/icon-set.php:619
+msgid "Volume Medium"
+msgstr "Volume Medium"
+
+#: admin/icon-set.php:620
+msgid "Volume Mute"
+msgstr "Volume Mute"
+
+#: admin/icon-set.php:621
+msgid "Wand"
+msgstr "Wand"
+
+#: admin/icon-set.php:622
+msgid "Waterdrop"
+msgstr "Waterdrop"
+
+#: admin/icon-set.php:623
+msgid "Wifi"
+msgstr "Wifi"
+
+#: admin/icon-set.php:624
+msgid "Wineglass"
+msgstr "Wineglass"
+
+#: admin/icon-set.php:625
+msgid "Woman"
+msgstr "Woman"
+
+#: admin/icon-set.php:626
+msgid "Wrench"
+msgstr "Wrench"
+
+#: admin/icon-set.php:627
+msgid "Xbox"
+msgstr "Xbox"
+
+#: admin/metabox.php:42
+msgid "Page Options"
+msgstr "Page Options"
+
+#: admin/metabox.php:53
+msgid "If yes, the page will be included to single page layout."
+msgstr "If yes, the page will be included to single page layout."
+
+#: admin/metabox.php:57
+msgid "Yes"
+msgstr "Yes"
+
+#: admin/metabox.php:58
+msgid "No"
+msgstr "No"
+
+#: admin/metabox.php:65
+msgid "Show Default Page Title"
+msgstr "Show Default Page Title"
+
+#: admin/metabox.php:66
+msgid "Check if you want to show the page title."
+msgstr "Check if you want to show the page title."
+
+#: admin/metabox.php:73
+msgid "Enable Fullwidth"
+msgstr "Enable Fullwidth"
+
+#: admin/metabox.php:74
+msgid "Create 100% wide page/sections."
+msgstr "Create 100% wide page/sections."
+
+#: admin/metabox.php:100
+msgid "Project Options"
+msgstr "Project Options"
+
+#: admin/metabox.php:110
+msgid "Thumbnail Image"
+msgstr "Thumbnail Image"
+
+#: admin/metabox.php:111
+msgid ""
+"Select image from media library/Upload new image.<br/> Use image of width "
+"1200px for better appearance in larger displays."
+msgstr ""
+"Select image from media library/Upload new image.<br/> Use image of width "
+"1200px for better appearance in larger displays."
+
+#: admin/metabox.php:121
+msgid "Caption"
+msgstr "Caption"
+
+#: admin/metabox.php:122
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: admin/metabox.php:133
+msgid "Lightbox Single Image"
+msgstr "Lightbox Single Image"
+
+#: admin/metabox.php:134
+msgid "Lightbox Image Gallery"
+msgstr "Lightbox Image Gallery"
+
+#: admin/metabox.php:135
+msgid "Lightbox Youtube Video"
+msgstr "Lightbox Youtube Video"
+
+#: admin/metabox.php:136
+msgid "Lightbox Vimeo Video"
+msgstr "Lightbox Vimeo Video"
+
+#: admin/metabox.php:137
+msgid "Link to External Page"
+msgstr "Link to External Page"
+
+#: admin/metabox.php:145
+msgid "Lightbox Image"
+msgstr "Lightbox Image"
+
+#: admin/metabox.php:146
+msgid "Select image from media library/Upload new image."
+msgstr "Select image from media library/Upload new image."
+
+#: admin/metabox.php:161
+msgid "Lightbox Gallery Images"
+msgstr "Lightbox Gallery Images"
+
+#: admin/metabox.php:162
+msgid "Upload or add multiple images."
+msgstr "Upload or add multiple images."
+
+#: admin/metabox.php:177 admin/metabox.php:188
+msgid "Video Link"
+msgstr "Video Link"
+
+#: admin/metabox.php:199
+msgid "External URL"
+msgstr "External URL"
+
+#: admin/metabox.php:200
+msgid "Provide the external link"
+msgstr "Provide the external link"
+
+#: admin/theme-options.php:73
+msgid "The compiler hook has run!"
+msgstr "The compiler hook has run!"
+
+#: admin/theme-options.php:108
+msgid "Section via hook"
+msgstr "Section via hook"
+
+#: admin/theme-options.php:109
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+
+#: admin/theme-options.php:243
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr "Customize &#8220;%s&#8221;"
+
+#: admin/theme-options.php:263
+#, php-format
+msgid "By %s"
+msgstr "By %s"
+
+#: admin/theme-options.php:264
+#, php-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: admin/theme-options.php:265 single.php:43 single.php:67
+msgid "Tags"
+msgstr "Tags"
+
+#: admin/theme-options.php:270
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+
+#: admin/theme-options.php:270
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr "http://codex.wordpress.org/Child_Themes"
+
+#: admin/theme-options.php:296
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/theme-options.php:302
+msgid "Highlight Color"
+msgstr "Highlight Color"
+
+#: admin/theme-options.php:303
+msgid "Pick a highlight color for the theme (default: #EC1A49)."
+msgstr "Pick a highlight color for the theme (default: #EC1A49)."
+
+#: admin/theme-options.php:312
+msgid "Contrast for Highlight Color"
+msgstr "Contrast for Highlight Color"
+
+#: admin/theme-options.php:313
+msgid "Pick a highlight color for the theme (default: #FFFFFF)."
+msgstr "Pick a highlight color for the theme (default: #FFFFFF)."
+
+#: admin/theme-options.php:321
+msgid "Loading Image"
+msgstr "Loading Image"
+
+#: admin/theme-options.php:322 admin/theme-options.php:393
+#: admin/theme-options.php:417 admin/theme-options.php:424
+#: admin/theme-options.php:438 admin/theme-options.php:469
+#: admin/theme-options.php:494 admin/theme-options.php:508
+#: admin/theme-options.php:544 admin/theme-options.php:551
+#: admin/theme-options.php:602 admin/theme-options.php:616
+#: admin/theme-options.php:640 admin/theme-options.php:664
+#: admin/theme-options.php:678 admin/theme-options.php:702
+#: admin/theme-options.php:746 admin/theme-options.php:753
+#: admin/theme-options.php:787 admin/theme-options.php:794
+#: admin/theme-options.php:828 admin/theme-options.php:835
+#: admin/theme-options.php:886 admin/theme-options.php:893
+#: admin/theme-options.php:907 admin/theme-options.php:931
+#: admin/theme-options.php:955 admin/theme-options.php:979
+#: admin/theme-options.php:993 admin/theme-options.php:1017
+#: admin/theme-options.php:1041 admin/theme-options.php:1048
+#: admin/theme-options.php:1072 admin/theme-options.php:1096
+#: admin/theme-options.php:1128 admin/theme-options.php:1150
+#: admin/theme-options.php:1172 admin/theme-options.php:1179
+#: admin/theme-options.php:1193 admin/theme-options.php:1569
+msgid "Upload or Select the image. "
+msgstr "Upload or Select the image. "
+
+#: admin/theme-options.php:328
+msgid "Loading Image (Retina)"
+msgstr "Loading Image (Retina)"
+
+#: admin/theme-options.php:329
+msgid ""
+"Upload your loading image for retina display.<br>It should have the same "
+"name and doubled the sized than the regular. The name also need to contain "
+"the chars @2x at the end. <br/>Eg: 'mylogo.png' becomes 'mylogo@2x.png'."
+msgstr ""
+"Upload your loading image for retina display.<br>It should have the same "
+"name and doubled the sized than the regular. The name also need to contain "
+"the chars @2x at the end. <br/>Eg: 'mylogo.png' becomes 'mylogo@2x.png'."
+
+#: admin/theme-options.php:334
+msgid "Disable sidebar on blog."
+msgstr "Disable sidebar on blog."
+
+#: admin/theme-options.php:335
+msgid "Check if you want to disable the sidebar on blog."
+msgstr "Check if you want to disable the sidebar on blog."
+
+#: admin/theme-options.php:347
+msgid "Navigation Settings"
+msgstr "Navigation Settings"
+
+#: admin/theme-options.php:352
+msgid "Choose The Navigation"
+msgstr "Choose The Navigation"
+
+#: admin/theme-options.php:353
+msgid ""
+"Choose \"Signature Navigation\", if you are using one page layout.<br/> Also "
+"create a menu and assign it to the location. <br/> Appearence >> Menus"
+msgstr ""
+"Choose \"Signature Navigation\", if you are using one page layout.<br/> Also "
+"create a menu and assign it to the location. <br/> Appearence >> Menus"
+
+#: admin/theme-options.php:361
+msgid "Mobile Navigation Logo"
+msgstr "Mobile Navigation Logo"
+
+#: admin/theme-options.php:362
+msgid "Upload or Select the logo. "
+msgstr "Upload or Select the logo. "
+
+#: admin/theme-options.php:368
+msgid "Mobile Navigation Logo (Retina)"
+msgstr "Mobile Navigation Logo (Retina)"
+
+#: admin/theme-options.php:369
+msgid ""
+"Upload your logo for retina display.<br>It should have the same name and "
+"doubled the sized than the regular. The name also need to contain the chars "
+"@2x at the end. <br/>Eg: 'mylogo.png' becomes 'mylogo@2x.png'."
+msgstr ""
+"Upload your logo for retina display.<br>It should have the same name and "
+"doubled the sized than the regular. The name also need to contain the chars "
+"@2x at the end. <br/>Eg: 'mylogo.png' becomes 'mylogo@2x.png'."
+
+#: admin/theme-options.php:374
+msgid "Select Desktop Navigation Style"
+msgstr "Select Desktop Navigation Style"
+
+#: admin/theme-options.php:375
+msgid ""
+"A preview of the selected navigation style will appear underneath the select "
+"box."
+msgstr ""
+"A preview of the selected navigation style will appear underneath the select "
+"box."
+
+#: admin/theme-options.php:382 admin/theme-options.php:458
+#: admin/theme-options.php:1559
+msgid "background Color"
+msgstr "background Color"
+
+#: admin/theme-options.php:383
+msgid "Pick a background color for navigation panel.<br/>(default: #f0f4f4)."
+msgstr "Pick a background color for navigation panel.<br/>(default: #f0f4f4)."
+
+#: admin/theme-options.php:392 admin/theme-options.php:437
+#: admin/theme-options.php:468 admin/theme-options.php:507
+#: admin/theme-options.php:615 admin/theme-options.php:639
+#: admin/theme-options.php:930 admin/theme-options.php:992
+#: admin/theme-options.php:1016 admin/theme-options.php:1047
+#: admin/theme-options.php:1071 admin/theme-options.php:1095
+#: admin/theme-options.php:1127 admin/theme-options.php:1149
+#: admin/theme-options.php:1178 admin/theme-options.php:1192
+msgid "Navigation Logo"
+msgstr "Navigation Logo"
+
+#: admin/theme-options.php:399 admin/theme-options.php:444
+#: admin/theme-options.php:475 admin/theme-options.php:514
+#: admin/theme-options.php:622 admin/theme-options.php:646
+#: admin/theme-options.php:937 admin/theme-options.php:999
+#: admin/theme-options.php:1023 admin/theme-options.php:1054
+#: admin/theme-options.php:1078 admin/theme-options.php:1102
+#: admin/theme-options.php:1134 admin/theme-options.php:1156
+#: admin/theme-options.php:1185 admin/theme-options.php:1199
+msgid "Navigation Logo (Retina)"
+msgstr "Navigation Logo (Retina)"
+
+#: admin/theme-options.php:400 admin/theme-options.php:431
+#: admin/theme-options.php:445 admin/theme-options.php:476
+#: admin/theme-options.php:501 admin/theme-options.php:515
+#: admin/theme-options.php:558 admin/theme-options.php:609
+#: admin/theme-options.php:623 admin/theme-options.php:647
+#: admin/theme-options.php:671 admin/theme-options.php:685
+#: admin/theme-options.php:709 admin/theme-options.php:760
+#: admin/theme-options.php:801 admin/theme-options.php:842
+#: admin/theme-options.php:900 admin/theme-options.php:914
+#: admin/theme-options.php:938 admin/theme-options.php:962
+#: admin/theme-options.php:986 admin/theme-options.php:1000
+#: admin/theme-options.php:1024 admin/theme-options.php:1055
+#: admin/theme-options.php:1079 admin/theme-options.php:1103
+#: admin/theme-options.php:1135 admin/theme-options.php:1157
+#: admin/theme-options.php:1186 admin/theme-options.php:1200
+#: admin/theme-options.php:1575
+msgid ""
+"Upload your logo image for retina display.<br>It should have the same name "
+"and doubled the sized than the regular. The name also need to contain the "
+"chars @2x at the end. <br/>Eg: 'mylogo.png' becomes 'mylogo@2x.png'."
+msgstr ""
+"Upload your logo image for retina display.<br>It should have the same name "
+"and doubled the sized than the regular. The name also need to contain the "
+"chars @2x at the end. <br/>Eg: 'mylogo.png' becomes 'mylogo@2x.png'."
+
+#: admin/theme-options.php:406
+msgid "Background Color For Right Panel"
+msgstr "Background Color For Right Panel"
+
+#: admin/theme-options.php:407
+msgid ""
+"Pick a background color for the right panel of the navigation.<br/>(default: "
+"#FFFFFF)."
+msgstr ""
+"Pick a background color for the right panel of the navigation.<br/>(default: "
+"#FFFFFF)."
+
+#: admin/theme-options.php:416
+msgid "Navigation Left Panel background Image"
+msgstr "Navigation Left Panel background Image"
+
+#: admin/theme-options.php:423 admin/theme-options.php:493
+#: admin/theme-options.php:550 admin/theme-options.php:601
+#: admin/theme-options.php:663 admin/theme-options.php:677
+#: admin/theme-options.php:701 admin/theme-options.php:752
+#: admin/theme-options.php:793 admin/theme-options.php:834
+#: admin/theme-options.php:892 admin/theme-options.php:906
+#: admin/theme-options.php:954 admin/theme-options.php:978
+msgid "Navigation Bar Logo"
+msgstr "Navigation Bar Logo"
+
+#: admin/theme-options.php:430 admin/theme-options.php:500
+#: admin/theme-options.php:557 admin/theme-options.php:608
+#: admin/theme-options.php:670 admin/theme-options.php:684
+#: admin/theme-options.php:708 admin/theme-options.php:759
+#: admin/theme-options.php:800 admin/theme-options.php:841
+#: admin/theme-options.php:899 admin/theme-options.php:913
+#: admin/theme-options.php:961 admin/theme-options.php:985
+msgid "Navigation Bar Logo (Retina)"
+msgstr "Navigation Bar Logo (Retina)"
+
+#: admin/theme-options.php:451 admin/theme-options.php:564
+#: admin/theme-options.php:848
+msgid "Navigation Text Content"
+msgstr "Navigation Text Content"
+
+#: admin/theme-options.php:459
+msgid "Pick a background color for navigation panel.<br/>(default: #ffffff)."
+msgstr "Pick a background color for navigation panel.<br/>(default: #ffffff)."
+
+#: admin/theme-options.php:482 admin/theme-options.php:653
+#: admin/theme-options.php:715 admin/theme-options.php:735
+#: admin/theme-options.php:776 admin/theme-options.php:817
+#: admin/theme-options.php:875 admin/theme-options.php:968
+msgid "Navigation Background Color"
+msgstr "Navigation Background Color"
+
+#: admin/theme-options.php:483
+msgid "Pick a background color for navigation panel.<br/>(default: #000000)."
+msgstr "Pick a background color for navigation panel.<br/>(default: #000000)."
+
+#: admin/theme-options.php:521
+msgid "Choose The Theme Layout"
+msgstr "Choose The Theme Layout"
+
+#: admin/theme-options.php:533
+msgid "Background Color For Left Nav Panel"
+msgstr "Background Color For Left Nav Panel"
+
+#: admin/theme-options.php:534
+msgid ""
+"Pick a background color for the left panel of the navigation.<br/>(default: "
+"#FFFFFF)."
+msgstr ""
+"Pick a background color for the left panel of the navigation.<br/>(default: "
+"#FFFFFF)."
+
+#: admin/theme-options.php:543
+msgid "Navigation Right Panel background Image"
+msgstr "Navigation Right Panel background Image"
+
+#: admin/theme-options.php:571 admin/theme-options.php:855
+msgid "Font Color For Navigation Text Content"
+msgstr "Font Color For Navigation Text Content"
+
+#: admin/theme-options.php:572
+msgid ""
+"choose the font color for the navigation text content.<br/>(default: "
+"#292929)."
+msgstr ""
+"choose the font color for the navigation text content.<br/>(default: "
+"#292929)."
+
+#: admin/theme-options.php:581
+msgid "Background Color Navigation bar"
+msgstr "Background Color Navigation bar"
+
+#: admin/theme-options.php:582
+msgid "Pick a background color for the navigation bar.<br/>(default: #FFFFFF)."
+msgstr ""
+"Pick a background color for the navigation bar.<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:591
+msgid "Background Color For Navigation Panel"
+msgstr "Background Color For Navigation Panel"
+
+#: admin/theme-options.php:592
+msgid ""
+"Pick a background color for the navigation panel.<br/>(default: #FFFFFF)."
+msgstr ""
+"Pick a background color for the navigation panel.<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:629 admin/theme-options.php:920
+#: admin/theme-options.php:1006 admin/theme-options.php:1030
+msgid "Background Color Navigation"
+msgstr "Background Color Navigation"
+
+#: admin/theme-options.php:630 admin/theme-options.php:921
+msgid "Pick a background color for the navigation.<br/>(default: #FFFFFF)."
+msgstr "Pick a background color for the navigation.<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:654 admin/theme-options.php:692
+#: admin/theme-options.php:736 admin/theme-options.php:777
+#: admin/theme-options.php:818 admin/theme-options.php:876
+#: admin/theme-options.php:969
+msgid "Pick a background color for navigation panel.<br/>(default: #FFFFFF)."
+msgstr "Pick a background color for navigation panel.<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:691 admin/theme-options.php:725
+#: admin/theme-options.php:766 admin/theme-options.php:807
+#: admin/theme-options.php:865
+msgid "Navigation-bar Background Color"
+msgstr "Navigation-bar Background Color"
+
+#: admin/theme-options.php:716
+msgid "Pick a background color for navigation panel.<br/>(default: #292929)."
+msgstr "Pick a background color for navigation panel.<br/>(default: #292929)."
+
+#: admin/theme-options.php:726 admin/theme-options.php:767
+#: admin/theme-options.php:808 admin/theme-options.php:866
+msgid "Pick a background color for navigation bar.<br/>(default: #FFFFFF)."
+msgstr "Pick a background color for navigation bar.<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:745 admin/theme-options.php:786
+#: admin/theme-options.php:827 admin/theme-options.php:885
+#: admin/theme-options.php:1040 admin/theme-options.php:1171
+msgid "Navigation Background Image"
+msgstr "Navigation Background Image"
+
+#: admin/theme-options.php:856
+msgid ""
+"choose the font color for the navigation text content.<br/>(default: "
+"#FFFFFF)."
+msgstr ""
+"choose the font color for the navigation text content.<br/>(default: "
+"#FFFFFF)."
+
+#: admin/theme-options.php:944
+msgid "Separator Color"
+msgstr "Separator Color"
+
+#: admin/theme-options.php:945
+msgid "Pick a color for the navigation separator.<br/>(default: #121212)."
+msgstr "Pick a color for the navigation separator.<br/>(default: #121212)."
+
+#: admin/theme-options.php:1007
+msgid "Pick a background color for the navigation.<br/>(default: #292929)."
+msgstr "Pick a background color for the navigation.<br/>(default: #292929)."
+
+#: admin/theme-options.php:1031
+msgid "Pick a background color for the navigation.<br/>(default: #353535)."
+msgstr "Pick a background color for the navigation.<br/>(default: #353535)."
+
+#: admin/theme-options.php:1061 admin/theme-options.php:1109
+msgid "Background Color Navigation Panel"
+msgstr "Background Color Navigation Panel"
+
+#: admin/theme-options.php:1062
+msgid ""
+"Pick a background color for the navigation panel.<br/>(default: #060606)."
+msgstr ""
+"Pick a background color for the navigation panel.<br/>(default: #060606)."
+
+#: admin/theme-options.php:1085
+msgid "Border Color Navigation"
+msgstr "Border Color Navigation"
+
+#: admin/theme-options.php:1086
+msgid "Pick a border color for the navigation.<br/>(default: #FFFFFF)."
+msgstr "Pick a border color for the navigation.<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:1110
+msgid ""
+"Pick a background color for the navigation panel.<br/>(default: #F0F4F4)."
+msgstr ""
+"Pick a background color for the navigation panel.<br/>(default: #F0F4F4)."
+
+#: admin/theme-options.php:1119 admin/theme-options.php:1141
+#: admin/theme-options.php:1163
+msgid "Navigation Content"
+msgstr "Navigation Content"
+
+#: admin/theme-options.php:1210
+msgid "Font Settings"
+msgstr "Font Settings"
+
+#: admin/theme-options.php:1215
+msgid "Basic Font Size (in pixels)"
+msgstr "Basic Font Size (in pixels)"
+
+#: admin/theme-options.php:1216
+msgid "Basic font size for paragraphs and normal text."
+msgstr "Basic font size for paragraphs and normal text."
+
+#: admin/theme-options.php:1225
+msgid "Basic Line Height (in pixels)"
+msgstr "Basic Line Height (in pixels)"
+
+#: admin/theme-options.php:1226
+msgid "Basic line height for paragraphs and normal text."
+msgstr "Basic line height for paragraphs and normal text."
+
+#: admin/theme-options.php:1235
+msgid "Basic Letter Spacing (in pixels)"
+msgstr "Basic Letter Spacing (in pixels)"
+
+#: admin/theme-options.php:1236
+msgid "Basic letter spacing for paragraphs and normal text."
+msgstr "Basic letter spacing for paragraphs and normal text."
+
+#: admin/theme-options.php:1245
+msgid "Body Font"
+msgstr "Body Font"
+
+#: admin/theme-options.php:1246
+msgid "Specify the body font."
+msgstr "Specify the body font."
+
+#: admin/theme-options.php:1265
+msgid "Heading Font"
+msgstr "Heading Font"
+
+#: admin/theme-options.php:1266
+msgid "Specify the heading font."
+msgstr "Specify the heading font."
+
+#: admin/theme-options.php:1282
+msgid "Premium Font"
+msgstr "Premium Font"
+
+#: admin/theme-options.php:1284
+msgid ""
+"The following fonts are Premium Fonts which is free to use with this product "
+"only"
+msgstr ""
+"The following fonts are Premium Fonts which is free to use with this product "
+"only"
+
+#: admin/theme-options.php:1289
+msgid "Alternative Body Font"
+msgstr "Alternative Body Font"
+
+#: admin/theme-options.php:1290
+msgid "Specify the alternative body font."
+msgstr "Specify the alternative body font."
+
+#: admin/theme-options.php:1310
+msgid "Alternative Heading Font"
+msgstr "Alternative Heading Font"
+
+#: admin/theme-options.php:1311
+msgid "Specify the alternative heading font."
+msgstr "Specify the alternative heading font."
+
+#: admin/theme-options.php:1330
+msgid "Thin Font"
+msgstr "Thin Font"
+
+#: admin/theme-options.php:1331
+msgid "Specify the thin font."
+msgstr "Specify the thin font."
+
+#: admin/theme-options.php:1350
+msgid "Light Font"
+msgstr "Light Font"
+
+#: admin/theme-options.php:1351
+msgid "Specify the light font."
+msgstr "Specify the light font."
+
+#: admin/theme-options.php:1370
+msgid "Extra Light Font"
+msgstr "Extra Light Font"
+
+#: admin/theme-options.php:1371
+msgid "Specify the extra light font."
+msgstr "Specify the extra light font."
+
+#: admin/theme-options.php:1389
+msgid "Bold Font"
+msgstr "Bold Font"
+
+#: admin/theme-options.php:1390
+msgid "Specify the bold font."
+msgstr "Specify the bold font."
+
+#: admin/theme-options.php:1409
+msgid "Black Font"
+msgstr "Black Font"
+
+#: admin/theme-options.php:1410
+msgid "Specify the black font."
+msgstr "Specify the black font."
+
+#: admin/theme-options.php:1429
+msgid "Extra Black Font"
+msgstr "Extra Black Font"
+
+#: admin/theme-options.php:1430
+msgid "Specify the extra black font."
+msgstr "Specify the extra black font."
+
+#: admin/theme-options.php:1457
+msgid "Contact Form Settings"
+msgstr "Contact Form Settings"
+
+#: admin/theme-options.php:1462
+msgid "Placeholder For Name"
+msgstr "Placeholder For Name"
+
+#: admin/theme-options.php:1469
+msgid "Error Message For Name"
+msgstr "Error Message For Name"
+
+#: admin/theme-options.php:1476
+msgid "Placeholder For Email"
+msgstr "Placeholder For Email"
+
+#: admin/theme-options.php:1483
+msgid "Error Message For Email"
+msgstr "Error Message For Email"
+
+#: admin/theme-options.php:1490
+msgid "Placeholder For Message"
+msgstr "Placeholder For Message"
+
+#: admin/theme-options.php:1497
+msgid "Error Message For Message"
+msgstr "Error Message For Message"
+
+#: admin/theme-options.php:1504
+msgid "Text For Submit Button"
+msgstr "Text For Submit Button"
+
+#: admin/theme-options.php:1511
+msgid "Thanks Message Header"
+msgstr "Thanks Message Header"
+
+#: admin/theme-options.php:1518
+msgid "Thanks Message"
+msgstr "Thanks Message"
+
+#: admin/theme-options.php:1525
+msgid "Contact form Email"
+msgstr "Contact form Email"
+
+#: admin/theme-options.php:1527
+msgid "<br/>Contact form submissions will be mailed to this address"
+msgstr "<br/>Contact form submissions will be mailed to this address"
+
+#: admin/theme-options.php:1533
+msgid "Contact Email Subject"
+msgstr "Contact Email Subject"
+
+#: admin/theme-options.php:1546
+msgid "Footer Settings"
+msgstr "Footer Settings"
+
+#: admin/theme-options.php:1551
+msgid "Select Footer Style"
+msgstr "Select Footer Style"
+
+#: admin/theme-options.php:1552
+msgid ""
+"A preview of the selected footer style will appear underneath the select box."
+msgstr ""
+"A preview of the selected footer style will appear underneath the select box."
+
+#: admin/theme-options.php:1560
+msgid "Pick a background color for footer<br/>(default: #FFFFFF)."
+msgstr "Pick a background color for footer<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:1568
+msgid "Footer Logo"
+msgstr "Footer Logo"
+
+#: admin/theme-options.php:1574
+msgid "Footer Logo (Retina)"
+msgstr "Footer Logo (Retina)"
+
+#: admin/theme-options.php:1580
+msgid "Social Icon Options"
+msgstr "Social Icon Options"
+
+#: admin/theme-options.php:1581
+msgid "Unlimited icons with drag and drop option."
+msgstr "Unlimited icons with drag and drop option."
+
+#: admin/theme-options.php:1585
+msgid "This is a title"
+msgstr "This is a title"
+
+#: admin/theme-options.php:1586
+msgid "Description Here"
+msgstr "Description Here"
+
+#: admin/theme-options.php:1592
+msgid "Copyright Text"
+msgstr "Copyright Text"
+
+#: admin/theme-options.php:1599 admin/theme-options.php:1606
+msgid "Footer Text Content"
+msgstr "Footer Text Content"
+
+#: admin/theme-options.php:1613
+msgid "Top Border Color"
+msgstr "Top Border Color"
+
+#: admin/theme-options.php:1614
+msgid "Pick top border color for footer<br/>(default: #FFFFFF)."
+msgstr "Pick top border color for footer<br/>(default: #FFFFFF)."
+
+#: admin/theme-options.php:1623 admin/theme-options.php:1641
+msgid "Footer Text"
+msgstr "Footer Text"
+
+#: admin/theme-options.php:1631
+msgid "Footer Text Border Color"
+msgstr "Footer Text Border Color"
+
+#: admin/theme-options.php:1632
+msgid "Pick top border color for footer text<br/>(default: #292929)."
+msgstr "Pick top border color for footer text<br/>(default: #292929)."
+
+#: admin/theme-options.php:1649
+msgid "Flickr Gallery Title"
+msgstr "Flickr Gallery Title"
+
+#: admin/theme-options.php:1650
+msgid "<br/>Title displays above the image tiles."
+msgstr "<br/>Title displays above the image tiles."
+
+#: admin/theme-options.php:1657
+msgid "Flickr User ID"
+msgstr "Flickr User ID"
+
+#: admin/theme-options.php:1670
+msgid "Additional CSS"
+msgstr "Additional CSS"
+
+#: admin/theme-options.php:1675
+msgid "Additional CSS Code"
+msgstr "Additional CSS Code"
+
+#: admin/theme-options.php:1676
+msgid "Paste your CSS code here."
+msgstr "Paste your CSS code here."
+
+#: admin/theme-options.php:1688
+msgid "Demo Importer"
+msgstr "Demo Importer"
+
+#: admin/theme-options.php:1689
+msgid "Works best to import on a new install of WordPress"
+msgstr "Works best to import on a new install of WordPress"
+
+#: admin/theme-options.php:1702
+msgid "<strong>Theme URL:</strong> "
+msgstr "<strong>Theme URL:</strong> "
+
+#: admin/theme-options.php:1703
+msgid "<strong>Author:</strong> "
+msgstr "<strong>Author:</strong> "
+
+#: admin/theme-options.php:1704
+msgid "<strong>Version:</strong> "
+msgstr "<strong>Version:</strong> "
+
+#: admin/theme-options.php:1708
+msgid "<strong>Tags:</strong> "
+msgstr "<strong>Tags:</strong> "
+
+#: admin/theme-options.php:1719
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: admin/theme-options.php:1720
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+"Import and Export your Redux Framework settings from file, text or URL."
+
+#: admin/theme-options.php:1739
+msgid "Theme Information"
+msgstr "Theme Information"
+
+#: admin/theme-options.php:1740
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+
+#: admin/theme-options.php:1758
+msgid "Theme Information 1"
+msgstr "Theme Information 1"
+
+#: admin/theme-options.php:1759 admin/theme-options.php:1765
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr "<p>This is the tab content, HTML is allowed.</p>"
+
+#: admin/theme-options.php:1764
+msgid "Theme Information 2"
+msgstr "Theme Information 2"
+
+#: admin/theme-options.php:1769
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr "<p>This is the sidebar content, HTML is allowed.</p>"
+
+#: admin/theme-options.php:1792 admin/theme-options.php:1793
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: admin/theme-options.php:1893
+msgid "Documentation"
+msgstr "Documentation"
+
+#: admin/theme-options.php:1899
+msgid "Support"
+msgstr "Support"
+
+#: admin/theme-options.php:1925 admin/theme-options.php:1927
+#: admin/theme-options.php:1931
+msgid ""
+"<p>For theme support please contact us through our <a href=\"http://www."
+"designova.net/support.html\" target=\"_blank\">support system.</a></p>"
+msgstr ""
+"<p>For theme support please contact us through our <a href=\"http://www."
+"designova.net/support.html\" target=\"_blank\">support system.</a></p>"
+
+#: archive.php:29 index.php:29 search.php:31 single.php:34 single.php:58
+msgid "by"
+msgstr "by"
+
+#: archive.php:33 index.php:33 search.php:35
+msgid "Read Full"
+msgstr "Read Full"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:73
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:78
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:80
+msgid "Comment"
+msgstr "Comment"
+
+#: comments.php:81
+msgid "You must be logged in to post a comment."
+msgstr "You must be logged in to post a comment."
+
+#: comments.php:82
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>.</p>"
+msgstr "Logged in as <a href=\"%s\">%s</a>.</p>"
+
+#: comments.php:88
+msgid "Leave a reply"
+msgstr "Leave a reply"
+
+#: comments.php:89
+#, php-format
+msgid "Leave a reply to %s"
+msgstr "Leave a reply to %s"
+
+#: comments.php:90
+msgid "Cancel reply"
+msgstr "Cancel reply"
+
+#: comments.php:91
+msgid "Post Comment"
+msgstr "Post Comment"
+
+#: functions.php:25
+msgid "Left Navigation"
+msgstr "Left Navigation"
+
+#: functions.php:26
+msgid "Right Navigation"
+msgstr "Right Navigation"
+
+#: functions.php:29
+msgid "Primary Navigation"
+msgstr "Primary Navigation"
+
+#: functions.php:34
+msgid "Footer Navigation 1"
+msgstr "Footer Navigation 1"
+
+#: functions.php:35
+msgid "Footer Navigation 2"
+msgstr "Footer Navigation 2"
+
+#: functions.php:71
+msgid "Signature Sidebar"
+msgstr "Signature Sidebar"
+
+#: functions.php:117
+msgid "Woocommerce Header Widget"
+msgstr "Woocommerce Header Widget"
+
+#: functions.php:508 functions.php:518 navigation/adler.php:59
+#: navigation/adler.php:69 navigation/berend.php:104 navigation/berend.php:114
+#: navigation/claus.php:58 navigation/claus.php:68 navigation/dierk.php:74
+#: navigation/dierk.php:84 navigation/ebert.php:105 navigation/ebert.php:115
+#: navigation/franz.php:85 navigation/franz.php:95 navigation/gozzo.php:70
+#: navigation/gozzo.php:80 navigation/hans.php:75 navigation/hans.php:85
+#: navigation/igor.php:77 navigation/igor.php:87 navigation/johan.php:76
+#: navigation/johan.php:86 navigation/karl.php:77 navigation/karl.php:87
+#: navigation/leon.php:79 navigation/leon.php:89 navigation/moritz.php:98
+#: navigation/moritz.php:108 navigation/nemo.php:80 navigation/nemo.php:90
+#: navigation/orwin.php:77 navigation/orwin.php:87 navigation/phil.php:72
+#: navigation/phil.php:82 navigation/quartz.php:108 navigation/quartz.php:118
+#: navigation/rein.php:77 navigation/rein.php:87 navigation/stefan.php:73
+#: navigation/stefan.php:83 navigation/theo.php:88 navigation/theo.php:98
+#: navigation/uno.php:64 navigation/uno.php:74 navigation/velten.php:87
+#: navigation/velten.php:97 navigation/wilmar.php:77 navigation/wilmar.php:87
+#: navigation/xaver.php:109 navigation/xaver.php:119 navigation/york.php:49
+#: navigation/york.php:59 navigation/zircon.php:110 navigation/zircon.php:120
+#: navigation/zircon.php:306 navigation/zircon.php:316
+msgid "Please configure the navigation menu"
+msgstr "Please configure the navigation menu"
+
+#: functions.php:679
+msgid "Previous Entries"
+msgstr "Previous Entries"
+
+#: functions.php:680
+msgid "Newer Entries"
+msgstr "Newer Entries"
+
+#: functions.php:726
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: search.php:66
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Sorry, but you are looking for something that isn't here."
+
+#: shop-header.php:7
+msgid "Your keywords here"
+msgstr "Your keywords here"
+
+#: shop-header.php:8
+msgid "Search Now"
+msgstr "Search Now"
+
+#: single.php:40 single.php:64
+msgid "Categories"
+msgstr "Categories"
+
+#: single.php:95
+msgid "Previous Post"
+msgstr "Previous Post"
+
+#: single.php:96
+msgid "Next Post"
+msgstr "Next Post"
+
+#: woocommerce.php:24
+msgid "Offer Price"
+msgstr "Offer Price"
+
+#: woocommerce.php:25
+msgid "No Stock"
+msgstr "No Stock"
+
+#: woocommerce.php:26
+msgid "Featured Item"
+msgstr "Featured Item"

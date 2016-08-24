@@ -1,0 +1,133 @@
+/* AMOR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mastwrap.signature-amor {
+    margin-right: 200px;
+}
+header.masthead.signature-amor {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    padding: 0 50px;
+    z-index: 9900;
+    text-align: center;
+}
+body.admin-bar header.masthead.signature-amor{
+	top: 30px;
+}
+header.masthead.signature-amor img.nav-logo{
+	margin: 0 auto;
+}
+nav.mastnav.signature-amor {
+  margin-top: 40px;
+  -webkit-transition: all .8s linear;
+     -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+     -o-transition: all .8s linear;
+      transition: all .8s linear;
+}
+nav.mastnav.signature-amor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 0px;
+}
+nav.mastnav.signature-amor ul li{
+    margin-top: 10px;
+}
+nav.mastnav.signature-amor ul li a{
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 17px;
+}
+nav.mastnav.signature-amor .sub-menu{
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-top: solid 1px;
+}
+nav.mastnav.signature-amor .sub-menu li{
+	margin-top: 0px;
+}
+nav.mastnav.signature-amor .sub-menu a{
+  display: block;
+  font-size: 11px;
+  line-height: 17px;
+  text-transform: lowercase; !important;
+}
+
+
+
+/* BOSTON
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.masthead.signature-boston {
+  position: fixed;
+  top: 0px;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+    z-index: 900;
+    background-color: rgba(0,0,0,0.5);
+}
+body.admin-bar header.masthead.signature-boston{
+  top: 30px;
+}
+header.masthead.signature-boston img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+header.masthead.signature-boston .notification-icon-wrap{
+  margin-top: 5px;
+}
+nav.mastnav.signature-boston {
+  display: none;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    min-width: 400px;
+    width: 50%;
+    height: 100%;
+    padding: 80px;
+    z-index: 999;
+}
+body.admin-bar nav.mastnav.signature-boston{
+  top: 30px;
+}
+nav.mastnav.signature-boston ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    margin-right: 80px;
+}
+nav.mastnav.signature-boston ul li{
+    margin-bottom: 20px;
+}
+nav.mastnav.signature-boston .sub-menu{
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-top: solid 1px;
+}
+nav.mastnav.signature-boston .sub-menu li{
+  margin-bottom: 5px;
+}
+nav.mastnav.signature-boston .sub-menu a{
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+}
+nav.mastnav.signature-boston .main-link{
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+nav.mastnav.signature-boston .menu-close-notification span{
+  position: absolute;
+  top: 40px;
+  right: 60px;
+    font-size: 34px;
+}

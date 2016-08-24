@@ -1,0 +1,1931 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UMBG\n"
+"Report-Msgid-Bugs-To: TheeFarmer <support@theefarmer.com>\n"
+"POT-Creation-Date: 2015-12-03 06:17-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: TheeFarmer <support@theefarmer.com>\n"
+"Language-Team: TheeFarmer | Alendee Internet Solution <support@theefarmer."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/umbg-about.php:31
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/umbg-about.php:34
+#, php-format
+msgid ""
+"Thank you for installing! %1$s version %2$s adds new features to display and "
+"manage full screen media backgrounds."
+msgstr ""
+
+#: admin/umbg-about.php:38
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/umbg-about.php:45
+msgid "What's New"
+msgstr ""
+
+#: admin/umbg-about.php:48
+msgid "Features"
+msgstr ""
+
+#: admin/umbg-about.php:51
+msgid "Credits"
+msgstr ""
+
+#: admin/umbg-about.php:54
+msgid "Help"
+msgstr ""
+
+#: admin/umbg-about.php:60
+msgid "Full support for Custom Post Types is here!"
+msgstr ""
+
+#: admin/umbg-about.php:69
+msgid "Custom Post Types (CPT)"
+msgstr ""
+
+#: admin/umbg-about.php:71
+msgid ""
+"Add media backgrounds to custom post types that are installed on your "
+"WordPress site. <a href=\"?post_type=umbg_post_type&page=umbg-settings\">Go "
+"to UMBG->Settings</a> and select the custom post types you want to allowed "
+"to be use."
+msgstr ""
+
+#: admin/umbg-about.php:80
+msgid "Custom Post Categories (CPC)"
+msgstr ""
+
+#: admin/umbg-about.php:82
+msgid ""
+"These are categories, terms, and/or taxonomies of custom post types that you "
+"can also select to display media backgrounds. <a href=\"?"
+"post_type=umbg_post_type&page=umbg-settings\">Go to UMBG->Settings</a> and "
+"select the custom post categories you want to allowed to be use."
+msgstr ""
+
+#: admin/umbg-about.php:96 admin/umbg-admin.php:381 admin/umbg-admin.php:1609
+#: admin/umbg-admin.php:1612
+msgid "Autoplay"
+msgstr ""
+
+#: admin/umbg-about.php:98
+#, php-format
+msgid ""
+"Auto playback has always been part of %s media backgrounds, but now you can "
+"select not to start the media with auto playback."
+msgstr ""
+
+#: admin/umbg-about.php:103
+msgid "Media Link"
+msgstr ""
+
+#: admin/umbg-about.php:105
+msgid ""
+"Enter a URL to link the media background. You can select to open the link in "
+"a new window or the same window."
+msgstr ""
+
+#: admin/umbg-about.php:110
+msgid "Other:"
+msgstr ""
+
+#: admin/umbg-about.php:112
+msgid ""
+"Other enhancements include: WooCommerce product tags. Change plugin's folder "
+"structure, limit unnecessary code loading, and other code enhancements."
+msgstr ""
+
+#: admin/umbg-about.php:118
+msgid "Change Log"
+msgstr ""
+
+#: admin/umbg-about.php:120
+#, php-format
+msgid ""
+"For more information see the readme.txt file included in your download of %s."
+msgstr ""
+
+#: admin/umbg-about.php:124 admin/umbg-about.php:382
+#, php-format
+msgid "Go to %s Settings"
+msgstr ""
+
+#: admin/umbg-about.php:139
+msgid "Display full screen media backgrounds like never before."
+msgstr ""
+
+#: admin/umbg-about.php:141
+#, php-format
+msgid ""
+"Use hosted videos from YouTube, Vimeo, Dailymotion, Wistia, or HTML5 videos. "
+"They all play and look amazing with %1$s. Want to use an image instead, no "
+"problem, %1$s lets you use one or more images to display beautiful "
+"backgrounds. What about just a color background, may be with a pattern? Yes, "
+"that too!"
+msgstr ""
+
+#: admin/umbg-about.php:147
+msgid "Simple to Use."
+msgstr ""
+
+#: admin/umbg-about.php:149
+#, php-format
+msgid ""
+"Unlike other plugins that make you go all over your WordPress website to "
+"find where you want to insert your short code, with %1$s you simply select "
+"the authors, categories, posts, and/or pages right from the 'Add New' or "
+"'Edit' screen. No short codes needed."
+msgstr ""
+
+#: admin/umbg-about.php:163
+msgid "Full of Options."
+msgstr ""
+
+#: admin/umbg-about.php:165
+msgid ""
+"All of the necessary settings to display backgrounds to your needs, "
+"including:"
+msgstr ""
+
+#: admin/umbg-about.php:167
+#, php-format
+msgid ""
+"Append To, Poster, Overlay, Quality, Start At, End At, Loop, Audio, Page-Up-"
+"Down %s, and many more."
+msgstr ""
+
+#: admin/umbg-about.php:175 admin/umbg-about.php:285
+#, php-format
+msgid "Say Hello to %s."
+msgstr ""
+
+#: admin/umbg-about.php:177
+#, php-format
+msgid ""
+"Page-Up-Down (%1$s) allows the page to be scroll up and down to allow full "
+"view of the media background. You can also select if %1$s will scroll the "
+"page down when the media playback starts and/or if it will scroll up when "
+"the media playback ends. You can also keep part of the page in view, such as "
+"the logo and navigation, during the %1$s down status."
+msgstr ""
+
+#: admin/umbg-about.php:193 admin/umbg-about.php:279
+msgid "View the video here."
+msgstr ""
+
+#: admin/umbg-about.php:205
+msgid "Internationalization & Localization Supported."
+msgstr ""
+
+#: admin/umbg-about.php:207
+msgid ""
+"Internationalization is the process of setting up software so that it can be "
+"localized; localization is the process of translating text displayed by the "
+"software into different languages."
+msgstr ""
+
+#: admin/umbg-about.php:209
+#, php-format
+msgid ""
+"You can localize %s without the need to modify the source code of the plugin."
+msgstr ""
+
+#: admin/umbg-about.php:212
+#, php-format
+msgctxt "link text"
+msgid "Learn how to localize %s"
+msgstr ""
+
+#: admin/umbg-about.php:220
+msgid ""
+"Supports WooCommerce single product pages, categories, and product page "
+"shortcodes."
+msgstr ""
+
+#: admin/umbg-about.php:229
+msgid "WooCommerce Categories."
+msgstr ""
+
+#: admin/umbg-about.php:231
+msgid ""
+"Select the WooCommerce categories you want to display your media background. "
+"When a user views a product on its product page and the product is in the "
+"selected category then the media background will play."
+msgstr ""
+
+#: admin/umbg-about.php:239
+msgid "WooCommerce Products."
+msgstr ""
+
+#: admin/umbg-about.php:241
+msgid ""
+"Select the WooCommerce product you want to display your media background on."
+msgstr ""
+
+#: admin/umbg-about.php:243
+msgid "Supports WooCommerce product shortcodes:"
+msgstr ""
+
+#: admin/umbg-about.php:259
+msgid "Other requested features now available!"
+msgstr ""
+
+#: admin/umbg-about.php:262
+msgid "You ask for them, you got them."
+msgstr ""
+
+#: admin/umbg-about.php:287
+#, php-format
+msgid ""
+"Fade-In-Out (%1$s) sets the page to have a transparency effect to allow full "
+"view of the media background."
+msgstr ""
+
+#: admin/umbg-about.php:296
+msgid "Start Playback Muted"
+msgstr ""
+
+#: admin/umbg-about.php:298
+msgid "Start playing your videos with its audio muted."
+msgstr ""
+
+#: admin/umbg-about.php:301
+msgid "Media End Fade-Out"
+msgstr ""
+
+#: admin/umbg-about.php:303
+msgid "Allows for the media to be faded out once done playing."
+msgstr ""
+
+#: admin/umbg-about.php:306
+msgid "Image Transition Timing"
+msgstr ""
+
+#: admin/umbg-about.php:308
+msgid ""
+"Control the timing of the fade effect between images during a slideshow."
+msgstr ""
+
+#: admin/umbg-about.php:314
+msgid "UI for Append Background To section"
+msgstr ""
+
+#: admin/umbg-about.php:316
+msgid ""
+"Enhancement to the UI section for selecting where you want to display your "
+"background too."
+msgstr ""
+
+#: admin/umbg-about.php:319
+msgid "UI for Allow To Display On section"
+msgstr ""
+
+#: admin/umbg-about.php:321
+msgid ""
+"Enhancement to the UI of the Allow To Display On section in the Global "
+"Settings page."
+msgstr ""
+
+#: admin/umbg-about.php:324
+msgid "Other Enhancements Include:"
+msgstr ""
+
+#: admin/umbg-about.php:326
+#, php-format
+msgid ""
+"%1$s on start functionality, image transition fade effect, and resizing for "
+"mobile devices."
+msgstr ""
+
+#: admin/umbg-about.php:331
+msgid "Control what your mobile users see."
+msgstr ""
+
+#: admin/umbg-about.php:333
+#, php-format
+msgid ""
+"With %1$s you can choose if your backgrounds will display on mobile devices "
+"or not."
+msgstr ""
+
+#: admin/umbg-about.php:339
+msgid "Disable all backgrounds."
+msgstr ""
+
+#: admin/umbg-about.php:341
+#, php-format
+msgid ""
+"Do not allow any of your %1$s backgrounds to be display on any mobile device."
+msgstr ""
+
+#: admin/umbg-about.php:355
+msgid "Disable video backgrounds only."
+msgstr ""
+
+#: admin/umbg-about.php:357 admin/umbg-admin.php:2429
+msgid ""
+"Choose not to display video backgrounds on mobile devices by enabling this "
+"feature. Image and color backgrounds will still play on mobile devices."
+msgstr ""
+
+#: admin/umbg-about.php:366
+msgid "Disable on mobile phones only."
+msgstr ""
+
+#: admin/umbg-about.php:368
+#, php-format
+msgid ""
+"Enable this feature to disable %1$s backgrounds only on mobile phones. They "
+"will continue to display on tablet devices. You can enable this feature "
+"together with 'Disable video backgrounds only'."
+msgstr ""
+
+#: admin/umbg-about.php:389
+#, php-format
+msgid ""
+"%1$s uses several available open source code from the list below. Some are "
+"used throughout %1$s, others are used in a couple of lines of code, and "
+"others have been modified for %1$s's use. The use of copyrighted works is "
+"also used with permission from their respected owners. Without these "
+"projects and works %1$s would not be possible."
+msgstr ""
+
+#: admin/umbg-about.php:392
+#, php-format
+msgid "%s will like to credit:"
+msgstr ""
+
+#: admin/umbg-about.php:398
+msgid ""
+"The online manual for WordPress and a living repository for WordPress "
+"information and documentation."
+msgstr ""
+
+#: admin/umbg-about.php:405
+msgid "The indispensable JavaScript library for developers. A great library."
+msgstr ""
+
+#: admin/umbg-about.php:412
+msgid "An open source UI library."
+msgstr ""
+
+#: admin/umbg-about.php:422
+msgid ""
+"Simple, small and fast JavaScript/jQuery polyfill for the HTML5 input "
+"element."
+msgstr ""
+
+#: admin/umbg-about.php:429
+msgid ""
+"Sortable is a minimalist JavaScript library for reorderable drag-and-drop "
+"lists."
+msgstr ""
+
+#: admin/umbg-about.php:437
+msgid ""
+"User-friendlier drop-in replacement for the standard select box with "
+"multiple attribute activated."
+msgstr ""
+
+#: admin/umbg-about.php:447
+msgid "The No Hassle jQuery Colorpicker."
+msgstr ""
+
+#: admin/umbg-about.php:455
+msgid ""
+"Flags of the World in Globe media  is copyrighted work of Almoond. All "
+"rights reserved."
+msgstr ""
+
+#: admin/umbg-about.php:465
+msgid ""
+"A responsive jQuery slideshow with beautiful panning effects on each image."
+msgstr ""
+
+#: admin/umbg-about.php:476
+msgid "Mobile device detection."
+msgstr ""
+
+#: admin/umbg-about.php:488
+#, php-format
+msgid "Need help using %s?"
+msgstr ""
+
+#: admin/umbg-about.php:490
+#, php-format
+msgid ""
+"%1$s documentation is available right here on WordPress. Just look for the "
+"Help tab on the top right corner while you are in %1$s pages."
+msgstr ""
+
+#: admin/umbg-about.php:492
+msgid "You can also go to:"
+msgstr ""
+
+#: admin/umbg-about.php:495 admin/umbg-admin.php:513
+#, php-format
+msgid "%s Support"
+msgstr ""
+
+#: admin/umbg-admin.php:28
+msgid "Title"
+msgstr ""
+
+#: admin/umbg-admin.php:29
+msgid "Type"
+msgstr ""
+
+#: admin/umbg-admin.php:30
+msgid "Date"
+msgstr ""
+
+#: admin/umbg-admin.php:31
+msgid "Modified"
+msgstr ""
+
+#: admin/umbg-admin.php:32
+msgid "Author"
+msgstr ""
+
+#: admin/umbg-admin.php:58 admin/umbg-admin.php:360 admin/umbg-admin.php:730
+msgid "Image"
+msgstr ""
+
+#: admin/umbg-admin.php:167 admin/umbg-admin.php:196 admin/umbg-admin.php:199
+#, php-format
+msgid "%s background updated."
+msgid_plural "%s backgrounds updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/umbg-admin.php:168
+#, php-format
+msgid "%s background not updated, somebody is editing it."
+msgid_plural "%s backgrounds not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/umbg-admin.php:169
+#, php-format
+msgid "%s background permanently deleted."
+msgid_plural "%s backgrounds permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/umbg-admin.php:170
+#, php-format
+msgid "%s background moved to the Trash."
+msgid_plural "%s backgrounds moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/umbg-admin.php:171
+#, php-format
+msgid "%s background restored from the Trash."
+msgid_plural "%s backgrounds restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/umbg-admin.php:197
+#, php-format
+msgid "%s custom field updated."
+msgstr ""
+
+#: admin/umbg-admin.php:198
+#, php-format
+msgid "%s custom field deleted."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: admin/umbg-admin.php:201
+#, php-format
+msgid "%1$s restored to revision from %2$s"
+msgstr ""
+
+#: admin/umbg-admin.php:202
+#, php-format
+msgid "%s background published."
+msgstr ""
+
+#: admin/umbg-admin.php:203
+#, php-format
+msgid "%s background saved."
+msgstr ""
+
+#: admin/umbg-admin.php:204
+#, php-format
+msgid "%s background submitted."
+msgstr ""
+
+#: admin/umbg-admin.php:206
+#, php-format
+msgid "%1$s scheduled for: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: Publish box date format, see http://php.net/date
+#: admin/umbg-admin.php:209
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: admin/umbg-admin.php:211
+#, php-format
+msgid "%s draft updated."
+msgstr ""
+
+#: admin/umbg-admin.php:217
+msgid "View"
+msgstr ""
+
+#: admin/umbg-admin.php:223
+msgid "Preview"
+msgstr ""
+
+#: admin/umbg-admin.php:254 admin/umbg-admin.php:256 admin/umbg-admin.php:307
+#: admin/umbg-admin.php:309 admin/umbg-admin.php:2335
+msgid "Overview"
+msgstr ""
+
+#: admin/umbg-admin.php:257
+#, php-format
+msgid ""
+"This screen provides access to all of your %s backgrounds. You can customize "
+"the display of this screen to suit your workflow as you can on other "
+"WordPress screens."
+msgstr ""
+
+#: admin/umbg-admin.php:261 admin/umbg-admin.php:263
+msgid "Screen Content"
+msgstr ""
+
+#: admin/umbg-admin.php:264
+msgid ""
+"You can customize the display of this screen&#8217;s contents in a number of "
+"ways:"
+msgstr ""
+
+#: admin/umbg-admin.php:266
+#, php-format
+msgid ""
+"You can hide/display columns based on your needs and decide how many %s "
+"backgrounds to list per screen using the Screen Options tab."
+msgstr ""
+
+#: admin/umbg-admin.php:267
+#, php-format
+msgid ""
+"You can filter the list of %1$s backgrounds by their status using the text "
+"links in the upper left to show All, Published, Draft, or Trashed %1$s "
+"backgrounds. The default view is to show all %1$s backgrounds."
+msgstr ""
+
+#: admin/umbg-admin.php:268
+#, php-format
+msgid ""
+"You can refine the list to show only %1$s backgrounds from a specific month "
+"by using the DropDown menus above the background list. Click the Filter "
+"button after making your selection. You also can refine the list by clicking "
+"on the %1$s background type or author in the background list."
+msgstr ""
+
+#: admin/umbg-admin.php:275 admin/umbg-admin.php:277
+msgid "Available Actions"
+msgstr ""
+
+#: admin/umbg-admin.php:279
+#, php-format
+msgid ""
+"Hovering over a row in the %s background list will display action links that "
+"allow you to manage your background. You can perform the following actions:"
+msgstr ""
+
+#: admin/umbg-admin.php:282
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that background. "
+"You can also reach that screen by clicking on the background title."
+msgstr ""
+
+#: admin/umbg-admin.php:283
+msgid ""
+"<strong>Quick Edit</strong> provides inline access to the metadata of your "
+"background, allowing you to update background details without leaving this "
+"screen."
+msgstr ""
+
+#: admin/umbg-admin.php:284
+msgid ""
+"<strong>Trash</strong> removes your background from this list and places it "
+"in the trash, from which you can permanently delete it."
+msgstr ""
+
+#: admin/umbg-admin.php:290 admin/umbg-admin.php:292
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/umbg-admin.php:293
+#, php-format
+msgid ""
+"You can also edit or move multiple %s backgrounds to the trash at once. "
+"Select the backgrounds you want to act on using the checkboxes, then select "
+"the action you want to take from the Bulk Actions menu and click Apply."
+msgstr ""
+
+#: admin/umbg-admin.php:294
+msgid ""
+"When using Bulk Edit, you can change the metadata (author or status) for all "
+"selected backgrounds at once. To remove a background from the grouping, just "
+"click the (x) next to its name in the Bulk Edit area that appears."
+msgstr ""
+
+#: admin/umbg-admin.php:310
+#, php-format
+msgid "Things to remember when adding or editing a %s background:"
+msgstr ""
+
+#: admin/umbg-admin.php:312
+#, php-format
+msgid ""
+"%1s can be used to accomplish different background effects including for "
+"design, marketing, or other imaginative purposes, but remember that it is "
+"just one tool to help you with the purpose."
+msgstr ""
+
+#: admin/umbg-admin.php:313
+msgid ""
+"Remember the shorter the video the better and faster it will load and play "
+"for the user. When a video takes too long to load or is too long in "
+"duration, it takes longer to buffer and users will loose interest if they "
+"have to wait. The same is true for large image files."
+msgstr ""
+
+#: admin/umbg-admin.php:314
+#, php-format
+msgid ""
+"Select the Authors, Categories, Pages, and/or Posts that the %1s background "
+"will be appended to. In the Pages multi-select box you will find the "
+"selection of Home Page - WP Default, this refers to the default home page of "
+"WordPress when you first install it, which displays the most recent posts. "
+"See <a href=\"http://codex.wordpress.org/Creating_a_Static_Front_Page\" "
+"target=\"_blank\">Creating a Static Front Page</a> for more information on "
+"WordPress static front page."
+msgstr ""
+
+#: admin/umbg-admin.php:315
+msgid ""
+"Select the correct media type such as YouTube, Vimeo, Dailymotion, Wistia, "
+"HTML5, Image, or Color."
+msgstr ""
+
+#: admin/umbg-admin.php:316
+msgid ""
+"Specify the correct id or location of the media to be played, such as the "
+"video id for YouTube, Vimeo, Dailymotion, and Wistia. The video location for "
+"HTML5 videos and the image location for Image."
+msgstr ""
+
+#: admin/umbg-admin.php:318
+#, php-format
+msgid ""
+"If you want to schedule the %s background to be published/displayed in the "
+"future:"
+msgstr ""
+
+#: admin/umbg-admin.php:321
+msgid ""
+"Under the Publish module/meta box, click on the Edit link next to Publish."
+msgstr ""
+
+#: admin/umbg-admin.php:322
+#, php-format
+msgid ""
+"Change the date to the date you actually want to publish this %s background, "
+"then click on Ok."
+msgstr ""
+
+#: admin/umbg-admin.php:324
+msgid "For general WordPress information:"
+msgstr ""
+
+#: admin/umbg-admin.php:325
+msgid ""
+"<a href=\"http://codex.wordpress.org/Posts\" target=\"_blank\">Writing Posts "
+"Documentation</a>"
+msgstr ""
+
+#: admin/umbg-admin.php:326
+msgid ""
+"<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
+"a>"
+msgstr ""
+
+#: admin/umbg-admin.php:329 admin/umbg-admin.php:981
+msgid "Append Background To"
+msgstr ""
+
+#: admin/umbg-admin.php:331
+#, php-format
+msgid ""
+"Select the Authors, Categories, Pages, Posts and/or Custom Post Types the %s "
+"background will be append/display on."
+msgstr ""
+
+#: admin/umbg-admin.php:334
+msgid ""
+"The multi-select list on the left are the available items and the multi-"
+"select list on the right are the selected items."
+msgstr ""
+
+#: admin/umbg-admin.php:336
+msgid "<strong>Keyboard Shortcodes:</strong>"
+msgstr ""
+
+#: admin/umbg-admin.php:337
+msgid ""
+"[ &nbsp&darr;&nbsp; ]  Down arrow - Select next item in the focused list"
+msgstr ""
+
+#: admin/umbg-admin.php:338
+msgid ""
+"[ &nbsp&uarr;&nbsp; ]  Up arrow - Select previous item in the focused list"
+msgstr ""
+
+#: admin/umbg-admin.php:340
+msgid ""
+"[ &horbar; ]  Space bar - Add/remove item depending on which list is "
+"currently focused"
+msgstr ""
+
+#: admin/umbg-admin.php:342
+msgid "[ &larr; ]  Left arrow - Focus the previous list"
+msgstr ""
+
+#: admin/umbg-admin.php:343
+msgid "[ &rarr; ]  Right arrow - Focus the next list"
+msgstr ""
+
+#: admin/umbg-admin.php:346
+#, php-format
+msgid ""
+"With the ability to append/display %1$s backgrounds to multiple items how "
+"does %1$s determines which background to display? For example, you created "
+"two %1$s backgrounds, one to display video from YouTube for author John Doe "
+"and the second to display an HTML5 video for the category Uncategorized. You "
+"go to a post where it has author John Doe and category Uncategorized. Which "
+"video will play? %1$s uses Priority Levels to determine such a scenario. "
+"Priority Level determines which background video willplay. Check your <a "
+"href=\"%2$s\">%1$s Settings</a> for your priority levels."
+msgstr ""
+
+#: admin/umbg-admin.php:349 admin/umbg-admin.php:1418
+msgid "Media Type"
+msgstr ""
+
+#: admin/umbg-admin.php:350
+msgid ""
+"Select whether the media is a YouTube, Vimeo, Dailymotion, Wistia, HTML5 "
+"video, Image, or Color."
+msgstr ""
+
+#: admin/umbg-admin.php:352
+msgid "Video Id / Video Location"
+msgstr ""
+
+#: admin/umbg-admin.php:353
+msgid ""
+"Enter the video ID only if its YouTube, Vimeo, Dailymotion, or Wistia. For "
+"most video hosting sites the video id is placed at the end of their url. For "
+"HTML5 videos you can select a video uploaded to your WordPress site by "
+"clicking the Select Video button or you can enter the video's location: i.e. "
+"http://mywebsite.com/wp-content/uploads/2015/01/myvideofile.mp4. For cross-"
+"browser compatibility for HTML5 videos make sure you have the file versions "
+"MP4, WEBM, & OGV in the same location. For more information see <a target="
+"\"_blank\" href=\"http://diveintohtml5.info/video.html#what-works\">HTML5 "
+"Video</a>."
+msgstr ""
+
+#: admin/umbg-admin.php:356 admin/umbg-admin.php:1530
+msgid "Media Link URL"
+msgstr ""
+
+#: admin/umbg-admin.php:357
+msgid ""
+"Enter the URL to link the media background. You can select to open the link "
+"in a new window or the same window."
+msgstr ""
+
+#: admin/umbg-admin.php:362
+#, php-format
+msgid ""
+"For images you can select an image uploaded to your WordPress site by "
+"clicking the Select Image button (you can select multiple images) or you can "
+"enter the image's location: i.e. http://mywebsite.com/wp-content/"
+"uploads/2015/01/myimagefile.jpg. If entering several images location "
+"manually you need to separate each with a comma. When multiple images are "
+"selected %1$s displays them as a slide show."
+msgstr ""
+
+#: admin/umbg-admin.php:365 admin/umbg-admin.php:1464
+msgid "Poster"
+msgstr ""
+
+#: admin/umbg-admin.php:366
+#, php-format
+msgid ""
+"Enter the video's poster location with the file extension: i.e. http://"
+"mywebsite.com/wp-content/uploads/2015/01/myvideoposter.jpg. %1$s uses the "
+"poster to display it to mobile devices instead of the video since they don't "
+"support auto playback. %1$s also uses the poster to display it to web "
+"browsers that do not support HTML5 video nor the video file type. If you "
+"leave it blank it will display the page's background color. You can use the "
+"Remove Poster link to remove the poster image."
+msgstr ""
+
+#: admin/umbg-admin.php:368 admin/umbg-admin.php:1484 admin/umbg-admin.php:1487
+msgid "Overlay"
+msgstr ""
+
+#: admin/umbg-admin.php:369
+msgid ""
+"Enable or disable displaying an overlay over the media. You can select the "
+"pattern for the overlay from the DropDown list. You can also select the "
+"color and opacity of the color. Remember that if you prefer no pattern but "
+"still want to display a color as an overlay then select Transparent from the "
+"pattern DropDown list."
+msgstr ""
+
+#: admin/umbg-admin.php:371
+msgid ""
+"A preview of the overlay pattern can be seen on the preview video/poster. "
+"The pattern is not scaled to match the preview video/poster dimensions, it "
+"is at a size that you can preview the pattern."
+msgstr ""
+
+#: admin/umbg-admin.php:373 admin/umbg-admin.php:1548
+msgid "Quality"
+msgstr ""
+
+#: admin/umbg-admin.php:374 admin/umbg-admin.php:1588
+msgid ""
+"Force a particular playback quality. Auto is recommended because it tries to "
+"select the most appropriate playback quality for the user's environment. "
+"Most video hosting services adjusts the quality of your video stream by the "
+"speed of your Internet connection (bandwidth), video player size, and the "
+"original video quality."
+msgstr ""
+
+#: admin/umbg-admin.php:375
+msgid ""
+"Forcing HD with Vimeo videos is not guarantee to work. Vimeo controls this "
+"feature from the user's settings on their site. See why on their <a href="
+"\"https://vimeo.com/help/faq/sharing-videos/embedding-videos#can-i-make-my-"
+"embedded-videos-default-to-hd\" target=\"_blank\">site</a>."
+msgstr ""
+
+#: admin/umbg-admin.php:377
+msgid "Tracking Views"
+msgstr ""
+
+#: admin/umbg-admin.php:378
+msgid ""
+"For Wistia videos only. You can enable to track views to this video. All "
+"tracking is done by Wistia and can be access from your Wistia account if "
+"available."
+msgstr ""
+
+#: admin/umbg-admin.php:382 admin/umbg-admin.php:1617
+msgid "Automatically play the media."
+msgstr ""
+
+#: admin/umbg-admin.php:384
+msgid "Start At / End At"
+msgstr ""
+
+#: admin/umbg-admin.php:385
+msgid ""
+"Enter the start time and end time, in seconds, that you would like the video "
+"to start and/or end. If left at zero the video will play in its entirety "
+"from start to finish."
+msgstr ""
+
+#: admin/umbg-admin.php:387 admin/umbg-admin.php:1648
+msgid "Image Display Duration"
+msgstr ""
+
+#: admin/umbg-admin.php:388
+msgid ""
+"Enter the display duration for each image in milliseconds. (1000 ms. = 1 "
+"sec.)"
+msgstr ""
+
+#: admin/umbg-admin.php:390 admin/umbg-admin.php:1661
+msgid "Image Transition Duration"
+msgstr ""
+
+#: admin/umbg-admin.php:391
+msgid ""
+"Enter the transition duration for the fading effect between images. Should "
+"not be more than the Image Display Duration value, you can create some nice "
+"effects by going over a little but the play/pause functionally will not "
+"function as expected. (1000 ms. = 1 sec.)"
+msgstr ""
+
+#: admin/umbg-admin.php:393 admin/umbg-admin.php:1675
+msgid "Image Effect"
+msgstr ""
+
+#: admin/umbg-admin.php:394
+msgid "Select the animation effect to display the image."
+msgstr ""
+
+#: admin/umbg-admin.php:396 admin/umbg-admin.php:1695
+msgid "Image Effect Easing"
+msgstr ""
+
+#: admin/umbg-admin.php:397
+msgid "Select the image effect easing type for the animation."
+msgstr ""
+
+#: admin/umbg-admin.php:399 admin/umbg-admin.php:1715
+#, php-format
+msgid "Delay Displaying %s By"
+msgstr ""
+
+#: admin/umbg-admin.php:401
+msgid ""
+"Enter the time in milliseconds to delay displaying the background. (1000 ms. "
+"= 1 sec.)"
+msgstr ""
+
+#: admin/umbg-admin.php:403 admin/umbg-admin.php:1726 admin/umbg-admin.php:1729
+msgid "Loop"
+msgstr ""
+
+#: admin/umbg-admin.php:404
+msgid "Enable or disable loop play."
+msgstr ""
+
+#: admin/umbg-admin.php:406 admin/umbg-admin.php:1745
+msgid ""
+"You can choose to loop the media or rewind it to the beginning when it stops "
+"by using <strong>Rewind To StartAt time</strong>. You can also choose "
+"<strong>Media End Fade-Out</strong> to allow for the media to be faded out "
+"once playback has ended."
+msgstr ""
+
+#: admin/umbg-admin.php:408 admin/umbg-admin.php:1751 admin/umbg-admin.php:1754
+msgid "Audio"
+msgstr ""
+
+#: admin/umbg-admin.php:409
+msgid ""
+"Enable or disable playing the video with audio and/or start playing with the "
+"audio muted."
+msgstr ""
+
+#: admin/umbg-admin.php:411 admin/umbg-admin.php:1772
+msgid "Volume Level"
+msgstr ""
+
+#: admin/umbg-admin.php:412
+msgid "Adjust the volume level of the video."
+msgstr ""
+
+#: admin/umbg-admin.php:414 admin/umbg-admin.php:1785 admin/umbg-admin.php:1788
+msgid "Display Controls"
+msgstr ""
+
+#: admin/umbg-admin.php:415
+#, php-format
+msgid "Display %2$s, %1$s, play, & audio buttons."
+msgstr ""
+
+#: admin/umbg-admin.php:417 admin/umbg-admin.php:1801 admin/umbg-admin.php:1805
+#: admin/umbg-admin.php:2403 admin/umbg-admin.php:2404
+#: admin/umbg-admin.php:2848 admin/umbg-admin.php:2853
+#, php-format
+msgid "Page-Up-Down %s"
+msgstr ""
+
+#: admin/umbg-admin.php:419
+#, php-format
+msgid ""
+"%1$s allows the page to be scroll up and down to have a better view of the "
+"video; i.e. you can use this feature with a marketing video. Start with %1$s "
+"down: the page will scroll down when the media playback starts. End with "
+"%1$s up: the page will automatically scroll up when the media playback ends "
+"or the first loop ends. Use \"How much to show...\" to keep part of the page "
+"in view such as to show the logo and navigation during the %1$s down status."
+msgstr ""
+
+#: admin/umbg-admin.php:421 admin/umbg-admin.php:1837 admin/umbg-admin.php:1841
+#: admin/umbg-admin.php:2412 admin/umbg-admin.php:2413
+#: admin/umbg-admin.php:2872 admin/umbg-admin.php:2877
+#, php-format
+msgid "Fade-In-Out %s"
+msgstr ""
+
+#: admin/umbg-admin.php:423 admin/umbg-admin.php:1866
+#, php-format
+msgid ""
+"%1$s lets you set an opacity (transparency) effect for a better view of the "
+"media background. <strong>Fade-Out on start:</strong> the page HTML element "
+"will fade out when the media playback starts. <strong>Fade-In on end:</"
+"strong> the page HTML element will fade in when the media playback ends or "
+"the first loop ends. Use Opacity to set the amount of opacity for the page "
+"HTML element. Use <b>Opacity</b> to set the amount of opacity for the page "
+"HTML element. You must set the FIO HTML Element in <a href=\"%2$s\">%3$s "
+"Settings</a> for FIO to work."
+msgstr ""
+
+#: admin/umbg-admin.php:425 admin/umbg-admin.php:1875
+msgid "Enlarge Media By"
+msgstr ""
+
+#: admin/umbg-admin.php:426 admin/umbg-admin.php:1883
+msgid ""
+"Use with caution, enlarge only what is necessary. Useful for hosted videos "
+"such as YouTube and Vimeo to hide unwanted objects. Remember that the more "
+"you enlarge the media the more chances it may lead to choppy playback."
+msgstr ""
+
+#: admin/umbg-admin.php:428 admin/umbg-admin.php:1889
+msgid "Aspect Ratio"
+msgstr ""
+
+#: admin/umbg-admin.php:429
+msgid ""
+"Select proper aspect ratio, this affects the way the media will be displayed "
+"and re-sized."
+msgstr ""
+
+#: admin/umbg-admin.php:433 admin/umbg-admin.php:434
+msgctxt "title"
+msgid "Video Background"
+msgstr ""
+
+#: admin/umbg-admin.php:460 admin/umbg-admin.php:461
+msgctxt "title"
+msgid "Image Background"
+msgstr ""
+
+#: admin/umbg-admin.php:463
+msgid ""
+"Image backgrounds can use more than one image. When more than one is "
+"selected the images will display as a slideshow."
+msgstr ""
+
+#: admin/umbg-admin.php:486 admin/umbg-admin.php:487
+msgctxt "title"
+msgid "Color Background"
+msgstr ""
+
+#: admin/umbg-admin.php:489
+#, php-format
+msgid ""
+"If a video or image background is not desire then try a color background "
+"that is beautiful and offers more options than the default WordPress "
+"background feature. You can match colors with patterns to create unique "
+"backgrounds. Color backgrounds do not use the %s feature."
+msgstr ""
+
+#: admin/umbg-admin.php:512
+msgid "For more information:"
+msgstr ""
+
+#: admin/umbg-admin.php:598
+#, php-format
+msgid "%s Documentation"
+msgstr ""
+
+#: admin/umbg-admin.php:599
+#, php-format
+msgid "Use this help tab to access the %s documentation."
+msgstr ""
+
+#: admin/umbg-admin.php:622
+#, php-format
+msgid "<a href=\"%1$s\" title=\"Configure %2$s\" >Settings</a>"
+msgstr ""
+
+#: admin/umbg-admin.php:626
+#, php-format
+msgid "<a href=\"%1$s\" title=\"About %2$s\" >About</a>"
+msgstr ""
+
+#: admin/umbg-admin.php:729
+msgctxt "input field required"
+msgid "(required)"
+msgstr ""
+
+#: admin/umbg-admin.php:731
+msgid "Color Preview"
+msgstr ""
+
+#: admin/umbg-admin.php:733
+msgid "Media Id"
+msgstr ""
+
+#: admin/umbg-admin.php:734
+msgid "Video Location"
+msgstr ""
+
+#: admin/umbg-admin.php:736
+#, php-format
+msgid ""
+"Enter the video ID only. Some videos on Dailymotion can only be watch on "
+"their website and will not play. The use of Dailymotion ad-free videos is "
+"strongly recommended with %s, as their ad supported videos may give unwanted "
+"results."
+msgstr ""
+
+#: admin/umbg-admin.php:737
+msgid ""
+"For HTML5 videos you can select a video uploaded to your WordPress site by "
+"clicking the Select Video button or you can enter the video's location: i.e. "
+"http://mywebsite.com/wp-content/uploads/2015/01/myvideofile.mp4. For cross-"
+"browser compatibility for HTML5 videos make sure you have the file versions "
+"MP4, WEBM, & OGV in the same location. For more information see <a target="
+"\"_blank\" href=\"http://diveintohtml5.info/video.html#what-works\">HTML5 "
+"Video</a>."
+msgstr ""
+
+#: admin/umbg-admin.php:738
+#, php-format
+msgid "When multiple images are selected %s displays them as a slide show."
+msgstr ""
+
+#: admin/umbg-admin.php:755 admin/umbg-admin.php:2267
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: admin/umbg-admin.php:961
+msgid "Square Grid"
+msgstr ""
+
+#: admin/umbg-admin.php:962
+msgid "Transparent"
+msgstr ""
+
+#: admin/umbg-admin.php:991 admin/umbg-admin.php:2587
+msgid "Authors"
+msgstr ""
+
+#: admin/umbg-admin.php:1017 admin/umbg-admin.php:2594
+msgid "Categories"
+msgstr ""
+
+#: admin/umbg-admin.php:1072 admin/umbg-admin.php:2651
+msgid "WooCommerce Product Tags"
+msgstr ""
+
+#: admin/umbg-admin.php:1074 admin/umbg-admin.php:2653
+msgid "EDD Categories"
+msgstr ""
+
+#: admin/umbg-admin.php:1076 admin/umbg-admin.php:2655
+msgid "EDD Tags"
+msgstr ""
+
+#: admin/umbg-admin.php:1078 admin/umbg-admin.php:1080
+#: admin/umbg-admin.php:2657 admin/umbg-admin.php:2659
+msgid "bbPress Tags"
+msgstr ""
+
+#: admin/umbg-admin.php:1154 admin/umbg-admin.php:2624
+msgid "EDD Downloads"
+msgstr ""
+
+#: admin/umbg-admin.php:1156 admin/umbg-admin.php:2626
+msgid "bbPress Forums"
+msgstr ""
+
+#: admin/umbg-admin.php:1158 admin/umbg-admin.php:2628
+msgid "bbPress Topics"
+msgstr ""
+
+#: admin/umbg-admin.php:1223 admin/umbg-admin.php:2606
+msgid "Pages"
+msgstr ""
+
+#: admin/umbg-admin.php:1231
+msgid "Home Page - WP Default"
+msgstr ""
+
+#: admin/umbg-admin.php:1270 admin/umbg-admin.php:2600
+msgid "Posts"
+msgstr ""
+
+#: admin/umbg-admin.php:1324 admin/umbg-admin.php:2572
+msgid "WooCommerce Categories"
+msgstr ""
+
+#: admin/umbg-admin.php:1366 admin/umbg-admin.php:2578
+msgid "WooCommerce Products"
+msgstr ""
+
+#: admin/umbg-admin.php:1411
+#, php-format
+msgid ""
+"Note: Priority Level (PL) determines which background media will play when "
+"Authors, Categories, Posts, Pages, or other Custom Post Types are selected. "
+"Check your <a href=\"%1$s\">%2$s Settings</a> for your priority levels."
+msgstr ""
+
+#: admin/umbg-admin.php:1438
+msgid "Video Id or Location"
+msgstr ""
+
+#: admin/umbg-admin.php:1439
+msgid "(required)"
+msgstr ""
+
+#: admin/umbg-admin.php:1446
+msgid "Select Video"
+msgstr ""
+
+#: admin/umbg-admin.php:1448
+msgid "Select Images"
+msgstr ""
+
+#: admin/umbg-admin.php:1454
+msgid ""
+"Enter the video ID only. For most video hosting sites the video id is at the "
+"end of the url where the video is hosted."
+msgstr ""
+
+#: admin/umbg-admin.php:1470
+msgid "Select Poster"
+msgstr ""
+
+#: admin/umbg-admin.php:1472
+msgid "Remove Poster"
+msgstr ""
+
+#: admin/umbg-admin.php:1476
+#, php-format
+msgid ""
+"Enter the video's poster location <b>with</b> the file extension: i.e. "
+"http://mywebsite.com/myvideoposter.jpg. %s uses the poster to display it to "
+"mobile devices instead of the video since they don't support auto playback. "
+"If you \tleave it blank it will display the page's background color."
+msgstr ""
+
+#: admin/umbg-admin.php:1492
+msgid "Display overlay."
+msgstr ""
+
+#: admin/umbg-admin.php:1496
+msgid "Pattern:"
+msgstr ""
+
+#: admin/umbg-admin.php:1517
+msgid "Color & Opacity:"
+msgstr ""
+
+#: admin/umbg-admin.php:1521 admin/umbg-admin.php:2821
+#: admin/umbg-admin.php:2827
+msgid "Default"
+msgstr ""
+
+#: admin/umbg-admin.php:1523
+msgid ""
+"A preview of the overlay pattern can be seen on the preview video/poster. "
+"The pattern is <b>not</b> scaled to match the preview video/poster "
+"dimensions, it is at a size that you can preview the pattern."
+msgstr ""
+
+#: admin/umbg-admin.php:1541
+msgid ""
+"Enter the URL to link the media background too and select to open the link "
+"in a new window or the same window."
+msgstr ""
+
+#: admin/umbg-admin.php:1593 admin/umbg-admin.php:1596
+msgid "Track Views"
+msgstr ""
+
+#: admin/umbg-admin.php:1601
+msgid "Allow Wistia to track views of this video."
+msgstr ""
+
+#: admin/umbg-admin.php:1603
+msgid "Views are tracked by Wistia and are accessible on your Wistia account."
+msgstr ""
+
+#: admin/umbg-admin.php:1619
+msgid "Recommended to autoplay the media."
+msgstr ""
+
+#: admin/umbg-admin.php:1626
+msgid "Start At"
+msgstr ""
+
+#: admin/umbg-admin.php:1631 admin/umbg-admin.php:1642
+msgid "sec."
+msgstr ""
+
+#: admin/umbg-admin.php:1637
+msgid "End At"
+msgstr ""
+
+#: admin/umbg-admin.php:1653 admin/umbg-admin.php:1667
+msgid "ms."
+msgstr ""
+
+#: admin/umbg-admin.php:1655
+msgid "Enter the display duration for each image. (1000 ms. = 1 sec.)"
+msgstr ""
+
+#: admin/umbg-admin.php:1669
+msgid ""
+"Enter the transition duration for the fading effect between images. Should "
+"not be more than the <strong>Image Display Duration</strong> value, you can "
+"create some nice effects by going over a little but the play/pause "
+"functionally will not function as expected. (1000 ms. = 1 sec.)"
+msgstr ""
+
+#: admin/umbg-admin.php:1689
+msgid "Animation effect used while displaying the image."
+msgstr ""
+
+#: admin/umbg-admin.php:1708
+msgid "Effect easing type for animations."
+msgstr ""
+
+#: admin/umbg-admin.php:1721
+msgid "(1000 ms. = 1 sec.)"
+msgstr ""
+
+#: admin/umbg-admin.php:1733
+msgid "Loop play."
+msgstr ""
+
+#: admin/umbg-admin.php:1738
+msgid "Rewind to Start At time."
+msgstr ""
+
+#: admin/umbg-admin.php:1743
+msgid "Media End Fade-Out."
+msgstr ""
+
+#: admin/umbg-admin.php:1758
+msgid "Play with audio."
+msgstr ""
+
+#: admin/umbg-admin.php:1764
+msgid "Start playing with audio muted."
+msgstr ""
+
+#: admin/umbg-admin.php:1780
+msgid "Adjust volume level."
+msgstr ""
+
+#: admin/umbg-admin.php:1793
+#, php-format
+msgid "Display %2$s, %1$s, play, &amp; audio buttons."
+msgstr ""
+
+#: admin/umbg-admin.php:1810 admin/umbg-admin.php:1846
+#, php-format
+msgid "Play media with %s."
+msgstr ""
+
+#: admin/umbg-admin.php:1815
+#, php-format
+msgid "Start with %s down."
+msgstr ""
+
+#: admin/umbg-admin.php:1820
+#, php-format
+msgid "End with %s up."
+msgstr ""
+
+#: admin/umbg-admin.php:1822
+msgid "How much to show of page when down"
+msgstr ""
+
+#: admin/umbg-admin.php:1828
+#, php-format
+msgid ""
+"%1$s allows the page to be scroll up and down to have a better view of the "
+"video; i.e. you can use this feature with a marketing video. <b>Start with "
+"%1$s down:</b> the page will scroll down when the media playback starts. "
+"<b>End with %1$s up:</b> the page will automaticaly scroll up when the media "
+"playback ends or the first loop ends. Use <b>\"How much to show...\"</b> to "
+"keep part of the page in view such as the logo and navigation during the "
+"%1$s down status."
+msgstr ""
+
+#: admin/umbg-admin.php:1851
+msgid "Fade-Out on start."
+msgstr ""
+
+#: admin/umbg-admin.php:1856
+msgid "Fade-In on end."
+msgstr ""
+
+#: admin/umbg-admin.php:1858
+msgid "Opacity "
+msgstr ""
+
+#: admin/umbg-admin.php:1910
+msgid ""
+"Select proper media aspect ratio, this affects the way the media will be "
+"displayed and re-sized."
+msgstr ""
+
+#: admin/umbg-admin.php:2267
+msgid "Settings"
+msgstr ""
+
+#: admin/umbg-admin.php:2274 admin/umbg-admin.php:2483
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: admin/umbg-admin.php:2336
+#, php-format
+msgid "%s Global Settings Overview"
+msgstr ""
+
+#: admin/umbg-admin.php:2338
+#, php-format
+msgid "In this screen you can change %s global settings."
+msgstr ""
+
+#: admin/umbg-admin.php:2339
+#, php-format
+msgid ""
+"These settings affect all of the %s backgrounds you create, including any "
+"that have already been created."
+msgstr ""
+
+#: admin/umbg-admin.php:2344 admin/umbg-admin.php:2345
+#: admin/umbg-admin.php:2720 admin/umbg-admin.php:2726
+msgid "Allow To Display On"
+msgstr ""
+
+#: admin/umbg-admin.php:2347
+#, php-format
+msgid ""
+"Drag each item into the Allowed On area to allow %s backgrounds to be "
+"display on such items or drag each item into the Disallowed On section to "
+"disallow them (mobile friendly drag gable functionality). PL is the Priority "
+"Level of the item."
+msgstr ""
+
+#: admin/umbg-admin.php:2351
+msgid "Priority Level (PL)"
+msgstr ""
+
+#: admin/umbg-admin.php:2352
+#, php-format
+msgid ""
+"To set the Priority Level (PL) sort each item into the order you prefer by "
+"dragging them (top is the highest priority). Priority Level sets the "
+"importance of the %1$s background among the other %1$s backgrounds created "
+"for the same Allowed On item (i.e. Lets say you have Priority Level of "
+"Author=1 & Category=2 and you have created different %1$s backgrounds for "
+"author John and for category Uncategorized. You browse to the post by John "
+"in category Uncategorized then the %1$s background that will be displayed is "
+"the one for John since item Authors have a higher Priority Level than item "
+"Categories)."
+msgstr ""
+
+#: admin/umbg-admin.php:2355
+msgid "Also supports pages and posts with these product shortcodes:"
+msgstr ""
+
+#: admin/umbg-admin.php:2363 admin/umbg-admin.php:2364
+#: admin/umbg-admin.php:2776
+#, php-format
+msgid "Play %s By"
+msgstr ""
+
+#: admin/umbg-admin.php:2365
+#, php-format
+msgid ""
+"When %s detects multiple videos for an item it selects one of them to play."
+msgstr ""
+
+#: admin/umbg-admin.php:2367 admin/umbg-admin.php:2783
+msgid "Latest Published"
+msgstr ""
+
+#: admin/umbg-admin.php:2368
+#, php-format
+msgid "Plays most recently published %s for the item."
+msgstr ""
+
+#: admin/umbg-admin.php:2369 admin/umbg-admin.php:2785
+msgid "Latest Modified"
+msgstr ""
+
+#: admin/umbg-admin.php:2370
+#, php-format
+msgid "Plays most recently modified (updated) %s for the item."
+msgstr ""
+
+#: admin/umbg-admin.php:2371 admin/umbg-admin.php:2787
+msgid "Random"
+msgstr ""
+
+#: admin/umbg-admin.php:2372
+#, php-format
+msgid "Randomly selects one of the %s for the item to play."
+msgstr ""
+
+#: admin/umbg-admin.php:2378 admin/umbg-admin.php:2379
+#: admin/umbg-admin.php:2795 admin/umbg-admin.php:2798
+#: admin/umbg-admin.php:2815
+msgid "Place Controls"
+msgstr ""
+
+#: admin/umbg-admin.php:2380
+#, php-format
+msgid ""
+"You have several options for the controls used on %1$s backgrounds. The "
+"controls consist of the %2$s button, play button, and audio button."
+msgstr ""
+
+#: admin/umbg-admin.php:2383
+#, php-format
+msgid ""
+"You can select to place %s controls on the bottom right, bottom left, top "
+"right, or top left of the page."
+msgstr ""
+
+#: admin/umbg-admin.php:2386
+msgid "Icon Color"
+msgstr ""
+
+#: admin/umbg-admin.php:2387
+msgid ""
+"You can change the color of the control buttons, which are represented by "
+"icons. Just click on the color box and select the new color along with any "
+"opacity. You can always go back to the default color by clicking on the "
+"Default button."
+msgstr ""
+
+#: admin/umbg-admin.php:2389
+msgid "Background Color"
+msgstr ""
+
+#: admin/umbg-admin.php:2390
+msgid ""
+"You can change the color of the control buttons background. Just click on "
+"the color box and select the new color along with any opacity. You can "
+"always go back to the default background color by clicking on the Default "
+"button."
+msgstr ""
+
+#: admin/umbg-admin.php:2396 admin/umbg-admin.php:2397
+#: admin/umbg-admin.php:2834 admin/umbg-admin.php:2838
+msgid "Page Visibility Pause"
+msgstr ""
+
+#: admin/umbg-admin.php:2398 admin/umbg-admin.php:2842
+msgid ""
+"Pause the player when the user minimizes the browser or moves to another "
+"window tab."
+msgstr ""
+
+#: admin/umbg-admin.php:2405
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed on to be scroll up "
+"and down to have a better view of the video or image. You can use this "
+"feature with a marketing video, Ad images, etc. Use the %1$s HTML Element "
+"input box to enter the HTML element id name or class name to use with %1$s. "
+"This element will be what gets scrolled up and down when %1$s is enabled."
+msgstr ""
+
+#: admin/umbg-admin.php:2406 admin/umbg-admin.php:2415
+msgid ""
+"The default is #page, which is the HTML element id for WordPress default "
+"themes."
+msgstr ""
+
+#: admin/umbg-admin.php:2407
+msgid ""
+"For Twenty-Fifteen theme you can also use #primary with good results. Other "
+"effects can be achieved by editing your theme CSS files, such as adding a "
+"low opacity value to make necessary sections transparent. Remember to use "
+"proper WordPress techniques such as child themes so that theme updates don't "
+"delete your CSS changes."
+msgstr ""
+
+#: admin/umbg-admin.php:2414
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed to have an opacity "
+"(transperancy) effect to give a better view of the video. Use <strong>%1$s "
+"Html Element</strong>o to enter the HTML element id name or class name to "
+"use with %1$s. This element will be what gets the opacity applied too when "
+"%1$s is enabled. The default is #page, which is the HTML element id for "
+"WordPress default themes. For Twenty-Fifteen theme you can also use #primary "
+"with good results."
+msgstr ""
+
+#: admin/umbg-admin.php:2416
+msgid "For Twenty-Fifteen theme you can also use #primary with good results."
+msgstr ""
+
+#: admin/umbg-admin.php:2421 admin/umbg-admin.php:2422
+#: admin/umbg-admin.php:2896 admin/umbg-admin.php:2900
+msgid "Mobile Devices"
+msgstr ""
+
+#: admin/umbg-admin.php:2423
+#, php-format
+msgid ""
+"Mobile devices do not autoplay videos and %1$s replaces them with a poster "
+"image that you select in the 'Add New' or 'Edit' page. You may choose not to "
+"display video backgrounds on mobile devices by enabling 'Disable video "
+"backgrounds only'. Image and color backgrounds will display on mobile "
+"devices unless you enable 'Disable all backgrounds'. You may also choose to "
+"disable only on mobile phones by enabling 'Disable on mobile phones only'."
+msgstr ""
+
+#: admin/umbg-admin.php:2426 admin/umbg-admin.php:2905
+msgid "Disable all backgrounds"
+msgstr ""
+
+#: admin/umbg-admin.php:2427
+#, php-format
+msgid ""
+"Do not allow any of your %s backgrounds to be display on any mobile device."
+msgstr ""
+
+#: admin/umbg-admin.php:2428 admin/umbg-admin.php:2911
+msgid "Disable video backgrounds only"
+msgstr ""
+
+#: admin/umbg-admin.php:2430 admin/umbg-admin.php:2917
+msgid "Disable on mobile phones only"
+msgstr ""
+
+#: admin/umbg-admin.php:2431
+#, php-format
+msgid ""
+"Enable this feature to disable %s backgrounds only on mobile phones. They "
+"will continue to display on tablet devices. You can enable this feature "
+"together with 'Disable video backgrounds only'."
+msgstr ""
+
+#: admin/umbg-admin.php:2437 admin/umbg-admin.php:2438
+#: admin/umbg-admin.php:2932 admin/umbg-admin.php:2936
+msgid "Preview Thumbnails"
+msgstr ""
+
+#: admin/umbg-admin.php:2439
+msgid ""
+"Show the video and poster preview thumbnails on the 'Add New' and 'Edit' "
+"pages by enabling this feature. The media preview and poster preview will be "
+"display as a thumbnail size."
+msgstr ""
+
+#: admin/umbg-admin.php:2444 admin/umbg-admin.php:2445
+#: admin/umbg-admin.php:2948
+#, php-format
+msgid "%s Version"
+msgstr ""
+
+#: admin/umbg-admin.php:2446
+#, php-format
+msgid ""
+"This is the current version of %s you have installed in your WordPress site."
+msgstr ""
+
+#: admin/umbg-admin.php:2447
+#, php-format
+msgid "Currently you have version %s."
+msgstr ""
+
+#: admin/umbg-admin.php:2684
+#, php-format
+msgid " %s Global Settings"
+msgstr ""
+
+#: admin/umbg-admin.php:2731
+msgid "Disallowed On"
+msgstr ""
+
+#: admin/umbg-admin.php:2747
+msgid "Allowed On"
+msgstr ""
+
+#: admin/umbg-admin.php:2762
+#, php-format
+msgid ""
+"<strong>Allow To Display:</strong> Drag each item into the Allowed On "
+"section to allow %1$s to be display on such items or drag each item into the "
+"Disallowed On section to disallow. (Mobile friendly draggable) *"
+msgstr ""
+
+#: admin/umbg-admin.php:2764
+msgid ""
+"<strong>CPT:</strong> Custom Post Types. Custom post types installed on your "
+"WordPress site. **<br /><strong>CPC:</strong> Custom Post Categories. These "
+"are categories, terms, and/or taxonomies of custom post types. **"
+msgstr ""
+
+#: admin/umbg-admin.php:2766
+#, php-format
+msgid ""
+"<strong>Priority Level (PL): </strong> Drag/Sort each item into the order "
+"you prefer to set the Priority Level (Top is the highest). Priority Level "
+"sets the importance when a %1$s background has been created for at least two "
+"of the Allowed On items (i.e. Lets say you have Priority Level of Author=1 & "
+"Category=2 and you have created different %1$s backgrounds for author John "
+"and category Uncategorized. You browse to the post by John in category "
+"Uncategorized then the %1$s background that will play will be the one for "
+"John since Authors have a higher Priority Level)."
+msgstr ""
+
+#: admin/umbg-admin.php:2768
+msgid ""
+"<strong>* Make sure you drag to the 'Disallowed' list any items that belong "
+"to any plugins you will be diactivating in order to avoid conflicts once you "
+"reorder the 'Allowed' list and reactivate those plugins.</strong>"
+msgstr ""
+
+#: admin/umbg-admin.php:2770
+#, php-format
+msgid ""
+"<strong>**</strong> Please note that %1$s will render some custom post types "
+"titles by their name, i.e. bbPress forum post type will render as 'bbPress "
+"Forums' instead of 'CPT: forum' and 'Easy Digital Downloads download_tag' as "
+"'EDD Tags'."
+msgstr ""
+
+#: admin/umbg-admin.php:2791
+#, php-format
+msgid ""
+"When %1$s detects multiple videos for an item it selects one of them to "
+"play. Latest Published: Plays most recently published %1$s for the item. "
+"Latest Modified: Plays most recently modified (updated) %1$s for the item. "
+"Random: Randomly selects one of the %1$s for the item to play."
+msgstr ""
+
+#: admin/umbg-admin.php:2802
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/umbg-admin.php:2805
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/umbg-admin.php:2807
+msgid "Top Right"
+msgstr ""
+
+#: admin/umbg-admin.php:2810
+msgid "Top Left"
+msgstr ""
+
+#: admin/umbg-admin.php:2817
+msgid "Icon Color:"
+msgstr ""
+
+#: admin/umbg-admin.php:2823
+msgid "Background Color:"
+msgstr ""
+
+#: admin/umbg-admin.php:2857
+#, php-format
+msgid "Allow Page-Up-Down %s"
+msgstr ""
+
+#: admin/umbg-admin.php:2860 admin/umbg-admin.php:2884
+#, php-format
+msgid "%s Html Element:"
+msgstr ""
+
+#: admin/umbg-admin.php:2865
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed to be scroll up "
+"and down to have a better view of the video. You can use this feature with a "
+"marketing video, etc. Use %1$s Html Element to enter the HTML element id "
+"name or class name to use with %1$s. This element will be what gets scrolled "
+"up and down when %1$s is enabled. The default is #page, which is the HTML "
+"element id for WordPress default themes. For Twenty-Fifteen theme you can "
+"also use #primary with good results. Other effects can be achieve by editing "
+"your theme CSS files. Remember to use proper WordPress techniques such as <a "
+"href=\"http://codex.wordpress.org/Child_Themes\" target=\"_blank\">child "
+"themes</a> so that theme updates don't delete your CSS changes."
+msgstr ""
+
+#: admin/umbg-admin.php:2881
+#, php-format
+msgid "Allow Fade-In-Out %s"
+msgstr ""
+
+#: admin/umbg-admin.php:2889
+#, php-format
+msgid ""
+"%1$s allows the page where a %2$s background is displayed to have an opacity "
+"(transperancy) effect to give a better view of the video. Use %1$s Html "
+"Element to enter the HTML element id name or class name to use with %1$s. "
+"This element will be what gets the opacity applied too when %1$s is enabled. "
+"The default is #page, which is the HTML element id for WordPress default "
+"themes. For Twenty-Fifteen theme you can also use #primary with good "
+"results. Other effects can be achieve by editing your theme CSS files and/or "
+"selectiong other elements. Remember to use proper WordPress techniques such "
+"as <a href=\"http://codex.wordpress.org/Child_Themes\" target=\"_blank"
+"\">child themes</a> when using custom CSS styles so theme updates don't "
+"delete your CSS changes."
+msgstr ""
+
+#: admin/umbg-admin.php:2926
+#, php-format
+msgid ""
+"Mobile devices do not autoplay videos and %1$s replaces them with a poster "
+"image that you select in the 'Add New' or 'Edit' page. You may choose not to "
+"display video backgrounds on mobile devices by enabling 'Disable video "
+"backgrounds only'. Image and color backgrounds will display on mobile "
+"devices unless you enable 'Disable all backgrounds'. You may also choose not "
+"to display on mobile phones only by enabling 'Disable on mobile phones only'."
+msgstr ""
+
+#: admin/umbg-admin.php:2940
+msgid "Show video and poster preview thumbnails"
+msgstr ""
+
+#: admin/umbg-admin.php:2942
+msgid ""
+"Show the video and poster preview thumbnails on the 'Add New' and 'Edit' "
+"pages by enabling this feature."
+msgstr ""
+
+#: umbg.php:92
+msgctxt "add new background"
+msgid "Add New"
+msgstr ""
+
+#: umbg.php:93
+#, php-format
+msgid "Add New %s Background"
+msgstr ""
+
+#: umbg.php:94
+#, php-format
+msgid "Edit %s Background"
+msgstr ""
+
+#: umbg.php:95
+#, php-format
+msgid "New %s Background"
+msgstr ""
+
+#: umbg.php:96
+#, php-format
+msgid "View %s Background"
+msgstr ""
+
+#: umbg.php:97
+#, php-format
+msgid "Search %s Backgrounds"
+msgstr ""
+
+#: umbg.php:98
+#, php-format
+msgid "No %s backgrounds found"
+msgstr ""
+
+#: umbg.php:99
+#, php-format
+msgid "No %s backgrounds found in Trash"
+msgstr ""
+
+#: umbg.php:100
+msgid "Parent Background:"
+msgstr ""
+
+#: umbg.php:106
+msgid "Add a media background to any page."
+msgstr ""
